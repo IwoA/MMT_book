@@ -1,0 +1,10 @@
+book_filename: "MMT_book"
+new_session: true
+before_chapter_script: _common.R
+delete_merged_file: true
+language:
+  label:
+     fig: "Rysunek "
+     tab: "Tabela "
+  ui:
+    chapter_name: "Rozdział "
