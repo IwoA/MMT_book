@@ -43,7 +43,21 @@ Poza tym znaczna liczba artykułów została opublikowana jako Working Papers pr
 
 Wzrost popularności tej szkoły ekonomicznej najlepiej chyba jednak przedstawić poprzez liczbę publikacji pozycji książkowych bowiem, jak już wspomniano, artykuły naukowe należy liczyć w setkach a ich przyporządkowanie do MMT utrudnia fakt niejasnych granic między tym nurtem a postkeynesizmem.
 Pierwsze pozycje, do których bezpośrednio odwołują się ekonomiści nurtu MMT to z pewnością książka G.F.
-Knappa „Państwowa teoria pieniądza" (*Staatliche Theorie Des Geldes*), opublikowana w 1923 r., która opisuje państwo jako kreatora pieniądza. Zgodnie z pracami Keynesa MMT kładzie nacisk na kluczową rolę zagregowanego popytu w cyklu gospodarczym. Idzie jednak dalej i łączy te dwa elementy w sposób zaproponowany przez Abbę Lernera w postaci tzw. finansów funkcjonalnych. Pisząc o roli pieniądza w gospodarce, a zwłaszcza o programie gwarancji zatrudnienia, autorzy nurtu MMT powołują się zazwyczaj na prace H.P. Minsky'ego. Chronologicznie listę autorów i ich prac, które najwięcej wniosły do powstania i rozwoju Nowoczesnej Teorii Monetarnej przedstawia tabela 1.
+Knappa „Państwowa teoria pieniądza" (*Staatliche Theorie Des Geldes*), opublikowana w 1923 r., która opisuje państwo jako kreatora pieniądza. Zgodnie z pracami Keynesa MMT kładzie nacisk na kluczową rolę zagregowanego popytu w cyklu gospodarczym. Idzie jednak dalej i łączy te dwa elementy w sposób zaproponowany przez Abbę Lernera w postaci tzw. finansów funkcjonalnych. Pisząc o roli pieniądza w gospodarce, a zwłaszcza o programie gwarancji zatrudnienia, autorzy nurtu MMT powołują się zazwyczaj na prace H.P. Minsky'ego. Chronologicznie listę autorów i ich prac, które najwięcej wniosły do powstania i rozwoju Nowoczesnej Teorii Monetarnej przedstawia tabela \@ref(tab:tab1).
+
+    ```{r, setup, include=FALSE}
+    knitr::opts_chunk$set(
+      echo=FALSE, warning=FALSE, message=FALSE
+    )
+    ```
+
+```{r tab1}
+library(kableExtra)
+tab1 <- read.csv2("rysunki\\Tabela_1.csv")
+kbl(tab1, col.names = c("Rok wydania", "Tytuł", "Autor"),
+    align = c("c", "l", "l"), longtable = TRUE,
+    caption = "Lista najważniejszych książek dotyczących Nowoczesnej Teorii Monetarnej <br>Źródło: Opracowanie własne") %>% row_spec(0, align = "c") 
+```
 
 ## Teoretyczne podstawy Nowoczesnej Teorii Monetarnej
 
@@ -331,59 +345,68 @@ Państwo, dzięki swojej polityce gospodarczej może przyczynić się do zmniejs
 Wydatki publiczne zwiększają dochody firm i gospodarstw domowych, poprawiając ich wiarygodność finansową i ułatwiając pozyskanie kredytów w kolejnym cyklu.
 
 Teoria obiegu pieniężnego znajduje potwierdzenie w danych empirycznych.
-Wykres 1 pokazuje utrzymującą się nadwyżkę oszczędności sektora gospodarstw domowych w Polsce i korespondujące z nim zadłużenie sektora przedsiębiorstw niefinansowych.
+Wykres \@ref(fig:rys2) pokazuje utrzymującą się nadwyżkę oszczędności sektora gospodarstw domowych w Polsce i korespondujące z nim zadłużenie sektora przedsiębiorstw niefinansowych.
 Sektor bankowy pozostaje w równowadze, gdyż emituje kredyt (swoje aktywa) na rzecz przedsiębiorstw w drugim etapie i przyjmuje depozyty od gospodarstw domowych (swoje pasywa) w ostatnim etapie.
 
-\
+(ref:rys2) Aktywa finansowe netto sektora przedsiębiorstw niefinansowych, banków i gospodarstw domowych w Polsce <br> Źródło: Opracowanie własne na podstawie danych Eurostat (NASA_10_F\_BS)
 
- ![Źródło: Opracowanie własne na podstawie danych Eurostat (NASA_10_F\_BS)](https://lh4.googleusercontent.com/qH9Zz1N-0MO9Oo-LgfXX7UdKf0PKlFqzgYhW-7euu-e4hykh5o8Nc8EwhezWofonUJV8ebzf4TdtN1ADrrk5YSM0MjLOSWaYUvvVJTwU604nRZN3rrInxNcR1s4h44gH_m8sC-ms=s1600){#wykres_1 .illustration}
+```{r rys2, echo=FALSE, fig.align='center', fig.cap='(ref:rys2)', out.width='100%'}
+library(rdbnomics)
+library(dplyr)
+library(ggplot2)
+library(scales)
 
-Wykres 1.
-Aktywa finansowe netto sektora przedsiębiorstw niefinansowych, banków i gospodarstw domowych w Polsce w okresie 2010-2019
+dane <- rdb(api_link = "https://api.db.nomics.world/v22/series/Eurostat/nasa_10_f_bs?dimensions=%7B%22FREQ%22%3A%5B%22A%22%5D%2C%22unit%22%3A%5B%22MIO_NAC%22%5D%2C%22co_nco%22%3A%5B%22CO%22%5D%2C%22geo%22%3A%5B%22PL%22%5D%2C%22sector%22%3A%5B%22S14%22%2C%22S122_S123%22%2C%22S11%22%5D%2C%22finpos%22%3A%5B%22ASS%22%2C%22LIAB%22%5D%2C%22na_item%22%3A%5B%22F%22%5D%7D&observations=1") %>% 
+     select(`Financial position`, Sector, original_period, original_value)
+#write.csv2(dane, "Wyk.2-aktywa finansowe netto.csv")
 
-Źródło: Opracowanie własne na podstawie danych Eurostat (NASA_10_F\_BS)
+liabilities <- dane %>% filter(`Financial position` == "Liabilities")
+assets <- dane %>% filter(`Financial position` == "Assets")
+razem <- bind_cols(liabilities, assets$original_value)
+colnames(razem)[5] <- "assets"
+razem %>% mutate(diffr=as.numeric(assets)-as.numeric(original_value)) %>% 
+     ggplot(aes(x=original_period, y=diffr/1000, color = Sector, group = Sector)) + 
+     geom_line(size=1) + 
+     theme_minimal() + theme(legend.position = "bottom", 
+                             legend.title = element_blank(),
+                             axis.text.x = element_text(angle = 45),
+                             panel.grid.minor.x=element_blank(),
+                             panel.grid.major.x=element_blank(),
+                             panel.grid.minor.y=element_blank()) +
+     labs(x = "", y = "mld zł") + scale_y_continuous(labels=comma, 
+                                                     breaks = c(-1500, -1000, -500, 0, 500, 1000, 1500)) +
+     scale_color_discrete(labels = c("Gospodarstwa domowe", "Banki", "Firmy"))
+```
 
-Zaprezentowany powyżej najprostszy model może być oczywiście łatwo uzupełniony o dodatkowe elementy, takie jak sektor rządowy oraz bank centralny (\@ref(wykres_1)).
+Zaprezentowany powyżej najprostszy model może być oczywiście łatwo uzupełniony o dodatkowe elementy, takie jak sektor rządowy oraz bank centralny (Rys. \@ref(fig:rys3)).
 Uwzględnione są w ten sposób przepływy pieniądza wynikające z wydatków publicznych, które trafiają do sektora przedsiębiorstw niefinansowych, a także podatki usuwające pieniądz z obiegu.
-Teoria ta niezmiernie ułatwia analizę i zrozumienie na przykład roli bankowości cienia (shadow banking) we współczesnej gospdodarce rynkowej (Botta i in., 2015).
+Teoria ta niezmiernie ułatwia analizę i zrozumienie na przykład roli bankowości cienia (*shadow banking*) we współczesnej gospodarce rynkowej (Botta i in., 2015).
 
- 
+(ref:rys3) Klasyczny schemat obiegu pieniądza <br> Źródło:  (Botta i in., 2015)
 
- ![](https://lh4.googleusercontent.com/H0c45v7PdZfZnbSF-Uy9z7GWFZKOTmElwwC_6FAQkEaUYbGbtdPN-1EAtXWd8pa6Cy-7fPDz1Wv4tAgbplHQbLc1aRv4CoyUEWOa5xpDXwfBYOSM6ZsXaxToA0Tqdv4dnzJ-dWxZ=s1600)
-
-Rysunek 2.
-Klasyczny schemat obiegu pieniądza
-
-Źródło: (Botta i in., 2015)
+```{r rys3, echo=FALSE, fig.align='center', fig.cap='(ref:rys3)', out.width='100%'}
+knitr::include_graphics("rysunki\\Klasyczny schemat obiegu pieniadza.png")
+```
 
 Schemat klasyczny nie uwzględnia możliwości zakupu obligacji skarbowych przez bank centralny, ani pośrednio poprzez rynki finansowe.
 Nie wynika to jednak z ograniczenia teorii obiegu pieniądza, gdyż na jej podstawie można prowadzić analizy różnych schematów obiegu finansowego i realnego w gospodarce w zależności od potrzeb.
-Schemat przedstawiający gospodarkę z punktu widzenia Nowoczesnej Teorii Monetarnej pokazano na rysunku 3.
+Schemat przedstawiający gospodarkę z punktu widzenia Nowoczesnej Teorii Monetarnej pokazano na rysunku \@ref(fig:rys4).
 
- 
+(ref:rys4) Schemat obiegu pieniądza z punktu widzenia MMT <br> Źródło:  opracowanie własne
 
- ![](https://lh5.googleusercontent.com/EOMFW8cK2Sth04c9DkMY-Yf2PfkUWYbyHehbKIxyCSGxmJgQFuZkz-PdPf8jTnlmAu4tf5_aD5jhtC5wutT-fPyS6n5YcRt8SWghnhmoqQKOZW7L6nmqkwHOwGvnQ2JFt9vqYTxd=s1600)
-
-Rysunek 3.
-Schemat obiegu pieniądza z punktu widzenia MMT
-
- Źródło: opracowanie własne
-
- 
+```{r rys4, echo=FALSE, fig.align='center', fig.cap='(ref:rys4)', out.width='100%'}
+knitr::include_graphics("rysunki\\Schemat obiegu pieniadza MMT.png")
+```
 
 MMT dzieli gospodarkę zazwyczaj na trzy sektory: finansowy (zaznaczony przerywaną linią), rządowy (general government, zaznaczony linią kropkowaną) i realny.
 Jak zostanie wykazane w dalszej części pracy, głównym wkładem MMT do nauki ekonomii jest szczegółowe wyjaśnienie relacji między skarbem państwa a bankiem centralnym, czyli obszar zaznaczony linią kropkowaną.
-Można powiedzieć, że punktem wyjścia do budowy całej Nowoczesnej Teorii Monetarnej jest rysunek 1 przekształcony w następujący sposób (rys. 4)
+Można powiedzieć, że punktem wyjścia do budowy całej Nowoczesnej Teorii Monetarnej jest rysunek \@ref(fig:rys) przekształcony w następujący sposób (rys. \@ref(fig:rys5))
 
- 
+(ref:rys5) Prosty obieg pieniądza w przypadku rządu dysponującego niezależnością monetarną <br> Źródło: E. Tymoigne, L. R. Wray (2013), Modern Money Theory 101: A Reply to Critics, Economics Working Paper, No. 778, Levy Economics Institute
 
-![](https://lh4.googleusercontent.com/h_cmvdkI7cvN_55QM3fYcELXvu5CgMq9wx1hKpuwI9jZkNI4k8aQqT1agk32MO8zQCfS-0SeUKQIC1t3Hj4Hsvv5nxrQ5dPrUVpTY9sjS-3Y-0jY0O0rpdvo5TpcCl65PPkFU4AS=s1600)
-
-Rysunek 4.
-Prosty obieg pieniądza w przypadku rządu dysponującego niezależnością monetarną 
-
- Źródło: E.
-Tymoigne, L. R. Wray (2013), Modern Money Theory 101: A Reply to Critics, Economics Working Paper, No. 778, Levy Economics Institute
+```{r rys5, echo=FALSE, fig.align='center', fig.cap='(ref:rys5)', out.width='100%'}
+knitr::include_graphics("rysunki\\Prosty obieg pieniadza.png")
+```
 
 Jak widać sednem MMT jest szczegółowa analiza konsekwencji faktu, że państwo jest emitentem i gwarantem waluty (tzw. high powered money), na której opiera się zarówno sektor finansowy jak i cała realna gospodarka.
 Zagadnienie to zostanie szerzej rozwinięte w następnym rozdziale.
