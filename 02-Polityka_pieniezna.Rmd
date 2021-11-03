@@ -1,8 +1,14 @@
 # Polityka pieniężna
 
+    ```{r, setup, include=FALSE}
+    knitr::opts_chunk$set(
+      echo=FALSE, warning=FALSE, message=FALSE
+    )
+    ```
+
 <br>
 
-Chyba największą zasługą dla ekonomii, jaką wniosła Nowoczesna Teoria Monetarna, jest szczegółowa analiza relacji między bankiem centralnym a skarbem państwa [@lavoie_monetary_2013] .
+Chyba największą zasługą dla ekonomii, jaką wniosła Nowoczesna Teoria Monetarna, jest szczegółowa analiza relacji między bankiem centralnym a skarbem państwa (Lavoie 2013).
 Jak się okazuje, wychodząc od najprostszej relacji sektor publiczny -- państwo oraz uwzględniając zasady rachunkowości sektorów instytucjonalnych, można dojść do nowych, dla wielu zaskakujących wniosków dotyczących roli polityki pieniężnej i fiskalnej w gospodarce.
 Jak zostanie to wyjaśnione poniżej, nie da się ich sprowadzić do prostego stwierdzenia, że bank centralny może „drukować" pieniądze w dowolnej ilości bez skutków negatywnych. Również często krytykowany postulat integracji banku centralnego i skarbu państwa jest w rzeczywistości znacznie bardziej zniuansowany niż dostrzegają to krytycy. MMT umożliwia dużo lepsze zrozumienie prawdziwej roli pieniądza oraz banku centralnego w nowoczesnych gospodarkach pieniężnych. Doskonale wyjaśnia dlaczego obecnie, w dobie kryzysu i rosnącego długu publicznego, stopy procentowe spadają a ceny na głównych giełdach światowych biją rekordy.
 
@@ -12,60 +18,9 @@ Jak zostanie to wyjaśnione poniżej, nie da się ich sprowadzić do prostego st
 
 Punktem wyjścia dla znacznej części wniosków i propozycji stawianych przez Nowoczesną Teorię Monetarną jest analiza systemu rachunków narodowych.
 Wykorzystanie przytoczonych poniżej podstawowych reguł księgowości powoduje, że odpowiedzi na pytania dotyczące natury i roli deficytu, długu publicznego oraz pieniądza są zupełnie inne niż zazwyczaj przedstawiane w podręcznikach czy popularnych czasopismach ekonomicznych.
-W Polsce, tak jak we wszystkich krajach Unii Europejskiej system ten opracowywany jest zgodnie z zasadami Europejskiego Systemu Rachunków Narodowych i Regionalnych w Unii Europejskiej[@esa20102013], wprowadzonego Rozporządzeniem Parlamentu Europejskiego i Rady (UE) Nr 549/2013 z dnia 21 maja 2013 r.
+W Polsce, tak jak we wszystkich krajach Unii Europejskiej system ten opracowywany jest zgodnie z zasadami Europejskiego Systemu Rachunków Narodowych i Regionalnych w Unii Europejskiej (ESA2010 2013), wprowadzonego Rozporządzeniem Parlamentu Europejskiego i Rady (UE) Nr 549/2013 z dnia 21 maja 2013 r.
 
-System rachunków narodowych jest uporządkowanym wewnętrznie zbiorem spójnych, logicznych i zintegrowanych rachunków makroekonomicznych, bilansów i tablic opracowanych według obowiązujących norm i reguł statystycznych.
-Składa się z następujących elementów[@burdzicka2019] :
-
--   rachunków bieżących,
--   rachunków akumulacji,
--   bilansów (rachunków stanów ).
-
-Na rachunki bieżące składają się następujące rachunki:
-
--   produkcji,
--   tworzenia dochodów,
--   podziału pierwotnego dochodów,
--   wykorzystania dochodów do dyspozycji,
--   wykorzystania skorygowanych dochodów do dyspozycji.
-
-Rachunki akumulacji zawierają transakcje oraz inne zmiany odziaływujące na różnice między wielkościami występującymi w bilansie otwarcia i bilansie zamknięcia.
-
-Na rachunki akumulacji składają się:
-
--   rachunek kapitałowy prezentujący, w jaki sposób z oszczędności finansowane są inwestycje dotyczące różnego rodzaju aktywów niefinansowych,
--   rachunek finansowy pokazujący pozyskiwanie oraz rozdysponowanie finansowych aktywów i pasywów,
--   rachunek innych zmian wolumenu aktywów obejmujący wszystkie inne zmiany, jakie miały miejsce w bilansie otwarcia i zamknięcia a nie zostały wykazane jako transakcje w wyżej wymienionych rachunkach,
--   rachunek przeszacowań ujmujący zyski/straty z tytułu posiadania majątku związane z poziomem i strukturą cen.
-
-Na bilanse składają się:
-
--   bilans otwarcia,
--   zmiany w bilansie,
--   bilans zamknięcia.
-
-System rachunków narodowych wyróżnia sześć sektorów instytucjonalnych utworzonych przez charakterystyczne jednostki instytucjonalne:
-
--   sektor przedsiębiorstw niefinansowych,
--   sektor instytucji finansowych,
--   sektor instytucji rządowych i samorządowych,
--   sektor gospodarstw domowych,
--   sektor instytucji niekomercyjnych działających na rzecz gospodarstw domowych,
--   sektor zagranicy.
-
-Każdy z sektorów instytucjonalnych dzieli się także na podsektory.
-System ESA 2010 umożliwia opracowywanie pełnego zestawu rachunków przepływów i bilansów dla każdego sektora i podsektora oraz dla gospodarki ogółem[@esa20102013].
-MMT szczególną (ale nie wyłączną) uwagę poświęca analizie rachunku finansowego.
-Zawiera on informacje o operacjach dotyczących aktywów i pasywów finansowych realizowanych między krajowymi sektorami instytucjonalnymi oraz między tymi sektorami a zagranicą.
-Pionierem analizy przepływów finansowych był Copeland[@copeland1949] .
-Pokazał on jak rachunki przepływów pieniężnych mogą być zestawiane i stosowane do analizy gospodarki amerykańskiej.
-Z czasem, kolejne części jego systemu były włączane do kolejnych aktualizacji systemu rachunków narodowych, w coraz większym stopniu integrując transakcje dotyczące dóbr i usług ze zmianami aktywów i pasywów[^polityka_pieniezna-1].
-
-[^polityka_pieniezna-1]: Według Marczewskiego (2006) w polskiej literaturze analiza systemu Copelanda osiągnęła swoje apogeum w latach siedemdziesiątych w pracach (Kowalczyk 1978; Sulmicki 1978)
-
-Pierwsza publikacja GUS prezentująca rachunki finansowe głównych sektorów instytucjonalnych ukazała się w maju 1999[@marczewski2006] .
-Opracowanie to dotyczyło lat 1995-1996.
-W kolejnych latach ukazywały się następne edycje aż do najnowszej[@burdzicka2019] .
+System rachunków narodowych jest uporządkowanym wewnętrznie zbiorem spójnych, logicznych i zintegrowanych rachunków makroekonomicznych, bilansów i tablic opracowanych według obowiązujących norm i reguł statystycznych (Burdzicka i in. 2019).
 
 Przedstawianie danych dotyczących gospodarki w formie rachunków i bilansów pozwalają na wykorzystanie metod rachunkowości w celu zapewnienia spójności obrazu gospodarki.
 W szczególności umożliwia to traktowanie gospodarki jako systemu zamkniętego, w którym żadne przepływy nie „wyciekają" z gospodarki ani się w nim nie pojawiają „z niczego".
@@ -76,41 +31,27 @@ W części dotyczącej zmian aktywów finansowych rachunek rejestruje nabycie ak
 W części dotyczącej zmian pasywów finansowych i wartości netto rejestrowane jest zaciągnięcie zobowiązań pomniejszone o ich spłatę (przyrost zobowiązań finansowych) (Marczewski 2006).
 
 Równie ważna z punktu widzenia analiz ekonomicznych prowadzonych w MMT jest inna podstawowa zasada rachunkowości czyli reguła podwójnego zapisu a dokładniej jej rozszerzona wersja czyli reguła poczwórnej rejestracji operacji.
-Jak pokazano na schemacie 1 oznacza ona, że każda operacja zapisywana jest podwójnie przez obie jednostki w nią zaangażowane tj.
+Jak pokazano na rysunku \@ref(fig:rys21) oznacza ona, że każda operacja zapisywana jest podwójnie przez obie jednostki w nią zaangażowane tj.
 jako przychód (lub zmiana zobowiązań) i jako rozchód (lub zmiana aktywów).
 
-Schemat 1.
-Zapis wypłaty wynagrodzeń zgodnie z regułą poczwórnej rejestracji operacji.
+(ref:schemat1) Zapis wypłaty wynagrodzeń zgodnie z regułą poczwórnej rejestracji operacji <br> Źródło: (OECD 2017, str. 29)
 
-![Źródło: (OECD 2017, str. 29)](Schemat_1.PNG)
+```{r rys21, echo=FALSE, fig.align='center',  fig.cap='(ref:schemat1)', out.width='100%'}
+knitr::include_graphics("rysunki\\Schemat_1.png")
+```
 
-| Przedsiębiorstwa niefinansowe |           |     | Gospodarstwa domowe |                  |
-|:-----------------------------:|:---------:|-----|:-------------------:|:----------------:|
-|           Rozchody            | Przychody |     |      Rozchody       |    Przychody     |
-|       Wynagrodzenia 80        |           |     |                     | Wynagrodzenia 80 |
-
-Rachunek finansowy
-
-| Przedsiębiorstwa niefinansowe |        |     | Gospodarstwa domowe |        |
-|:-----------------------------:|:------:|-----|:-------------------:|:------:|
-|            Aktywa             | Pasywa |     |       Aktywa        | Pasywa |
-|         Depozyty -80          |        |     |    Depozyty +80     |        |
-
-: Źródło: (OECD 2017, str. 29)
 
 Instrument finansowy wykazywany w aktywach przez wierzyciela (posiadacza) jest jednocześnie ujmowany w zobowiązaniach przez dłużnika (emitenta).
-Pokazuje to schemat 2.
+Pokazuje to rysunek \@ref(fig:rys22).
 W konsekwencji dla każdego uwzględnionego instrumentu finansowego, musi zachodzić równość między sumą aktywów i sumą zobowiązań, dla stanów i transakcji, wykazywanych odpowiednio przez wierzycieli i dłużników.
 
-Schemat 2.
-Zapis operacji zakupu instrumentu dłużnego przez gospodarstwo domowe
+(ref:schemat2) Zapis operacji zakupu instrumentu dłużnego przez gospodarstwo domowe <br> Źródło: (OECD 2017, str. 30)
 
-Rachunek finansowy Przedsiębiorstwa finansowe Rachunek finansowy Gospodarstwa domowe Aktywa Pasywa Aktywa Pasywa\
-Instr.
-dłużny Depozyty -20 20 Instr.
-dłużny Depozyty 20 -20
+```{r rys22, echo=FALSE, fig.align='center',  fig.cap='(ref:schemat2)', out.width='100%'}
+knitr::include_graphics("rysunki\\Schemat_2.png")
+```
 
-Źródło: (OECD 2017, str. 30)
+
 
 Reguła poczwórnej rejestracji operacji stanowi potężne narzędzie zapewniające wysoką jakość danych ponieważ zapewnia spójność informacji na dwa sposoby (OECD 2017, str. 31).
 Po pierwsze umożliwia sprawdzenie, czy liczby dla danego podmiotu czy sektora są wewnętrznie spójne, czyli czy są zgodne z zasadą podwójnego zapisu.
@@ -129,20 +70,41 @@ Wyjaśnienie tego problemu można jednak uzyskać w dość prosty sposób wykorz
 Otóż, zgodnie z systemem rachunków narodowych całą gospodarkę można podzielić na trzy sektory: sektor publiczny, sektor prywatny i sektor zagraniczny.
 Suma bilansów tych sektorów (czyli aktywów i zobowiązań) musi się równać zeru.
 Jednak naturalnie każdy z poszczególnych sektorów nie musi mieć zrównoważonego bilansu.
-Możliwe kombinacje przedstawia tabela 1.
+Możliwe kombinacje przedstawia tabela \@ref(tab:tab2).
 
-Tabela 1.
-Kombinacje struktury bilansów sektorowych sektor prywatny sektor publiczny sektor zagraniczny Suma + - - 0 + - + 0 + + - 0 - - + 0 - + - 0 - + + 0 Suma 0 0 0 0 '-' -- oznacza zadłużenie względem sektora, a '+' oznacza nadwyżkę sektora Źródło: Opracowanie własne
 
-Jak zauważa m.in.
-Łaski (2011) z rachunków narodowych wynika tożsamość oszczędności prywatnych (SP) oraz inwestycji prywatnych (IP) powiększonych o deficyt budżetowy (wydatki rządu na dobra i usługi (G) minus wszelkiego typu dochody budżetowe netto, a więc po potrąceniu wszelkich transferów pieniężnych (TN) plus bilans handlu zagranicznego (wydatki reszty świata na dobra eksportowane danego kraju (X) minus dochody reszty świata z tytułu dóbr importowanych przez dany kraj (M)), więc: SP≡IP+G-TN+X-M (1)
+
+```{r tab2}
+library(kableExtra)
+schemat <- readxl::read_excel("rysunki\\Schemat1.xlsx")
+schemat[1:6,1] <- ""
+kbl(schemat, align = "c",
+    caption = "Kombinacje struktury bilansów sektorowych <br>Źródło: Opracowanie własne",
+    col.names = c("", "sektor prywatny", "	sektor publiczny", "sektor zagraniczny", "Suma")
+    ) %>% row_spec(1:3, background = "#e5e5e5") %>% column_spec(c(1,5), background = "white")
+```
+
+
+Jak zauważa m.in. Łaski (2011) z rachunków narodowych wynika tożsamość oszczędności prywatnych (SP) oraz inwestycji prywatnych (IP) powiększonych o deficyt budżetowy (wydatki rządu na dobra i usługi (G) minus wszelkiego typu dochody budżetowe netto, a więc po potrąceniu wszelkich transferów pieniężnych (TN) plus bilans handlu zagranicznego (wydatki reszty świata na dobra eksportowane danego kraju (X) minus dochody reszty świata z tytułu dóbr importowanych przez dany kraj (M)), więc: 
+
+|   |   |
+|---|---:|
+| $SP≡IP+G-TN+X-M$ | (1) | 
 
 Tożsamość (1) jest zawsze prawdziwa.
-Odejmując IP od obu stron równania (1), otrzymujemy: (SP-IP)=(G-TN)-(X-M) (2)
+Odejmując IP od obu stron równania (1), otrzymujemy: 
+
+|   |   |
+|---|---:|
+| $(SP-IP)=(G-TN)-(X-M)$  | (2) |
 
 gdzie każdy nawias reprezentuje bilans finansowy danego sektora.
 Bilans finansowy sektora prywatnego ( NSP = SP -- IP ) oznacza netto oszczędności prywatne tego sektora; bilans finansowy sektora publicznego oznacza deficyt budżetowy ( D = G -- TN ); wreszcie bilans finansowy reszty świata oznacza netto eksport ( E = X -- M ).
-Wobec tego mamy: NSP=D+E (3)
+Wobec tego mamy: 
+
+|   |   |
+|---|---:|
+| $NSP=D+E$ | (3) |
 
 Aby bilans sektora prywatnego był ujemny to inwestycje prywatne (wydatki) musiałyby być wyższe niż oszczędności prywatne.
 Nie ma to miejsca w krajach wysoko rozwiniętych.
