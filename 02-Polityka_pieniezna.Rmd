@@ -40,7 +40,6 @@ jako przychód (lub zmiana zobowiązań) i jako rozchód (lub zmiana aktywów).
 knitr::include_graphics("rysunki\\Schemat_1.png")
 ```
 
-
 Instrument finansowy wykazywany w aktywach przez wierzyciela (posiadacza) jest jednocześnie ujmowany w zobowiązaniach przez dłużnika (emitenta).
 Pokazuje to rysunek \@ref(fig:rys22).
 W konsekwencji dla każdego uwzględnionego instrumentu finansowego, musi zachodzić równość między sumą aktywów i sumą zobowiązań, dla stanów i transakcji, wykazywanych odpowiednio przez wierzycieli i dłużników.
@@ -50,8 +49,6 @@ W konsekwencji dla każdego uwzględnionego instrumentu finansowego, musi zachod
 ```{r rys22, echo=FALSE, fig.align='center',  fig.cap='(ref:schemat2)', out.width='100%'}
 knitr::include_graphics("rysunki\\Schemat_2.png")
 ```
-
-
 
 Reguła poczwórnej rejestracji operacji stanowi potężne narzędzie zapewniające wysoką jakość danych ponieważ zapewnia spójność informacji na dwa sposoby (OECD 2017, str. 31).
 Po pierwsze umożliwia sprawdzenie, czy liczby dla danego podmiotu czy sektora są wewnętrznie spójne, czyli czy są zgodne z zasadą podwójnego zapisu.
@@ -72,8 +69,6 @@ Suma bilansów tych sektorów (czyli aktywów i zobowiązań) musi się równać
 Jednak naturalnie każdy z poszczególnych sektorów nie musi mieć zrównoważonego bilansu.
 Możliwe kombinacje przedstawia tabela \@ref(tab:tab2).
 
-
-
 ```{r tab2}
 library(kableExtra)
 schemat <- readxl::read_excel("rysunki\\Schemat1.xlsx")
@@ -84,27 +79,27 @@ kbl(schemat, align = "c",
     ) %>% row_spec(1:3, background = "#e5e5e5") %>% column_spec(c(1,5), background = "white")
 ```
 
+Jak zauważa m.in.
+Łaski (2011) z rachunków narodowych wynika tożsamość oszczędności prywatnych (SP) oraz inwestycji prywatnych (IP) powiększonych o deficyt budżetowy (wydatki rządu na dobra i usługi (G) minus wszelkiego typu dochody budżetowe netto, a więc po potrąceniu wszelkich transferów pieniężnych (TN) plus bilans handlu zagranicznego (wydatki reszty świata na dobra eksportowane danego kraju (X) minus dochody reszty świata z tytułu dóbr importowanych przez dany kraj (M)), więc:
 
-Jak zauważa m.in. Łaski (2011) z rachunków narodowych wynika tożsamość oszczędności prywatnych (SP) oraz inwestycji prywatnych (IP) powiększonych o deficyt budżetowy (wydatki rządu na dobra i usługi (G) minus wszelkiego typu dochody budżetowe netto, a więc po potrąceniu wszelkich transferów pieniężnych (TN) plus bilans handlu zagranicznego (wydatki reszty świata na dobra eksportowane danego kraju (X) minus dochody reszty świata z tytułu dóbr importowanych przez dany kraj (M)), więc: 
-
-|   |   |
-|---|---:|
-| $SP≡IP+G-TN+X-M$ | (1) | 
+|                  |       |
+|------------------|------:|
+| $SP≡IP+G-TN+X-M$ | \(1\) |
 
 Tożsamość (1) jest zawsze prawdziwa.
-Odejmując IP od obu stron równania (1), otrzymujemy: 
+Odejmując IP od obu stron równania (1), otrzymujemy:
 
-|   |   |
-|---|---:|
-| $(SP-IP)=(G-TN)-(X-M)$  | (2) |
+|                        |       |
+|------------------------|------:|
+| $(SP-IP)=(G-TN)-(X-M)$ | \(2\) |
 
 gdzie każdy nawias reprezentuje bilans finansowy danego sektora.
 Bilans finansowy sektora prywatnego ( NSP = SP -- IP ) oznacza netto oszczędności prywatne tego sektora; bilans finansowy sektora publicznego oznacza deficyt budżetowy ( D = G -- TN ); wreszcie bilans finansowy reszty świata oznacza netto eksport ( E = X -- M ).
-Wobec tego mamy: 
+Wobec tego mamy:
 
-|   |   |
-|---|---:|
-| $NSP=D+E$ | (3) |
+|           |       |
+|-----------|------:|
+| $NSP=D+E$ | \(3\) |
 
 Aby bilans sektora prywatnego był ujemny to inwestycje prywatne (wydatki) musiałyby być wyższe niż oszczędności prywatne.
 Nie ma to miejsca w krajach wysoko rozwiniętych.
@@ -112,19 +107,64 @@ W takiej sytuacji, co pokazuje górna połowa tabeli 1, możliwości są następ
 Niemożliwa jest natomiast sytuacja gdy występuje nadwyżka budżetowa (D jest ujemne) oraz deficyt obrotów bieżących (E również jest ujemne).
 Oznacza to, że jeśli nadwyżka sektora prywatnego (oszczędności) zostaną uznane za coś pozytywnego, to automatycznie trzeba uznać deficyt i dług publiczny także za coś pozytywnego.
 Trzecią, ostatnią opcją jest przyjęcie, że przechowywanie oszczędności w formie długu sektora zagranicznego jest lepszą alternatywą niż krajowy dług publiczny.
-Zmiany bilansów trzech głównych sektorów w Polsce przedstawia wykres 1.
+Zmiany bilansów trzech głównych sektorów w Polsce przedstawia rysunek \@ref(fig:rys23).
 W całym przedstawionym okresie sektor prywatny gromadził oszczędności.
 Jednak aż do roku 2012 zjawisko to dotyczyło również zagranicy.
 Oznacza to, że w tym okresie import był większy niż eksport a różnica ta była finansowana kosztem deficytu sektora publicznego.
 Widać to najlepiej w 2008 r.
 kiedy to dochody sektora prywatnego były niemal równe jego wydatkom.
 
-Wykres 1.
-Bilanse sektorowe w Polsce w okresie 2002-2018
+```{r rys23, fig.align='center', fig.cap='Bilanse sektorowe w Polsce, <br> Źródło:  Eurostat (nama_10_gdp)', out.width='100%'}
+library(eurostat)
+library(dplyr)
+library(ggplot2)
+library(ggthemes)
 
-Źródło: Eurostat (nama_10_gdp) .
+rok<- as.character(Sys.Date())
 
-Począwszy od 2015 roku nadwyżka sektora prywatnego ma w części postać długu zagranicy, co wynikało z dodatniego salda handlowego i umożliwiło zwiększenie oszczędności prywatnych.
+gdp<-get_eurostat("nama_10_gdp") %>% 
+     filter(time >= "2002-01-01") %>%
+     filter(time <= rok) %>%
+     filter(unit=="CP_MNAC") %>%
+     subset(.,na_item %in% c("P3_S13", "P31_S14_S15", "P51G", "P52_P53",
+                             "P6", "P7", "D1", "B2A3G", "D2X3")) %>%
+     select(geo, time, na_item, values) %>% 
+     filter(geo=="PL")
+
+#SP=D1+B2A3G
+#I=P51G+P52_P53
+#G=P3_S13
+#T=D2X3
+#E=P6
+#Im=P7
+#
+#(SP-I)=(G-T)+(E-IM)
+
+tmp<-tidyr::spread(gdp,na_item, values) %>%
+     mutate (.,SP=D1+B2A3G-P31_S14_S15) %>%
+     mutate (.,I=P51G+P52_P53) %>%
+     mutate (., dSP=SP-I) %>%
+     mutate (., dG=P3_S13-D2X3) %>%
+     mutate (., dE=P6-P7) %>%
+     mutate (., ver=dSP-(dG+dE))
+
+x<-select(tmp, geo, time, dSP, dG, dE, ver)
+x$dG<--x$dG
+x$dE<--x$dE
+x1<-tidyr::gather(x, na_item, values, 3:5)
+x1$na_item<-factor(x1$na_item, levels = c("dSP", "dG", "dE"), labels = c("prywatnego", "publicznego", "zagranicy"))
+
+ggplot(x1, aes(x = time, y = values, group = na_item)) +
+     geom_col(aes(fill = na_item), position = "stack") +
+     theme_hc() + scale_fill_brewer(palette="Set2") +
+     scale_y_continuous(labels=function(x)x/1000) +
+     labs(fill = "Bilans sektora: ") + ylab("mld zł") + xlab("") +
+     ggtitle (levels(x1$geo)[as.numeric(as.character(x1[1,1]))]) +
+     theme(plot.background = element_rect(fill = "#fcfcfc"),
+           legend.background = element_rect(fill = "#fcfcfc"))
+```
+
+Począwszy od 2013 roku nadwyżka sektora prywatnego ma w części postać długu zagranicy, co wynikało z dodatniego salda handlowego i umożliwiło zwiększenie oszczędności prywatnych.
 Jak wspomniano, wnioski te wynikają z konsekwentnego używania podstawowych zasad księgowości a nie teorii ekonomii.
 Zasady te jednak nie odpowiadają na pytania o kierunki zależności między deficytami a nadwyżkami poszczególnych sektorów.
 Stanowisko MMT w tej kwestii zostanie przedstawione w rozdziale piątym.
@@ -137,38 +177,49 @@ przez Narodowy Bank Polski („Narodowy Bank Polski - Internetowy Serwis Informa
 ## Kreacja pieniądza
 
 Nowoczesna Teoria Monetarna funkcjonowała początkowo w kręgach akademickich jako neoczartalizm (neo-chartalism).
-Czartalizm jest terminem stworzonym przez G.
-F. Knappa oznaczającym pogląd, że podstawowym pojęciem w teorii pieniądza jest jednostka obrachunkowa, w której wyraża się zobowiązania, ceny i ogólny poziom cen.
+Czartalizm jest terminem stworzonym przez G.F.
+Knappa oznaczającym pogląd, że podstawowym pojęciem w teorii pieniądza jest jednostka obrachunkowa, w której wyraża się zobowiązania, ceny i ogólny poziom cen.
 Natomiast główną formą tej jednostki jest nominalny pieniądz ustawowy (chartale Zahlungsmittel) (Knakiewicz 1984).
 Wyraz czartalizm (chartalism) pochodzi od łacińskiego słowa charta oznaczającego papier.
 Stanowi więc przeciwieństwo metalizmu, czyli poglądu, iż wartość pieniądza opiera się na kruszcu z jakiego został zrobiony (złoto, srebro).
-Z poglądami Knappa w pełni zgadzał się J.M.
-Keynes.
-Wyraźnie podkreślał, że w nowoczesnym państwie nominalistyczna doktryna G.
-F. Knappa ma pełne zastosowanie.
+Z poglądami Knappa w pełni zgadzał się J.M.Keynes.
+Wyraźnie podkreślał, że w nowoczesnym państwie nominalistyczna doktryna G.F.
+Knappa ma pełne zastosowanie.
 Jego zdaniem warunki do praktycznego zastosowania nominalizmu, czyli realizacji systemu pieniądza państwowego, występują wtedy, gdy państwo może nie tylko domagać się przestrzegania nakazów, ale także je ustanawiać.
 Stwierdzał z całym przekonaniem, że każdy współczesny pieniądz jest pieniądzem ustanawianym przez państwo (Knakiewicz 1984; Wray 2014b).
 Między innymi z tego powodu Nowoczesną Teorię Monetarną zalicza się do nurtu post-keynesowskiego a dokładniej tzw.
-horyzontalistów (horizontalists) i zwolenników teorii obiegu pieniężnego (monetary circuit theory).
-Jak pisze (Lavoie 2013) następujące poglądy łączą neo-czartalistów z post-keynesistami: Podaż pieniądza jest endogeniczna Kredyty tworzą depozyty a depozyty tworzą rezerwy.
-Działania banku centralnego mają generalnie charakter defensywny gdyż bank zwykle stara się dopasować podaż pieniądza rezerwowego do popytu na niego.
-Celem operacyjnym banku centralnego jest stopa overnight a nie podaż pieniądza.
-Podaż kredytu przez banki komercyjne zależy od oceny kredytowej klientów a nie od dostępności rezerw.
-Celem rezerwy obowiązkowej jest wygładzanie popytu na pieniądz rezerwowy banku centralnego i redukcja zmienności stopy overnight.
-W systemie korytarza docelowa stopa overnight może być zmieniana i osiągana bez zmiany ilości pieniądza rezerwowego banku centralnego.
-Bank centralny ma monopol na kreację bazy monetarnej (a dokładniej tzw. „high-powered money") Poza tym występują elementy wspólne dla MMT i teorii obiegu pieniężnego, według której istnieje określona kolejność w jakiej poszczególne podmioty włączają się do cyklu (obiegu) pieniężnego: firmy najpierw biorą pożyczki z banków i wydają je na płace (i dywidendy), następnie w drugim kroku, dzięki sprzedaży swoich produktów i usług oraz instrumentów finansowych odzyskują wydane wcześniej środki.
-W przypadku Nowoczesnej Teorii Monetarnej występuje podobna zależność czasowa: państwo najpierw dokonuje wydatków, a następnie dopiero w drugiej fazie rekompensuje te wydatki w postaci podatków.
-Podmioty prywatne nie mogą zapłacić podatków dopóki nie otrzymają pieniędzy emitowanych przez państwo.
+horyzontalistów (*horizontalists*) i zwolenników teorii obiegu pieniężnego (monetary circuit theory).
+Jak pisze (Lavoie 2013) następujące poglądy łączą neo-czartalistów z post-keynesistami:
+
+-   Podaż pieniądza jest endogeniczna Kredyty tworzą depozyty a depozyty tworzą rezerwy.
+-   Działania banku centralnego mają generalnie charakter defensywny gdyż bank zwykle stara się dopasować podaż pieniądza rezerwowego do popytu na niego.
+-   Celem operacyjnym banku centralnego jest stopa *overnight*[^polityka_pieniezna-1] a nie podaż pieniądza.
+-   Podaż kredytu przez banki komercyjne zależy od oceny kredytowej klientów a nie od dostępności rezerw.
+-   Celem rezerwy obowiązkowej jest wygładzanie popytu na pieniądz rezerwowy banku centralnego i redukcja zmienności stopy *overnight*[^polityka_pieniezna-2].
+-   W systemie korytarza docelowa stopa overnight może być zmieniana i osiągana bez zmiany ilości pieniądza rezerwowego banku centralnego.
+-   Bank centralny ma monopol na kreację bazy monetarnej (a dokładniej tzw. „high-powered money")
+
+[^polityka_pieniezna-1]: Stopa *overnight* to stopa procentowa, po której banki (w tym bank centralny) przyjmują depozyty na jedną noc.
+    W Polsce jej dolną granicę stanowi stopa lombardowa NBP ([NBP 2021, s. 8](https://www.nbp.pl/polityka_pieniezna/dokumenty/zalozenia/zalozenia_pp_2021.pdf)).
+    Żaden bank komercyjny nie jest w stanie pożyczyć od innego banku komercyjnego taniej niż wynosi stopa lombardowa gdyż mniej ryzykowne jest umieszczenie nadwyżek w NBP niż pożyczenie ich innemu bankowi.
+
+[^polityka_pieniezna-2]: "Głównym celem wykorzystania systemu rezerwy obowiązkowej będzie oddziaływanie w kierunku stabilizacji krótkoterminowych rynkowych stóp procentowych." ([NBP 2021, s. 9](https://www.nbp.pl/polityka_pieniezna/dokumenty/zalozenia/zalozenia_pp_2021.pdf))
+
+Poza tym występują elementy wspólne dla MMT i teorii obiegu pieniężnego, według której istnieje określona kolejność w jakiej poszczególne podmioty włączają się do cyklu (obiegu) pieniężnego: firmy najpierw biorą pożyczki z banków i wydają je na płace (i dywidendy), następnie w drugim kroku, dzięki sprzedaży swoich produktów i usług oraz instrumentów finansowych odzyskują wydane wcześniej środki.
+W przypadku Nowoczesnej Teorii Monetarnej występuje podobna zależność czasowa: państwo najpierw dokonuje wydatków, a następnie dopiero w drugiej fazie rekompensuje te wydatki w postaci podatków. Podmioty prywatne nie mogą zapłacić podatków dopóki nie otrzymają pieniędzy emitowanych przez państwo.
 Z powyższych rozważań wynika, że Nowoczesna Teoria Monetarna, tak samo jak cały nurt post-keynesowski wyróżnia kilka rodzajów pieniądza a sprzeczności i kontrowersje dotyczą ich wzajemnych relacji.
 Istnieją dwa źródła kreacji pieniądza w gospodarce.
 Jednym z nich jest bank centralny, który tworzy bazę monetarną emitując gotówkę w postaci monet i banknotów służące przede wszystkim gospodarstwom domowym i w mniejszym stopniu przedsiębiorstwom niefinansowym oraz pieniądz rezerwowy dostępny jedynie bankom.
 Pieniądz rezerwowy służy wyłącznie do prowadzenia rozrachunków pomiędzy bankami komercyjnymi oraz pomiędzy bankami komercyjnymi i bankiem centralnym.
 Drugim źródłem są banki komercyjne tworzące pieniądz poprzez udzielanie kredytów.
-Powyższą strukturę kreacji pieniądza przedstawiono na rysunku 2.
+Powyższą strukturę kreacji pieniądza przedstawiono na rysunku \@ref(fig:rys24).
 Można powiedzieć, że do wymiany towarów i usług w gospodarce realnej służy pieniądz generowany przez stronę trzecią, w tym przypadku banki komercyjne.
 Podobna relacja zachodzi w relacjach między bankami komercyjnymi, w rozliczeniach również używają pieniądza generowanego przez stronę trzecią.
 Tym razem jest to pieniądz banku centralnego.
 
+```{r rys24, echo=FALSE, fig.align='center', fig.cap='Źródła pieniądza w gospodarce <br>Źródło: Opracowanie własne', out.width='100%'}
+knitr::include_graphics("rysunki\\Zrodla_pieniadza.png")
+```
 Schemat 3.
 Źródła pieniądza w gospodarce Źródło: Opracowanie własne
 
