@@ -398,7 +398,7 @@ Oznacza to, że bank centralny aby osiągnąć oczekiwany poziom stopy overnight
 
 W Polsce taki przebieg spraw potwierdzają zapisy w najważniejszych dokumentach prawnych.
 Art. 227 ust.
-1 Konstytucji mówi, że „Centralnym bankiem państwa jest Narodowy Bank Polski.\\\[...\\\]" natomiast art. 3 ust. 2 Ustawy o Narodowym Banku Polskim (Dz.U. 1997 nr 140 poz. 938) w punktach 4 i 5 stanowi, że „do zadań NBP należy także:\\ \[...\\\] 4) prowadzenie obsługi budżetu państwa; 5) regulowanie płynności banków oraz ich refinansowanie".
+1 Konstytucji mówi, że „Centralnym bankiem państwa jest Narodowy Bank Polski.[...]" natomiast art. 3 ust. 2 Ustawy o Narodowym Banku Polskim (Dz.U. 1997 nr 140 poz. 938) w punktach 4 i 5 stanowi, że „do zadań NBP należy także:[...] 4) prowadzenie obsługi budżetu państwa; 5) regulowanie płynności banków oraz ich refinansowanie".
 Podobnie brzmi art. 197 ustawy o finansach publicznych (Dz.U. 2009 nr 157 poz. 1240):
 
 > 1.  *Dochody budżetu państwa są gromadzone odpowiednio na rachunkach urzędów obsługujących organy podatkowe dla gromadzenia dochodów lub na rachunkach bieżących dochodów państwowych jednostek budżetowych i przekazywane na centralny rachunek bieżący budżetu państwa, którego dysponentem jest Minister Finansów.*
