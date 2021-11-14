@@ -117,7 +117,7 @@ Oznacza to, że w tym okresie import był większy niż eksport a różnica ta b
 Widać to najlepiej w 2008 r.
 kiedy to dochody sektora prywatnego były niemal równe jego wydatkom.
 
-```{r rys23, fig.align='center', fig.cap='Bilanse sektorowe w Polsce, <br> Źródło:  Eurostat (nama_10_gdp)', out.width='100%'}
+```{r rys23, fig.align='center', fig.cap='Bilanse sektorowe w Polsce, <br> Źródło:  Eurostat (nama_10_gdp)', out.width='100%', cache = TRUE}
 library(eurostat)
 library(dplyr)
 library(ggplot2)
@@ -517,20 +517,9 @@ Ponadto, jak to zostanie szerzej przedstawione w kolejnych rozdziałach, MMT pos
 Chyba najbardziej „rewolucyjnym" hasłem dla opinii publicznej i wielu ekonomistów MMT jest stwierdzenie, że państwo nie zadłuża się tak, jak gospodarstwo domowe czy firma. Jeżeli jest suwerennym emitentem waluty to nie może zbankrutować i nie może zabraknąć mu pieniędzy. Dlaczego tak się dzieje przedstawiono w poprzednim podrozdziale. Ponieważ jednak, jak wspomniano, w krajach rozwiniętych gros pieniądza w obiegu stanowi pieniądz tworzony przez banki komercyjne należy przedstawić ten proces kreacji i pokazać tym samym czym się różni od kreacji pieniądza przez bank centralny.
 
 Jak już wspomniano, ekonomia postkeynesowska i Nowoczesna Teoria Monetarna odrzucają koncepcję mnożnika kreacji pieniądza oraz prowadzenie polityki pieniężnej poprzez kontrolowanie ilości pieniądza w gospodarce przez bank centralny.
-W teorii pieniądza endogenicznego zrywa się z podejściem, że to depozyty kreują kredyty, czyli że do zwiększenia akcji kredytowej konieczne jest wcześniejsze zgromadzenie depozytów na dużą skalę.
-Zwolennicy teorii pieniądza endogenicznego opowiadają się za odwróconą przyczynowością, tzn.
-za podejściem zgodnie z którym to udzielony kredyt prowadzi do kreacji depozytu o odpowiadającej mu wielkości.
-Oznacza to m.in., że banki komercyjnie aktywnie poszukują klientów nie martwiąc się czy posiadają wystarczającą ilość pieniądza rezerwowego.
-Badanie przeprowadzone przez portal Bankier.pl w 2020 r.
-pokazuje, że 91% pracowników banków mających bezpośredni kontakt z klientem twierdzi, że na ich stanowisku obowiązują ilościowe plany sprzedażowe.
-Natomiast ponad połowa bankowców uczestniczących w badaniu przyznaje, że zdarzyło się im zaproponować klientowi produkt, który nie był najbardziej dla niego odpowiedni.
-Najczęściej wskazywaną przyczyną nie była wcale chęć otrzymania premii, ale konieczność zrealizowania planów sprzedażowych (Kisiel 2020).
-Oznacza to, że głównym ograniczeniem udzielonych przez banki kredytów, a co za tym idzie wykreowanego pieniądza, są decyzje wydatkowe klientów (gospodarstw domowych i firm).
-Podaż kredytów bankowych zależy od tego, czy ktoś chce pożyczyć ich pieniądze.
-Chęć ta zależy od wielu czynników, nie tylko od stopy procentowej.
-Na przykład oczekiwania co do wystąpienia lub zakończenia kryzysu wpływają zarówno na popyt na kredyty jak i również na ich podaż.
-Oznacza to, że stopy procentowe nie mogą być wypadkową popytu i podaży na pieniądz, gdyż obie te zmienne nie są niezależne.
-Dlatego należy patrzeć na banki jako instytucje ustalające ceny na krótkoterminowym rynku detalicznym kredytów (Mitchell i in., 2019, s. 156).
+W teorii pieniądza endogenicznego zrywa się z podejściem, że to depozyty kreują kredyty, czyli że do zwiększenia akcji kredytowej konieczne jest wcześniejsze zgromadzenie depozytów na dużą skalę. Zwolennicy teorii pieniądza endogenicznego opowiadają się za odwróconą przyczynowością, tzn. za podejściem zgodnie z którym to udzielony kredyt prowadzi do kreacji depozytu o odpowiadającej mu wielkości. Oznacza to m.in., że banki komercyjnie aktywnie poszukują klientów nie martwiąc się czy posiadają wystarczającą ilość pieniądza rezerwowego.
+Badanie przeprowadzone przez portal Bankier.pl w 2020 r. pokazuje, że 91% pracowników banków mających bezpośredni kontakt z klientem twierdzi, że na ich stanowisku obowiązują ilościowe plany sprzedażowe. Natomiast ponad połowa bankowców uczestniczących w badaniu przyznaje, że zdarzyło się im zaproponować klientowi produkt, który nie był najbardziej dla niego odpowiedni. Najczęściej wskazywaną przyczyną nie była wcale chęć otrzymania premii, ale konieczność zrealizowania planów sprzedażowych (Kisiel 2020).
+Oznacza to, że głównym ograniczeniem udzielonych przez banki kredytów, a co za tym idzie wykreowanego pieniądza, są decyzje wydatkowe klientów (gospodarstw domowych i firm). Podaż kredytów bankowych zależy od tego, czy ktoś chce pożyczyć ich pieniądze. Chęć ta zależy od wielu czynników, nie tylko od stopy procentowej. Na przykład oczekiwania co do wystąpienia lub zakończenia kryzysu wpływają zarówno na popyt na kredyty jak i również na ich podaż. Oznacza to, że stopy procentowe nie mogą być wypadkową popytu i podaży na pieniądz, gdyż obie te zmienne nie są niezależne. Dlatego należy patrzeć na banki jako instytucje ustalające ceny na krótkoterminowym rynku detalicznym kredytów (Mitchell i in., 2019, s. 156).
 Po tej cenie chętnie zaspokajają popyt zgłoszony przez wszystkich uznanych przez banki za wiarygodnych.
 
 Bank Anglii wyróżnia trzy grupy ograniczeń w kreacji pieniądza przez banki komercyjne we współczesnych gospodarkach (McLeay, Radia, i Thomas 2014):
@@ -544,18 +533,12 @@ Bank Anglii wyróżnia trzy grupy ograniczeń w kreacji pieniądza przez banki k
     Wpływ ten jest zarówno bezpośredni bowiem następuje zmiana wysokości odsetek żądanych przez banki jak i pośredni poprzez ogólny wpływ polityki monetarnej na aktywność gospodarczą.
 
 3.   Pozostałe ograniczenia, do których należą:
+     - Siły rynkowe ograniczające akcję kredytową ponieważ indywidualne banki muszą osiągać zyski na konkurencyjnym rynku.
+     - Udzielanie kredytów jest ograniczone ponieważ banki muszą ograniczać ryzyka związane z dodatkowymi kredytami.
+     - Regulacje makroostrożnościowe ograniczające podaż kredytów w celu zapobieżenia tworzenia się ryzyk zagrażających stabilności systemu finansowego.
 
-    1.  Siły rynkowe ograniczające akcję kredytową ponieważ indywidualne banki muszą osiągać zyski na konkurencyjnym rynku.
-
-    2.  Udzielanie kredytów jest ograniczone ponieważ banki muszą ograniczać ryzyka związane z dodatkowymi kredytami.
-
-    3.  Regulacje makroostrożnościowe ograniczające podaż kredytów w celu zapobieżenia tworzenia się ryzyk zagrażających stabilności systemu finansowego.
-
-Nie ma tu automatycznego osiągania stanu równowagi między popytem a podażą.
-W rzeczywistości cena na tym rynku jest sumą marży bankowej i ceny pieniądza na hurtowym rynku międzybankowym .
-Rynek ten służy poszczególnym bankom do kompensacji różnic między posiadanymi depozytami a kredytami ponieważ nie kontrolują, komu ich klienci będą przekazywać swoje depozyty.
-Bardzo ważnym graczem na rynku międzybankowym jest bank centralny.
-Jest on w stanie nawet zastąpić ten rynek, gdy banki np.
+Nie ma tu automatycznego osiągania stanu równowagi między popytem a podażą. W rzeczywistości cena na tym rynku jest sumą marży bankowej i ceny pieniądza na hurtowym rynku międzybankowym. Rynek ten służy poszczególnym bankom do kompensacji różnic między posiadanymi depozytami a kredytami ponieważ nie kontrolują, komu ich klienci będą przekazywać swoje depozyty.
+Bardzo ważnym graczem na rynku międzybankowym jest bank centralny. Jest on w stanie nawet zastąpić ten rynek, gdy banki np.
 stracą do siebie zaufanie jak miało to miejsce wskutek globalnego kryzysu finansowego w 2008 r.
 
 Jak wygląda proces kreacji pieniądza w sektorze banków komercyjnych przedstawia tabela \@ref(tab:tab6).
@@ -578,91 +561,129 @@ flextable(tab4) %>% theme_vanilla() %>%
 
 Sam proces utworzenia nowego pieniądza z niczego, na życzenie klienta, przedstawia krok 1.
 W momencie podpisania umowy kredytu, utworzenia konta lub podobnej, bank stawia do dyspozycji klienta umówioną kwotę.
-Nie potrzebuje do tego złota, papierów wartościowych ani gotówki.
-Zabezpieczeniem utworzonego depozytu jest umowa kredytowa, która ma określoną wartość.
-Bank może ją sprzedać firmie windykacyjnej lub przedstawić w sądzie w celu egzekucji komorniczej dłużnika.
-W drugim kroku klient wykorzystuje swój nowy depozyt w celu zakupu np.
-samochodu lub przelewa na konta pracowników.
-Zakładamy, że sprzedający posiada rachunek w innym banku, banku B.
-Gdyby oba podmioty miały rachunki w tym samym banku to operacja byłaby natychmiastowa i dużo prostsza -- depozyt kupującego zostałby po prostu wykazany na rachunku kupującego i usunięty z rachunku sprzedającego.
-Cała procedura zakończyłaby się w kroku drugim.
-W przypadku transakcji dotyczącej różnych banków jej rozliczenie ma miejsce tylko kilka razy dziennie co znajduje odzwierciedlenie w powstaniu długu między bankami A i B.
-Więc o ile transakcja między klientami banków może być rozliczona w ciągu dnia, to rozliczenie między bankami następuje na jego koniec.
-Wszystkie pozycje między bankami zostają rozliczone w centralnej instytucji clearingowej a następnie spłacone w pieniądzu rezerwowym banku centralnego.
-Bank A, ponieważ miał niedobór depozytów netto musiał pożyczyć brakującą kwotę w banku centralnym w kroku 3.
+Nie potrzebuje do tego złota, papierów wartościowych ani gotówki. Zabezpieczeniem utworzonego depozytu jest umowa kredytowa, która ma określoną wartość. Bank może ją sprzedać firmie windykacyjnej lub przedstawić w sądzie w celu egzekucji komorniczej dłużnika. W drugim kroku klient wykorzystuje swój nowy depozyt w celu zakupu np. samochodu lub przelewa na konta pracowników. 
+Zakładamy, że sprzedający posiada rachunek w innym banku, banku B. Gdyby oba podmioty miały rachunki w tym samym banku to operacja byłaby natychmiastowa i dużo prostsza -- depozyt kupującego zostałby po prostu wykazany na rachunku kupującego i usunięty z rachunku sprzedającego. 
+Cała procedura zakończyłaby się w kroku drugim. W przypadku transakcji dotyczącej różnych banków jej rozliczenie ma miejsce tylko kilka razy dziennie co znajduje odzwierciedlenie w powstaniu długu między bankami A i B. Więc o ile transakcja między klientami banków może być rozliczona w ciągu dnia, to rozliczenie między bankami następuje na jego koniec. Wszystkie pozycje między bankami zostają rozliczone w centralnej instytucji clearingowej a następnie spłacone w pieniądzu rezerwowym banku centralnego. Bank A, ponieważ miał niedobór depozytów netto musiał pożyczyć brakującą kwotę w banku centralnym w kroku 3.
 Pozwoliło mu to właśnie, w kroku 4, na koniec dnia rozliczyć się z bankiem B.
 
 ## Handel i polityka kursowa
 
-Jednym z podstawowych założeń i postulatów Nowoczesnej Teorii Monetarnej jest niezależność monetarna (*monetary sovereignity*).
-Oznacza ona, że dla pełnej skuteczności polityki ekonomicznej niezbędne jest posiadanie płynnego kursu walutowego.
-Na przeciwnym końcu skali jest przyjęcie przez dane państwo za swoją walutę pieniądza innego kraju (dolaryzacja, euroizacja), oddanie kontroli nad emisją waluty (strefa euro, strefy franka CFA) oraz przyjęcie sztywnego kursu waluty krajowej w stosunku do waluty obcej .
-W Polska przeszła od kursu sztywnego w stosunku do dolara wprowadzonego w 1990 r., poprzez system kursu pełzającego ustalonego w stosunku do koszyka walut, następnie przez system pełzającego pasma aż do fazy pełnej liberalizacji kursu walutowego od 1999 r., która to trwa do dzisiaj.
-Trzeba jednak pamiętać, że przystępując do UE Polska zobowiązała się przystąpić do strefy euro co oznacza wpierw przystąpienie do systemu pełzającego pasma na okres dwóch lat a następnie przyjęcie waluty zewnętrznej jaką jest euro.
-W literaturze MMT można znaleźć szereg analiz dwóch skrajnych przypadków niezależności walutowej.
-Z jednej strony jest to USA -- emitent najważniejszej światowej waluty, a z drugiej strefa euro czyli grupa krajów, która zrzekła się kontroli nad własnym pieniądzem.
-Sytuacja małych, otwartych gospodarek jak Polska albo krajów słabo rozwiniętych nie została do tej pory tak szeroko przeanalizowana.
-Sytuacja Stanów Zjednoczonych jest bardzo ciekawa, ponieważ status dolara amerykańskiego jako głównej waluty globalnej kreuje ogromny popyt na nią ze strony zagranicy.
-Popyt ten może naturalnie zaspokoić tylko jeden jej legalny emitent - USA.
-Aby jednak zgromadzić zapasy dolarów lub ich bliskich odpowiedników czyli amerykańskich papierów skarbowych, dany kraj musi odnotowywać nadwyżki handlowe.
-Najlepiej w stosunku do USA.
-Stany Zjednoczone są w ten sposób niejako „zmuszone" do znajdowania się w permanentnym deficycie handlowym z resztą świata. Jak jednak argumentuje MMT, nie jest to w żadnym razie szkodliwe dla tego kraju, a wręcz przeciwnie. Pozwala obywatelom na konsumowanie większej ilości dóbr i usług niż wytwarzają. Im większy import w stosunku do eksportu tym większa dodatkowa konsumpcja „na koszt" zagranicy .
-Z drugiej strony, pracownicy w Chinach czy Japonii, krajach o dużych nadwyżkach eksportowych, tracą bo konsumują mniej niż wytwarzają.
-Rzecz wygląda inaczej w przypadku krajów członkowskich EMU.
-Europejski Bank Centralny jest dużo bardziej niezależny od krajów członkowskich niż FED od amerykańskiego rządu.
-Nie został utworzony ani w celu ratowania rządów krajów członkowskich, ani ich banków.
-Niektóre państwa (Grecja, Włochy) były mniej skuteczne w kontrolowaniu inflacji (szczególnie płac), a przez to stawały się one coraz mniej konkurencyjne w Europie.
-Skutkiem tego generowały ustawiczne deficyty na rachunku obrotów bieżących, szczególnie w relacji z Niemcami.
-Jak wiadomo z analizy bilansów sektorowych, deficyt na rachunku obrotów bieżących musi być równy deficytowi budżetowemu rządu i/lub deficytowi krajowego sektora prywatnego.
-Niemcy były w stanie utrzymać swoje deficyty budżetowe na niskich poziomach, a oszczędności sektora prywatnego na wysokich, dzięki temu że sąsiedzi podtrzymywali wzrost niemieckiej gospodarki napędzany eksportem.
-To jednak oznaczało, że sąsiedzi powiększali swoje długi -- zarówno publiczne, jak i prywatne.
-Ponieważ jednak, w przeciwieństwie do USA czy Japonii, zadłużone państwa strefy euro nie mogą wyemitować pieniądza na ich pokrycie to pojawia się ryzyko, że nie będą w stanie zgromadzić odpowiedniej ilości pieniądza rezerwowego EBC.
-Ryzyko to jest wkalkulowane w cenę papierów dłużnych tych krajów zwiększając ich oprocentowanie, co oznacza większy koszt budżetowy obsługi długu czyli jeszcze większy deficyt.
-Większy deficyt oznacza większe ryzyko i koło się zamyka.
-Do jego przerwania wystarczy jednak jedynie słowna deklaracja EBC o gotowości skupu długu danego państwa (Alcaraz i in. 2019).
-MMT zwraca uwagę, że każda forma związania własnej waluty z obcą oznacza konieczność posiadania odpowiednich zapasów tejże waluty.
-Podobny skutek niesie ze sobą zadłużanie się w walutach zagranicznych.
-Źródłami obcych walut może być nadwyżka eksportu nad importem, zagraniczne kredyty, inwestycje zagraniczne, programy pomocowe (np. fundusze strukturalne UE) czy transfery pieniężne od emigrantów.
-Struktura napływu i odpływu walut obcych zależy naturalnie od specyficznych warunków danego kraju.
-Nie zmienia to faktu, że kontrola kursu walutowego jest ważnym zadaniem banku centralnego, gdyż zazwyczaj jest głównym czynnikiem wpływającym na inflację czyli stabilność pieniądza.
-Sytuacja Polski jest w tym przypadku dosyć komfortowa.
-Od 2005 roku aktywa rezerwowe, którymi dysponuje NBP przekraczają zobowiązania skarbu państwa w walutach obcych (wyk. 5).
-Przeszło 90% tych aktywów stanowiły waluty wymienialne .
-Oznacza to, że polski bank centralny jest w stanie spłacić wszystkich wierzycieli posiadających obligacje skarbowe denominowane w walutach obcych.
-Co więcej ta nadwyżka wciąż rośnie.
+Jednym z podstawowych założeń i postulatów Nowoczesnej Teorii Monetarnej jest niezależność monetarna (*monetary sovereignity*). Oznacza ona, że dla pełnej skuteczności polityki ekonomicznej niezbędne jest posiadanie płynnego kursu walutowego. Na przeciwnym końcu skali jest przyjęcie przez dane państwo za swoją walutę pieniądza innego kraju (dolaryzacja, euroizacja), oddanie kontroli nad emisją waluty (strefa euro, strefy franka CFA) oraz przyjęcie sztywnego kursu waluty krajowej w stosunku do waluty obcej.
+Polska przeszła od kursu sztywnego w stosunku do dolara wprowadzonego w 1990 r., poprzez system kursu pełzającego ustalonego w stosunku do koszyka walut, następnie przez system pełzającego pasma aż do fazy pełnej liberalizacji kursu walutowego od 1999 r., która to trwa do dzisiaj. Trzeba jednak pamiętać, że przystępując do UE Polska zobowiązała się przystąpić do strefy euro co oznacza wpierw przystąpienie do systemu pełzającego pasma na okres dwóch lat a następnie przyjęcie waluty zewnętrznej jaką jest euro.
+W literaturze MMT można znaleźć szereg analiz dwóch skrajnych przypadków niezależności walutowej. Z jednej strony jest to USA -- emitent najważniejszej światowej waluty, a z drugiej strefa euro czyli grupa krajów, która zrzekła się kontroli nad własnym pieniądzem. Sytuacja małych, otwartych gospodarek jak Polska albo krajów słabo rozwiniętych nie została do tej pory tak szeroko przeanalizowana.
+Sytuacja Stanów Zjednoczonych jest bardzo ciekawa, ponieważ status dolara amerykańskiego jako głównej waluty globalnej kreuje ogromny popyt na nią ze strony zagranicy. Popyt ten może naturalnie zaspokoić tylko jeden jej legalny emitent - USA.
+Aby jednak zgromadzić zapasy dolarów lub ich bliskich odpowiedników czyli amerykańskich papierów skarbowych, dany kraj musi odnotowywać nadwyżki handlowe. Najlepiej w stosunku do USA. Stany Zjednoczone są w ten sposób niejako „zmuszone" do znajdowania się w permanentnym deficycie handlowym z resztą świata. Jak jednak argumentuje MMT, nie jest to w żadnym razie szkodliwe dla tego kraju, a wręcz przeciwnie. Pozwala obywatelom na konsumowanie większej ilości dóbr i usług niż wytwarzają. Im większy import w stosunku do eksportu tym większa dodatkowa konsumpcja „na koszt" zagranicy. Z drugiej strony, pracownicy w Chinach czy Japonii, krajach o dużych nadwyżkach eksportowych, tracą bo konsumują mniej niż wytwarzają.
+Rzecz wygląda inaczej w przypadku krajów członkowskich EMU. Europejski Bank Centralny jest dużo bardziej niezależny od krajów członkowskich niż FED od amerykańskiego rządu. Nie został utworzony ani w celu ratowania rządów krajów członkowskich, ani ich banków. Niektóre państwa (Grecja, Włochy) były mniej skuteczne w kontrolowaniu inflacji (szczególnie płac), a przez to stawały się one coraz mniej konkurencyjne w Europie. Skutkiem tego generowały ustawiczne deficyty na rachunku obrotów bieżących, szczególnie w relacji z Niemcami. Jak wiadomo z analizy bilansów sektorowych, deficyt na rachunku obrotów bieżących musi być równy deficytowi budżetowemu rządu i/lub deficytowi krajowego sektora prywatnego. Niemcy były w stanie utrzymać swoje deficyty budżetowe na niskich poziomach, a oszczędności sektora prywatnego na wysokich, dzięki temu że sąsiedzi podtrzymywali wzrost niemieckiej gospodarki napędzany eksportem. To jednak oznaczało, że sąsiedzi powiększali swoje długi -- zarówno publiczne, jak i prywatne. Ponieważ jednak, w przeciwieństwie do USA czy Japonii, zadłużone państwa strefy euro nie mogą wyemitować pieniądza na ich pokrycie to pojawia się ryzyko, że nie będą w stanie zgromadzić odpowiedniej ilości pieniądza rezerwowego EBC.Ryzyko to jest wkalkulowane w cenę papierów dłużnych tych krajów zwiększając ich oprocentowanie, co oznacza większy koszt budżetowy obsługi długu czyli jeszcze większy deficyt. Większy deficyt oznacza większe ryzyko i koło się zamyka. Do jego przerwania wystarczy jednak jedynie słowna deklaracja EBC o gotowości skupu długu danego państwa (Alcaraz i in. 2019).
+MMT zwraca uwagę, że każda forma związania własnej waluty z obcą oznacza konieczność posiadania odpowiednich zapasów tejże waluty. Podobny skutek niesie ze sobą zadłużanie się w walutach zagranicznych. Źródłami obcych walut może być nadwyżka eksportu nad importem, zagraniczne kredyty, inwestycje zagraniczne, programy pomocowe (np. fundusze strukturalne UE) czy transfery pieniężne od emigrantów. Struktura napływu i odpływu walut obcych zależy naturalnie od specyficznych warunków danego kraju. Nie zmienia to faktu, że kontrola kursu walutowego jest ważnym zadaniem banku centralnego, gdyż zazwyczaj jest głównym czynnikiem wpływającym na inflację czyli stabilność pieniądza.
+Sytuacja Polski jest w tym przypadku dosyć komfortowa. Od 2005 roku aktywa rezerwowe, którymi dysponuje NBP przekraczają zobowiązania skarbu państwa w walutach obcych (rys. \@ref(fig:rys27)). Przeszło 90% tych aktywów stanowiły waluty wymienialne. Oznacza to, że polski bank centralny jest w stanie spłacić wszystkich wierzycieli posiadających obligacje skarbowe denominowane w walutach obcych. Co więcej ta nadwyżka wciąż rośnie.
 
-Wykres 5.
-Pokrycie zadłużenia zagranicznego Skarbu Państwa aktywami rezerwowymi NBP
+(ref:rys27) Pokrycie zadłużenia zagranicznego Skarbu Państwa aktywami rezerwowymi NBP <br> Źródło: [NBP](https://www.nbp.pl/home.aspx?f=/statystyka/aktywa_rezerwowe.html) oraz [Ministerstwo Finansów](https://www.gov.pl/web/finanse/zadluzenie-skarbu-panstwa)
 
-Źródło: Opracowanie własne na podstawie danych NBP
+```{r rys27, echo=FALSE, fig.align='center', fig.cap='(ref:rys27)', out.width='100%'}
+debt1 <- read.csv2("rysunki\\wykres_5.csv", colClasses = c("rok" = "Date"))
+ggplot(debt1) + geom_area(aes(x=rok, waluty), fill="grey40") +
+     geom_area(aes(x=rok, dług), fill="grey") +
+     theme_minimal() +
+     ylab("mld zł") + xlab("") +
+     annotate("text", x = as.Date("2019", format = "%Y"), y=150, label="Zadłużenie w walutach obcych\nSkarbu Państwa", 
+              hjust=1, size = 4) +
+     annotate("text", x = as.Date("2019", format = "%Y"), y=350, label="Aktywa rezerwowe", 
+              hjust=1, size = 4, color = "white")  
+```
 
 Malejąca od 2016 r.
 wartość zadłużenia zagranicznego, mimo niższych stóp procentowych np.
 w strefie euro jest świadomą decyzją polityczną ministerstwa finansów, jak widać zgodną z duchem MMT.
-Jednak jak pokazuje wykres 6 w okresie 2008-2014 polityka państwa w tym względzie była odwrotna.
+Jednak jak pokazuje rysunek \@ref(fig:rys28) w okresie 2008-2014 polityka państwa w tym względzie była odwrotna.
 
-Wykres 6.
-Udział zadłużenia zagraniczne Skarbu Państwa w latach 2004-2020
+(ref:rys28) Udział zadłużenia zagranicznego Skarbu Państwa <br> Źródło: [Ministerstwo Finansów](https://dane.gov.pl/pl/dataset/164,zaduzenie-skarbu-panstwa/resource/33681/table)
 
-Źródło: Opracowanie własne na podstawie danych MF.
+```{r rys28, echo=FALSE, fig.align='left', fig.cap='(ref:rys28)', out.width='100%'}
+ plt <- readRDS("rysunki\\plot28.RDS")
+an1 <- list(
+     x = plt$data[1],
+     y = plt$zagr[1],
+     text = paste(plt$zagr[1]*100, "%\n", format(plt$data[1], "%Y-%m")),
+     xref = "x",
+     yref = "y",
+     showarrow = TRUE,
+     arrowhead = 6,
+     ax = 10,
+     ay = -30
+)
+tmp <- plt %>% filter(zagr==max(zagr))
+an2 <- list(
+     x = tmp$data,
+     y = tmp$zagr,
+     text = paste(tmp$zagr*100, "%\n", format(tmp$data, "%Y-%m")),
+     xref = "x",
+     yref = "y",
+     showarrow = TRUE,
+     arrowhead = 6,
+     ax = -40,
+     ay = -20
+)
+tmp <- plt %>% filter(zagr==min(zagr))
+an3 <- list(
+     x = tmp$data,
+     y = tmp$zagr,
+     text = paste(tmp$zagr*100, "%\n", format(tmp$data, "%Y-%m")),
+     xref = "x",
+     yref = "y",
+     showarrow = TRUE,
+     arrowhead = 6,
+     ax = 40,
+     ay = 20
+)
+an4 <- list(
+     x = plt$data[nrow(plt)],
+     y = plt$zagr[nrow(plt)],
+     text = paste(plt$zagr[nrow(plt)]*100, "%\n", format(plt$data[nrow(plt)], "%Y-%m")),
+     xref = "x",
+     yref = "y",
+     showarrow = TRUE,
+     arrowhead = 6,
+     ax = 40,
+     ay = -20
+)
+
+plot_ly() %>% add_trace(x = plt$data, y=plt$zagr, type = "scatter", mode = "lines+markers", fill = "tonexty",
+        #text = as.character(plt$data),
+        text = paste(as.character(plt$zagr*100), "%\n", as.character(plt$data)),
+        hoverinfo = "text") %>% 
+     layout(
+          xaxis = list(title = ""),
+          yaxis = list(title = "", color = "#eee", showticklabels=FALSE, range=list(0,0.6)), #range zmienia zakres osi
+          annotations = list(an1, an2, an3, an4)
+     )
+
+```
+
 
 Niemniej 100% długu skarbu państwa i całego sektora publicznego jest zabezpieczona albo aktywami zagranicznymi zgromadzonymi na kontach NBP albo możliwością ich pełnego zastąpienia pieniądzem rezerwowym.
 Zgromadzenie tak dużych rezerw zagranicznych (co, jak wspomniano wcześniej jest główną przyczyną nadpłynności w sektorze bankowym) było możliwe w dużym stopniu w wyniku przystąpieniu Polski do Unii Europejskiej.
 Dzięki temu trafił do kraju ogromny strumień euro w postaci funduszy strukturalnych i funduszu spójności UE.
 Akt ten wywołał jeszcze większy napływ zagranicznych środków pieniężnych od inwestorów prywatnych, którzy znacznie niżej zaczęli wyceniać ryzyko polityczne i gospodarcze kraju.
 Stosunkowo najmniejsze znaczenie miał transfer środków od fali imigrantów, którzy skorzystali na otwarciu rynków pracy w krajach UE.
-Choć wszystkie powyższe czynniki wykazywały dość dużą zmienność w czasie (wyk. 7) to w sumie Polska w każdym roku odnotowywała napływ netto walut obcych.
+Choć wszystkie powyższe czynniki wykazywały dość dużą zmienność w czasie (rys. \@ref(fig:rys29)) to w sumie Polska w każdym roku odnotowywała napływ netto walut obcych.
 
-Wykres 7.
-Źródła napływu walut obcych do Polski w okresie 2004-2020
+(ref:rys29) Źródła napływu walut obcych do Polski <br> Źródło: Opracowanie własne na podstawie [NBP](https://www.nbp.pl/statystyka/bilans_platniczy/bop_q_pln.xlsx)
 
--   ujemny znak w rachunku finansowym w bilansie płatniczym oznacza napływ waluty obcej stąd odwrotny znak na wykresie. Źródło: Opracowanie własne na podstawie bilansu płatniczego publikowanego przez NBP.
+```{r rys29, echo=FALSE, fig.align='left', fig.cap='(ref:rys29)', out.width='100%'}
+ bop_plot <- readRDS("rysunki\\plot29.RDS")
+ ggplot(bop_plot, aes(x=rok, y=pln, fill = rachunek)) +geom_col() +
+     scale_fill_brewer(type = "qual", palette = "Set2", name = "", 
+                       labels=c("Rachunek finansowy", "Rachunek kapitałowy", "Towary i usługi", "Wynagrodzenia"))+
+     theme_minimal() +xlab("") + ylab("mld zł") + theme(legend.position="bottom") +
+     theme(panel.grid.major.x = element_blank(),
+           panel.grid.major.y = element_blank(),
+           panel.grid.minor.y = element_blank())
+```
 
 Wykorzystując więc szansę jaką była możliwość przystąpienia do Unii Europejskiej w 2004 r.
 oraz postępując zgodnie z zaleceniami MMT w kwestii zadłużenia w walutach obcych i systemu kursu walutowego, Polska jest w minimalnym stopniu ograniczona w prowadzeniu polityki gospodarczej jak to jest możliwe w niewielkiej gospodarce otwartej.
 Nie oznacza to jednak, że nie ma zagrożeń z tej strony dla polityki prowadzonej w duchu MMT.
-Jak trafnie zauważa J.
-Toporowski (2019) zwiększone wydatki publiczne mogą wywołać wzrost oczekiwań inflacyjnych, to z kolei może wywołać znaczny odpływ kapitału za granicę, który stworzyłby presję na dewaluację złotego.
+Jak trafnie zauważa J. Toporowski (2019) zwiększone wydatki publiczne mogą wywołać wzrost oczekiwań inflacyjnych, to z kolei może wywołać znaczny odpływ kapitału za granicę, który stworzyłby presję na dewaluację złotego.
 Jeśli presja ta okazałaby się na tyle duża, że nagromadzone przez NBP rezerwy walutowe by nie wystarczyły, to wywołałby inflację w kraju powodując sprzeciw wobec polityki MMT.
 Należy podkreślić, że efekt ten nie miałby związku z ze zbyt dużą podażą pieniądza ani polityką pełnego zatrudnienia.
 
