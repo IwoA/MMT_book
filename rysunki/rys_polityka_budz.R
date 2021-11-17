@@ -2,6 +2,7 @@ library(readxl)
 library(dplyr)
 library(ggplot2)
 library(RColorBrewer)
+library(plotly)
 # -----------------------------------------
 # Wykres 1 Saldo transferów z budżetu UE do Polski a inflacja CPI 
 dane1 <- read_excel("rysunki\\transfery_z_UE.xlsx", range = "A1:E18")
@@ -21,7 +22,7 @@ ggplot(dane1,group=Rok) + geom_line(aes(x=Rok, y=`Saldo transferów z UE`), colo
 
 
 # -----------------------------------------
-# wykres dochody budżetowe
+# wykres 3 dochody budżetowe
 
 # https://api.dane.gov.pl/media/resources/20211109/20211108_Zalaczniki_do_zmiany_UB_2021.zip
 
@@ -42,3 +43,16 @@ highchart() %>%
               style = list(fontSize = "15px")) %>% 
      hc_chart(type = "treemap") %>% 
      hc_add_series(rev)
+
+
+# ------------------------------------------
+# Wykres 4
+dane4 <- read_excel("rysunki\\podatki.xlsx", sheet = 4) %>% 
+     mutate(across(where(is.double), ~round(.,digits = 3)))
+
+plot_ly(dane4, x = ~Rok) %>% 
+     add_trace(y = ~`Udział podatku od dochodów kapitałowych w przychodach z PIT`, name = 'Udział podatku od dochodów kapitałowych w przychodach z PIT',type = 'scatter', mode = 'lines+markers') %>% 
+     add_trace(y = ~`Udział podatników składających PIT-38*`, name = 'Udział podatników składających PIT-38*',type = 'scatter', mode = 'lines+markers') %>% 
+     layout(legend = list(x = 0.1, y = 0.1),
+            yaxis = list(tickformat = '.2%', title = ""),
+            yaxis = list(title = ""))
