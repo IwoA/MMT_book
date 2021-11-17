@@ -11,7 +11,7 @@ dane <- rio::import(url, skip=5, sheet=3)
 colnames(dane)[1:2] <- c("data", "MM")
 dane2 <- dane %>% select(1,2)
 dane3 <- left_join(dane1, dane2) %>% mutate(M= round(MM/M1*100, digits = 1))
-
+#write.csv2(dane3, "wykres_3_gotowka_do_M1.csv")
 an1 <- list(
      x = dane3$data[1],
      y = dane3$M[1],
