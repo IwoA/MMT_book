@@ -53,6 +53,10 @@ plot_ly(dane1, x = ~Rok) %>%
 # Jako obraz z prezentacji
 
 
+# -----------------------------------------
+# Tabela 1
+# K27; G423; P2622 (dochody własne); dochody podatkowe - podatek od nieruchomości
+# K27; G423; P2621 (dochody ogółem)
 
 # -----------------------------------------
 # wykres 3 dochody budżetowe
