@@ -34,7 +34,7 @@ Lerner (2015, s. 126) uważał, iż
 Wychodząc z tego założenia sformułował on dwa prawa finansów funkcjonalnych:
 
 1.  *„Podstawowym obszarem finansowej odpowiedzialności państwa (jako że nikt inny nie może jej przejąć) jest utrzymanie całkowitych wydatków na dobra i usługi w kraju na poziomie nie większym ani nie mniejszych niż taki, przy którym po aktualnych cenach mogą zostać wykupione wszystkie możliwe do wyprodukowania produkty. Jeśli pozwoli się, aby całkowite wydatki przewyższyły ten poziom, pojawi się inflacja; jeśli z kolei całkowite wydatki spadną poniżej tego poziomu, wystąpi bezrobocie.„* Dlatego gdy popyt jest zbyt wysoki państwo powinno zmniejszyć wydatki i podnieść podatki, a gdy popyt jest niedostateczny to powinno zwiększyć swoje wydatki i obniżyć podatki.
-2.  *„[R]ząd powinien pożyczać pieniądze jedynie wówczas, gdy pożądane jest, aby obywatele posiadali mniej pieniędzy, a więcej obligacji rządowych \[...\]. A pożądane może to być w sytuacji, gdy bez tego zabiegu stopy procentowe byłyby zbyt niskie [...]."*
+2.  *„[R]ząd powinien pożyczać pieniądze jedynie wówczas, gdy pożądane jest, aby obywatele posiadali mniej pieniędzy, a więcej obligacji rządowych [...]. A pożądane może to być w sytuacji, gdy bez tego zabiegu stopy procentowe byłyby zbyt niskie [...]."*
 
 Do tak sformułowanych dwóch celów polityki fiskalnej (likwidacja bezrobocia i inflacji) należy dodać trzeci, sformułowany na samym początku cytowanego artykułu: eliminacja gospodarczej niepewności.
 Naturalnie nie chodzi tu o całkowitą likwidację powyższych zjawisk ale działania w celu ich maksymalnego ograniczania.
@@ -98,12 +98,49 @@ Rząd równie dobrze może osiągać nadwyżki (gdy konieczne jest zmniejszenie 
 Zagrożenie inflacją pojawia się dopiero gdy gospodarka zbliża się do maksimum swoich możliwości produkcyjnych.
 Jak się okazuje w praktyce, w Polsce bariera ta jest dość odległa.
 Naturalny eksperyment, jakim jest napływ funduszy unijnych sięgający nawet przeszło 3% PKB spowodował proporcjonalny wzrost wydatków budżetowych.
-Ten ogromny strumień pieniędzy, który trafił do gospodarki w żaden sposób nie wpłynął jednak na wzrost inflacji (wyk. 1).
+Ten ogromny strumień pieniędzy, który trafił do gospodarki w żaden sposób nie wpłynął jednak na wzrost inflacji (rys. \@ref(fig:rys30)).
 
-Wykres 1.
-Saldo transferów z budżetu UE do Polski a inflacja CPI w latach 2004-2019
+(ref:rys30) Saldo transferów z budżetu UE do Polski a inflacja CPI <br> Źródło: Opracowanie własne na podstawie danych MF, Eurostatu i NBP
 
-Źródło: Opracowanie własne na podstawie danych MF, Eurostatu i NBP
+```{r rys30, echo=FALSE, fig.align='left', fig.cap='(ref:rys30)', out.width='100%'}
+library(plotly)
+library(readxl)
+library(dplyr)
+dane1 <- read_excel("rysunki\\transfery_z_UE.xlsx", range = "A1:E18")
+
+an1 <- list(
+     x = dane1$Rok[3],
+     y = dane1$CPI[1],
+     text = "<b>Inflacja CPI</b>",
+     xref = "x",
+     yref = "y",
+     showarrow = FALSE,
+     ax = -0,
+     ay = 20,
+     font = list(color = "#ff7f0e", size = 16)
+)
+an2 <- list(
+     x = dane1$Rok[5],
+     y = 0.005,
+     text = "<b>Saldo transferów z UE (% PKB)</b>",
+     xref = "x",
+     yref = "y",
+     showarrow = FALSE,
+     ax = -0,
+     ay = 20,
+     font = list(color = "#1f77b4", size = 16)
+)
+
+plot_ly(dane1, x = ~Rok) %>% 
+     add_trace(y = ~`Saldo transferów z UE`, name = 'Saldo transferów z UE (% PKB)',type = 'scatter', mode = 'lines+markers') %>% 
+     add_trace(y = ~CPI, name = 'Inflacja CPI',type = 'scatter', mode = 'lines+markers') %>% 
+     layout(legend = list(x = 0.1, y = 0.1),
+            yaxis = list(tickformat = '.2%', title = "", range = c(-0.01,0.05), zeroline = FALSE),
+            yaxis = list(title = ""),
+            xaxis = list(title = "", showgrid = F),
+            annotations = list(an1, an2),
+            showlegend = FALSE)
+```
 
 Jednakże w Polsce wysokość deficytu oraz długu publicznego jest znacznie ograniczony.
 Polska, oprócz Węgier, prawdopodobnie jedyny kraj na świecie posiada konstytucyjne ograniczenie wysokości długu publicznego[^polityka_budzetowa-4].
@@ -115,23 +152,19 @@ Traktat o Funkcjonowaniu Unii Europejskiej w artykule 126 następująco reguluje
     Nie wolno zaciągać pożyczek lub udzielać gwarancji i poręczeń finansowych, w następstwie których państwowy dług publiczny przekroczy 3/5 wartości rocznego produktu krajowego brutto.
     Sposób obliczania wartości rocznego produktu krajowego brutto oraz państwowego długu publicznego określa ustawa.
 
-
-
 > 1.  *Państwa Członkowskie unikają nadmiernego deficytu budżetowego.*
 > 2.  *Komisja nadzoruje rozwój sytuacji budżetowej i wysokość długu publicznego w Państwach Członkowskich w celu wykrycia oczywistych błędów. Bada ona poszanowanie dyscypliny budżetowej na podstawie poniższych dwóch kryteriów:*
 >
-> ```{=html}
 > <!-- -->
-> ```
+>
 > a)  *czy stosunek między planowanym lub rzeczywistym deficytem publicznym a produktem krajowym brutto przekracza wartość odniesienia, chyba że:*
 >
 >     -   *stosunek ten zmniejszył się znacznie oraz w sposób stały i osiągnął poziom bliski wartości odniesienia,*
 >
 >     -   *lub przekroczenie wartości odniesienia ma charakter wyjątkowy oraz tymczasowy i stosunek ten pozostaje bliski wartości odniesienia;*
 >
-> ```{=html}
 > <!-- -->
-> ```
+>
 > b)  *czy stosunek między długiem publicznym a produktem krajowym brutto przekracza wartość odniesienia, chyba że stosunek ten zmniejsza się dostatecznie i zbliża się do wartości odniesienia w zadowalającym tempie. Wartości odniesienia są sprecyzowane w Protokole w sprawie procedury dotyczącej nadmiernego deficytu, który jest załączony do Traktatów.*
 
 Odpowiednie zapisy w [wymienionym Protokole](https://eur-lex.europa.eu/legal-content/PL/TXT/HTML/?uri=CELEX:12008M/PRO/12&from=EN) brzmią następująco:
@@ -199,8 +232,15 @@ W takim paradygmacie istnieje znacznie większa swoboda kształtowania systemu p
 Według Larry Randall Wray (2019) głównym kryterium nakładania podatków powinna być realizacja celów społecznych w tym wpływanie na zachowania podmiotów gospodarczych -- zniechęcanie do niepożądanych społecznie zachowań i zachęcanie do działań pożądanych.
 W takim ujęciu redystrybucyjna funkcja podatków traci swój sens, choć ograniczanie najwyższych dochodów pozostaje jednym z celów nakładania podatków według MMT.
 Jest to jednak uzasadniane koniecznością powiązania wysokości dochodów z wykonywaną pracą a nie z koniecznością sfinansowania transferów socjalnych.
-Wynika z tego, że nie należy opodatkowywać rzeczy i czynności uznanych za pozytywne, na przykład pracy\[9\].
-Przy takim podejściu nie do uniknięcia są oczywiście dyskusje czy potencjalny przedmiot opodatkowania jest pozytywny czy negatywny dla społeczeństwa oraz gdzie jest granica, za którą działanie negatywne przeważa nad pozytywnym\[10\].
+Wynika z tego, że nie należy opodatkowywać rzeczy i czynności uznanych za pozytywne, na przykład pracy[^polityka_budzetowa-6].
+Przy takim podejściu nie do uniknięcia są oczywiście dyskusje czy potencjalny przedmiot opodatkowania jest pozytywny czy negatywny dla społeczeństwa oraz gdzie jest granica, za którą działanie negatywne przeważa nad pozytywnym[^polityka_budzetowa-7]
+.
+
+[^polityka_budzetowa-6]: Podatki od innych dochodów np.
+    finansowych są za to wskazane.
+
+[^polityka_budzetowa-7]: Jak pisał Paracelsus „*Cóż jest trucizną? Wszystko jest trucizną i nic nie jest trucizną. Tylko dawka czyni, że dana substancja nie jest trucizną"*
+
 Dobrym przykładem podatku, który pokazuje konsekwencje różnicy w podejściu do podatków między MMT a obecnie obowiązującym paradygmatem jest podatek od powierzchni (lub objętości) domu.
 Posiada on obie wymagane przez MMT cechy: byłby podatkiem powszechnym oraz zwiększałby koszt działań społecznie negatywnych.
 Jak pisze Larry Randall Wray (2019, s. 219) „Dlaczego zachowaniem niepożądanym miałoby być mieszkanie w domu?
@@ -220,12 +260,12 @@ W przypadku podatku od wynagrodzeń trafnie zauważa, iż promuje on dochody uzy
 Jednak podnoszone przez niego zarzuty takie jak preferowanie zastępowanie ludzi maszynami, obniżanie konkurencyjności międzynarodowej spowodowane wyższymi kosztami pracy są sprzeczne z proponowaną zasadą opodatkowania rzeczy niekorzystnych społecznie.
 Z punktu widzenia społeczeństwa podnoszenie wydajności pracy jest korzystne, a strategia zdobywania przewagi konkurencyjnej poprzez obniżanie kosztów pracy jest niekorzystna.
 Podatek ten z kolei posiada ważne zalety z punktu widzenia MMT gdyż jest jednym z najbardziej powszechnych oraz istotnie wpływa na ograniczenie popytu.
-W artykule (L. Randall Wray 1993) pojawia się lepszy argument za co najmniej pogłębioną analizą podatku PIT a mianowicie fakt, iż będąc kosztem dla pracodawcy zostaje przerzucony przynajmniej częściowo na ceny produktów i usług i w ten sposób jest potencjalnie inflacjogenny[^polityka_budzetowa-6].
+W artykule (L. Randall Wray 1993) pojawia się lepszy argument za co najmniej pogłębioną analizą podatku PIT a mianowicie fakt, iż będąc kosztem dla pracodawcy zostaje przerzucony przynajmniej częściowo na ceny produktów i usług i w ten sposób jest potencjalnie inflacjogenny[^polityka_budzetowa-8].
 Argument ten jest prawdziwy również dla pozostałych dwóch podatków.
+
+[^polityka_budzetowa-8]: Potencjał ten zależy od możliwości kształtowania marży przez firmy, a ta z kolei od stopnia monopolizacji (Kalecki 1980).
+
 Nieprzekonująca jest również argumentacja za zniesieniem podatku od konsumpcji, który jest nawet bardziej powszechny niż dochodowy i jeszcze skuteczniej obniża popyt nie wpływając negatywnie na inflację.
-
-[^polityka_budzetowa-6]: Potencjał ten zależy od możliwości kształtowania marży przez firmy, a ta z kolei od stopnia monopolizacji (Kalecki 1980).
-
 Słuszna jest uwaga, że jest to podatek silnie degresywny (wraz ze wzrostem dochodów spada udział wydatków konsumpcyjnych na rzecz oszczędności) jednak realnie istniejące systemy podatków konsumpcyjnych (podatek VAT) posiadają zwykle kilka stawek w tym stawkę zerową a poprzez swoją powszechność pozwalają na takie korzystne z punktu widzenia ekologii i zdrowia działania jak podnoszenie cen mięsa w stosunku do żywności pochodzenia roślinnego.
 Oczywiście można VAT zastąpić szeregiem indywidualnych podatków o charakterze akcyzowym ale koszty administracyjne takiej zmiany mogły by być znaczne a korzyści ekonomiczne bardzo wątpliwe.
 
@@ -252,24 +292,32 @@ Ujmując kwestie opodatkowania z innej strony można uznać, że według MMT sek
 3.  Wprowadzenie podatków zmniejszających konsumpcję w celu przeciwdziałania inflacji.
 
 Podział taki pokrywa się z grubsza z podziałem podatków odpowiednio na majątkowe, dochodowe i konsumpcyjne.
+
 W Polsce największym źródłem dochodów budżetowych jest podatek konsumpcyjny czyli podatek od towarów i usług VAT, kolejny dużo mniejszy udział ma podatek akcyzowy.
 Na trzecim miejscu jest podatek dochodowy od osób fizycznych PIT i od osób prawnych CIT.
 Pozostałe podatki, w tym podatek od niektórych instytucji finansowych (zwany popularnie podatkiem bankowym), podatek od gier czy podatek od nieruchomości stanowią razem mniej niż połowę tego ostatniego.
 
-```{r}
+(ref:rys31) Struktura dochodów budżetowych w Polsce w 2021 r. (mln zł) <br> Źródło: Opracowanie własne na podstawie danych [dane.gov.pl](https://api.dane.gov.pl/media/resources/20211109/20211108_Zalaczniki_do_zmiany_UB_2021.zip)
+
+```{r rys31, echo=FALSE, fig.align='left', fig.cap='(ref:rys31)', out.width='100%'}
+library(RColorBrewer)
+library(highcharter)
+dane <- read_excel("rysunki\\dochody_budz_2021.xlsx", skip = 11)
+dane <- dane %>% select(1, 7) %>% 
+     rename_with(~c("Podatek", "kwota")) %>% 
+     filter(!is.na(Podatek)) %>% 
+     filter(Podatek!="Dochody niepodatkowe") %>% 
+     mutate(kwota = kwota/1000) #w mln zł
+
+
+kolory <- c(brewer.pal(8, "Blues"), brewer.pal(7, "Purples"), "#c90076")
+rev <- cbind(dane, kolory)
+names(rev) <- c("name", "value","color")#highchart must have data frame with these names. It takes values accordingly.
 library(highcharter)
 highchart() %>%
-     hc_title(text = "Dochody budżetowe w 2021 r. (tys. zł)",
-              style = list(fontSize = "15px")) %>% 
      hc_chart(type = "treemap") %>% 
      hc_add_series(rev)
-
 ```
-
-Wykres 3.
-Struktura dochodów budżetowych w Polsce w 2019 r.
-
-Źródło: Opracowanie własne
 
 Przed analizą struktury podatków w Polsce z punktu widzenia MMT i zaproponowaniem wersji bardziej zgodnej z tą szkołą należy rozwinąć kwestię różnicy między podatkiem VAT i akcyzą oraz uzupełnić powyższy obraz o dwa podatki: od nieruchomości oraz od dochodów kapitałowych.
 
@@ -286,15 +334,12 @@ Podatkiem tym objęte są wyroby akcyzowe czyli produkty energetyczne takie jak 
 Tabela 1.
 Porównanie podatku od towarów i usług oraz podatku akcyzowego
 
-Podatek od towarów i usług Podatek akcyzowy Zakres opodatkowania Ogólny -- prawie wszystkie towary i usługi Selektywny -- wąska grupa towarów Sposób obliczania % od wartości % od w wartości, kwotowo od ilości Skala od 0% do 27%\* Od 0% do 31,41% Liczba stawek od 2 do 5.
-W Polsce 3 (5%, 8%, 23%) Skomplikowany system stawek zależny od przedmiotu opodatkowania Potencjalna rola z punktu widzenia MMT Regulacja zagregowanego popytu Kształtowanie struktury konsumpcji
-
--   maksymalna stawka wykorzystywana w UE. Średnia wysokość stawki podstawowej w UE wynosi 21,46%. Źródło: opracowanie własne
+Źródło: opracowanie własne
 
 Porównanie przedstawione w tab.
 1 pokazuje, iż należy zgodzić się z poglądem o komplementarności tych dwóch rodzajów podatków.
 Podczas gdy podatek akcyzowy zapewnia znacznie większą swobodę w kształtowaniu wysokości opodatkowania wybranych dóbr to podatek VAT obejmuje znacznie szerszą bazę podatkową przez co znacznie lepiej nadaje się do ograniczania nadmiernego popytu.
-Ogólność podatku od towarów i usług powoduje również, że łatwiej nim manipulować a nawet niewielki zmiany mają duży wpływ na zagregowany popyt.
+Ogólność podatku od towarów i usług powoduje również, że łatwiej nim manipulować a nawet niewielki zmiany mają duży wpływ na całkowity popyt.
 Funkcjonowanie wielu jego stawek powoduje, że może on mieć również wpływ na kształtowanie struktury konsumpcji jednak nie tak selektywny jak podatek akcyzowy.
 Można więc chyba przyjąć, że w Polsce i w Unii Europejskiej, w przeciwieństwie do USA, optymalnym rozwiązaniem z punktu widzenia MMT jest miks obu podatków z większą rolą podatku akcyzowego niż obecnie.
 Pełniłyby on funkcje dodatkowego, wysokiego progu podatkowego od dóbr luksusowych lub uznanych za wyjątkowo niekorzystne społecznie.
@@ -314,12 +359,20 @@ Brane są pod uwagę znamiona zewnętrzne, takie jak powierzchnia i wartość am
 
 Tabela 2.
 Rola podatku od nieruchomości w Polskim systemie podatkowym.
-Udział podatku od nieruchomości w: 2014 2015 2016 2017 2018 dochodach gmin 13% 13% 12% 12% 11% dochodach sektora finansów publicznych 8% 8% 8% 7% 6%
 
-Źródło: opracowanie własne na podstawie danych GUS Tak marginalna rola tego podatku wynika głównie z faktu jego bardzo niskiej stopy w przypadku budynków mieszkalnych.
-W 2019 r.\[12\] maksymalna stawka podatku od nieruchomości w przypadku budynków mieszkalnych wyniosła 0,79 zł od 1 m2 powierzchni użytkowej a w przypadku budynków związanych z prowadzeniem działalności gospodarczej 23,47 zł od 1 m2 powierzchni użytkowej.
-Oznacza to, że podatek od mieszkania o powierzchni 100 m2 wyniósł maksymalnie\[13\] 79 zł rocznie a podatek od zakładu usługowego o takiej samej powierzchni 2 347 zł rocznie.
-Oznacza to, że w przypadku mieszkań i budynków mieszkalnych stawka podatku jest obecnie symboliczna i istnieje w Polsce instytucjonalna przestrzeń do znacznego zwiększenia roli tego podatku, zwłaszcza przy jednoczesnym obniżeniu podatku dochodowego.
+Źródło: opracowanie własne na podstawie danych GUS
+
+Tak marginalna rola tego podatku wynika głównie z faktu jego bardzo niskiej stopy w przypadku budynków mieszkalnych.
+W 2019 r.[^polityka_budzetowa-9]
+maksymalna stawka podatku od nieruchomości w przypadku budynków mieszkalnych wyniosła 0,79 zł od 1 m2 powierzchni użytkowej a w przypadku budynków związanych z prowadzeniem działalności gospodarczej 23,47 zł od 1 m2 powierzchni użytkowej.
+Oznacza to, że podatek od mieszkania o powierzchni 100 m2 wyniósł maksymalnie[^polityka_budzetowa-10] 79 zł rocznie a podatek od zakładu usługowego o takiej samej powierzchni 2 347 zł rocznie
+. Oznacza to, że w przypadku mieszkań i budynków mieszkalnych stawka podatku jest obecnie symboliczna i istnieje w Polsce instytucjonalna przestrzeń do znacznego zwiększenia roli tego podatku, zwłaszcza przy jednoczesnym obniżeniu podatku dochodowego
+.
+
+[^polityka_budzetowa-9]: Stawki tego podatku są waloryzowane corocznie w oparciu o inflację.
+
+[^polityka_budzetowa-10]: Gminy mają możliwość stosowania niższych stawek podatku.
+
 Należy jeszcze zauważyć, że przyznanie podatkowi od nieruchomości tak istotnej roli jest możliwe właśnie przy założeniu, że celem państwa jest dążenie do pełnego zatrudnienia oraz że państwo ma realne narzędzia osiągnięcia tego stanu.
 W przeciwnym przypadku wzrost opodatkowania podatkiem od nieruchomości wymagałby systemu zwolnień z uwagi na fakt, iż obejmuje on także osoby bez dochodów umożliwiających jego opłacanie.
 W sytuacji występującego przymusowego bezrobocia podatek od nieruchomości nie może być rozpatrywany jako substytut podatku od dochodów.
@@ -327,47 +380,143 @@ W sytuacji występującego przymusowego bezrobocia podatek od nieruchomości nie
 ### Podatek od dochodów kapitałowych
 
 Podatek od osób fizycznych w Polsce obejmuje, oprócz dochodów z pracy, również dochody od kapitału.
-Są one opodatkowane ryczałtowo stawką 19% (pozostałe dochody do kwoty 85 528 zł rocznie są opodatkowane stawką 18% a powyżej tej kwoty stawką 32%) i dotyczą dochodów uzyskanych między innymi z: 1) odsetek 2) dywidend 3) dochodu z tytułu udziału w funduszach kapitałowych 4) z odpłatnego zbycia: a.
-papierów wartościowych, b.
-pożyczonych papierów wartościowych (sprzedaż krótka), c.
-pochodnych instrumentów finansowych oraz realizacji praw z nich wynikających, d.
-udziałów w spółkach,
+Są one opodatkowane ryczałtowo stawką 19% (pozostałe dochody do kwoty 85 528 zł rocznie są opodatkowane stawką 18% a powyżej tej kwoty stawką 32%) i dotyczą dochodów uzyskanych między innymi z:
 
-Z powodu stosunkowo niskiej stawki oraz słabo rozwiniętego rynku kapitałowego w Polsce podatek ten odgrywa dość niewielką rolę (wyk. 4).
+1.  odsetek
+
+2.  dywidend
+
+3.  dochodu z tytułu udziału w funduszach kapitałowych
+
+4.  z odpłatnego zbycia:
+
+    1.  papierów wartościowych,
+
+    2.  pożyczonych papierów wartościowych (sprzedaż krótka),
+
+    3.  pochodnych instrumentów finansowych oraz realizacji praw z nich wynikających,
+
+    4.  udziałów w spółkach,
+
+Z powodu stosunkowo niskiej stawki oraz słabo rozwiniętego rynku kapitałowego w Polsce podatek ten odgrywa dość niewielką rolę (rys. \@ref(fig:rys32)).
 Coraz mniej podatników osiąga dochody z tego tytułu, choć ci, którzy tego dokonali osiągają coraz większe zyski.
 
-Wykres 4.
-Rola podatku od dochodów kapitałowych w Polskim systemie podatkowym.
+(ref:rys32) Rola podatku od dochodów kapitałowych w Polskim systemie podatkowym <br> - PIT-38 składają osoby opodatkowujące dochody kapitałowe <br> Źródło: Opracowanie własne na podstawie danych Departamentu Podatków Dochodowych Ministerstwa Finansów za: dane.gov.pl
 
--   PIT-38 składają osoby opodatkowujące dochody kapitałowe Źródło: Opracowanie własne na podstawie danych Departamentu Podatków Dochodowych Ministerstwa Finansów za: dane.gov.pl
+```{r rys32, echo=FALSE, fig.align='left', fig.cap='(ref:rys32)', out.width='100%'}
+dane4 <- read_excel("rysunki\\podatki.xlsx", sheet = 4) %>% 
+     mutate(across(where(is.double), ~round(.,digits = 3)))
+
+plot_ly(dane4, x = ~Rok) %>% 
+     add_trace(y = ~`Udział podatku od dochodów kapitałowych w przychodach z PIT`, name = 'Udział podatku od dochodów kapitałowych w przychodach z PIT',type = 'scatter', mode = 'lines+markers') %>% 
+     add_trace(y = ~`Udział podatników składających PIT-38*`, name = 'Udział podatników składających PIT-38*',type = 'scatter', mode = 'lines+markers') %>% 
+     layout(legend = list(x = 0.1, y = 0.1),
+            yaxis = list(tickformat = '.2%', title = "", range = c(0,0.03)),
+            yaxis = list(title = ""),
+            xaxis = list(title = ""))
+```
 
 Trzeba jednak zauważyć, że powyższy obraz jest niepełny.
 Dzięki funkcjonującej w UE swobodzie przepływu osób i kapitału, osoby uzyskujące wysokie dochody z kapitału mogą stosunkowo łatwo przenieść swoją siedzibę podatkową do jednego z wielu funkcjonujących w UE rajów podatkowych np.
-Luksemburga, Monako czy Lichtensteinu\[14\].
+Luksemburga, Monako czy Lichtensteinu[^polityka_budzetowa-11].
+
+[^polityka_budzetowa-11]: Przykłady rajów podatkowych w UE: <https://financialsecrecyindex.com/en/introduction/fsi-2018-results>, <https://missingprofits.world/>
+
 Rozwijając jednak zagadnienie podatku od osób fizycznych to oprócz tego, że stanowi on czwarte najważniejsze źródło dochodów publicznych to istotny jest fakt, że mimo dwóch stawek jest to w rzeczywistości podatek liniowy.
-Liczba podatników w wyższym przedziale podatkowym nie sięga 4% (wyk. 5).
+Liczba podatników w wyższym przedziale podatkowym nie sięga 4% (rys. \@ref(fig:rys33)).
 Przeszło dwukrotny wzrost tej liczby wynika częściowo z efektu inflacji czyli nominalnego a nie realnego wzrostu płac.
 
-Wykres 5.
-Udział podatników w II przedziale podatkowym PIT w latach 2009-2017
+(ref:rys33) Udział podatników w II przedziale podatkowym PIT <br> - PIT-38 składają osoby opodatkowujące dochody kapitałowe <br> Źródło: Opracowanie własne na podstawie danych Departamentu Podatków Dochodowych Ministerstwa Finansów za: dane.gov.pl
 
-Źródło: Opracowanie własne na podstawie danych Departamentu Podatków Dochodowych Ministerstwa Finansów za: dane.gov.pl
+```{r rys33, echo=FALSE, fig.align='left', fig.cap='(ref:rys33)', out.width='100%'}
+dane4$Rok <- as.numeric(dane4$Rok)
 
-Liniowy charakter podatku dochodowego w Polsce jest sprzeczny z generalnym postulatem MMT zalecającym wprowadzanie automatycznych stabilizatorów koniunktury wyrażonym najbardziej bezpośrednio w uzasadnieniu sztandarowej propozycji tej szkoły czyli gwarancji zatrudnienia\[15\].
+an1 <- list(
+     x = dane4$Rok[1],
+     y = dane4$`Podatnicy w II przedziale podatkowym`[1],
+     text = paste(dane4$`Podatnicy w II przedziale podatkowym`[1]*100, "%"),
+     xref = "x",
+     yref = "y",
+     showarrow = TRUE,
+     arrowhead = 6,
+     arrowcolor = "blue",
+     ax = -0,
+     ay = 20,
+     font = list(color = "blue")
+)
+an2 <- list(
+     x = dane4$Rok[nrow(dane4)],
+     y = dane4$`Podatnicy w II przedziale podatkowym`[nrow(dane4)],
+     text = paste(dane4$`Podatnicy w II przedziale podatkowym`[nrow(dane4)]*100, "%"),
+     xref = "x",
+     yref = "y",
+     showarrow = TRUE,
+     arrowhead = 6,
+     arrowcolor = "blue",
+     ax = 0,
+     ay = -20,
+     font = list(color = "blue")
+)
+
+plot_ly(dane4, x = ~Rok, hoverinfo = 'text',
+        text = ~paste0(Rok, ", ", `Podatnicy w II przedziale podatkowym`*100, " %")) %>% 
+     add_trace(y = ~`Podatnicy w II przedziale podatkowym`, name = 'Podatnicy w II przedziale podatkowym',type = 'scatter', mode = 'lines') %>% 
+     layout(legend = list(x = 0.1, y = 0.1),
+            yaxis = list(tickformat = '.1%', showticklabels = FALSE, title = "", range = c(0,0.05), zeroline = FALSE),
+            yaxis = list(title = ""),
+            xaxis = list(title = ""),
+            annotations = list(an1, an2))
+```
+
+Liniowy charakter podatku dochodowego w Polsce jest sprzeczny z generalnym postulatem MMT zalecającym wprowadzanie automatycznych stabilizatorów koniunktury wyrażonym najbardziej bezpośrednio w uzasadnieniu sztandarowej propozycji tej szkoły czyli gwarancji zatrudnienia[^polityka_budzetowa-12].
 Otóż mimo swoich wad wypunktowanych przez L.
 Randay'a Wray'a w cytowanej książce, podatek ten posiada istotną przewagę nad podatkami konsumpcyjnymi i majątkowymi.
 W przeciwieństwie do tych pierwszych powoduje zmniejszenie oszczędności, które stanowią „dziurę" osłabiającą skuteczność polityki fiskalnej. W stosunku do tych drugich przewaga polega na tym, że progresywny podatek dochodowy jest pozytywnie wrażliwy na inflację. Progresja powoduje, że inflacja skutkuje przenoszeniem podatników do wyższych progów podatkowych. Oznacza to, że w wyniku wyższej inflacji następuje automatyczny wzrost przeciętnego opodatkowania co hamuje tendencje inflacyjne. Efekt ten jednak maleje wraz ze wzrostem zamożności społeczeństwa i spadającym udziałem konsumpcji w wydatkach gospodarstw domowych. W tym sensie spełnia warunek idealnego podatku wg MMT (Mitchell, Wray, i Watts 2019, s. 323).
+
+[^polityka_budzetowa-12]: Ciekawym sposobem na rozwiązanie dylematu czy zlikwidować PIT czy utrzymać jego progresywną wersję jest postulat znacznego zwiększenia kwoty wolnej od podatku.
+    Szerzej na temat ekonomicznych skutków takiego rozwiązania (Augustyński 2016)
 
 ## Podsumowanie
 
 Konstytucja RP doskonale pokazuje jak pełny sprzeczności jest system gospodarczy w Polsce.
 Z jednej strony jest Art. 65.
-pkt 5, który stwierdza iż „Władze publiczne prowadzą politykę zmierzającą do pełnego, produktywnego zatrudnienia poprzez realizowanie programów zwalczania bezrobocia, w tym organizowanie i wspieranie poradnictwa i szkolenia zawodowego oraz robót publicznych i prac interwencyjnych." Bez żadnych zmian może być on podstawą do wdrażania jednej z podstawowych propozycji MMT czyli systemu gwarancji zatrudnienia. Z drugiej strony jednak są w konstytucji zawarte takie artykuły jak: · Art. 216. pkt 5. Nie wolno zaciągać pożyczek lub udzielać gwarancji i poręczeń finansowych, w następstwie których państwowy dług publiczny przekroczy 3/5 wartości rocznego produktu krajowego brutto. Sposób obliczania wartości rocznego produktu krajowego brutto oraz państwowego długu publicznego określa ustawa, · Art. 220. pkt 2. Ustawa budżetowa nie może przewidywać pokrywania deficytu budżetowego przez zaciąganie zobowiązania w centralnym banku państwa, które są emanacją pewnych postaw ideologicznych dominujących w okresie jej pisania i niepodparte żadną teorią ekonomiczną ani faktami. Nie istnieją żadne prace naukowe uzasadniające próg 3/5 PKB, a przykłady wielu krajów, w tym europejskich, pokazują brak związku między przekroczeniem tego progu a wzrostem gospodarczym. Również działania wielu banków centralnych w tym EBC, Banku Japonii, Banku Wielkiej Brytanii, FED po 2008 r. pokazały nieracjonalność art. 220 pkt 2 konstytucji. Na gruncie teoretycznym wyjaśnia to właśnie szkoła Nowoczesnej Teorii Monetarnej. Jeśli naprawdę celem polityki gospodarczej państwa ma być pełne i produktywne zatrudnienie, to według MMT można to osiągnąć wyłącznie za pomocą polityki budżetowej. Wynika to z dwóch faktów: po pierwsze tylko polityka budżetowa dysponuje odpowiednimi narzędziami wpływu na zagregowany popyt, którego niedostateczny poziom jest główną przyczyną bezrobocia w krajach wysoko rozwiniętych; po drugie wydatki publiczne nie są ograniczone dochodami państwa. Skalę wydatków publicznych ogranicza za to: 1. Strona podażowa - w krótkim okresie w postaci zainstalowanych mocy produkcyjnych, w średnim okresie struktura zatrudnienia\[16\], a w długim okresie wzrost wydajności pracy. 2. Strumień dochodów z tytułu odsetek od długu publicznego. 3. Wzrost zadłużenia prywatnego i wynikające z tego zagrożenie kryzysami finansowymi.
+pkt 5, który stwierdza iż „Władze publiczne prowadzą politykę zmierzającą do pełnego, produktywnego zatrudnienia poprzez realizowanie programów zwalczania bezrobocia, w tym organizowanie i wspieranie poradnictwa i szkolenia zawodowego oraz robót publicznych i prac interwencyjnych." Bez żadnych zmian może być on podstawą do wdrażania jednej z podstawowych propozycji MMT czyli systemu gwarancji zatrudnienia.
+
+Z drugiej strony jednak są w konstytucji zawarte takie artykuły jak: ·
+
+-   Art. 216.
+    pkt 5.
+    Nie wolno zaciągać pożyczek lub udzielać gwarancji i poręczeń finansowych, w następstwie których państwowy dług publiczny przekroczy 3/5 wartości rocznego produktu krajowego brutto.
+    Sposób obliczania wartości rocznego produktu krajowego brutto oraz państwowego długu publicznego określa ustawa, ·
+
+-   Art. 220.
+    pkt 2.
+    Ustawa budżetowa nie może przewidywać pokrywania deficytu budżetowego przez zaciąganie zobowiązania w centralnym banku państwa,
+
+które są emanacją pewnych postaw ideologicznych dominujących w okresie jej pisania i niepodparte żadną teorią ekonomiczną ani faktami.
+Nie istnieją żadne prace naukowe uzasadniające próg 3/5 PKB, a przykłady wielu krajów, w tym europejskich, pokazują brak związku między przekroczeniem tego progu a wzrostem gospodarczym.
+Również działania wielu banków centralnych w tym EBC, Banku Japonii, Banku Wielkiej Brytanii, FED po 2008 r.
+pokazały nieracjonalność art. 220 pkt 2 konstytucji.
+Na gruncie teoretycznym wyjaśnia to właśnie szkoła Nowoczesnej Teorii Monetarnej.
+
+Jeśli naprawdę celem polityki gospodarczej państwa ma być pełne i produktywne zatrudnienie, to według MMT można to osiągnąć wyłącznie za pomocą polityki budżetowej.
+Wynika to z dwóch faktów: po pierwsze tylko polityka budżetowa dysponuje odpowiednimi narzędziami wpływu na ogólny popyt, którego niedostateczny poziom jest główną przyczyną bezrobocia w krajach wysoko rozwiniętych; po drugie wydatki publiczne nie są ograniczone dochodami państwa.
+
+Skalę wydatków publicznych ogranicza za to:
+
+1.  Strona podażowa - w krótkim okresie w postaci zainstalowanych mocy produkcyjnych, w średnim okresie struktura zatrudnienia[^polityka_budzetowa-13], a w długim okresie wzrost wydajności pracy.
+
+2.  Strumień dochodów z tytułu odsetek od długu publicznego.
+
+3.  Wzrost zadłużenia prywatnego i wynikające z tego zagrożenie kryzysami finansowymi.
+
+[^polityka_budzetowa-13]: Wzrost popytu mógłby wywołać inflację gdyż płace i ceny wzrosłyby w sektorach wysoko zaawansowanych zanim zostałaby wygenerowana wystarczająca podaż miejsc pracy z sektorów opóźnionych.
 
 Podatki pełnią według MMT dwie funkcje: kreują popyt na państwowy pieniądz oraz poprzez ograniczanie popytu stanowią narzędzie kontroli inflacji.
 Powinny zatem być powszechne i automatycznie reagować na wzrost inflacji.
 Otwarte jest jednak pytanie czy automatyczna reakcja systemu podatkowego możliwa dzięki (wielu) progom podatkowym jest w stanie utrzymać inflację w ryzach?
 Czy może niezbędne są działania dyskrecjonalne a jeśli tak czy są one politycznie realne?
+
 Literatura nurtu MMT jest dość uboga jeśli chodzi o zdefiniowanie optymalnej struktury podatkowej.
 Stwierdza się jedynie, że powinna być optymalna z punktu widzenia realizacji celów społecznych.
 Kryterium powszechności najlepiej realizuje podatek od nieruchomości liczony od powierzchni, a kwestie społeczne podatek akcyzowy.
