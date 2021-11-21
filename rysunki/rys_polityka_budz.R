@@ -57,7 +57,59 @@ plot_ly(dane1, x = ~Rok) %>%
 # Tabela 1
 # K27; G423; P2622 (dochody własne); dochody podatkowe - podatek od nieruchomości
 # K27; G423; P2621 (dochody ogółem)
+library(bdl)
+get_variables("P2621")
+podatek <- get_data_by_variable("76077", year = 2020, unitLevel = 6)
+dochody <- get_data_by_variable("76037", year = 2020, unitLevel = 6)
+udzial <- left_join(podatek[,1:4], dochody[,1:4], by = c( "id" = "id")) %>% 
+     mutate(udzial = val.x/val.y) %>% 
+     filter(!is.nan(udzial)) %>% 
+     select(name.x, udzial)
 
+an1 <- list(
+     x = 0,
+     y = quantile(udzial$udzial)[2],
+     text = paste(round(quantile(udzial$udzial)[2]*100, digits = 2),"%, Jedna czwarta gmin"),
+     xref = "x",
+     yref = "y",
+     xanchor = 'middle',
+     showarrow = FALSE,
+     arrowhead = 6,
+     ay = 0,
+     font = list(color = "blue")
+)
+an2 <- list(
+     x = 0,
+     y = median(udzial$udzial),
+     text = paste(round(median(udzial$udzial)*100, digits = 2), "%, Połowa gmin"),
+     xref = "x",
+     yref = "y",
+     xanchor = 'middle',
+     showarrow = FALSE,
+     arrowhead = 6,
+     ay = 0,
+     font = list(color = "blue")
+)
+an3 <- list(
+     x = 0,
+     y = quantile(udzial$udzial)[4],
+     text = paste(round(quantile(udzial$udzial)[4]*100, digits = 2),"%, Trzy czwarte gmin"),
+     xref = "x",
+     yref = "y",
+     xanchor = 'middle',
+     showarrow = FALSE,
+     arrowhead = 6,
+     ay = 0,
+     font = list(color = "blue")
+)
+plot_ly(y = udzial$udzial, type = "box", boxpoints = "all", jitter = 0.3,
+        pointpos = -1.8, alpha = 0.3, name = "",
+        text = paste(as.character(round(udzial$udzial*100, digits = 2)), "%\n", as.character(udzial$name.x)),
+        hoverinfo = "text") %>% 
+     layout(
+          yaxis = list(tickformat = '.2%', zeroline = FALSE),
+          annotations = list(an1, an2, an3)
+     )
 # -----------------------------------------
 # wykres 3 dochody budżetowe
 
