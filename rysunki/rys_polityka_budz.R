@@ -102,8 +102,7 @@ an3 <- list(
      ay = 0,
      font = list(color = "blue")
 )
-plot_ly(y = udzial$udzial, type = "box", boxpoints = "all", jitter = 0.3,
-        pointpos = -1.8, alpha = 0.3, name = "",
+plot_ly(y = udzial$udzial, type = "box", name = "",
         text = paste(as.character(round(udzial$udzial*100, digits = 2)), "%\n", as.character(udzial$name.x)),
         hoverinfo = "text") %>% 
      layout(
