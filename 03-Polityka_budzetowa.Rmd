@@ -4,7 +4,9 @@
     knitr::opts_chunk$set(
       echo=FALSE, warning=FALSE, message=FALSE
     )
+    options(knitr.table.format = "html")
     ```
+<br>
 
 O ile neoklasycy i neokeynesiści koncentrują się na podażowych ograniczeniach wzrostu gospodarczego, o tyle postkeynesiści i zwolennicy Nowoczesnej Teorii Monetarnej przyjmują przeciwną postawę.
 Uważają, że we współczesnych gospodarkach wzrost jest ograniczany wielkością całkowitego popytu a bariery związane z ogólną podażą np.
@@ -110,25 +112,25 @@ dane1 <- read_excel("rysunki\\transfery_z_UE.xlsx", range = "A1:E18")
 
 an1 <- list(
      x = dane1$Rok[3],
-     y = dane1$CPI[1],
+     y = dane1$CPI[1]+0.005,
      text = "<b>Inflacja CPI</b>",
      xref = "x",
      yref = "y",
      showarrow = FALSE,
      ax = -0,
      ay = 20,
-     font = list(color = "#ff7f0e", size = 16)
+     font = list(color = "#ff7f0e", size = 15)
 )
 an2 <- list(
      x = dane1$Rok[5],
-     y = 0.005,
+     y = 0.004,
      text = "<b>Saldo transferów z UE (% PKB)</b>",
      xref = "x",
      yref = "y",
      showarrow = FALSE,
      ax = -0,
      ay = 20,
-     font = list(color = "#1f77b4", size = 16)
+     font = list(color = "#1f77b4", size = 15)
 )
 
 plot_ly(dane1, x = ~Rok) %>% 
@@ -211,19 +213,58 @@ Zaskakujący jest więc prawie całkowity brak prac przestawiających poglądy M
 Kwestie te zostały chyba najszerzej opisane w popularno-naukowej książce „Nowoczesna teoria monetarna MMT: wprowadzenie do makroekonomii suwerennych systemów monetarnych" (Larry Randall Wray 2019) oraz w artykule tego samego autora o równie mało naukowym charakterze (L. Randall Wray 1993). Przedstawione w niej cechy systemu podatkowego można ująć w dwóch kategoriach, „ilościowej" i „jakościowej". Podział taki wynika z faktu, iż strona dochodowa budżetu czyli podatki nie jest bezpośrednio związana ze stroną wydatkową. Od strony ilościowej podatki mają spełniać funkcję „legitymizacji" pieniądza emitowanego przez państwo.
 W tym celu muszą być pobierane w takiej wysokości aby zapewnić wystarczający popyt na pieniądze, którymi państwo płaci za świadczone na jego rzecz usługi i wykorzystywane przez nie produkty.
 Autorzy ze szkoły MMT nie przedstawiają jednak żadnych propozycji minimalnej, koniecznej do zebrania, kwoty w stosunku do planowanych wydatków.
-Można jedynie przypuszczać, że jest to zależność nieliniowa i związana z poziomem rozwoju gospodarczego, stopniem „monetyzacji" gospodarki, struktury instytucjonalnej, zdolności państwa do ściągania podatków oraz poziomu zaufania do instytucji państwa. Wydaje się, że MMT zakłada, iż w krajach wysokorozwiniętych nie istnieje bariera popytu na walutę krajową. Nie jest to kontrowersyjne założenie w przypadku Stanów Zjednoczonych, krajów członkowskich UE czy Japonii. W przypadku wielu innych krajów warunek ten nie musi być jednak spełniony, czego autorzy piszący w nurcie MMT wydają się być świadomi. Istnieje szeroka literatura dotycząca dolaryzacji lub euroizacji gospodarek państw. Z badań wynika (Rochon i Seccareccia 2003; Drenik i Perez 2020; Özyurt i Economics) 2020; Tweneboah, Gatsi, i Asamoah 2019), że wzrost popytu na walutę obcą jest związany głównie z wysoka inflacją i wysoką zmiennością kursu waluty krajowej. W Polsce również dość niedawno funkcjonował drugi obieg dolarowy. Opierając się na danych (Reinhart, Rogoff, i Savastano 2003) można sprawdzić, czy istnieje związek między stopniem dolaryzacji wybranych gospodarek a dochodami podatkowymi. Na przykładzie Meksyku i Boliwii widać, że „popularność" waluty krajowej zależy również od innych czynników niż ogólny poziom zobowiązań podatkowych.
-Nie jest to sprzeczne z poglądami MMT, gdzie popyt na pieniądz generowany przez podatki stanowi jedynie pewną bazę -- poziom minimalny zapotrzebowania na pieniądz krajowy.
-Wykres 2 sugeruje, iż ten bazowy poziom można szacować na ok. 12-14% PKB, gdyż taki najniższy udział podatków w PKB mają kraje o najniższym udziale depozytów walutowych w M2 w badanej grupie czyli w Kolumbii i w Meksyku.
+Można jedynie przypuszczać, że jest to zależność nieliniowa i związana z poziomem rozwoju gospodarczego, stopniem „monetyzacji" gospodarki, struktury instytucjonalnej, zdolności państwa do ściągania podatków oraz poziomu zaufania do instytucji państwa. Wydaje się, że MMT zakłada, iż w krajach wysokorozwiniętych nie istnieje bariera popytu na walutę krajową. Nie jest to kontrowersyjne założenie w przypadku Stanów Zjednoczonych, krajów członkowskich UE czy Japonii. W przypadku wielu innych krajów warunek ten nie musi być jednak spełniony, czego autorzy piszący w nurcie MMT wydają się być świadomi. Istnieje szeroka literatura dotycząca dolaryzacji lub euroizacji gospodarek państw. Z badań wynika (Rochon i Seccareccia 2003; Drenik i Perez 2020; Özyurt i Economics) 2020; Tweneboah, Gatsi, i Asamoah 2019), że wzrost popytu na walutę obcą jest związany głównie z wysoka inflacją i wysoką zmiennością kursu waluty krajowej. W Polsce również dość niedawno funkcjonował drugi obieg dolarowy.
 
-Wykres 2.
-Relacja między dochodami podatkowymi a stopniem dolaryzacji w wybranych krajach w okresie 1980-2001\*.
+Opierając się na danych Międzynarodowego Funduszu Walutowego można sprawdzić, czy istnieje związek między ilością pieniądza w wybranych gospodarkach a dochodami podatkowymi. Odrzucając dyktatury takie jak Mjanma (gdzie za posiadanie walut obcych może grozić więzienie) czy będące w stanie wojny jak Afganistan minimalny poziom można szacować na 11% PKB czyli taki jak w przypadku Ugandy. Jednak [Wikipedia sugeruje](https://en.wikipedia.org/wiki/Ugandan_shilling), że nie jest to dobry przykład ponieważ dolar amerykański jest tam w powszechnym użyciu. Dlatego bezpieczniej uznać, że jest to raczej ok. 13% tak jak w Egipcie, który wyróżnia się poza tym wysokim użyciem pieniądza (rys. \@ref(fig:rys301))
 
-Źródło: opracowanie własne na podstawie (Reinhart, Rogoff, i Savastano 2003) oraz bazy GFSR IMF.
-\* W przypadku niektórych krajów uwzględniony okres może się zaczynać później.
-\*\* jest to w przybliżeniu stosunek depozytów w walutach obcych do agregatu M2
+(ref:rys301) Relacja między ilością pieniądza w obiegu a dochodami budżetowymi <br> \* M0 to gotówka w obiegu plus depozyty płatne na żądanie <br> Źródło: opracowanie własne na podstawie bazy GFSR IMF
 
-Oznacza to, że w sytuacji niskiej inflacji i stabilnego kursu walutowego wystarczy, że podatki będą generować popyt na walutę krajową nie większy niż 14% PKB aby waluta ta była w powszechnym użyciu.
-Jest to znacznie mniej niż w krajach wysoko rozwiniętych.
+```{r rys301, echo=FALSE, fig.align='left', fig.cap='(ref:rys301)', out.width='100%'}
+plt <- read.csv2("rysunki\\m0_dochody.csv")
+
+fit <- lm(M0_mean ~ revenues, data = plt) %>% fitted.values()
+
+vline <- function(x = 0, color = "green") {
+     list(
+          type = "line",
+          y0 = 0,
+          y1 = 1,
+          yref = "paper",
+          x0 = x,
+          x1 = x,
+          line = list(color = color, dash="dot")
+     )
+}
+an <- list(
+     x = 13,
+     y = 0.02,
+     text = "13 %",
+     xref = "x",
+     yref = "y",
+     showarrow = TRUE,
+     arrowhead = 6,
+     arrowcolor = "green",
+     ax = 20,
+     ay = -20,
+     font = list(color = "green")
+)
+
+plot_ly() %>% 
+     add_trace(x = plt$revenues, y=plt$M0_mean, type = "scatter", mode = "markers") %>%
+     add_trace(x = plt$revenues, y = fit, type = "scatter", mode = "lines") %>%
+     add_text(x = plt$revenues+.5, y=plt$M0_mean, text = plt$country, textposition = 'right') %>% 
+     layout(
+          xaxis = list(title = "Dochody budżetowe jako % of PKB", range = c(5,41)),
+          yaxis = list(title = "M0* jako % PKB"),
+          shapes = list(vline(13)),
+          showlegend = FALSE,
+          annotations = list(an)
+     )
+
+```
+
+
+Oznacza to, że w sytuacji stabilnej inflacji i stabilnego kursu walutowego wystarczy, że podatki będą generować popyt na walutę krajową nie większy niż 13% PKB aby waluta ta była w powszechnym użyciu.
 
 Od strony jakościowej rozważania w ramach MMT dotyczą optymalnej struktury podatkowej.
 Skoro podatki nie służą finansowaniu wydatków, to logika tego co i w jakim stopniu powinno być opodatkowane, jest zupełnie inna niż obecnie funkcjonująca.
@@ -247,43 +288,23 @@ Jak pisze Larry Randall Wray (2019, s. 219) „Dlaczego zachowaniem niepożądan
 Chodzi o wpływ na środowisko: o przygotowanie ziemi, materiałów budowlanych, umeblowanie i -- co najważniejsze -- o energię, którą wykorzystujemy do ogrzewania i chłodzenia naszych domów". Brzeziński (2017, s. 177) dodaje, iż opodatkowanie nieruchomości usprawiedliwia fakt ponoszenia wydatków na infrastrukturę obsługującą te nieruchomości oraz stanowi w pewnej mierze odpłatność za zajęcie na cele prywatne przestrzeni publicznej. Jak widać nie jest to jednak inna nazwa dla istniejącego w wielu krajach podatku katastralnego gdyż podstawą opodatkowania jest wielkość domu a nie jego nominalna wartość. Wartość ta ma znacznie większy związek z lokalizacją nieruchomości a nie jej szkodliwością społeczną i ekologiczną. Co więcej, podatek od wartości nieruchomości zachęca do przenoszenia się z dala od centrów miast a co za tym idzie podnosi koszty społeczne związane z rozlewaniem się miast.
 
 Istotną zaletą podatków majątkowych jest stosunkowo duża przewidywalność możliwych do osiągnięcia za ich pomocą wpływów podatkowych, które to wpływy są w zasadzie niezależne od zmian koniunktury gospodarczej (Brzeziński 2017).
-Pisał już o tym M.
-Kalecki w 1943 r.
-(Kalecki 1979, s. 339-349):
+Pisał już o tym M. Kalecki w 1943 r. (Kalecki 1979, s. 339-349):
 
 > *„Gdy utrzymuje się pełne zatrudnienie za pomocą wydatków państwowych finansowanych z pożyczek, to dług publiczny będzie stale rosnąć. Nie musi to jednak prowadzić do żadnych zaburzeń rozmiarów produkcji i zatrudnienia, jeśli odsetki od długu finansuje się za pomocą rocznego podatku majątkowego. Po opłaceniu podatku majątkowego bieżący dochód jednych kapitalistów będzie niższy, a innych -- wyższy niż w przypadku, gdyby dług publiczny się nie zwiększył. Niemniej ich łączne dochody pozostaną niezmienione, a ich zagregowana konsumpcja zapewne też znacznie się nie zmniejszy. Dalej, podatek majątkowy nie wpłynie na skłonność do inwestowania w kapitał trwały, gdyż podatek ten płaci się od każdego rodzaju majątku."*
 
-Larry Randall Wray (2019, s. 221) wyróżnia trzy rodzaje niepożądanych podatków: podatki od wynagrodzeń, podatki konsumpcyjne oraz podatki dochodowe od osób prawnych.
-Uzasadnienie ich likwidacji jest jednak pobieżne i pomija wiele ważnych aspektów.
+Larry Randall Wray (2019, s. 221) wyróżnia trzy rodzaje niepożądanych podatków: podatki od wynagrodzeń, podatki konsumpcyjne oraz podatki dochodowe od osób prawnych. Uzasadnienie ich likwidacji jest jednak pobieżne i pomija wiele ważnych aspektów.
 
-W przypadku podatku od wynagrodzeń trafnie zauważa, iż promuje on dochody uzyskiwane z innych źródeł niż praca przez co zwiększa nierówności.
-Jednak podnoszone przez niego zarzuty takie jak preferowanie zastępowanie ludzi maszynami, obniżanie konkurencyjności międzynarodowej spowodowane wyższymi kosztami pracy są sprzeczne z proponowaną zasadą opodatkowania rzeczy niekorzystnych społecznie.
-Z punktu widzenia społeczeństwa podnoszenie wydajności pracy jest korzystne, a strategia zdobywania przewagi konkurencyjnej poprzez obniżanie kosztów pracy jest niekorzystna.
-Podatek ten z kolei posiada ważne zalety z punktu widzenia MMT gdyż jest jednym z najbardziej powszechnych oraz istotnie wpływa na ograniczenie popytu.
-W artykule (L. Randall Wray 1993) pojawia się lepszy argument za co najmniej pogłębioną analizą podatku PIT a mianowicie fakt, iż będąc kosztem dla pracodawcy zostaje przerzucony przynajmniej częściowo na ceny produktów i usług i w ten sposób jest potencjalnie inflacjogenny[^polityka_budzetowa-8].
-Argument ten jest prawdziwy również dla pozostałych dwóch podatków.
+W przypadku podatku od wynagrodzeń trafnie zauważa, iż promuje on dochody uzyskiwane z innych źródeł niż praca przez co zwiększa nierówności. Jednak podnoszone przez niego zarzuty takie jak preferowanie zastępowanie ludzi maszynami, obniżanie konkurencyjności międzynarodowej spowodowane wyższymi kosztami pracy są sprzeczne z proponowaną zasadą opodatkowania rzeczy niekorzystnych społecznie. Z punktu widzenia społeczeństwa podnoszenie wydajności pracy jest korzystne, a strategia zdobywania przewagi konkurencyjnej poprzez obniżanie kosztów pracy jest niekorzystna.
+Podatek ten z kolei posiada ważne zalety z punktu widzenia MMT gdyż jest jednym z najbardziej powszechnych oraz istotnie wpływa na ograniczenie popytu. W artykule (L. Randall Wray 1993) pojawia się lepszy argument za co najmniej pogłębioną analizą podatku PIT a mianowicie fakt, iż będąc kosztem dla pracodawcy zostaje przerzucony przynajmniej częściowo na ceny produktów i usług i w ten sposób jest potencjalnie inflacjogenny[^polityka_budzetowa-8]. Argument ten jest prawdziwy również dla pozostałych dwóch podatków.
 
 [^polityka_budzetowa-8]: Potencjał ten zależy od możliwości kształtowania marży przez firmy, a ta z kolei od stopnia monopolizacji (Kalecki 1980).
 
-Nieprzekonująca jest również argumentacja za zniesieniem podatku od konsumpcji, który jest nawet bardziej powszechny niż dochodowy i jeszcze skuteczniej obniża popyt nie wpływając negatywnie na inflację.
-Słuszna jest uwaga, że jest to podatek silnie degresywny (wraz ze wzrostem dochodów spada udział wydatków konsumpcyjnych na rzecz oszczędności) jednak realnie istniejące systemy podatków konsumpcyjnych (podatek VAT) posiadają zwykle kilka stawek w tym stawkę zerową a poprzez swoją powszechność pozwalają na takie korzystne z punktu widzenia ekologii i zdrowia działania jak podnoszenie cen mięsa w stosunku do żywności pochodzenia roślinnego.
-Oczywiście można VAT zastąpić szeregiem indywidualnych podatków o charakterze akcyzowym ale koszty administracyjne takiej zmiany mogły by być znaczne a korzyści ekonomiczne bardzo wątpliwe.
+Nieprzekonująca jest również argumentacja za zniesieniem podatku od konsumpcji, który jest nawet bardziej powszechny niż dochodowy i jeszcze skuteczniej obniża popyt nie wpływając negatywnie na inflację. Słuszna jest uwaga, że jest to podatek silnie degresywny (wraz ze wzrostem dochodów spada udział wydatków konsumpcyjnych na rzecz oszczędności) jednak realnie istniejące systemy podatków konsumpcyjnych (podatek VAT) posiadają zwykle kilka stawek w tym stawkę zerową a poprzez swoją powszechność pozwalają na takie korzystne z punktu widzenia ekologii i zdrowia działania jak podnoszenie cen mięsa w stosunku do żywności pochodzenia roślinnego. Oczywiście można VAT zastąpić szeregiem indywidualnych podatków o charakterze akcyzowym ale koszty administracyjne takiej zmiany mogły by być znaczne a korzyści ekonomiczne bardzo wątpliwe.
 
-Najwięcej kontrowersji wzbudza jednak postulat likwidacji podatku dochodowego od osób prawnych (CIT).
-Rzeczywiście jego podstawową wadą jest konstrukcja zachęcająca do zaciągania długu (tzw. „tarcza podatkowa").
-Sprzyja również generowaniu niepotrzebnych kosztów, które mogą być odpisane od podatku.
-Likwidacja tego podatku rozwiązałaby również problem rajów podatkowych.
-Podatek ten ma również charakter degresywny - dużym podmiotom łatwiej wynegocjować jego obniżenie lub likwidację a także łatwiej przenieść jego ciężar na klientów.
-Niemniej zaproponowana alternatywa w postaci zwiększonego opodatkowania właścicieli firm jest nierealna w dzisiejszym świecie.
-Likwidacja podatku CIT oznaczałaby, że wzrośnie dochód do dyspozycji firm.
-Część tego dochodu zostaje w firmie na potrzeby inwestycyjne a reszta jest wypłacana właścicielom np.
-w formie dywidendy.
-Obecnie sposobem na uniknięcie lub obniżenie zobowiązania CIT stosowanym przez korporacje jest wykazywanie dochodów w krajach o bardzo niskiej lub zerowej stawce tego podatku przy jednoczesnym generowaniu kosztów w krajach o wysokim podatku.
-Pozwala to zarówno na uniknięcie płacenia podatku CIT, jak i wykazywania dochodów z własności kapitału w podatkach PIT.
-Proponowana przez MMT likwidacja CIT tylko uprości ten proceder unikania opodatkowania bo raje podatkowe dalej będą umożliwiać uniknięcie płacenia podatków przez właścicieli firm.
+Najwięcej kontrowersji wzbudza jednak postulat likwidacji podatku dochodowego od osób prawnych (CIT). Rzeczywiście jego podstawową wadą jest konstrukcja zachęcająca do zaciągania długu (tzw. „tarcza podatkowa"). Sprzyja również generowaniu niepotrzebnych kosztów, które mogą być odpisane od podatku. Likwidacja tego podatku rozwiązałaby również problem rajów podatkowych. Podatek ten ma również charakter degresywny - dużym podmiotom łatwiej wynegocjować jego obniżenie lub likwidację a także łatwiej przenieść jego ciężar na klientów. Niemniej zaproponowana alternatywa w postaci zwiększonego opodatkowania właścicieli firm jest nierealna w dzisiejszym świecie. Likwidacja podatku CIT oznaczałaby, że wzrośnie dochód do dyspozycji firm. Część tego dochodu zostaje w firmie na potrzeby inwestycyjne a reszta jest wypłacana właścicielom np.
+w formie dywidendy. Obecnie sposobem na uniknięcie lub obniżenie zobowiązania CIT stosowanym przez korporacje jest wykazywanie dochodów w krajach o bardzo niskiej lub zerowej stawce tego podatku przy jednoczesnym generowaniu kosztów w krajach o wysokim podatku. Pozwala to zarówno na uniknięcie płacenia podatku CIT, jak i wykazywania dochodów z własności kapitału w podatkach PIT. Proponowana przez MMT likwidacja CIT tylko uprości ten proceder unikania opodatkowania bo raje podatkowe dalej będą umożliwiać uniknięcie płacenia podatków przez właścicieli firm.
 
-Ciekawą propozycją o daleko idących skutkach, jest postulat MMT ukształtowania takiej struktury dochodów aby podatki nie musiały być wykorzystywane w celu redukcji nierówności.
-Inaczej mówiąc szkoła ta preferuje metody zmniejszające nierówności w dochodach przed opodatkowaniem a nie po.
+Ciekawą propozycją o daleko idących skutkach, jest postulat MMT ukształtowania takiej struktury dochodów aby podatki nie musiały być wykorzystywane w celu redukcji nierówności. Inaczej mówiąc szkoła ta preferuje metody zmniejszające nierówności w dochodach przed opodatkowaniem a nie po.
 
 Ujmując kwestie opodatkowania z innej strony można uznać, że według MMT sekwencja ustalania optymalnej struktury podatkowej wygląda następująco:
 
@@ -331,22 +352,17 @@ Akcyza jest podatkiem selektywnym, nakładanym na pewne rodzaje towarów, nie po
 Akcyzę można uznać za podatek uzupełniający w stosunku do podatku od towarów i usług (Wolański 2016, str. 180).
 Podatkiem tym objęte są wyroby akcyzowe czyli produkty energetyczne takie jak paliwa czy węgiel, energia elektryczna, alkohol i napoje alkoholowe oraz wyroby tytoniowe oraz samochody osobowe (Ustawa z dnia 6 grudnia 2008 r. o podatku akcyzowym z póz. zm. 2008).
 
-Tabela 1.
-Porównanie podatku od towarów i usług oraz podatku akcyzowego
+```{r tab31}
+library(kableExtra)
+schemat <- readxl::read_excel("rysunki\\pol_budz_tabele.xlsx", sheet = 1)
+kbl(schemat, align = "l",
+    caption = "Porównanie podatku od towarów i usług oraz podatku akcyzowego <br>Źródło: Opracowanie własne",
+    col.names = c("", "Podatek od towarów i usług", "Podatek akcyzowy")) %>% kable_paper()
+     #%>% row_spec(1:3, background = "#e5e5e5") %>% column_spec(c(1,5), background = "white")
+```
 
-Źródło: opracowanie własne
-
-Porównanie przedstawione w tab.
-1 pokazuje, iż należy zgodzić się z poglądem o komplementarności tych dwóch rodzajów podatków.
-Podczas gdy podatek akcyzowy zapewnia znacznie większą swobodę w kształtowaniu wysokości opodatkowania wybranych dóbr to podatek VAT obejmuje znacznie szerszą bazę podatkową przez co znacznie lepiej nadaje się do ograniczania nadmiernego popytu.
-Ogólność podatku od towarów i usług powoduje również, że łatwiej nim manipulować a nawet niewielki zmiany mają duży wpływ na całkowity popyt.
-Funkcjonowanie wielu jego stawek powoduje, że może on mieć również wpływ na kształtowanie struktury konsumpcji jednak nie tak selektywny jak podatek akcyzowy.
-Można więc chyba przyjąć, że w Polsce i w Unii Europejskiej, w przeciwieństwie do USA, optymalnym rozwiązaniem z punktu widzenia MMT jest miks obu podatków z większą rolą podatku akcyzowego niż obecnie.
-Pełniłyby on funkcje dodatkowego, wysokiego progu podatkowego od dóbr luksusowych lub uznanych za wyjątkowo niekorzystne społecznie.
-Taka zmiana zwiększyłaby również skuteczność systemu podatkowego jako automatycznego stabilizatora koniunktury.
-Wraz ze wzrostem dochodów rośnie właśnie konsumpcja dóbr luksusowych.
-Zwiększenie roli automatycznych stabilizatorów jest jednym z ważniejszych postulatów MMT.
-Łatwość nabywania towarów w innych krajach UE, zwłaszcza dla osób zamożnych, wymagała by jednak większej harmonizacji podatku akcyzowego w UE.
+Porównanie przedstawione w tabeli \@ref(tab:tab31) pokazuje, iż należy zgodzić się z poglądem o komplementarności tych dwóch rodzajów podatków. Podczas gdy podatek akcyzowy zapewnia znacznie większą swobodę w kształtowaniu wysokości opodatkowania wybranych dóbr to podatek VAT obejmuje znacznie szerszą bazę podatkową przez co znacznie lepiej nadaje się do ograniczania nadmiernego popytu. Ogólność podatku od towarów i usług powoduje również, że łatwiej nim manipulować a nawet niewielki zmiany mają duży wpływ na całkowity popyt. Funkcjonowanie wielu jego stawek powoduje, że może on mieć również wpływ na kształtowanie struktury konsumpcji jednak nie tak selektywny jak podatek akcyzowy. Można więc chyba przyjąć, że w Polsce i w Unii Europejskiej, w przeciwieństwie do USA, optymalnym rozwiązaniem z punktu widzenia MMT jest miks obu podatków z większą rolą podatku akcyzowego niż obecnie. Pełniłyby on funkcje dodatkowego, wysokiego progu podatkowego od dóbr luksusowych lub uznanych za wyjątkowo niekorzystne społecznie. Taka zmiana zwiększyłaby również skuteczność systemu podatkowego jako automatycznego stabilizatora koniunktury. Wraz ze wzrostem dochodów rośnie właśnie konsumpcja dóbr luksusowych.
+Zwiększenie roli automatycznych stabilizatorów jest jednym z ważniejszych postulatów MMT. Łatwość nabywania towarów w innych krajach UE, zwłaszcza dla osób zamożnych, wymagała by jednak większej harmonizacji podatku akcyzowego w UE.
 
 ### Podatek od nieruchomości
 
@@ -357,15 +373,60 @@ Przedmiotem opodatkowania podlegają budynki, budowle i grunty.
 Podstawa opodatkowania w podatku od nieruchomości nie jest definiowana jako wartość rynkowa nieruchomości czy gruntów.
 Brane są pod uwagę znamiona zewnętrzne, takie jak powierzchnia i wartość amortyzacyjna (Wolański 2016, s. 240).
 
-Tabela 2.
-Rola podatku od nieruchomości w Polskim systemie podatkowym.
+(ref:rys3tab2) Udział podatku od nieruchomości w dochodach gmin<br> Źródło: Opracowanie własne na podstawie Banku Danych Lokalnych GUS
 
-Źródło: opracowanie własne na podstawie danych GUS
+```{r rys3tab2, echo=FALSE, fig.align='left', fig.cap='(ref:rys3tab2)', out.width='100%'}
+udzial = read.csv2("rysunki\\pod_od_nieruchomosci.csv")
 
-Tak marginalna rola tego podatku wynika głównie z faktu jego bardzo niskiej stopy w przypadku budynków mieszkalnych.
-W 2019 r.[^polityka_budzetowa-9]
-maksymalna stawka podatku od nieruchomości w przypadku budynków mieszkalnych wyniosła 0,79 zł od 1 m2 powierzchni użytkowej a w przypadku budynków związanych z prowadzeniem działalności gospodarczej 23,47 zł od 1 m2 powierzchni użytkowej.
-Oznacza to, że podatek od mieszkania o powierzchni 100 m2 wyniósł maksymalnie[^polityka_budzetowa-10] 79 zł rocznie a podatek od zakładu usługowego o takiej samej powierzchni 2 347 zł rocznie
+an1 <- list(
+     x = 0,
+     y = quantile(udzial$udzial)[2],
+     text = paste(round(quantile(udzial$udzial)[2]*100, digits = 2),"%, Jedna czwarta gmin"),
+     xref = "x",
+     yref = "y",
+     xanchor = 'middle',
+     showarrow = FALSE,
+     arrowhead = 6,
+     ay = 0,
+     font = list(color = "blue")
+)
+an2 <- list(
+     x = 0,
+     y = median(udzial$udzial),
+     text = paste(round(median(udzial$udzial)*100, digits = 2), "%, Połowa gmin"),
+     xref = "x",
+     yref = "y",
+     xanchor = 'middle',
+     showarrow = FALSE,
+     arrowhead = 6,
+     ay = 0,
+     font = list(color = "blue")
+)
+an3 <- list(
+     x = 0,
+     y = quantile(udzial$udzial)[4],
+     text = paste(round(quantile(udzial$udzial)[4]*100, digits = 2),"%, Trzy czwarte gmin"),
+     xref = "x",
+     yref = "y",
+     xanchor = 'middle',
+     showarrow = FALSE,
+     arrowhead = 6,
+     ay = 0,
+     font = list(color = "blue")
+)
+plot_ly(y = udzial$udzial, type = "box", name = "",
+        text = paste(as.character(round(udzial$udzial*100, digits = 2)), "%\n", as.character(udzial$name.x)),
+        hoverinfo = "text") %>% 
+     layout(
+          yaxis = list(tickformat = '.2%', zeroline = FALSE),
+          annotations = list(an1, an2, an3)
+     )
+```
+
+Tak marginalna rola tego podatku wynika głównie z faktu jego bardzo niskiej stopy opodatkowania w przypadku budynków mieszkalnych.
+W 2021 r.[^polityka_budzetowa-9]
+maksymalna stawka podatku od nieruchomości w przypadku budynków mieszkalnych wyniosła 0,85 zł od 1 m2 powierzchni użytkowej a w przypadku budynków związanych z prowadzeniem działalności gospodarczej 24,84 zł od 1 m2 powierzchni użytkowej.
+Oznacza to, że podatek od mieszkania o powierzchni 100 m2 wyniósł maksymalnie[^polityka_budzetowa-10] 85 zł rocznie a podatek od zakładu usługowego o takiej samej powierzchni 2 484 zł rocznie
 . Oznacza to, że w przypadku mieszkań i budynków mieszkalnych stawka podatku jest obecnie symboliczna i istnieje w Polsce instytucjonalna przestrzeń do znacznego zwiększenia roli tego podatku, zwłaszcza przy jednoczesnym obniżeniu podatku dochodowego
 .
 
@@ -401,7 +462,7 @@ Są one opodatkowane ryczałtowo stawką 19% (pozostałe dochody do kwoty 85 528
 Z powodu stosunkowo niskiej stawki oraz słabo rozwiniętego rynku kapitałowego w Polsce podatek ten odgrywa dość niewielką rolę (rys. \@ref(fig:rys32)).
 Coraz mniej podatników osiąga dochody z tego tytułu, choć ci, którzy tego dokonali osiągają coraz większe zyski.
 
-(ref:rys32) Rola podatku od dochodów kapitałowych w Polskim systemie podatkowym <br> - PIT-38 składają osoby opodatkowujące dochody kapitałowe <br> Źródło: Opracowanie własne na podstawie danych Departamentu Podatków Dochodowych Ministerstwa Finansów za: dane.gov.pl
+(ref:rys32) Rola podatku od dochodów kapitałowych w Polskim systemie podatkowym <br> \* PIT-38 składają osoby opodatkowujące dochody kapitałowe <br> Źródło: Opracowanie własne na podstawie danych Departamentu Podatków Dochodowych Ministerstwa Finansów za: dane.gov.pl
 
 ```{r rys32, echo=FALSE, fig.align='left', fig.cap='(ref:rys32)', out.width='100%'}
 dane4 <- read_excel("rysunki\\podatki.xlsx", sheet = 4) %>% 
@@ -411,8 +472,7 @@ plot_ly(dane4, x = ~Rok) %>%
      add_trace(y = ~`Udział podatku od dochodów kapitałowych w przychodach z PIT`, name = 'Udział podatku od dochodów kapitałowych w przychodach z PIT',type = 'scatter', mode = 'lines+markers') %>% 
      add_trace(y = ~`Udział podatników składających PIT-38*`, name = 'Udział podatników składających PIT-38*',type = 'scatter', mode = 'lines+markers') %>% 
      layout(legend = list(x = 0.1, y = 0.1),
-            yaxis = list(tickformat = '.2%', title = "", range = c(0,0.03)),
-            yaxis = list(title = ""),
+            yaxis = list(title = "", tickformat = '.2%', title = "", range = c(0,0.03)),
             xaxis = list(title = ""))
 ```
 
