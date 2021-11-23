@@ -86,7 +86,7 @@ Głównym czynnikiem wpływającym na wysokość tejże jest efekt histerezy a k
 
 (ref:rys41) Kształtowanie się stopy NAIRU w Polsce w okresie 2000-2013 <br>Model podstawowy po lewej oraz model rozszerzony po prawej.<br>Linią kropkowaną zaznaczono 90% przedział ufności <br> Źródło: (Pošta, 2015)
 
-```{r rys, echo=FALSE, fig.align='center', fig.cap='(ref:rys41)', out.width='100%'}
+```{r rys41, echo=FALSE, fig.align='center', fig.cap='(ref:rys41)', out.width='100%'}
 knitr::include_graphics("rysunki\\GZ_wyk1.jpg")
 ```
 
@@ -94,7 +94,7 @@ W raporcie OECD Guichard & Rusticelli (2011) szacują wysokość stopy NAIRU w P
 
 (ref:rys42) Kształtowanie się stopy NAIRU w Polsce w okresie 1992-2010 <br> Źródło: (Guichard & Rusticelli, 2011, s.19)
 
-```{r rys, echo=FALSE, fig.align='center', fig.cap='(ref:rys42)', out.width='100%'}
+```{r rys42, echo=FALSE, fig.align='center', fig.cap='(ref:rys42)', out.width='100%'}
 knitr::include_graphics("rysunki\\GZ_wyk2.png")
 ```
 
@@ -192,10 +192,9 @@ Jego podstawowe cechy charakteryzuje następująco: podstawowym celem programu G
 
 Cele dodatkowe:
 
--   • Zagwarantowanie przestrzegania podstawowych praw człowieka zapisanych w Deklaracji Praw Człowieka ONZ.
+-   Zagwarantowanie przestrzegania podstawowych praw człowieka zapisanych w Deklaracji Praw Człowieka ONZ.
 
--   • Utworzenie publicznej opcji pracy np.
-    w postaci sieci bezpieczeństwa zatrudnienia (*employment safety net*).
+-   Utworzenie publicznej opcji pracy np. w postaci sieci bezpieczeństwa zatrudnienia (*employment safety net*).
 
 -   Stworzenie możliwości pracy w pobliżu osoby bezrobotnej.
 
@@ -211,8 +210,7 @@ Cele dodatkowe:
 
 -   Realizacja celów polityki prewencyjnej wobec ogromnych ekonomicznych, społecznych i politycznych kosztów bezrobocia.
 
--   Spełnianie funkcji narzędzia polityk związanych z np.
-    ochroną środowiska, opieką, rewitalizacją miast.
+-   Spełnianie funkcji narzędzia polityk związanych z np. ochroną środowiska, opieką, rewitalizacją miast.
 
 -   Uczynienie ludzi oraz ich potrzeb podstawowym celem polityk publicznych w celu ich wzmocnienia i wsparcia.
 
