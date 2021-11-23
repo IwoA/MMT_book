@@ -131,7 +131,7 @@ plt <- razem_gdp %>% filter(REF_AREA !="HK" & REF_AREA !="CG" & GDP_cap_b == "na
 plt$country <- ifelse(plt$country == "Côte d’Ivoire", "Wybrzeże \n Kości Słoniowej", plt$country)
 plt$country <- ifelse(plt$country == "Mjanma (Birma)", "Mjanma \n (Birma)", plt$country)
 
-write.csv2(plt, "budz_wyk2.csv")
+write.csv2(plt, "rysunki\\m0_dochody.csv")
 
 fit <- lm(M0_mean ~ revenues, data = plt) %>% fitted.values()
 
