@@ -241,7 +241,7 @@ Sposób kreacji pieniądza przez bank centralny i przez banki komercyjne zostani
 Wpierw jednak należy zwrócić uwagę na strukturę ilościową pieniądza w Polsce.
 Przedstawiono ją na rysunku \@ref(fig:rys25) poniżej.
 
-```{r rys25, echo=FALSE, fig.align='center', fig.cap='ŹrRelacja gotówki w obiegu do agregatu M1<br>Źródło: Opracowanie własne na podstawie danych NBP', out.width='100%'}
+```{r rys25, echo=FALSE, fig.align='center', fig.cap='Relacja gotówki w obiegu do agregatu M1<br>Źródło: Opracowanie własne na podstawie danych NBP', out.width='100%'}
 library(dplyr)
 library(plotly)
 url <- "https://www.nbp.pl/statystyka/pieniezna_i_bankowa/dwn/miarypieniadza_nowe.xlsx"
@@ -314,7 +314,9 @@ plot_ly(dane3, x = ~data, y=~M, type = "scatter", mode = "lines+markers") %>%
 Jak widać, wyraźnie dominuje pieniądz kreowany przez banki komercyjne, który stanowi obecnie prawie 80% pieniądza w obrocie.
 Nawet po wybuchu pandemii COVID-19 zapotrzebowanie na gotówkę wzrosło jedynie o 2 pp.
 
-### Rola banku centralnego i ministerstwa finansów w kreacji pieniądza
+<br>
+
+### **Rola banku centralnego i ministerstwa finansów w kreacji pieniądza**
 
 Jedną z cech charakterystycznych Nowoczesnej Teorii Monetarnej (i przy okazji najbardziej kontrowersyjnych) jest hipoteza konsolidacji banku centralnego i ministerstwa finansów w jeden podmiot pojawiająca się w prowadzonych analizach ekonomicznych.
 Jest to punkt wyjścia, z którego wynika cała logiczna konstrukcja MMT, w tym dominująca rola polityki budżetowej, specyficzna rola podatków oraz obiegu pieniężnego.
@@ -416,7 +418,7 @@ Wynika to z art. 220 ust.2 Konstytucji, który mówi, że „Ustawa budżetowa n
 Powstaje więc zasadnicze pytanie, czy założenie o konsolidacji banku centralnego i skarbu państwa oznacza błędną interpretację zjawisk realnych przez MMT i konieczność jej odrzucenia tak jak teorii funduszy pożyczkowych?
 Aby się o tym przekonać, w tabeli \@ref(tab:tab4) przedstawiono proces dokonywania wydatków publicznych w istniejących aktualnie w Polsce warunkach instytucjonalno-prawnych.
 
-```{r tab4}
+```{r tab4, tab.topcaption = FALSE}
 tab3 <- readxl::read_excel("tabele_rozdz.2.xlsx", sheet = 2, col_types = "text")
 colnames(tab3) <- c("X", "Aktywa", "Pasywa", "Aktywa.1", "Pasywa.1")
 flextable(tab3) %>% theme_vanilla() %>% 
@@ -427,8 +429,7 @@ flextable(tab3) %>% theme_vanilla() %>%
      merge_v(j=c("X", "Aktywa", "Pasywa", "Aktywa.1", "Pasywa.1" )) %>% 
      align(align = "center", part = "all") %>% 
      width(j=2:5, width = 2) %>% 
-     set_caption("Proces dokonywania wydatków publicznych w warunkach polskich") %>% 
-     add_footer_lines("Źródło: Opracowanie własne na podstawie M. Lavoie, (2013), The Monetary and Fiscal Nexus of Neo-Chartalism: A Friendly Critique, Journal of Economic Issues, Vol. XLVII, No. 1")
+     set_caption("Proces dokonywania wydatków publicznych w warunkach polskich <br> Źródło: Opracowanie własne na podstawie M. Lavoie, (2013), The Monetary and Fiscal Nexus of Neo-Chartalism: A Friendly Critique, Journal of Economic Issues, Vol. XLVII, No. 1", html_escape = FALSE)
 ```
 
 Tym razem w kroku 1 skarb państwa emituje obligacje o wartości 100 jednostek pieniężnych.
@@ -467,7 +468,7 @@ Jak to przedstawił prezes NBP prof. Adam Glapiński :
 
 Oznacza to, że schemat w tabeli \@ref(tab:tab4) przestał być adekwatny i należy zastosować ten przedstawiony w tabeli \@ref(tab:tab5), opisujący reakcję FED, Banku Anglii czy Banku Japonii na emisję długu publicznego.
 
-```{r tab5}
+```{r tab5, tab.topcaption = FALSE}
 tab4 <- readxl::read_excel("tabele_rozdz.2.xlsx", sheet = 3, col_types = "text")
 colnames(tab4) <- c("X", "Aktywa", "Pasywa", "Aktywa.1", "Pasywa.1")
 flextable(tab4) %>% theme_vanilla() %>% 
@@ -478,8 +479,7 @@ flextable(tab4) %>% theme_vanilla() %>%
      merge_v(j=c("X", "Aktywa", "Pasywa", "Aktywa.1", "Pasywa.1" )) %>% 
      align(align = "center", part = "all") %>% 
      width(j=2:5, width = 2) %>% 
-     set_caption("Obecny proces dokonywania wydatków publicznych w warunkach polskich") %>% 
-     add_footer_lines("Źródło: Opracowanie własne na podstawie M. Lavoie, (2013), The Monetary and Fiscal Nexus of Neo-Chartalism: A Friendly Critique, Journal of Economic Issues, Vol. XLVII, No. 1")
+     set_caption("Obecny proces dokonywania wydatków publicznych w warunkach polskich <br> Źródło: Opracowanie własne na podstawie M. Lavoie, (2013), The Monetary and Fiscal Nexus of Neo-Chartalism: A Friendly Critique, Journal of Economic Issues, Vol. XLVII, No. 1", html_escape = FALSE)
 ```
 
 Krok 1 jest taki sam jak poprzednio.
@@ -512,7 +512,8 @@ z niebrania pod uwagę inercji oczekiwań inflacyjnych." O prawdziwej skali niez
 
 Ponadto, jak to zostanie szerzej przedstawione w kolejnych rozdziałach, MMT postuluje większe wykorzystanie sztywnych wydatków publicznych działających jak automatyczne stabilizatory gospodarki i inflacji (Fullwiler 2015).
 
-### Rola banków komercyjnych w kreacji pieniądza
+<br>
+### **Rola banków komercyjnych w kreacji pieniądza**
 
 Chyba najbardziej „rewolucyjnym" hasłem dla opinii publicznej i wielu ekonomistów MMT jest stwierdzenie, że państwo nie zadłuża się tak, jak gospodarstwo domowe czy firma. Jeżeli jest suwerennym emitentem waluty to nie może zbankrutować i nie może zabraknąć mu pieniędzy. Dlaczego tak się dzieje przedstawiono w poprzednim podrozdziale. Ponieważ jednak, jak wspomniano, w krajach rozwiniętych gros pieniądza w obiegu stanowi pieniądz tworzony przez banki komercyjne należy przedstawić ten proces kreacji i pokazać tym samym czym się różni od kreacji pieniądza przez bank centralny.
 
@@ -544,7 +545,7 @@ stracą do siebie zaufanie jak miało to miejsce wskutek globalnego kryzysu fina
 Jak wygląda proces kreacji pieniądza w sektorze banków komercyjnych przedstawia tabela \@ref(tab:tab6).
 Schemat ten jest bardzo ogólny i na tyle uniwersalny, że przedstawiać może zarówno finansowe „kulisy" zakupu samochodu przez gospodarstwo domowe jak i wypłaty pensji pracownikowi przez firmę.
 
-```{r tab6}
+```{r tab6, tab.topcaption = FALSE}
 tab4 <- readxl::read_excel("tabele_rozdz.2.xlsx", sheet = 3, col_types = "text")
 colnames(tab4) <- c("X", "Aktywa", "Pasywa", "Aktywa.1", "Pasywa.1")
 flextable(tab4) %>% theme_vanilla() %>% 
@@ -555,8 +556,7 @@ flextable(tab4) %>% theme_vanilla() %>%
      merge_v(j=c("X", "Aktywa", "Pasywa", "Aktywa.1", "Pasywa.1" )) %>% 
      align(align = "center", part = "all") %>% 
      width(j=2:5, width = 2) %>% 
-     set_caption("Schemat kreacji pieniądza przez banki komercyjne") %>% 
-     add_footer_lines("Źródło: Opracowanie własne")
+     set_caption("Schemat kreacji pieniądza przez banki komercyjne <br> Źródło: Opracowanie własne", html_escape = FALSE) 
 ```
 
 Sam proces utworzenia nowego pieniądza z niczego, na życzenie klienta, przedstawia krok 1.
