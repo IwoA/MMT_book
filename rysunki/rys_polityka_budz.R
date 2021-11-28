@@ -43,7 +43,6 @@ plot_ly(dane1, x = ~Rok) %>%
      add_trace(y = ~CPI, name = 'Inflacja CPI',type = 'scatter', mode = 'lines+markers') %>% 
      layout(legend = list(x = 0.1, y = 0.1),
             yaxis = list(tickformat = '.2%', title = "", range = c(-0.01,0.05), zeroline = FALSE),
-            yaxis = list(title = ""),
             xaxis = list(title = "", showgrid = F),
             annotations = list(an1, an2),
             showlegend = FALSE)
@@ -263,7 +262,6 @@ plot_ly(dane4, x = ~Rok) %>%
      add_trace(y = ~`Udział podatników składających PIT-38*`, name = 'Udział podatników składających PIT-38*',type = 'scatter', mode = 'lines+markers') %>% 
      layout(legend = list(x = 0.1, y = 0.1),
             yaxis = list(tickformat = '.2%', title = "", range = c(0,0.03)),
-            yaxis = list(title = ""),
             xaxis = list(title = ""))
 
 # ------------------------------------------
@@ -302,6 +300,5 @@ plot_ly(dane4, x = ~Rok, hoverinfo = 'text',
      add_trace(y = ~`Podatnicy w II przedziale podatkowym`, name = 'Podatnicy w II przedziale podatkowym',type = 'scatter', mode = 'lines') %>% 
      layout(legend = list(x = 0.1, y = 0.1),
             yaxis = list(tickformat = '.1%', showticklabels = FALSE, title = "", range = c(0,0.05), zeroline = FALSE),
-            yaxis = list(title = ""),
             xaxis = list(title = ""),
             annotations = list(an1, an2))

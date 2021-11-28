@@ -287,20 +287,89 @@ Oczekiwane korzyści:
 
 -   Korzyści gospodarcze, społeczne i środowiskowe: program zredukuje problem bezdomności i przestępczości; zwiększy dostępność dóbr i usług publicznych; zwiększy inwestycje w ochronę środowiska, ludzi i lokalne społeczności.
 
-Przestrzeń na wdrożenie powyższych rozwiązań wygląda w Polsce następująco.
-Od 2004 roku stopa bezrobocia rejestrowanego[^gwarancja_zatrudnienia-9] w Polsce spadała (wyk. 3) i na koniec 2019 r.
-wyniosła 5,2%.
-Jednak z punktu widzenia potencjalnego wdrożenia programu Gwarancji Zatrudnienia najważniejsze są cztery daty: rok 2008 -- odwrócenie trendu spadkowego spowodowane Globalnym Kryzysem Finansowym, lata 2012-2013 -- maksimum wzrostu bezrobocia oraz najnowszy 2020 r., w którym odnotowano niewielki wzrost mimo pandemii COVID19.
+Przestrzeń na wdrożenie powyższych rozwiązań wygląda w Polsce następująco. Od 2004 roku stopa bezrobocia rejestrowanego[^gwarancja_zatrudnienia-9] w Polsce spadała (rys. \@ref(fig:rys4)) i na koniec 2020 r. wyniosła 5,2%.
+Jednak z punktu widzenia potencjalnego wdrożenia programu Gwarancji Zatrudnienia najważniejsze są cztery daty: rok 2008 -- odwrócenie trendu spadkowego spowodowane Globalnym Kryzysem Finansowym, lata 2012-2013 -- maksimum wzrostu bezrobocia oraz najnowszy 2020 r., w którym odnotowano niewielki wzrost a następnie spadek mimo pandemii COVID19.
 
 [^gwarancja_zatrudnienia-9]: Do rozważań przyjęto dane na temat bezrobocia rejestrowanego gdyż po pierwsze, jest ona wyższa niż ta rejestrowana metodą BAEL przez co szacunki są bardziej konserwatywne, a po drugie lepiej oddaje ona potencjalne zainteresowanie programem ze strony osób zatrudnionych na czarno lub w złych
     warunkach pracy.
 
 
 
-Wykres 3.
-Zmiana stopy bezrobocia rejestrowanego w Polsce w okresie 2004-2020
+(ref:rys4) Stopa bezrobocia rejestrowanego <br> Źródło: opracowanie własne na podstawie danych z Banku Danych Lokalnych GUS
 
-Żródło: opracowanie własne na podstawie danych z Banku Danych Lokalnych GUS
+```{r rys4, echo=FALSE, fig.align='left', fig.cap='(ref:rys4)', out.width='100%'}
+library(plotly)
+library(dplyr)
+
+bezrobocie_plt = read.csv2("rysunki\\wykres_4_3.csv")
+lev <- bezrobocie_plt$year
+bezrobocie_plt$year <- factor(bezrobocie_plt$year, levels = lev)
+
+an1 <- list(
+     x = 0,
+     y = max(bezrobocie_plt$val/100, na.rm=TRUE),
+     text = paste(round(max(bezrobocie_plt$val, na.rm=TRUE), digits = 1),"%"),
+     xref = "x",
+     yref = "y",
+     showarrow = TRUE,
+     arrowhead = 6,
+     arrowcolor = "blue",
+     ax = 10,
+     ay = -20,
+     font = list(color = "blue")
+)
+an2 <- list(
+     x = 4,
+     y =min(bezrobocie_plt$val[1:7]/100, na.rm=TRUE),
+     text = paste(round(min(bezrobocie_plt$val[1:7], na.rm=TRUE), digits = 1),"%"),
+     xref = "x",
+     yref = "y",
+     showarrow = TRUE,
+     arrowhead = 6,
+     arrowcolor = "blue",
+     ax = 10,
+     ay = 20,
+     font = list(color = "blue")
+)
+an3 <- list(
+     x = 15,
+     y = min(bezrobocie_plt$val/100, na.rm=TRUE),
+     text = paste(round(min(bezrobocie_plt$val, na.rm=TRUE), digits = 1),"%"),
+     xref = "x",
+     yref = "y",
+     showarrow = TRUE,
+     arrowhead = 6,
+     arrowcolor = "blue",
+     ax = -10,
+     ay = 20,
+     font = list(color = "blue")
+)
+an4 <- list(
+     x = sum(!is.na(bezrobocie_plt$text))-1,
+     y = min(bezrobocie_plt$proc/100, na.rm=TRUE),
+     text = paste(round(min(bezrobocie_plt$proc[20:27], na.rm=TRUE), digits = 1),"%"),
+     xref = "x",
+     yref = "y",
+     showarrow = TRUE,
+     arrowhead = 6,
+     arrowcolor = "blue",
+     ax = -10,
+     ay = -20,
+     font = list(color = "blue")
+)
+
+plot_ly(bezrobocie_plt, x = ~year, text = paste(bezrobocie_plt$year, "\n", bezrobocie_plt$text,"%")) %>% 
+     add_trace(y = ~val/100, type = 'scatter', mode = 'lines', hoverinfo = "text") %>% 
+     add_trace(y = ~proc/100, type = 'scatter', mode = 'lines',  hoverinfo = "text",
+               line = list(color = "blue", dash = 'dash')) %>% 
+     layout(showlegend=FALSE,
+            yaxis = list(showticklabels = FALSE, title = "", showgrid = F),
+            xaxis = list(title = "", tickangle = 45),
+            annotations = list(an1, an2, an3, an4))
+
+```
+
+
 
 Wzrost stopy bezrobocia rejestrowanego w następstwie kryzysu wyniósł więc prawie 4 punkty procentowe (1 188 995 osób) natomiast w 2019 zbliżyła się ona do poziomu uznawanego powszechnie za poziom bezrobocia frykcyjnego (ok. 2%-3%).
 To stosunkowo niskie bezrobocie nie ogranicza jednak potencjału programu Gwarancji Zatrudnienia gdyż stopa bezrobocia rozkłada się w kraju bardzo nierównomiernie (wyk. 4).
