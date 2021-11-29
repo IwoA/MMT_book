@@ -240,6 +240,14 @@ dane <- dane %>% select(1, 7) %>%
      filter(Podatek!="Dochody niepodatkowe") %>% 
      mutate(kwota = kwota/1000) #w mln zł
 
+# wersja do ksiązki
+# dane %>% mutate(Podatek = ifelse(kwota<10000, "Pozostałe", Podatek)) %>% group_by(Podatek) %>% summarise(kwota = sum(kwota)) %>% 
+# ggplot(aes(area = kwota, fill = Podatek, label = Podatek)) + 
+#      geom_treemap(start = "topleft") +
+#      geom_treemap_text(colour = "white", place = "centre", reflow = TRUE, start = "topleft") +
+#      theme(legend.position="none")+
+#      scale_fill_viridis_d()
+
 
 kolory <- c(brewer.pal(8, "Blues"), brewer.pal(7, "Purples"), "#c90076")
 rev <- cbind(dane, kolory)
