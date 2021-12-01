@@ -115,9 +115,9 @@ powiaty_mapa %>% select(geometry, val) %>%
 
 get_variables("P3897") #P1944
 nr <- get_variables("P3897") %>% filter(n2 == "ogółem" & n3 == "ogółem")
-nr[lubridate::month(Sys.Date())-1,1] #ostatni miesiąc, za który są dane
+nr[lubridate::month(Sys.Date())-2,1] #ostatni miesiąc, za który są dane
 
-bezrobocie_pow_liczba <- get_data_by_variable(as.character(nr[lubridate::month(Sys.Date())-1,1]), unitLevel = 5) %>% select(id, name, val)
+bezrobocie_pow_liczba <- get_data_by_variable(as.character(nr[lubridate::month(Sys.Date())-2,1]), unitLevel = 5) %>% select(id, name, val)
 bezrobocie_pow_liczba$val <- ifelse(bezrobocie_pow_liczba$val==max(bezrobocie_pow_liczba$val), NA, bezrobocie_pow_liczba$val)
 bezrobocie_pow_liczba$val <- ifelse(bezrobocie_pow_liczba$val==max(bezrobocie_pow_liczba$val, na.rm = TRUE), NA, bezrobocie_pow_liczba$val)
 bezrobocie_pow_liczba$val <- ifelse(bezrobocie_pow_liczba$val==max(bezrobocie_pow_liczba$val, na.rm = TRUE), NA, bezrobocie_pow_liczba$val)
@@ -134,3 +134,43 @@ powiaty_mapa_liczba %>% select(geometry, val) %>%
      theme_void() +
      theme(legend.position = "bottom", axis.text.x = element_blank(), axis.text.y = element_blank(),
            axis.title.x = element_blank(), axis.title.y = element_blank())
+
+# ------------------------------------------------------
+# wykres 6 Rozkład powiatów wg liczby oraz stopy bezrobocia rejestrowanego
+
+beeswarm <- function(x){     
+     plot_ly(x) %>% 
+     add_trace(
+          x = 0,
+          y = ~val,
+          type = "box", boxpoints = "all",
+          text = paste0(x$name, ", ",x$val),
+          hoverinfo = "text",
+          width = .5
+     ) %>% 
+     add_text(x=-.28, y=quantile(x$val)[3], text = "50%",textfont = list(color = "orange")) %>% 
+     add_text(x=-.28, y=quantile(x$val, probs = seq(0,1,0.01))[96], text = "95%",textfont = list(color = "orange")) %>% 
+     add_text(x=-.28, y=quantile(x$val)[4], text = "75%",textfont = list(color = "orange")) %>% 
+     add_text(x=-.48, y=quantile(x$val)[3], text = as.character(quantile(x$val)[3]),textfont = list(color = "orange")) %>% 
+     add_text(x=-.48, y=quantile(x$val, probs = seq(0,1,0.01))[96], text = as.character(quantile(x$val, probs = seq(0,1,0.01))[96]),textfont = list(color = "orange")) %>% 
+     add_text(x=-.48, y=quantile(x$val)[4], text = as.character(quantile(x$val)[4]),textfont = list(color = "orange")) %>% 
+     add_lines(x=seq(from=-.45, to=-.3, by=.01), y=quantile(x$val)[3], text = "50%", color = I("orange")) %>% 
+     add_lines(x=seq(from=-.45, to=-.3, by=.01), y=quantile(x$val, probs = seq(0,1,0.01))[96], text = "95%", color = I("orange")) %>% 
+     add_lines(x=seq(from=-.45, to=-.3, by=.01), y=quantile(x$val)[4], text = "75%", color = I("orange")) %>% 
+     layout(xaxis=list(range=c(-.5,-.26), showticklabels=FALSE),
+            yaxis=list(zeroline=FALSE, title = ""),
+            showlegend=FALSE)
+}
+
+beeswarm(bezrobocie_pow_liczba)
+beeswarm(bezrobocie_pow)
+
+library(beeswarm)
+
+#par(mfrow = c(1,2), oma = c(1,1,1,1), mar = c(1,1,1,1))
+par(mfrow = c(1,1), mar=rep(0,4), pin = c(4,5))
+beeswarm(bezrobocie_pow_liczba$val, method = "center", pch = 16, ylab = "Liczba bezrobotnych")
+abline(h=median(bezrobocie_pow_liczba$val), col = "red")
+abline(h=quantile(bezrobocie_pow_liczba$val, probs = .75), col = "blue", lty = 2)
+text(x = 0.6, y = median(bezrobocie_pow_liczba$val), "50%")
+text(x = 0.6, y = quantile(bezrobocie_pow_liczba$val, probs = .75), "75%")
