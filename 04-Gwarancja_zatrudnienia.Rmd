@@ -29,13 +29,7 @@ W świetle Nowoczesnej Teorii Monetarnej można to sformułować następująco: 
 [^gwarancja_zatrudnienia-1]: Pisał o tym już M.
     Kalecki w 1943 w artykule „[Polityczne aspekty pełnego zatrudnienia](https://fundacjalipinskiego.pl/m-kalecki-polityczne-aspekty-pelnego-zatrudnienia-1943/)"
 
-Pierwszą osobą, która rozwinęła koncepcję Gwarancji Zatrudnienia w formie, która praktycznie bezpośrednio została inkorporowana przez MMT, był H.
-Minsky.
-Jak dokumentuje to Wray (2007) H.
-Minsky już co najmniej od 1968 r.
-krytykował istniejące wówczas programy walki z ubóstwem zarówno na gruncie teorii ekonomii jak i polityki ekonomicznej.
-Zwracał uwagę m.in.
-na fakt, że programy pobudzania inwestycji są inflacjogenne oraz zwiększają nierówności zwłaszcza w gospodarce z dużą liczbą oligopoli.
+Pierwszą osobą, która rozwinęła koncepcję Gwarancji Zatrudnienia w formie, która praktycznie bezpośrednio została inkorporowana przez MMT, był H. Minsky. Jak dokumentuje to Wray (2007) H. Minsky już co najmniej od 1968 r. krytykował istniejące wówczas programy walki z ubóstwem zarówno na gruncie teorii ekonomii jak i polityki ekonomicznej. Zwracał uwagę m.in. na fakt, że programy pobudzania inwestycji są inflacjogenne oraz zwiększają nierówności zwłaszcza w gospodarce z dużą liczbą oligopoli.
 Uważał, że głównym skutkiem programu Gwarantowanego Dochodu Podstawowego będzie inflacja, wszelkie programy transferu dochodów tworzą klasę zależną oraz są trudne do zaakceptowania społecznie w gospodarce kapitalistycznej, w której na dochód trzeba sobie „zasłużyć".
 
 Politykę gwarancji zatrudnienia rozwinęli i uczynili ją filarem MMT W. F. Mitchell (1998) oraz Mosler (1997).
@@ -81,7 +75,7 @@ Najnowsza analiza dotycząca kształtu krzywej Phillipsa (Stamatiou i Dritsaki, 
 spadek bezrobocia o 1% powoduje wzrost inflacji o 0,3%.
 
 Z analizy determinant NAIRU w Polsce przeprowadzonej przez Pošta (2015) wynika z kolei, że w okresie 2000-2013 wahała się ona w przedziale ok. 10% - 16% z maksimum w 2003 r.
-i minimum w 2008 roku (wyk. 1).
+i minimum w 2008 roku (rys. \@ref(fig:rys41)).
 Głównym czynnikiem wpływającym na wysokość tejże jest efekt histerezy a korelacja między stopą bezrobocia a inflacją okazała się statystycznie nieistotna.
 
 (ref:rys41) Kształtowanie się stopy NAIRU w Polsce w okresie 2000-2013 <br>Model podstawowy po lewej oraz model rozszerzony po prawej.<br>Linią kropkowaną zaznaczono 90% przedział ufności <br> Źródło: (Pošta, 2015)
@@ -90,7 +84,7 @@ Głównym czynnikiem wpływającym na wysokość tejże jest efekt histerezy a k
 knitr::include_graphics("rysunki\\GZ_wyk1.jpg")
 ```
 
-W raporcie OECD Guichard & Rusticelli (2011) szacują wysokość stopy NAIRU w Polsce w okresie 1992-1999 na ok. 14%, następnie jej wzrost do 2004 r. do poziomu ok. 18% i spadek do 2010 r. do poziomu ok. 10% (wyk. 2)
+W raporcie OECD Guichard & Rusticelli (2011) szacują wysokość stopy NAIRU w Polsce w okresie 1992-1999 na ok. 14%, następnie jej wzrost do 2004 r. do poziomu ok. 18% i spadek do 2010 r. do poziomu ok. 10% (rys. \@ref(fig:rys42))
 
 (ref:rys42) Kształtowanie się stopy NAIRU w Polsce w okresie 1992-2010 <br> Źródło: (Guichard & Rusticelli, 2011, s.19)
 
@@ -287,17 +281,16 @@ Oczekiwane korzyści:
 
 -   Korzyści gospodarcze, społeczne i środowiskowe: program zredukuje problem bezdomności i przestępczości; zwiększy dostępność dóbr i usług publicznych; zwiększy inwestycje w ochronę środowiska, ludzi i lokalne społeczności.
 
-Przestrzeń na wdrożenie powyższych rozwiązań wygląda w Polsce następująco. Od 2004 roku stopa bezrobocia rejestrowanego[^gwarancja_zatrudnienia-9] w Polsce spadała (rys. \@ref(fig:rys4)) i na koniec 2020 r. wyniosła 5,2%.
+Przestrzeń na wdrożenie powyższych rozwiązań wygląda w Polsce następująco. Od 2004 roku stopa bezrobocia rejestrowanego[^gwarancja_zatrudnienia-9] w Polsce spadała (rys. \@ref(fig:rys43)) i na koniec 2020 r. wyniosła 5,2%.
 Jednak z punktu widzenia potencjalnego wdrożenia programu Gwarancji Zatrudnienia najważniejsze są cztery daty: rok 2008 -- odwrócenie trendu spadkowego spowodowane Globalnym Kryzysem Finansowym, lata 2012-2013 -- maksimum wzrostu bezrobocia oraz najnowszy 2020 r., w którym odnotowano niewielki wzrost a następnie spadek mimo pandemii COVID19.
 
-[^gwarancja_zatrudnienia-9]: Do rozważań przyjęto dane na temat bezrobocia rejestrowanego gdyż po pierwsze, jest ona wyższa niż ta rejestrowana metodą BAEL przez co szacunki są bardziej konserwatywne, a po drugie lepiej oddaje ona potencjalne zainteresowanie programem ze strony osób zatrudnionych na czarno lub w złych
-    warunkach pracy.
+[^gwarancja_zatrudnienia-9]: Do rozważań przyjęto dane na temat bezrobocia rejestrowanego gdyż po pierwsze, jest ona wyższa niż ta rejestrowana metodą BAEL przez co szacunki są bardziej konserwatywne, a po drugie lepiej oddaje ona potencjalne zainteresowanie programem ze strony osób zatrudnionych na czarno lub w złych warunkach pracy.
 
 
 
-(ref:rys4) Stopa bezrobocia rejestrowanego <br> Źródło: opracowanie własne na podstawie danych z Banku Danych Lokalnych GUS
+(ref:rys43) Stopa bezrobocia rejestrowanego <br> Źródło: opracowanie własne na podstawie danych z Banku Danych Lokalnych GUS
 
-```{r rys4, echo=FALSE, fig.align='left', fig.cap='(ref:rys4)', out.width='100%'}
+```{r rys43, echo=FALSE, fig.align='left', fig.cap='(ref:rys43)', out.width='100%'}
 library(plotly)
 library(dplyr)
 
@@ -371,76 +364,132 @@ plot_ly(bezrobocie_plt, x = ~year, text = paste(bezrobocie_plt$year, "\n", bezro
 
 
 
-Wzrost stopy bezrobocia rejestrowanego w następstwie kryzysu wyniósł więc prawie 4 punkty procentowe (1 188 995 osób) natomiast w 2019 zbliżyła się ona do poziomu uznawanego powszechnie za poziom bezrobocia frykcyjnego (ok. 2%-3%).
-To stosunkowo niskie bezrobocie nie ogranicza jednak potencjału programu Gwarancji Zatrudnienia gdyż stopa bezrobocia rozkłada się w kraju bardzo nierównomiernie (wyk. 4).
-Waha się od 24,5% w powiecie szydłowieckim i powyżej 17% w powiatach przysuskim i radomskim do poniżej 2% w największych miastach takich jak Poznań, Warszawa czy Katowice (najniższe bezrobocie -- 1,5% odnotowano w Katowicach).
+Wzrost stopy bezrobocia rejestrowanego w następstwie kryzysu wyniósł więc prawie 4 punkty procentowe (pracę straciło ponad 1,1 mln osób) natomiast w 2019 zbliżyła się ona do poziomu uznawanego powszechnie za poziom bezrobocia wynikającego z normalnych procesów zmiany pracy lub miejsca zamieszkania (ok. 2%-3%).
 
-Wykres 4.
-Stopa bezrobocia rejestrowanego w powiatach w Polsce w lipcu 2020 r.
+To stosunkowo niskie bezrobocie nie zmniejsza jednak przydatności programu Gwarancji Zatrudnienia gdyż stopa bezrobocia rozkłada się w kraju bardzo nierównomiernie (rys. \@ref(fig:rys44)).
+```{r}
+powiaty_mapa <- read.csv2("rysunki\\powiaty_mapa.csv")
+powiaty_mapa_liczba <- read.csv2("rysunki\\powiaty_mapa_liczba.csv")
+xmax <- powiaty_mapa %>% filter(val==max(powiaty_mapa$val)) %>% select(val, name)
+xmin <- powiaty_mapa %>% filter(val==min(powiaty_mapa$val)) %>% select(val, name)
+wawa <- powiaty_mapa %>% filter(stringr::str_detect(name, "Warszawa"))
+pozn <- powiaty_mapa %>% filter(stringr::str_detect(name, "Poznań"))
 
-Żródło: opracowanie własne na podstawie danych z Banku Danych Lokalnych GUS
+wawa_liczba <- powiaty_mapa_liczba %>% filter(stringr::str_detect(name, "Warszawa"))
+lodz <- powiaty_mapa_liczba %>% filter(stringr::str_detect(name, "Łódź"))
+krak <- powiaty_mapa_liczba %>% filter(stringr::str_detect(name, "Kraków"))
+```
 
-Z punktu widzenia wdrażania programu Gwarancji Zatrudnienia i jego skutków ważna jest również informacja o nominalnej liczbie osób bezrobotnych.
-Dane takie przedstawia wykres 5.
+Waha się od `r as.character(xmax$val)`% (`r as.character(tolower(xmax$name))`) do poniżej 2% w największych miastach takich jak Poznań i Warszawa (odpowiednio `r as.character(pozn$val)`%, `r as.character(wawa$val)`%).
 
-Wykres 5.
-Liczba zarejestrowanych bezrobotnych w powiatach w Polsce w lipcu 2020 r.
+(ref:rys44) Stopa bezrobocia rejestrowanego w powiatach w Polsce w październiku 2021 <br> Źródło: opracowanie własne na podstawie danych z Banku Danych Lokalnych GUS
 
-w Warszawie i Łodzi liczba bezrobotnych przekraczała prawie dwukrotnie maksimum dla reszty powiatów i wyniosła odpowiednio 23 516 oraz 20 487 osób.
-Żródło: opracowanie własne na podstawie danych z Banku Danych Lokalnych GUS
+```{r rys44, echo=FALSE, fig.align='center', fig.cap='(ref:rys44)', out.width='75%'}
+knitr::include_graphics("rysunki\\mapa_st_bezrobocia.png")
+```
 
-Największa liczba osób bezrobotnych rejestruje się w dużych miastach (wyk. 5), co nie jest zaskakujące.
-W porównaniu z poprzednią mapą zwraca uwagę znacznie bardziej wyrównany poziom liczby bezrobotnych w porównaniu ze stopą bezrobocia (wyk. 6).
-Okazuje się, że w ¾ powiatów liczba bezrobotnych nie przekraczała 3 271 osób a w 94% powiatów nie przekraczała 5000 osób.
+
+Z punktu widzenia wdrażania programu Gwarancji Zatrudnienia i jego skutków, ważna jest również informacja o nominalnej liczbie osób bezrobotnych. Dane takie przedstawia rysunek \@ref(fig:rys45).
+
+(ref:rys45) Liczba zarejestrowanych bezrobotnych w powiatach w Polsce w październiku 2021 <br>  Źródło: opracowanie własne na podstawie danych z Banku Danych Lokalnych GUS
+
+```{r rys45, echo=FALSE, fig.align='center', fig.cap='(ref:rys45)', out.width='75%'}
+knitr::include_graphics("rysunki\\mapa_l_bezrobotnych.png")
+```
+
+*w Warszawie, Łodzi i Krakowie liczba bezrobotnych przekraczała prawie dwukrotnie maksimum dla reszty powiatów i wyniosła odpowiednio `r as.character(wawa_liczba$val)`, `r as.character(lodz$val)` oraz `r as.character(krak$val)` osób.
+
+Najwięcej osób bezrobotnych rejestruje się w dużych miastach (rys. \@ref(fig:rys45)), co nie jest zaskakujące.
+W porównaniu z poprzednią mapą zwraca uwagę znacznie bardziej wyrównany poziom liczby bezrobotnych w porównaniu ze stopą bezrobocia (rys. \@ref(fig:rys46)).
+Okazuje się, że w ¾ powiatów liczba bezrobotnych nie przekraczała `r round(quantile(powiaty_mapa_liczba$val, na.rm=T)[4])` osób a w 95% powiatów nie przekraczała `r round(quantile(powiaty_mapa_liczba$val, probs = seq(0,1,0.01))[96])` osób.
 Oznacza to, że przy właściwej koordynacji działań Powiatowych Urzędów Pracy zarządzanie programem Gwarancji Zatrudnienia nie jest wielkim wyzwaniem.
+
 Jeśli jednak priorytetem jest zapewnienie pracy lokalnie, to problemem może być kreacja wystarczającej liczby społecznie użytecznych stanowisk.
-Problem ten lepiej pokazuje prawy panel na wykresie 6.
-Okazuje się, że w przypadku 75% powiatów w dzisiejszych warunkach należałoby wygenerować miejsca pracy dla nie więcej niż ok. 10% osób w wieku produkcyjnym.
-Wykres 6 pokazuje również nieliniowy związek między liczbą bezrobotnych a populacją osób w wieku produkcyjnym.
-Różnice w stopie bezrobocia wynikają przede wszystkim z różnicy w liczbie mieszkańców w powiecie a nie z różnic w liczbie bezrobotnych.
 
-Wykres 6.
-Rozkład powiatów wg liczby oraz stopy bezrobocia rejestrowanego w lipcu 2020 r.
-\* 50% i 75% oznaczają odpowiednio medianę i 3 kwartyl.
-Jeden punkt przedstawia jeden powiat.
-Żródło: opracowanie własne na podstawie danych z Banku Danych Lokalnych GUS
 
-Zmiany następowały podobnie zarówno w ośrodkach dużych jak i małych (wyk. 7).
-Praktycznie w wszystkich przedstawionych powiatach widać wyraźny wzrost bezrobocia będący następstwem Globalnego Kryzysu Finansowego z 2008 r.
-Ponowny spadek liczby osób bezrobotnych miał miejsce dopiero po trzech, czterech latach.
-Tak długotrwały był skutek tego kryzysu.
+(ref:rys46) Rozkład powiatów wg liczby zarejestrowanych bezrobotnych w październiku 2021 r. <br> \* 50% i 75% oznaczają odpowiednio medianę i 3 kwartyl. <br> Jeden punkt przedstawia jeden powiat. <br> Źródło: opracowanie własne na podstawie danych z Banku Danych Lokalnych GUS
 
-Wykres 7.
-Zmiany liczby zarejestrowanych bezrobotnych w dziesięciu powiatach o największej i najmniejszej ich liczbie w 2018 r.
+```{r rys46, echo=FALSE, fig.align='left', fig.cap='(ref:rys46)', out.width='100%'}
+beeswarm <- function(x){     
+     plot_ly(x) %>% 
+     add_trace(
+          x = 0,
+          y = ~val,
+          type = "box", boxpoints = "all",
+          text = paste0(x$name, ", ",x$val),
+          hoverinfo = "text",
+          width = .5
+     ) %>% 
+     add_text(x=-.28, y=quantile(x$val)[3], text = "50%",textfont = list(color = "orange")) %>% 
+     add_text(x=-.28, y=quantile(x$val, probs = seq(0,1,0.01))[96], text = "95%",textfont = list(color = "orange")) %>% 
+     add_text(x=-.28, y=quantile(x$val)[4], text = "75%",textfont = list(color = "orange")) %>% 
+     add_text(x=-.48, y=quantile(x$val)[3], text = as.character(quantile(x$val)[3]),textfont = list(color = "orange")) %>% 
+     add_text(x=-.48, y=quantile(x$val, probs = seq(0,1,0.01))[96], text = as.character(quantile(x$val, probs = seq(0,1,0.01))[96]),textfont = list(color = "orange")) %>% 
+     add_text(x=-.48, y=quantile(x$val)[4], text = as.character(quantile(x$val)[4]),textfont = list(color = "orange")) %>% 
+     add_lines(x=seq(from=-.45, to=-.3, by=.01), y=quantile(x$val)[3], text = "50%", color = I("orange")) %>% 
+     add_lines(x=seq(from=-.45, to=-.3, by=.01), y=quantile(x$val, probs = seq(0,1,0.01))[96], text = "95%", color = I("orange")) %>% 
+     add_lines(x=seq(from=-.45, to=-.3, by=.01), y=quantile(x$val)[4], text = "75%", color = I("orange")) %>% 
+     layout(xaxis=list(range=c(-.5,-.26), showticklabels=FALSE),
+            yaxis=list(zeroline=FALSE, title = ""),
+            showlegend=FALSE)
+}
 
-Żródło: opracowanie własne na podstawie danych z Banku Danych Lokalnych GUS
+beeswarm(powiaty_mapa_liczba)
+beeswarm(powiaty_mapa)
 
-Przy obecnej skali i trendach bezrobocia rejestrowanego wdrożenie programu Gwarancji Zatrudnienia, na przykład w postaci banku miejsc pracy zgłaszanych przez lokalne organizacje pozarządowe zarządzanym przez Powiatowe Urzędy Pracy, nie powinno być trudne od strony obciążenia administracyjnego.
-Oczywiście wielką niewiadomą obecnie jest zdolność tych organizacji do efektywnego zarządzania tak nietypowymi pracownikami.
-Zdecydowanie największym zagrożeniem jest jednak pokusa zastępowania miejsc pracy w sektorze publicznym osobami zatrudnianymi za stawki minimalne w ramach programu Gwarancji Zatrudnienia.
+```
 
-Można z grubsza szacować, że przy stosunkowo niewielkiej skali programu (mniej niż milion osób obecnie bezrobotnych, które otrzymałyby wynagrodzenie minimalne wynoszące w 2019 r. 2250 zł brutto (1634 zł netto) roczny koszt programu wyniósłby ok. 1,634 mld zł x 12 = 19,608 mld zł.
-Jeśli pomniejszymy tę kwotę o wartość realnie płaconego podatku VAT (16%) to otrzymamy kwotę 16,471 mld zł rocznie czyli 0,78% PKB.
-Trzeba również pamiętać, że stanowiska pracy utworzone w ramach programu Gwarancji Zatrudnienia mogą być dofinansowane ze środków Unii Europejskiej.
-Dokładniejsze szacunki obejmujące analizę wpływu na całą strukturę płac w gospodarce wychodzą jednak poza obszar niniejszej pracy.
+Problem ten lepiej pokazuje rysunek \@ref(fig:rys47). Okazuje się, że w przypadku 75% powiatów w dzisiejszych warunkach należałoby wygenerować miejsca pracy dla nie więcej niż ok. 10% osób w wieku produkcyjnym.
+Rysunki \@ref(fig:rys46) i \@ref(fig:rys47) pokazują również nieliniowy związek między liczbą bezrobotnych a populacją osób w wieku produkcyjnym. Różnice w stopie bezrobocia wynikają przede wszystkim z różnicy w liczbie mieszkańców w powiecie a nie z różnic w liczbie bezrobotnych.
+
+(ref:rys47) Rozkład powiatów wg stopy bezrobocia rejestrowanego w październiku 2021 r. <br> \* 50% i 75% oznaczają odpowiednio medianę i 3 kwartyl. <br> Jeden punkt przedstawia jeden powiat. <br> Źródło: opracowanie własne na podstawie danych z Banku Danych Lokalnych GUS
+
+```{r rys47, echo=FALSE, fig.align='left', fig.cap='(ref:rys47)', out.width='100%'}
+
+beeswarm(powiaty_mapa)
+
+```
+
+
+Zmiany następowały podobnie zarówno w ośrodkach dużych jak i małych (rys. \@ref(fig:rys48) i \@ref(fig:rys49)).
+Niemal we wszystkich przedstawionych powiatach widać wyraźny wzrost bezrobocia będący następstwem pandemii.
+
+(ref:rys48) Zmiany liczby zarejestrowanych bezrobotnych w dziesięciu powiatach o największej ich liczbie <br>  Źródło: opracowanie własne na podstawie danych z Banku Danych Lokalnych GUS
+
+```{r rys48, echo=FALSE, fig.align='left', fig.cap='(ref:rys48)', out.width='100%'}
+top10 <- read.csv2("rysunki\\top10.csv")
+top <- ggplot(top10,aes(x= Data, y = Os, group=powiat)) + 
+     labs(x = "", y = "Liczba bezrobotnych w tys.") +
+     geom_line() + facet_wrap(vars(powiat), nrow = 2) + 
+     theme_minimal() + 
+     scale_x_discrete(breaks=c("2011 I kw.","2021 III kw.")) +
+     theme(axis.text.x = element_text(angle = 90))
+
+plotly::ggplotly(top)
+```
+
+(ref:rys49) Zmiany liczby zarejestrowanych bezrobotnych w dziesięciu powiatach o najmniejszej ich liczbie <br>  Źródło: opracowanie własne na podstawie danych z Banku Danych Lokalnych GUS
+
+```{r rys49, echo=FALSE, fig.align='left', fig.cap='(ref:rys49)', out.width='100%'}
+bot10 <- read.csv2("rysunki\\bot10.csv")
+bott <- ggplot(bot10,aes(x= Data, y = Os, group=powiat)) + 
+     labs(x = "", y = "Liczba bezrobotnych") +
+     geom_line() + facet_wrap(vars(powiat), nrow = 2) + 
+     theme_minimal() + 
+     scale_x_discrete(breaks=c("2011 I kw.","2021 III kw.")) +
+     theme(axis.text.x = element_text(angle = 90))
+plotly::ggplotly(bott)
+```
+
+Przy obecnej skali i trendach bezrobocia rejestrowanego wdrożenie programu Gwarancji Zatrudnienia, na przykład w postaci banku miejsc pracy zgłaszanych przez lokalne organizacje pozarządowe zarządzanym przez Powiatowe Urzędy Pracy, nie powinno być trudne od strony obciążenia administracyjnego. Oczywiście wielką niewiadomą obecnie jest zdolność tych organizacji do efektywnego zarządzania tak nietypowymi pracownikami. Zdecydowanie największym zagrożeniem jest jednak pokusa zastępowania miejsc pracy w sektorze publicznym osobami zatrudnianymi za stawki minimalne w ramach programu Gwarancji Zatrudnienia.
+
+Można z grubsza szacować, że przy stosunkowo niewielkiej skali programu (mniej niż milion osób obecnie bezrobotnych, które otrzymałyby wynagrodzenie minimalne wynoszące w 2021 r. 2800 zł brutto (2061,67 zł netto) roczny koszt programu wyniósłby ok. 1,878 mld zł x 12 = 22,534 mld zł. Jeśli pomniejszymy tę kwotę o wartość realnie płaconego podatku VAT (16%) to otrzymamy kwotę 18,93 mld zł rocznie czyli ok. 0,81% PKB. Trzeba również pamiętać, że stanowiska pracy utworzone w ramach programu Gwarancji Zatrudnienia mogą być dofinansowane ze środków Unii Europejskiej. Dokładniejsze szacunki obejmujące analizę wpływu na całą strukturę płac w gospodarce wychodzą jednak poza obszar niniejszej pracy.
 
 ## Podsumowanie
 
-Program Gwarancji Zatrudnienia stanowi jeden z trzech filarów Nowoczesnej Teorii Monetarnej.
-Stanowi odpowiedź na wykorzystywaną powszechnie obecnie koncepcję NAIRU czyli stabilizującego inflację bufora bezrobotnych.
-Według MMT taką samą funkcję ale znacznie lepiej będzie pełnił bufor zatrudnionych czyli właśnie program Gwarancji Zatrudnienia.
-Jego istnienie jest możliwe, gdyż z jednej strony bank centralny może sfinansować każdy wydatek państwa a z drugiej to polityka budżetowa jest najlepszym narzędziem kontroli inflacji.
+Program Gwarancji Zatrudnienia stanowi jeden z trzech filarów Nowoczesnej Teorii Monetarnej. Stanowi odpowiedź na wykorzystywaną powszechnie obecnie koncepcję NAIRU czyli stabilizującego inflację bufora bezrobotnych. Według MMT taką samą funkcję ale znacznie lepiej będzie pełnił bufor zatrudnionych czyli właśnie program Gwarancji Zatrudnienia. Jego istnienie jest możliwe, gdyż z jednej strony bank centralny może sfinansować każdy wydatek państwa a z drugiej to polityka budżetowa jest najlepszym narzędziem kontroli inflacji.
 
-Program ten jest elastyczny jeśli chodzi o sposoby jego wdrożenia.
-Wysokość płac oferowanych w jego ramach może się różnić w zależności od regionu czy wykonywanej pracy.
-Jego celem nie jest zastąpienie obecnych narzędzi rynku pracy np.
-szkoleń ale ich uzupełnienie.
-Likwidacji uległyby tylko świadczenia dla bezrobotnych.
-Niektórzy autorzy idą dalej i widzą program Gwarancji Zatrudnienia jako narzędzie polityki spójności i polityki strukturalnej mające na celu wesprzeć procesy transformacji np.
+Program ten jest elastyczny jeśli chodzi o sposoby jego wdrożenia. Wysokość płac oferowanych w jego ramach może się różnić w zależności od regionu czy wykonywanej pracy. Jego celem nie jest zastąpienie obecnych narzędzi rynku pracy np. szkoleń ale ich uzupełnienie. Likwidacji uległyby tylko świadczenia dla bezrobotnych. Niektórzy autorzy idą dalej i widzą program Gwarancji Zatrudnienia jako narzędzie polityki spójności i polityki strukturalnej mające na celu wesprzeć procesy transformacji np.
 związane z koniecznością odejścia od wydobycia węgla (Zygmuntowski i in., 2020).
 
-Przy braku ograniczeń finansowych ogromnym wyzwaniem pozostaje jednak przejście z poziomu ogólnego -- makroekonomicznego na poziom mikroekonomiczny związany z realnym wdrożeniem programu.
-I tego właśnie aspektu dotyczy większość krytyki.
-Analizując Gwarancję Zatrudnienia w kontekście polskich warunków instytucjonalnych zarysowują się dodatkowe ryzyka.
-Nie wiadomo, czy obecne urzędy pracy podołałyby organizacyjnie w zarządzaniu programem na poziomie lokalnym oraz, co bardziej istotne, program nie przerodziłby się w swoje przeciwieństwo jeśli stanowiłby pretekst to obniżenia płac w sektorze publicznym.
-Jego przewaga na dotychczasowym modelem przymusowego bezrobocia jest jednak tak duża, że z pewnością wdrożenie programu pilotażowego jest wskazane.
+Przy braku ograniczeń finansowych ogromnym wyzwaniem pozostaje jednak przejście z poziomu ogólnego -- makroekonomicznego na poziom mikroekonomiczny związany z realnym wdrożeniem programu. I tego właśnie aspektu dotyczy większość krytyki. Analizując Gwarancję Zatrudnienia w kontekście polskich warunków instytucjonalnych zarysowują się dodatkowe ryzyka. Nie wiadomo, czy obecne urzędy pracy podołałyby organizacyjnie w zarządzaniu programem na poziomie lokalnym oraz, co bardziej istotne, program nie przerodziłby się w swoje przeciwieństwo jeśli stanowiłby pretekst to obniżenia płac w sektorze publicznym. Jego przewaga na dotychczasowym modelem przymusowego bezrobocia jest jednak tak duża, że z pewnością wdrożenie programu pilotażowego jest wskazane.
