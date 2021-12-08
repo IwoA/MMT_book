@@ -306,10 +306,10 @@ an1 <- list(
      yref = "y",
      showarrow = TRUE,
      arrowhead = 6,
-     arrowcolor = "blue",
+     arrowcolor = "#1f77b4",
      ax = 10,
      ay = -20,
-     font = list(color = "blue")
+     font = list(color = "#1f77b4")
 )
 an2 <- list(
      x = 4,
@@ -319,10 +319,10 @@ an2 <- list(
      yref = "y",
      showarrow = TRUE,
      arrowhead = 6,
-     arrowcolor = "blue",
+     arrowcolor = "#1f77b4",
      ax = 10,
      ay = 20,
-     font = list(color = "blue")
+     font = list(color = "#1f77b4")
 )
 an3 <- list(
      x = 15,
@@ -332,10 +332,10 @@ an3 <- list(
      yref = "y",
      showarrow = TRUE,
      arrowhead = 6,
-     arrowcolor = "blue",
+     arrowcolor = "#1f77b4",
      ax = -10,
      ay = 20,
-     font = list(color = "blue")
+     font = list(color = "#1f77b4")
 )
 an4 <- list(
      x = sum(!is.na(bezrobocie_plt$text))-1,
@@ -345,16 +345,16 @@ an4 <- list(
      yref = "y",
      showarrow = TRUE,
      arrowhead = 6,
-     arrowcolor = "blue",
+     arrowcolor = "#1f77b4",
      ax = -10,
      ay = -20,
-     font = list(color = "blue")
+     font = list(color = "#1f77b4")
 )
 
 plot_ly(bezrobocie_plt, x = ~year, text = paste(bezrobocie_plt$year, "\n", bezrobocie_plt$text,"%")) %>% 
      add_trace(y = ~val/100, type = 'scatter', mode = 'lines', hoverinfo = "text") %>% 
      add_trace(y = ~proc/100, type = 'scatter', mode = 'lines',  hoverinfo = "text",
-               line = list(color = "blue", dash = 'dash')) %>% 
+               line = list(color = "#1f77b4", dash = 'dash')) %>% 
      layout(showlegend=FALSE,
             yaxis = list(showticklabels = FALSE, title = "", showgrid = F),
             xaxis = list(title = "", tickangle = 45),
@@ -460,11 +460,11 @@ Niemal we wszystkich przedstawionych powiatach widać wyraźny wzrost bezrobocia
 top10 <- read.csv2("rysunki\\top10.csv")
 top <- ggplot(top10,aes(x= Data, y = Os, group=powiat)) + 
      labs(x = "", y = "Liczba bezrobotnych w tys.") +
-     geom_line() + facet_wrap(vars(powiat), nrow = 2) + 
+     geom_line(aes(color=powiat)) + facet_wrap(vars(powiat), nrow = 2) + 
      theme_minimal() + 
      scale_x_discrete(breaks=c("2011 I kw.","2021 III kw.")) +
-     theme(axis.text.x = element_text(angle = 90))
-
+     scale_color_manual(values = rep("#1f77b4", times = 10)) +
+     theme(axis.text.x = element_text(angle = 90), legend.position="none")
 plotly::ggplotly(top)
 ```
 
@@ -474,10 +474,11 @@ plotly::ggplotly(top)
 bot10 <- read.csv2("rysunki\\bot10.csv")
 bott <- ggplot(bot10,aes(x= Data, y = Os, group=powiat)) + 
      labs(x = "", y = "Liczba bezrobotnych") +
-     geom_line() + facet_wrap(vars(powiat), nrow = 2) + 
+     geom_line(aes(color=powiat)) + facet_wrap(vars(powiat), nrow = 2) + 
      theme_minimal() + 
      scale_x_discrete(breaks=c("2011 I kw.","2021 III kw.")) +
-     theme(axis.text.x = element_text(angle = 90))
+     scale_color_manual(values = rep("#1f77b4", times = 10)) +
+     theme(axis.text.x = element_text(angle = 90),legend.position="none")
 plotly::ggplotly(bott)
 ```
 
