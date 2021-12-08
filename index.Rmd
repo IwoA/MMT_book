@@ -12,6 +12,7 @@ csl: chicago-fullnote-bibliography.csl
 ---
 
 # Wstęp
+<br>
 
 Głównym tej książki jest wyjaśnienie wszystkim zainteresowanym czym naprawdę jest Nowoczesna Teoria Monetarna, której prawdziwa nazwa powinna brzmieć tak jak w tytule.
 
