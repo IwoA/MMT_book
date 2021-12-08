@@ -1,7 +1,7 @@
 ---
 title: "Teoria Współczesnych Systemów Monetarnych"
 author: "Iwo Augustyński"
-date: "2021-11-07"
+date: "2021-12-08"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib, MMT.bib]
@@ -44,3 +44,5 @@ M. Keynesa i M.
 Kaleckiego, że celem działań państwa powinien być stan pełnego zatrudnienia.
 Jest tak ponieważ tylko państwo jest w stanie do tego doprowadzić.
 Według zwolenników Nowoczesnej Teorii Monetarnej program ten pełni w bardzo ważną rolę automatycznej „kotwicy antyinflacyjnej", takiej samej jaką pełni obecnie pula bezrobotnych. Analizując gwarancję zatrudnienia w kontekście polskich warunków instytucjonalnych, zarysowują się pewne ryzyka. Nie wiadomo, czy obecne urzędy pracy podołałyby organizacyjnie w zarządzaniu programem na poziomie lokalnym. Bardziej istotne jest jednak zagrożenie, że program przerodziłby się w swoje przeciwieństwo, jeśli stanowiłby pretekst do obniżenia płac w sektorze publicznym. Jego przewaga nad dotychczasowym modelem przymusowego bezrobocia jest jednak tak duża, że z pewnością wdrożenie programu pilotażowego jest wskazane. Przeprowadzone symulacje wskazują, że wdrożenie programu, dzięki pełnemu wykorzystaniu czynników wytwórczych, spowodowałoby dodatkowy wzrost gospodarczy utrzymując jednocześnie inflację na niskim poziomie. W porównaniu z tradycyjną, keynesowską polityką pobudzania popytu, okazał się bardziej efektywny w zmniejszaniu ubóstwa i nierówności dochodowych, był również mniej inflacjogenny.
+
+Książkę tę proszę cytować w następujący sposób:

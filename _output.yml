@@ -3,7 +3,7 @@ bookdown::bs4_book:
   template: "bs4_book.html"
   theme:
     primary: "#096B72"
-  repo: https://github.com/IwoA/MMT_book
+  repo: 
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex
