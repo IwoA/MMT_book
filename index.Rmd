@@ -15,13 +15,12 @@ csl: chicago-fullnote-bibliography.csl
 
 <br>
 
-> „Argumentacja na rzecz zajęcia się deficytem budżetowym stała się przykrywką ataku na płace i świadczenia.
-> A „oszczędność" to tylko kryptonim przekazywania bogactwa i władzy w ręce coraz mniejszej liczby ludzi."
+> „Badania w zakresie pieniądza są w wyższym stopniu niż wszystkie inne działy ekonomii dziedziną, w której złożoność jest wykorzystywana w celu zaciemnienia lub ominięcia prawdy, a nie w celu jej ujawnienia."
 
-Michał Kalecki
+John Kenneth Galbraith, "Pieniądz. Pochodzenie i losy"
 
 Głównym celem tej książki jest wyjaśnienie czym naprawdę jest Nowoczesna Teoria Monetarna, której właściwa nazwa powinna brzmieć tak jak w tytule (w tekście będę się posługiwał obiema nazwami oraz skrótem MMT).
-Jeśli kiedyś zastanawialiście się nad takimi sprawami jak deficyt budżetowy, dług publiczny, podatki, stopy procentowe, inflacja czy bezrobocie to teoria ta jest w stanie Wam te kwestie wyjaśnić.
+Jeśli kiedyś zastanawialiście się nad takimi sprawami jak deficyt budżetowy, dług publiczny, podatki, stopy procentowe, inflacja czy bezrobocie to właśnie ta teoria jest w stanie Wam te kwestie wyjaśnić.
 
 Niestety większość prowadzonych publicznie dyskusji pokazuje jak skromna jest wiedza o współczesnych systemach monetarnych.
 To z kolei jest efektem, między innymi, małej liczby publikacji, które kompleksowo i przystępnie przedstawiają opisującą je teorię.
@@ -30,15 +29,16 @@ Na przykład, obecnie w języku polskim dostępna jest tylko jedna książka o M
 Jak widać, książka podzielona jest na cztery rozdziały.
 Poświęcone są one odpowiednio: genezie tej teorii (rozdział I), analizie funkcjonowania polityki monetarnej (rozdział II) oraz fiskalnej (rozdział III) w Polsce z punktu widzenia MMT, a także weryfikacji możliwości wdrożenia programu gwarancji zatrudnienia w Polsce (rozdział IV).
 
-Jak pokazuję w rozdziale drugim, kontrowersji wśród ekonomistów nie budzi założenie Nowoczesnej Teorii Monetarnej, że państwo będące emitentem własnej waluty nie zadłuża się tak, jak gospodarstwa domowe, gdyż nie może zbankrutować.
+W rozdziale pierwszym wyjaśniam w jakim stopniu teoria ta jest "nowoczesna" i "współczesna".
+Jak się pewnie domyślacie, nikt nie dostał olśnienia po uderzeniu w głowę plikiem banknotów a MMT jest rezultatem połączenia i reinterpretacji prac wielu poprzedników takich jak J.M.
+Keynes czy M.
+Kalecki.
+
+Rozdział drugi zaczyna się od zaskakującego wniosku wynikającego z prostych działań matematycznych.
+Następnie pokazuję, że państwo będące emitentem własnej waluty nie zadłuża się tak, jak gospodarstwa domowe, gdyż nie może zbankrutować.
+Wbrew pozorom nie budzi tokontrowersji wśród ekonomistów.
 Nie ma natomiast zgody, co do wpływu emisji na inflację.
-Niemniej MMT wskazuje, że prawdziwym ograniczeniem poziomu wydatków publicznych są czynniki realne w postaci wolnej siły roboczej i dostępu do surowców a nie czynniki finansowe takie jak wielkość długu.
-Oznacza to, że limity długu i deficytu publicznego zapisane konstytucji i traktatach UE niepotrzebne ograniczają efektywność polityki fiskalnej.
-Znajduje to potwierdzenie w efektach interwencji państwa związanej z epidemią COVID-19.
-Przedstawiciele Teorii Współczesnych Systemów Monetarnych zdają sobie sprawę z zagrożeń związanych z prowadzeniem polityki budżetowej opartej na decyzjach rządu i parlamentu, takich jak np.
-procykliczność związana z opóźnieniami politycznej reakcji na sytuację gospodarczą, czy też spowodowaną cyklem wyborczym.
-Dlatego bardzo istotną rolę przypisują automatycznym stabilizatorom koniunktury takim jak odpowiednia struktura podatkowa, czy program gwarancji zatrudnienia.
-Dodatkowo postulują zmianę procesu legislacyjnego na taki, który włącza ocenę ryzyka inflacji w proces uchwalania aktów prawnych.
+MMT wskazuje, że prawdziwym ograniczeniem poziomu wydatków publicznych są czynniki realne, w postaci wolnej siły roboczej i dostępu do surowców, a nie czynniki finansowe takie jak wielkość długu.
 
 Mimo bardzo ważnej roli, jaką odgrywają podatki w Nowoczesnej Teorii Monetarnej zaskakiwać może niewielka liczba prac na temat optymalnej struktury podatkowej.
 Biorąc więc pod uwagę polskie i europejskie uwarunkowania instytucjonalno-prawne należałoby raczej mówić nie o likwidacji takich podatków jak PIT, CIT czy VAT, ale redukcji ich roli na korzyść podatku od nieruchomości, podatku od dochodów kapitałowych oraz podatku akcyzowego.
