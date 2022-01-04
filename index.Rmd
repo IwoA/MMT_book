@@ -30,23 +30,28 @@ Jak widać, książka podzielona jest na cztery rozdziały.
 Poświęcone są one odpowiednio: genezie tej teorii (rozdział I), analizie funkcjonowania polityki monetarnej (rozdział II) oraz fiskalnej (rozdział III) w Polsce z punktu widzenia MMT, a także weryfikacji możliwości wdrożenia programu gwarancji zatrudnienia w Polsce (rozdział IV).
 
 W rozdziale pierwszym wyjaśniam w jakim stopniu teoria ta jest "nowoczesna" i "współczesna".
-Jak się pewnie domyślacie, nikt nie dostał olśnienia po uderzeniu w głowę plikiem banknotów a MMT jest rezultatem połączenia i reinterpretacji prac wielu poprzedników takich jak J.M.
-Keynes czy M.
-Kalecki.
+Jak się pewnie domyślacie, nikt nie dostał olśnienia po uderzeniu w głowę plikiem banknotów a MMT jest rezultatem połączenia i reinterpretacji prac wielu poprzedników.
+Wśród nich istotną rolę odgrywa Polak - Michał Kalecki.
 
 Rozdział drugi zaczyna się od zaskakującego wniosku wynikającego z prostych działań matematycznych.
-Następnie pokazuję, że państwo będące emitentem własnej waluty nie zadłuża się tak, jak gospodarstwa domowe, gdyż nie może zbankrutować.
-Wbrew pozorom nie budzi tokontrowersji wśród ekonomistów.
+Następnie pokazuję, w jaki sposób odbywa się emisja pieniądza i kto za to odpowiada (mała podpowiedź - nie tylko bank centralny).
+Okazuje się, że państwo będące emitentem własnej waluty nie zadłuża się tak, jak gospodarstwa domowe, gdyż nie może zbankrutować.
+Wbrew pozorom nie budzi to kontrowersji wśród ekonomistów.
 Nie ma natomiast zgody, co do wpływu emisji na inflację.
 MMT wskazuje, że prawdziwym ograniczeniem poziomu wydatków publicznych są czynniki realne, w postaci wolnej siły roboczej i dostępu do surowców, a nie czynniki finansowe takie jak wielkość długu.
 
-Mimo bardzo ważnej roli, jaką odgrywają podatki w Nowoczesnej Teorii Monetarnej zaskakiwać może niewielka liczba prac na temat optymalnej struktury podatkowej.
-Biorąc więc pod uwagę polskie i europejskie uwarunkowania instytucjonalno-prawne należałoby raczej mówić nie o likwidacji takich podatków jak PIT, CIT czy VAT, ale redukcji ich roli na korzyść podatku od nieruchomości, podatku od dochodów kapitałowych oraz podatku akcyzowego.
-Ponieważ z teorii tej wynika, że podatki nie są bezpośrednio powiązane z wydatkami publicznymi, to mogą być obniżone w stosunku do obecnego poziomu.
+W ten sposób dochodzimy do rozdziału trzeciego, który zaczyna się od rozważań co powinno być najwyższym celem polityki ekonomicznej państwa.
+Następnie pokazuję, jak teoria współczesnych systemów monetarnych wyjaśnia rolę budżetu państwa i banku centralnego w realizacji tego celu.
+Pojawia się tutaj zagadnienie kto jest ważniejszy, szef banku centralnego czy minister finansów oraz kwestia demokratycznej kontroli nad decyzjami związanymi z emisją pieniądza.
+Myślę, że w tym rozdziale czeka Was najwięcej niespodzianek i nieintuicyjnych wniosków.
+Jeśli zastanawialiście się kiedyś dlaczego miliardy euro z Unii Europejskiej i miliardy złotych z tarczy antykryzysowej nie wywołały inflacji, to w tym rozdziale znajdziecie odpowiedź.
 
-Program gwarancji zatrudnienia -- bardzo ważny w MMT automatyczny stabilizator koniunktury -- stanowi prostą konsekwencję założenia, wywodzącego się jeszcze od J.M.
-Keynesa i M.Kaleckiego, że celem działań państwa powinien być stan pełnego zatrudnienia.
-Jest tak ponieważ tylko państwo jest w stanie do tego doprowadzić.
-Według zwolenników Nowoczesnej Teorii Monetarnej program ten pełni w bardzo ważną rolę automatycznej „kotwicy antyinflacyjnej", takiej samej jaką pełni obecnie pula bezrobotnych. Analizując gwarancję zatrudnienia w kontekście polskich warunków instytucjonalnych, zarysowują się pewne ryzyka. Nie wiadomo, czy obecne urzędy pracy podołałyby organizacyjnie w zarządzaniu programem na poziomie lokalnym. Bardziej istotne jest jednak zagrożenie, że program przerodziłby się w swoje przeciwieństwo, jeśli stanowiłby pretekst do obniżenia płac w sektorze publicznym. Jego przewaga nad dotychczasowym modelem przymusowego bezrobocia jest jednak tak duża, że z pewnością wdrożenie programu pilotażowego jest wskazane. Przeprowadzone symulacje wskazują, że wdrożenie programu, dzięki pełnemu wykorzystaniu czynników wytwórczych, spowodowałoby dodatkowy wzrost gospodarczy utrzymując jednocześnie inflację na niskim poziomie. W porównaniu z tradycyjną, keynesowską polityką pobudzania popytu, okazał się bardziej efektywny w zmniejszaniu ubóstwa i nierówności dochodowych, był również mniej inflacjogenny.
+Jeśli mieliście tą nieprzyjemność bycia osobą bezrobotną lub warunki w pracy powodują załamanie nerwowe to zainteresuje was szczególnie rozdział czwarty poświęcony programowi gwarancji zatrudnienia, jako alternatywy dla armii bezrobotnych.
+Po przeczytaniu poprzednich rozdziałów nie będzie dla nikogo zaskoczeniem, że istnienie bezrobocia jest świadomym wyborem politycznym, a nie "naturalną" koniecznością.
+Państwo oferując pracę każdej chętnej osobie, nie tylko pomaga poszczególnym obywatelom i obywatelkom ale również stabilizuje gospodarkę i ogranicza inflację.
+Oferując zaś alternatywę do pracy w firmach prywatnych, tworzy minimalne warunki jakości pracy.
+Dowiecie się również jaka mogłaby to być praca i ile by to kosztowało.
 
-Książkę tę proszę cytować w następujący sposób:
+Ta książka online jest dostępna na licencji [![](http://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png)](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.pl)
+
+
