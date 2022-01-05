@@ -1,49 +1,36 @@
-# Wprowadzenie do Nowoczesnej Teorii Monetarnej
+# Wprowadzenie do teorii współczesnych systemów monetarnych
 
 ## Geneza MMT
 
-Za początek Nowoczesnej Teorii Monetarnej należy uznać rok 1993 i wydanie książki Warrena Moslera pt.
-„Soft Currency Economics". Jej autor z sukcesem zarządzał funduszem hedgingowym zarabiającym m.in. na kursach walut i obligacjach skarbowych. Jak pisze [na swoim blogu](http://moslereconomics.com/2011/08/04/mmt-history-and-overview/) zalążek tego, co później okrzepło w postaci MMT powstało jako wynik jego praktycznych doświadczeń z inwestowania na rynkach finansowych. O ile dalszy rozwój ta szkoła ekonomiczna zawdzięcza innym, akademickim ekonomistom i ekonomistkom, o tyle Warren Mosler wciąż odgrywa dość istotną rolę finansując badania oraz promując ten nurt wśród praktyków rynków finansowych.
+Za początek teorii współczesnych systemów monetarnych należy uznać rok 1993 i wydanie książki Warrena Moslera pt.
+„Soft Currency Economics". Jej autor z sukcesem zarządzał funduszem hedgingowym zarabiającym m.in. na kursach walut i obligacjach skarbowych. Jak pisze [na swoim blogu](http://moslereconomics.com/2011/08/04/mmt-history-and-overview/), zalążek tego, co później okrzepło w postaci MMT, powstało jako wynik jego praktycznych doświadczeń z inwestowania na rynkach finansowych. O ile dalszy rozwój ta szkoła ekonomiczna zawdzięcza innym, akademickim ekonomistom i ekonomistkom, o tyle Warren Mosler wciąż odgrywa dość istotną rolę finansując badania oraz promując ten nurt wśród praktyków rynków finansowych.
 
-Dynamiczny rozwój MMT nie byłby jednak możliwy gdyby pomysły W.
-Moslera nie trafiły na podatny grunt przygotowany przez ekonomistę o ugruntowanej pozycji w środowisku, czyli Jamesa K. Galbraitha, syna chyba najbardziej wpływowego ekonomisty amerykańskiego swoich czasów Johna Kennetha Galbraitha.
-James był profesorem ekonomii na Uniwersytecie w Teksasie, dyrektorem wykonawczym połączonego komitetu ekonomicznego kongresu USA (United States Congress Joint Economic Committee), autorem wielu książek z dziedziny ekonomii w tym podręcznika z makroekonomii.
-Publikował również wielokrotnie na łamach[m.in. w New York Times i Washington Post](https://lbj.utexas.edu/galbraith-james-k).
+Dynamiczny rozwój MMT nie byłby jednak możliwy, gdyby pomysły W. Moslera nie trafiły na podatny grunt przygotowany przez ekonomistę o ugruntowanej pozycji w środowisku, czyli Jamesa K. Galbraitha, syna jednego z najbardziej wpływowych ekonomistów amerykańskich swoich czasów Johna Kennetha Galbraitha.
+James był profesorem ekonomii na Uniwersytecie w Teksasie, dyrektorem wykonawczym Połączonego Komitetu Ekonomicznego Kongresu USA (*United States Congress Joint Economic Committee*), autorem wielu książek z dziedziny ekonomii w tym podręcznika z makroekonomii. Publikował również wielokrotnie na łamach[m.in. w New York Times i Washington Post](https://lbj.utexas.edu/galbraith-james-k).
 [Doradzał również prezydentowi Obamie](https://www.washingtonpost.com/business/modern-monetary-theory-is-an-unconventional-take-on-economic-strategy/2012/02/15/gIQAR8uPMR_story.html).
 
-Jednak samą nazwę „Modern Monetary Theory" stworzył inny wpływowy ekonomista, tym razem australijski -- William Mitchell. Nazwa ta nawiązuje do prac J.M. Keynesa, w których używał on sformułowania „modern money".
-Można powiedzieć, że Nowoczesna Teoria Monetarna zaczęła swoje istnienie jako marketingowa nazwa szkoły ekonomicznej zwanej neoczartalizmem[^geneza-1] a następnie rozwinęła się w nowy byt inkorporując finanse funkcjonalne Abby Lernera i program „bufora zatrudnionych" (czyli Gwarancji Zatrudnienia).
+Jednak samą nazwę „Modern Monetary Theory" stworzył inny wpływowy ekonomista, tym razem australijski William Mitchell. Nazwa ta nawiązuje do prac J. M. Keynesa, w których używał on sformułowania „modern money".
+Można powiedzieć, że nowoczesna teoria monetarna zaczęła swoje istnienie jako marketingowa nazwa szkoły ekonomicznej zwanej neoczartalizmem[^geneza-1] a następnie rozwinęła się w nowy byt inkorporując finanse funkcjonalne Abby Lernera i program „bufora zatrudnionych" (czyli Gwarancji Zatrudnienia).
 
 [^geneza-1]: [„Keynes coined the term "modern money," and Wray named his book after that. But we always have used the term neo-Chartalist to refer to ourselves in academic circles."](https://worthwhile.typepad.com/worthwhile_canadian_initi/2011/04/reverse-engineering-the-mmt-model.html?cid=6a00d83451688169e2014e87e90e9d970d#comment-6a00d83451688169e2014e87e90e9d970d)
 
-William Mitchell jest profesorem ekonomii oraz dyrektorem Centrum Pełnego Zatrudnienia i Sprawiedliwości (Centre of Full Employment and Equity -- CofEE) na Uniwersytecie w Newcastle w Australii.
-Wraz z L.
-Randallem Wray'em oraz Martinem Wattsem opublikował w 2019 r.
-bardzo ciepło przyjęty pierwszy podręcznik do makroekonomii oparty na Nowoczesnej Teorii Monetarnej.
+William Mitchell jest profesorem ekonomii oraz dyrektorem Centrum Pełnego Zatrudnienia i Sprawiedliwości (*Centre of Full Employment and Equity -- CofEE*) na Uniwersytecie w Newcastle w Australii. Wraz z L. Randallem Wray'em oraz Martinem Wattsem opublikował w 2019 r. bardzo ciepło przyjęty pierwszy podręcznik do makroekonomii oparty na nowoczesnej teorii monetarnej.
 
-L. Randall Wray jest kolejną postacią zasłużoną dla rozwoju MMT.
-Obecnie jest profesorem w Bard College oraz Levy Economics Institute, wykładał jednak przez dłuższy czas na Uniwersytecie Missouri-Kansas City oraz Uniwersytecie w Denver.
-Jest on chyba autorem lub współautorem największej liczby książek i artykułów o MMT[^geneza-2].
+L. Randall Wray jest kolejną postacią zasłużoną dla rozwoju MMT. Obecnie jest profesorem w Bard College oraz Levy Economics Institute, wykładał jednak przez dłuższy czas na Uniwersytecie Missouri-Kansas City oraz Uniwersytecie w Denver.
+Jest on autorem lub współautorem największej liczby książek i artykułów o MMT[^geneza-2].
 
 [^geneza-2]: <https://ideas.repec.org/e/pwr20.html>
 
 Do pozostałych ekonomistów aktywnie promujących i rozwijających MMT należą Jan Kregel, Mathew Forstater, Scott Fullwiler, Stephanie Kelton, Pavlina Tcherneva, Edward Nell oraz Eric Tymoigne (Wray, 2019, s. 15).
-Łączy ich (z wyjątkiem Edwarda Nella) także praca w Levy Economics Institute oraz na Uniwersytecie Missouri-Kansas City.
+Łączy ich, z wyjątkiem Edwarda Nella, także praca w Levy Economics Institute oraz na Uniwersytecie Missouri-Kansas City.
 Szczególną rolę w tym gronie odgrywa Stephanie Kelton, obecnie profesor na Stony Brook University, która pełniła m.in.
-funkcję głównej ekonomistki komisji budżetowej amerykańskiego senatu.
-Publikuje m.in.
-w New York Times, The Los Angeles Times, U.S. News & World Reports oraz CNN.
-O jej pozycji świadczą takie wyróżnienia jak zaliczenie do grona 50 najbardziej wpływowych myślicieli 2016 r.
-przez POLITICO, 50 osób, które zdefiniowały 2019 r.
-przez Bloomberga oraz do 100 najbardziej wpływowych kobiet w finansach w 2020 r.
-przez [portal Barron's](https://stephaniekelton.com/about/).
+funkcję głównej ekonomistki komisji budżetowej amerykańskiego senatu. Publikuje m.in. w "New York Times", "The Los Angeles Times", "U.S. News & World Reports" oraz CNN. O jej pozycji świadczą takie wyróżnienia jak zaliczenie do grona 50 najbardziej wpływowych myślicieli 2016 r. przez POLITICO, 50 osób, które zdefiniowały 2019 r. przez Bloomberga oraz do 100 najbardziej wpływowych kobiet w finansach w 2020 r. w rankingu [portalu Barron's](https://stephaniekelton.com/about/).
 
-Artykuły naukowe dotyczące MMT najczęściej można spotkać w takich czasopismach jak: Cambridge Journal of Economics (Impact Factor 1,717), Review of Keynesian Economics (Impact Factor 0,817), Journal of Economic Issues (Impact Factor 0,763), Journal of Post Keynesian Economics (0,656), International Journal of Political Economy, Eastern Economic Journal, Review of Political Economy, Review of Social Economy czy SSRN.
+Artykuły naukowe dotyczące MMT najczęściej można spotkać w takich czasopismach jak: Cambridge Journal of Economics, Review of Keynesian Economics, Journal of Economic Issues, Journal of Post Keynesian Economics, International Journal of Political Economy, Eastern Economic Journal, Review of Political Economy, Review of Social Economy czy SSRN.
 Poza tym znaczna liczba artykułów została opublikowana jako Working Papers przez Levy Economics Institute.
 
-Wzrost popularności tej szkoły ekonomicznej najlepiej chyba jednak przedstawić poprzez liczbę publikacji pozycji książkowych bowiem, jak już wspomniano, artykuły naukowe należy liczyć w setkach a ich przyporządkowanie do MMT utrudnia fakt niejasnych granic między tym nurtem a postkeynesizmem.
-Pierwsze pozycje, do których bezpośrednio odwołują się ekonomiści nurtu MMT to z pewnością książka G.F.
-Knappa „Państwowa teoria pieniądza" (*Staatliche Theorie Des Geldes*), opublikowana w 1923 r., która opisuje państwo jako kreatora pieniądza. Zgodnie z pracami Keynesa MMT kładzie nacisk na kluczową rolę zagregowanego popytu w cyklu gospodarczym. Idzie jednak dalej i łączy te dwa elementy w sposób zaproponowany przez Abbę Lernera w postaci tzw. finansów funkcjonalnych. Pisząc o roli pieniądza w gospodarce, a zwłaszcza o programie gwarancji zatrudnienia, autorzy nurtu MMT powołują się zazwyczaj na prace H.P. Minsky'ego. Chronologicznie listę autorów i ich prac, które najwięcej wniosły do powstania i rozwoju Nowoczesnej Teorii Monetarnej przedstawia tabela \@ref(tab:tab1).
+Wzrost popularności tej szkoły ekonomicznej najlepiej chyba jednak przedstawić poprzez liczbę publikacji pozycji książkowych bowiem, jak już wspomniano, artykuły naukowe należy liczyć w setkach, a ich przyporządkowanie do MMT utrudnia fakt niejasnych granic między tym nurtem a postkeynesizmem.
+Pierwsze pozycje, do których bezpośrednio odwołują się ekonomiści nurtu MMT to z pewnością książka G.F. Knappa „Państwowa teoria pieniądza" (*Staatliche Theorie Des Geldes*), opublikowana w 1923 r., która opisuje państwo jako kreatora pieniądza. Zgodnie z pracami Keynesa MMT kładzie nacisk na kluczową rolę całkowitego popytu w cyklu gospodarczym. Idzie jednak dalej i łączy te dwa elementy w sposób zaproponowany przez Abbę Lernera w postaci tzw. finansów funkcjonalnych. Pisząc o roli pieniądza w gospodarce, a zwłaszcza o programie gwarancji zatrudnienia, autorzy nurtu MMT powołują się zazwyczaj na prace H. P. Minsky'ego. Chronologicznie listę autorów i ich prac, które najwięcej wniosły do powstania i rozwoju nowoczesnej teorii monetarnej przedstawia tabela \@ref(tab:tab1).
 
     ```{r, setup, include=FALSE}
     knitr::opts_chunk$set(
@@ -56,12 +43,12 @@ library(kableExtra)
 tab1 <- read.csv2("rysunki\\Tabela_1.csv")
 kbl(tab1, col.names = c("Rok wydania", "Tytuł", "Autor"),
     align = c("c", "l", "l"), longtable = TRUE,
-    caption = "Lista najważniejszych książek dotyczących Nowoczesnej Teorii Monetarnej <br>Źródło: Opracowanie własne") %>% row_spec(0, align = "c") 
+    caption = "Lista najważniejszych książek dotyczących Nowoczesnej Teorii Monetarnej <br>Źródło: opracowanie własne") %>% row_spec(0, align = "c") 
 ```
 
-## Teoretyczne podstawy Nowoczesnej Teorii Monetarnej
+## Teoretyczne podstawy teorii współczesnych systemów monetarnych
 
-Najczęstsza odpowiedź na pytanie czym zajmuje się ekonomia brzmi następująco: „ekonomia to nauka o efektywnej alokacji rzadkich zasobów". Wynika z niej, że rzadkość odgrywa centralną rolę. Jeśli zasoby są rzadkie to oznacza, że ich podaż jest ograniczona. Zakłada się, że wszystkie zasoby, produkty i usługi są rzadkie, bez względu czy dotyczy to pracy, kapitału, wody czy pieniędzy. Z takiego podejścia wynika, że trzeba dokonywać optymalnej selekcji jakie potrzeby, w jakim stopniu zostaną zaspokojone. Podaż musi być racjonowana. Lokując zbyt dużą część podaży na jednym rynku powodujemy, że braknie jej na innych. Naczelnym zadaniem staje się dokonywanie optymalnej alokacji. Zakłada się dalej, że efektywną alokację zapewnia rynek, umożliwiając konkurowanie ze sobą różnych konsumentów i producentów. Jak podkreślał Hayek, ceny rynkowe dostarczają wszelkich niezbędnych informacji do efektywnej alokacji zasobów, ponieważ są miarą rzadkości, tak więc znajomość cen pozwala podmiotom dostosowywać się do zmian dostępnej ilości zasobów. Każde zakłócenie tej wolnej konkurencji powoduje nieoptymalną alokację rzadkich zasobów. Logiczną konsekwencją takiego podejścia jest konieczność maksymalnego ograniczania interwencji w siły rynkowe ze strony instytucji takich jak państwo, związki zawodowe czy prywatne kartele. Założenie o rzadkości zasobów wymaga przyjęcia kolejnych założeń, dotyczących między innymi tego, że ilość pieniądza zależy od czynników zewnętrznych oraz pełnego wykorzystania czynników produkcji (kapitału i siły roboczej). Dla postkeynesistów wyjaśnienie w postaci występowania zewnętrznych zakłóceń i niedoskonałości rynku, które nie pozwalają siłom rynkowym na pełną i efektywną alokację np. (ograniczonej) siły roboczej, jest jednak daleko niesatysfakcjonujące (Godley & Cripps, 1983; Kalecki, 1979; Lavoie, 2014; Mitchell i in., 2019; Rochon & Rossi, 2016). W rezultacie postkeynesizm, a zatem i wywodząca się z niego Nowoczesna Teoria Monetarna , różni się pod względem metodologicznym od tak zwanej ekonomii głównego nurtu stanowiąc odrębną szkołę (Dow, 1985 za Wojtyna, 2000, s. 54). S. Dow wyróżnia cztery szkoły:
+Najczęstsza odpowiedź na pytanie czym zajmuje się ekonomia, brzmi następująco: „ekonomia to nauka o efektywnej alokacji rzadkich zasobów". Wynika z niej, że rzadkość odgrywa centralną rolę. Jeśli zasoby są rzadkie to oznacza, że ich podaż jest ograniczona. Zakłada się, że wszystkie zasoby, produkty i usługi są rzadkie, bez względu na to, czy chodzi o pracę, kapitał, wodę czy pieniądze. Z takiego podejścia wynika, że trzeba dokonywać optymalnej selekcji jakie potrzeby w jakim stopniu zostaną zaspokojone. Podaż musi być racjonowana. Lokując zbyt dużą część podaży na jednym rynku powodujemy, że braknie jej na innych. Naczelnym zadaniem staje się dokonywanie optymalnego podziału (alokacji) dóbr i usług. Zakłada się dalej, że efektywną alokację zapewnia rynek, umożliwiając konkurowanie ze sobą różnych konsumentów i producentów. Jak podkreślał Hayek, ceny rynkowe dostarczają wszelkich niezbędnych informacji do efektywnego rozdzielania zasobów, ponieważ są miarą rzadkości, tak więc znajomość cen pozwala podmiotom dostosowywać się do zmian dostępnej ilości zasobów. Każde zakłócenie tej wolnej konkurencji powoduje nieoptymalny podział rzadkich zasobów. Logiczną konsekwencją takiego podejścia jest konieczność maksymalnego ograniczania interwencji w siły rynkowe ze strony instytucji takich jak państwo, związki zawodowe czy prywatne kartele. Założenie o rzadkości zasobów wymaga przyjęcia kolejnych założeń dotyczących między innymi tego, że ilość pieniądza zależy od czynników zewnętrznych oraz pełnego wykorzystania czynników produkcji (kapitału i siły roboczej). Dla postkeynesistów wyjaśnienie w postaci występowania zewnętrznych zakłóceń i niedoskonałości rynku, które nie pozwalają siłom rynkowym na pełną i efektywną alokację np. (ograniczonej) siły roboczej, jest jednak daleko niesatysfakcjonujące (Godley & Cripps, 1983; Kalecki, 1979; Lavoie, 2014; Mitchell i in., 2019; Rochon & Rossi, 2016). W rezultacie postkeynesizm, a zatem i wywodząca się z niego teoria współczesnych systemów monetarnych, różni się pod względem metodologicznym od tak zwanej ekonomii głównego nurtu, stanowiąc odrębną szkołę (Dow, 1985 za Wojtyna, 2000, s. 54). S. Dow wyróżnia cztery szkoły:
 
 1.  głównego nurtu ,
 
@@ -71,46 +58,33 @@ Najczęstsza odpowiedź na pytanie czym zajmuje się ekonomia brzmi następując
 
 4.  marksistowską.
 
-W ramach każdej z nich funkcjonuje wiele nurtów i teorii, jednak łączą je, i odróżniają od innych szkół właśnie różnice w metodologii.
-Pojęcie „metodologia" jest przy tym rozumiane szeroko i obejmuje zarówno faktycznie stosowane przez daną szkołę procedury badawcze (techniki modelowania, wybór kategorii, preferowane metody testowania hipotez), jak i leżący u ich podstaw światopogląd (konceptualizację rzeczywistości) (Wojtyna, 2000)[^geneza-3].
+W ramach każdej z nich funkcjonuje wiele nurtów i teorii, jednak łączą je, i jednocześnie odróżniają od innych szkół właśnie różnice w metodologii. Pojęcie „metodologia" jest przy tym rozumiane szeroko i obejmuje zarówno faktycznie stosowane przez daną szkołę procedury badawcze (techniki modelowania, wybór kategorii, preferowane metody testowania hipotez), jak i leżący u ich podstaw światopogląd (konceptualizację rzeczywistości) (Wojtyna, 2000)[^geneza-3].
 
 [^geneza-3]: Doskonale te różnice widać w pracach (Rochon & Rossi, 2016) oraz (Mitchell i in., 2019), których konstrukcja opiera się na konfrontacji teorii głównego nurtu z teoriami postkeynesowskimi (w pierwszym przypadku) i MMT (w drugim przypadku).
 
-## Nowoczesna Teoria Monetarna jako część nurtu postkeynesowskiego
+## Teoria współczesnych systemów monetarnych jako część nurtu postkeynesowskiego
 
-Ekonomia postkeynesowska, do której zalicza się Nowoczesna Teoria Monetarna, postrzega ekonomię w zupełnie inny sposób niż ekonomia głównego nurtu.
-Zauważa mianowicie, że w rzeczywistości ani ceny nie powodują optymalnej alokacji zasobów, zwłaszcza finansowych (Aliber & Kindleberger, 2017; Toporowski, 2005).
-Nie mamy także do czynienia z koniecznością racjonowania zasobów w realiach wysokiego bezrobocia i kreacji dowolnej ilości pieniądza przez współczesny sektor bankowy i banki centralne.
-Ceny natomiast nie odzwierciedlają rzadkości a jedynie reprezentują jednostkowe koszty produkcji nowych dóbr i usług wynikające głównie z kosztów pracy.
-W efekcie centralnym punktem ekonomii nie jest alokacja rzadkich zasobów, a produkcja i zrównoważony wzrost.
-Podstawowa zasada ekonomii czyli zasada rzadkości jest zastąpiona zasadą efektywnego popytu (Lavoie, 2014, s. 41) - prawdziwym ograniczeniem we współczesnych gospodarkach nie jest podaż, a efektywny popyt i o ile można (a nawet należy ) wyobrazić i uwzględnić w badaniach stan pełnego zatrudnienia to bariera podaży pieniądza fiducjarnego[^geneza-4] nigdy się nie pojawi.
-Jak już wspomniano, Nowoczesna Teoria Monetarna zalicza się do szerszego nurtu postkeynesizmu.
-Oznacza to, że korzysta z keynesowskiej teorii efektywnego popytu czyli opiera się ona na zupełnie innym systemie założeń analitycznych.
+Ekonomia postkeynesowska, do której zalicza się teoria współczesnych systemów monetarnych, postrzega ekonomię w zupełnie inny sposób niż ekonomia głównego nurtu. Zauważa mianowicie, że w rzeczywistości ani ceny nie powodują optymalnej alokacji zasobów, zwłaszcza finansowych (Aliber & Kindleberger, 2017; Toporowski, 2005). Nie mamy także do czynienia z koniecznością racjonowania zasobów w realiach bezrobocia i kreacji dowolnej ilości pieniądza przez współczesny sektor bankowy i banki centralne. Ceny natomiast nie odzwierciedlają rzadkości a jedynie reprezentują jednostkowe koszty produkcji nowych dóbr i usług wynikające głównie z kosztów pracy oraz stopnia monopolizacji.
+**W efekcie centralnym punktem ekonomii nie jest alokacja rzadkich zasobów, ale produkcja i zrównoważony wzrost.**
+Podstawowa zasada ekonomii czyli zasada rzadkości jest zastąpiona zasadą efektywnego popytu (Lavoie, 2014, s. 41) - prawdziwym ograniczeniem we współczesnych gospodarkach nie jest podaż, lecz efektywny popyt i o ile można, a nawet należy, wyobrazić sobie i uwzględnić w badaniach stan pełnego zatrudnienia, to bariera podaży pieniądza fiducjarnego[^geneza-4] nigdy się nie pojawi.
+Jak już wspomniano, nowoczesna teoria monetarna zalicza się do szerszego nurtu postkeynesizmu. Oznacza to, że korzysta z keynesowskiej teorii efektywnego popytu czyli opiera się ona na zupełnie innym systemie założeń analitycznych.
 Najważniejsze z tych założeń są następujące (Bhaduri, 2015):
 
 [^geneza-4]: pieniądz fiducjarny (łac. fides -- wiara) -- waluta nie mająca oparcia w dobrach materialnych (jak np. kruszce), której wartość ma źródło z reguły w dekretowanym prawnie monopolu w wykorzystaniu go na danym obszarze jako legalny środek płatniczy oraz na popycie generowanym przez instytucje państwowe, głównie przez pobór podatków.
     Wartość pieniądza fiducjarnego opiera się na zaufaniu do emitenta.
 
-1.  Analogia między jednostką (gospodarstwem domowym) a całą gospodarką nie ma sensu z racji występowania ruchu okrężnego między wydatkami i dochodami na poziomie makro, gdzie w dwusektorowym modelu rachunków narodowych wydatki jednego sektora stają się dochodami drugiego.
-    W efekcie wydatki wprowadzone do ruchu okrężnego (jako autonomiczne inwestycje) mogą stworzyć odpowiednią wielkość oszczędności przez wzrost dochodów.
-    W takim modelu wyższe oszczędności są następstwem wyższych inwestycji, a zasada maksymalizacji korzyści przez indywidualną jednostkę dokonującą wyboru pomiędzy teraźniejszą a przyszłą konsumpcją (czyli oszczędnościami) jest mało istotna.
+1.  Analogia między jednostką (gospodarstwem domowym) a całą gospodarką nie ma sensu z racji występowania ruchu okrężnego między wydatkami i dochodami na poziomie makro, gdzie wydatki jednego sektora gospodarki stają się dochodami drugiego.
+    W efekcie wydatki wprowadzone do ruchu okrężnego (jako autonomiczne inwestycje) mogą stworzyć odpowiednią wielkość oszczędności przez wzrost dochodów. W takim modelu wyższe oszczędności są następstwem wyższych inwestycji, a zasada maksymalizacji korzyści przez jednostkę dokonującą wyboru pomiędzy teraźniejszą a przyszłą konsumpcją (czyli oszczędnościami) jest mało istotna.
 
-2.  W sytuacji recesji wytworzenie dodatkowego dochodu jest możliwe dzięki wyższym wydatkom, gdyż powodują one przede wszystkim wzrost rozmiarów produkcji.
-    Na wyższy popyt wywołany przez wyższe wydatki autonomiczne produkcja reaguje gwałtownie i szybciej dostosowaniem ilościowym niż cenowym, nawet w krótkim okresie.
+2.  W sytuacji recesji wytworzenie dodatkowego dochodu jest możliwe dzięki wyższym wydatkom, gdyż powodują one przede wszystkim wzrost rozmiarów produkcji. Na wyższy popyt wywołany przez wyższe wydatki autonomiczne produkcja reaguje gwałtownie i szybciej dostosowaniem ilościowym niż cenowym, nawet w krótkim okresie.
 
-3.  W keynesowskim schemacie rozumowania ceny dostosowują się do płac nominalnych[^geneza-5], poziom produkcji zaś dostosowuje się do poziomu popytu (czyli wydatków), pozwalając w pewnym zakresie oddzielić kształtowanie cen od wyznaczania rozmiarów produkcji.
-    Co najważniejsze, poziom płac realnych[^geneza-6] jest wynikiem interakcji między poziomem cen a płacami nominalnymi, co czyni kształtowanie płac realnych mało przydatnym instrumentem polityki
-    . Jako że płace negocjuje się w kategoriach nominalnych, zmianie podlega tylko poziom płac nominalnych, z dalszymi skutkami dla poziomu cen realnych
-    .
+3.  W keynesowskim schemacie rozumowania ceny dostosowują się do płac nominalnych[^geneza-5], poziom produkcji zaś dostosowuje się do poziomu popytu (czyli wydatków), pozwalając w pewnym zakresie oddzielić kształtowanie cen od wyznaczania rozmiarów produkcji. Co najważniejsze, poziom płac realnych[^geneza-6] jest wynikiem interakcji między poziomem cen a płacami nominalnymi, co czyni kształtowanie płac realnych mało przydatnym instrumentem polityki. Jako że płace negocjuje się w kategoriach nominalnych, zmianie podlega tylko poziom płac nominalnych, z dalszymi skutkami dla poziomu cen realnych.
 
 [^geneza-5]: czyli takich jakie widzimy, nie uwzględniających inflacji.
 
 [^geneza-6]: Czyli właśnie takich, które uwzględniają inflację.
 
-Nowoczesna Teoria Monetarna odrzuca w ten sposób charakterystyczne dla teorii neoklasycznej założenia dotyczące na przykład reprezentatywnego podmiotu dążącego do maksymalizacji zysku[^geneza-7], dążenia systemu do równowagi w długim okresie[^geneza-8], gdzie problem efektywnego popytu zanika jako krótkookresowy, a także doskonałej elastyczności płac i cen[^geneza-9] przy substytucji między pracą a kapitałem[^geneza-10], określanej relacją cen odzwierciedlających z kolei relatywną rzadkość danego zasobu -- co jest kluczowym mechanizmem prowadzącym gospodarkę do stanu równowagi przy pełnym zatrudnien
-iu. Jak wspomniano, jedyne odchylenia dopuszczalne w tym neoklasycznym schemacie rozumowania to krótkookresowa zawodność mechanizmu cenowego, wynikająca z niedostępności pełnej informacji na ryn
-ku. Aby lepiej zrozumieć jak daleko idące są konsekwencje tych różnic w założeniach analitycznych, poniżej przedstawiono wyjaśnienie kilku „paradoksów" z jakimi borykają się ekonomiści neoklasyczni. Należą do nich m.in. (Lavoie, 2014
-):
+Nowoczesna teoria monetarna odrzuca w ten sposób charakterystyczne dla teorii neoklasycznej założenia dotyczące na przykład reprezentatywnego podmiotu dążącego do maksymalizacji zysku[^geneza-7], dążenia systemu do równowagi w długim okresie[^geneza-8], gdzie problem efektywnego popytu zanika jako krótkookresowy, a także doskonałej elastyczności płac i cen[^geneza-9] przy substytucji między pracą a kapitałem[^geneza-10], określanej relacją cen odzwierciedlających z kolei relatywną rzadkość danego zasobu -- co jest kluczowym mechanizmem prowadzącym gospodarkę do stanu równowagi przy pełnym zatrudnieniu. Jak wspomniano, jedyne odchylenia dopuszczalne w tym neoklasycznym schemacie rozumowania to krótkookresowa zawodność mechanizmu cenowego, wynikająca z niedostępności pełnej informacji na rynku. Aby lepiej zrozumieć jak daleko idące są konsekwencje tych różnic w założeniach analitycznych, poniżej przedstawiono wyjaśnienie kilku paradoksów z jakimi borykają się ekonomiści neoklasyczni. Należą do nich m.in. (Lavoie, 2014):
 
 [^geneza-7]: Czyli "przeciętnego Polaka-cebulaka", który jest zainteresowany jedynie jak największym zyskiem.
 
@@ -118,11 +92,9 @@ ku. Aby lepiej zrozumieć jak daleko idące są konsekwencje tych różnic w za�
 
 [^geneza-9]: Płace i ceny natychmiast dostosowują się do zmian podaży i popytu.
 
-[^geneza-10]: Co oznacza, że można swobodnie zastępować pracę ludzką maszynami i odwrotnie.
-    Jest to przeciwieństwo komplementarności pracy i kapitału, czyli założenia, że istnieje optymalny zestaw maszyn i ludzi, np.
-    jeden komputer dla jednego pracownika.
+[^geneza-10]: Co oznacza, że można swobodnie zastępować pracę ludzką maszynami i odwrotnie. Jest to przeciwieństwo komplementarności pracy i kapitału, czyli założenia, że istnieje optymalny zestaw maszyn i ludzi, np. jeden komputer dla jednego pracownika.
 
-1.  Paradoks oszczędności (sformułowany przez J.M. Keynesa) -- wyższa stopa oszczędności prowadzi do spadku produkcji;
+1.  Paradoks oszczędności (sformułowany przez J. M. Keynesa) -- wyższa stopa oszczędności prowadzi do spadku produkcji;
 
 2.  Paradoks kosztów (sformułowany przez M. Kaleckiego) -- wyższe płace realne prowadzą do wyższych stóp zysku;
 
@@ -140,9 +112,7 @@ ku. Aby lepiej zrozumieć jak daleko idące są konsekwencje tych różnic w za�
 
 [^geneza-11]: płynność aktywów to zdolność do szybkiej, łatwej i bez nadmiernej straty zamiany papierów wartościowych na środki pieniężne.
 
-Pierwszy paradoks mówi o tym, że wzrost skłonności do oszczędzania, spowodowany na przykład spodziewanym kryzysem, przyczynia się do spadku produkcji, gdyż zagregowany popyt w efekcie spada.
-W ten sposób kryzys się pogłębia (albo powstaje, jeśli jednostki zaczęły więcej oszczędzać obawiając się przyszłego kryzysu) i zwiększa się bezrobocie.
-To co na poziomie mikroekonomicznym jest w pełni racjonalne, na poziomie makroekonomicznym okazuje się całkowicie nieracjonalne.
+Pierwszy paradoks stwierdza, że wzrost skłonności do oszczędzania, spowodowany na przykład spodziewanym kryzysem, przyczynia się do spadku produkcji, gdyż całkowity popyt w efekcie spada. W ten sposób kryzys się pogłębia (albo powstaje, jeśli jednostki zaczęły więcej oszczędzać obawiając się przyszłego kryzysu) i zwiększa się bezrobocie. To co na poziomie mikroekonomicznym jest w pełni racjonalne, na poziomie makroekonomicznym okazuje się całkowicie nieracjonalne.
 
 Drugi paradoks mówi o tym, że (w statycznej wersji) spadek płac realnych nie zwiększa dochodów firm, a prowadzi tylko do spadku stopy zatrudnienia.
 Jak wyjaśniał to M.
