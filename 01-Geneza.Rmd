@@ -102,7 +102,7 @@ Nowoczesna teoria monetarna odrzuca w ten sposób charakterystyczne dla teorii n
 
 4.  Paradoks długu (sformułowany przez I. Fishera i J. Steindla) -- wysiłki na rzecz obniżki zadłużenia mogą prowadzić do wzrostu stopy zadłużenia;
 
-5.  Paradoks spokoju (sformułowany przez Minsky'ego) -- stabilność jest destabilizująca;
+5.  Paradoks spokoju (sformułowany przez H. Minsky'ego) -- stabilność jest destabilizująca;
 
 6.  Paradoks płynności[^geneza-11] (sformułowany przez S. Dow i A. Nesvetailovą) -- nowe sposoby kreacji płynności kończą się transformacją płynnych aktywów w niepłynne;
 
@@ -115,57 +115,22 @@ Nowoczesna teoria monetarna odrzuca w ten sposób charakterystyczne dla teorii n
 Pierwszy paradoks stwierdza, że wzrost skłonności do oszczędzania, spowodowany na przykład spodziewanym kryzysem, przyczynia się do spadku produkcji, gdyż całkowity popyt w efekcie spada. W ten sposób kryzys się pogłębia (albo powstaje, jeśli jednostki zaczęły więcej oszczędzać obawiając się przyszłego kryzysu) i zwiększa się bezrobocie. To co na poziomie mikroekonomicznym jest w pełni racjonalne, na poziomie makroekonomicznym okazuje się całkowicie nieracjonalne.
 
 Drugi paradoks mówi o tym, że (w statycznej wersji) spadek płac realnych nie zwiększa dochodów firm, a prowadzi tylko do spadku stopy zatrudnienia.
-Jak wyjaśniał to M.
-Kalecki (1939) „obniżka płac nominalnych prowadzi na skutek sztywności cen do wzrostu stopnia monopolizacji, a tym samym do obniżki płac realnych.
+Jak wyjaśniał to M. Kalecki (1939): „obniżka płac nominalnych prowadzi na skutek sztywności cen do wzrostu stopnia monopolizacji, a tym samym do obniżki płac realnych.
 Obniżka płac realnych w tym układzie stosunków kojarzy się jednak nie ze wzrostem, lecz ze spadkiem zatrudnienia, mianowicie w zakresie dóbr konsumpcji robotniczej.
-Realny dochód kapitalistów nie wzrasta, ale realny dochód robotników spada." Dynamiczna wersja tego paradoksu mówi, że rosnące płace realne (w stosunku do produktywności) mogą generować wyższe zyski ponieważ zwiększają zagregowaną konsumpcję, sprzedaż, wykorzystanie możliwości produkcyjnych a przez to indukują nowe inwestycje.
+Realny dochód kapitalistów nie wzrasta, ale realny dochód robotników spada." Dynamiczna wersja tego paradoksu mówi, że rosnące płace realne (w stosunku do produktywności) mogą generować wyższe zyski, ponieważ zwiększają całkowitą konsumpcję, sprzedaż, wykorzystanie możliwości produkcyjnych, a przez to indukują nowe inwestycje.
 
-Trzeci paradoks również zawdzięczamy M.
-Kaleckiemu, który w swoich pracach (Kalecki, 1979) wykazał, że wyższy deficyt publiczny ma podobny wpływ na zyski firm co wyższy eksport.
-Dowód na poparcie tej tezy opiera się na analizie bilansów sektorowych (sektora publicznego, prywatnego i zagranicy) przedstawionego szerzej w kolejnym rozdziale niniejszej pracy.
-Natomiast empiryczne potwierdzenie tego paradoksu stanowią działania państw, w tym rządu polskiego, w dobie pandemii COVID19.
-Częściowo umarzane kredyty oferowane przez Polski Fundusz Rozwoju czy Bank Gospodarstwa Krajowego bezpośrednio zwiększają (lub ograniczają spadek) dochody sektora firm.
+Trzeci paradoks również zawdzięczamy M. Kaleckiemu, który w swoich pracach (Kalecki, 1979) wykazał, że **wyższy deficyt publiczny ma podobny wpływ na zyski firm co wyższy eksport**. Dowód na poparcie tej tezy opiera się na analizie bilansów sektorowych (sektora publicznego, prywatnego i zagranicy) przedstawionego szerzej w kolejnym rozdziale. Natomiast empiryczne potwierdzenie tego paradoksu stanowią działania państw, w tym rządu polskiego, w dobie pandemii COVID19. Częściowo umarzane kredyty oferowane przez Polski Fundusz Rozwoju czy Bank Gospodarstwa Krajowego bezpośrednio zwiększają (lub ograniczają spadek) dochody sektora firm.
 
-Czwarty paradoks również opiera się na koncepcji efektywnego popytu i jest efektem rozwinięcia artykułu I.
-Fishera (Fisher, 1933) przez J.
-Steindla (Dutt, 2006; Steindl, 1952), ucznia M.
-Kaleckiego.
-Stanowi on również przykład sprzeczności między podejściem mikroekonomicznym a makroekonomicznym.
-Patrząc z punktu widzenia mikro każdy podmiot ekonomiczny może zmniejszyć poziom swojego zadłużenia jeśli zechce.
-W rzeczywistości jednak, na poziomie makro, próba zmniejszenia zadłużenia przez cały sektor prywatny oznacza ograniczenie wydatków konsumpcyjnych i inwestycyjnych w gospodarce.
-Spadek wydatków oznacza jednocześnie spadek dochodów niezbędnych do spłaty zadłużenia.
-W rezultacie może wystąpić sytuacja, w której kolektywne próby zmniejszenia zadłużenia doprowadzą paradoksalnie do jego wzrostu.
-Paradoks ten dotyczy również długu publicznego.
-Zmniejszenie wydatków publicznych i podjęcie innych działań w kierunku zmniejszenia długu publicznego mogą prowadzić do spadku PKB i wzrostu relacji długu do PKB.
+Czwarty paradoks opiera się także na koncepcji efektywnego popytu i jest efektem rozwinięcia artykułu I. Fishera (Fisher, 1933) przez J. Steindla (Dutt, 2006; Steindl, 1952), ucznia M. Kaleckiego. Stanowi on również przykład sprzeczności między podejściem mikroekonomicznym a makroekonomicznym. Patrząc z punktu widzenia mikro każdy podmiot ekonomiczny może zmniejszyć poziom swojego zadłużenia jeśli zechce. W rzeczywistości jednak, na poziomie makro, próba zmniejszenia zadłużenia przez cały sektor prywatny oznacza ograniczenie wydatków konsumpcyjnych i inwestycyjnych w gospodarce. Spadek wydatków oznacza jednocześnie spadek dochodów niezbędnych do spłaty zadłużenia. W rezultacie może wystąpić sytuacja, w której kolektywne próby zmniejszenia zadłużenia doprowadzą paradoksalnie do jego wzrostu. Paradoks ten dotyczy również długu publicznego. Zmniejszenie wydatków publicznych i podjęcie innych działań w kierunku zmniejszenia długu publicznego mogą prowadzić do spadku PKB i wzrostu relacji długu do PKB.
 
-Sprawdza się to również w przypadku sektora finansowego, w tym bankowego.
-Gdy banki lub inne instytucje finansowe postanawiają sprzedać część swoich aktywów aby zmniejszyć zadłużenie lub odzyskać płynność, to taka nagła podaż obniża ceny tych aktywów.
-W ten sposób nie tylko sprzedawcy ponoszą stratę ale nowa, niższa wycena tych i podobnych aktywów powoduje spadek wartości majątku w całym sektorze finansowym, a co za tym idzie zwiększa stosunek długu do kapitału.
+Sprawdza się to również w przypadku sektora finansowego, w tym bankowego. Gdy banki lub inne instytucje finansowe postanawiają sprzedać część swoich aktywów aby zmniejszyć zadłużenie lub odzyskać płynność, to taka nagła podaż obniża ceny tych aktywów. W ten sposób nie tylko sprzedawcy ponoszą stratę ale nowa, niższa wycena tych i podobnych aktywów powoduje spadek wartości majątku w całym sektorze finansowym, a co za tym idzie zwiększa stosunek długu do kapitału.
 
-Piąty paradoks, paradoks spokoju, został opisany przez H.
-Minsky'ego (Minsky, 2008).
-Według niego, czas stabilnego wzrostu gospodarki niesie w sobie zalążek przyszłego kryzysu.
-W świecie knightowskiej niepewności i asymetrii informacji, ciąg kolejnych lat, w których firmy realizują lub nawet przekraczają plany sprzedażowe powoduje, że skłonność do podejmowania ryzyka rośne.
-Pojawia się coraz więcej firm, których przychody wystarczają jedynie do spłaty odsetek od zaciągniętych kredytów, ale już nie kapitału.
-Negatywna przeszłość ulega szybkiemu zapomnieniu.
-Skutkuje to również tym, że ryzyko uwzględniane w modelach finansowych np.
-bardzo popularnym modelu Value at Risk jest coraz mniejsze, gdyż dotyczy coraz bardziej odległych w czasie wydarzeń.
-Im dłużej więc gospodarka pozostaje w stanie stabilnego wzrostu tym bardziej ryzyko jest ignorowane i rośnie ryzyko załamania gospodarczego.
-Doskonałym dowodem na prawdziwość tego paradoksu był globalny kryzys finansowy, który wybuchł w 2007 roku w USA.
+Piąty paradoks, paradoks spokoju, został opisany przez H. Minsky'ego (Minsky, 2008). Według niego czas stabilnego wzrostu gospodarki niesie w sobie zalążek przyszłego kryzysu.
+W świecie, w którym przyszłość jest nieznana i nie można jej oszacować, ciąg kolejnych lat, w których firmy realizują lub nawet przekraczają plany sprzedażowe powoduje, że skłonność do podejmowania ryzyka rośne. Negatywna przeszłość ulega szybkiemu zapomnieniu. Pojawia się coraz więcej firm, których przychody wystarczają jedynie do spłaty odsetek od zaciągniętych kredytów, ale już nie kapitału. Im dłużej więc gospodarka pozostaje w stanie stabilnego wzrostu tym bardziej ryzyko jest ignorowane i rośnie ryzyko załamania gospodarczego. Doskonałym dowodem na prawdziwość tego paradoksu był globalny kryzys finansowy, który wybuchł w 2007 roku w USA.
 
-Kryzys ten wydobył na światło dzienne również kolejny „paradoks" dla szkoły neoklasycznej czyli paradoks płynności. Według współczesnych teorii finansów, opartych właśnie o model neoklasyczny i wynikającą z niego hipotezę efektywności rynków, płynność nie stanowi problemu. Zakłada się bowiem, że uczestnicy rynku zawsze są w stanie ustalić cenę odpowiadającą wartości fundamentalnej aktywów. Problemem jest więc tylko oczekiwana stopa zwrotu i przewidywane ryzyko z inwestycji mierzone zazwyczaj zmiennością kursu. Dla postkeynesistów natomiast kwestia płynności ma kluczowe znaczenie. Zakładają oni, że inwestorzy powinni zawsze brać pod uwagę niemożność spieniężenia swoich aktywów. Wynika z tego konieczność istnienia kreatorów rynków (market makers), którzy gwarantują kupno lub sprzedaż aktywów w każdym czasie (naturalnie nie po stałej cenie). Jak zauważa P. Mehrling (2010) dostarczanie płynności nie jest „darmowym obiadem" i podmioty, które się tym zajmują (często banki) robią to dla zysku.
-Jeśli taka działalność zaczyna przynosić straty to przestaje być świadczona i płynność znika.
+Kryzys ten wydobył na światło dzienne również kolejny „paradoks" dla szkoły neoklasycznej -- paradoks płynności. Według współczesnych teorii finansów, opartych właśnie o model neoklasyczny i wynikającą z niego hipotezę efektywności rynków, płynność nie stanowi problemu. Zakłada się bowiem, że uczestnicy rynku zawsze są w stanie ustalić cenę odpowiadającą wartości fundamentalnej aktywów. Problemem jest więc tylko oczekiwana stopa zwrotu i przewidywane ryzyko z inwestycji mierzone zazwyczaj zmiennością kursu. Dla postkeynesistów natomiast kwestia płynności ma kluczowe znaczenie. Zakładają oni, że inwestorzy powinni zawsze brać pod uwagę niemożność spieniężenia swoich aktywów. Wynika z tego konieczność istnienia kreatorów rynków (*market makers*), którzy gwarantują kupno lub sprzedaż aktywów w każdym czasie (naturalnie nie po stałej cenie). Jak zauważa P. Mehrling (2010) dostarczanie płynności nie jest „darmowym obiadem" i podmioty, które się tym zajmują robią to dla zysku. Jeśli taka działalność zaczyna przynosić straty to przestaje być świadczona i płynność znika.
 
-Paradoks płynności ma dwa aspekty.
-Pierwszy, związany z paradoksem czwartym, mówi o tym, że aktywa traktowane jako płynne, w momencie gdy każdy stara się ich pozbyć w celu redukcji swojego zadłużenia, stają się niepłynne ponieważ nie ma na nie kupców.
-Dokładnie tak, jak to miało miejsce w czasie globalnego kryzysu finansowego.
-Drugi aspekt paradoksu płynności dotyczy innowacji finansowych.
-Wspominał o nim już H.
-Minsky, ale rozwinięty został przez N.
-Nesvetailovą (2010).
-Okazuje się, że nowe, innowacyjne aktywa finansowe tworzą coraz bardziej skomplikowaną sieć wzajemnych zależności.
-Powoduje to po pierwsze, że najbardziej płynne aktywa emitowane przez banki centralne stanowią zabezpieczenie dla coraz większej liczby instrumentów finansowych.
-Po drugie, na dodatek efekt „zarażania" wspomnianym nagłym brakiem płynności szybciej i w większej skali przenosi się na inne aktywa finansowe. Oznacza to wzrost ryzyka co doskonale pokazuje właśnie paradoks ryzyka.
+Paradoks płynności ma dwa aspekty. Pierwszy, związany z paradoksem czwartym, mówi o tym, że aktywa traktowane jako płynne, w momencie gdy każdy stara się ich pozbyć w celu redukcji swojego zadłużenia stają się niepłynne ponieważ nie ma na nie kupców. Dokładnie tak, jak to miało miejsce w czasie globalnego kryzysu finansowego. Drugi aspekt paradoksu płynności dotyczy innowacji finansowych. Okazuje się, że nowe, innowacyjne aktywa finansowe tworzą coraz bardziej skomplikowaną sieć wzajemnych zależności. Powoduje to po pierwsze, że najbardziej płynne aktywa emitowane przez banki centralne i rządy stanowią zabezpieczenie dla coraz większej liczby instrumentów finansowych. Po drugie efekt „zarażania" wspomnianym nagłym brakiem płynności szybciej i w większej skali przenosi się na inne aktywa finansowe. Oznacza to ponownie wzrost ryzyka a nie jego spadek.
 
 Przedostatni już omawiany „paradoks" dotyczy makroekonomicznych skutków innowacji finansowych mających na celu ograniczanie indywidualnego, mikroekonomicznego ryzyka rozpraszając je na wiele innych podmiotów. Dotyczy on szerokiej i rosnącej gamy instrumentów pochodnych takich jak CDO (collateralized debt obligations), CDS (credit default swaps), IRS (interest rates swaps) itp. Instrumenty te nie powodują, że ryzyko znika, tylko przenoszą je dalej na kolejne podmioty . Oznacza to, że choć druga strona kontraktu może być bezpieczna, to jej kolejny kontrahent już niekoniecznie i jego upadek może pociągnąć za sobą innych. Ta iluzja bezpieczeństwa powoduje, że podmioty podejmują coraz większe ryzyko, które choć niewidoczne na poziomie mikro, kumuluje się na poziomie makroekonomicznym. Ryzyko dodatkowo rośnie, jeśli uwzględni się niedoskonałości metod statystycznych i ekonometrycznych będących podstawą zaawansowanych modeli wyceny instrumentów pochodnych oraz faktu, iż ich założenia są często dość podobne, skutkując jednakową reakcją wielu podmiotów na podobne sygnały rynkowe. Przykładem takich wydarzeń są tzw. „flash crashes" (Biesenbach & Cipriani, 2012; Demirer i in., 2019)
 
