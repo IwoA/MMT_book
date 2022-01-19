@@ -88,7 +88,7 @@ Nowoczesna teoria monetarna odrzuca w ten sposób charakterystyczne dla teorii n
 
 [^geneza-7]: Czyli "przeciętnego Polaka-cebulaka", który jest zainteresowany jedynie jak największym zyskiem.
 
-[^geneza-8]: Inaczej mówiąc, jeśli poczekamy wystarczająco długo, to w końcu zrobi sie normalnie.
+[^geneza-8]: Inaczej mówiąc, jeśli poczekamy wystarczająco długo, to w końcu będzie dobrze.
 
 [^geneza-9]: Płace i ceny natychmiast dostosowują się do zmian podaży i popytu.
 
@@ -128,69 +128,42 @@ Sprawdza się to również w przypadku sektora finansowego, w tym bankowego. Gdy
 Piąty paradoks, paradoks spokoju, został opisany przez H. Minsky'ego (Minsky, 2008). Według niego czas stabilnego wzrostu gospodarki niesie w sobie zalążek przyszłego kryzysu.
 W świecie, w którym przyszłość jest nieznana i nie można jej oszacować, ciąg kolejnych lat, w których firmy realizują lub nawet przekraczają plany sprzedażowe powoduje, że skłonność do podejmowania ryzyka rośne. Negatywna przeszłość ulega szybkiemu zapomnieniu. Pojawia się coraz więcej firm, których przychody wystarczają jedynie do spłaty odsetek od zaciągniętych kredytów, ale już nie kapitału. Im dłużej więc gospodarka pozostaje w stanie stabilnego wzrostu tym bardziej ryzyko jest ignorowane i rośnie ryzyko załamania gospodarczego. Doskonałym dowodem na prawdziwość tego paradoksu był globalny kryzys finansowy, który wybuchł w 2007 roku w USA.
 
-Kryzys ten wydobył na światło dzienne również kolejny „paradoks" dla szkoły neoklasycznej -- paradoks płynności. Według współczesnych teorii finansów, opartych właśnie o model neoklasyczny i wynikającą z niego hipotezę efektywności rynków, płynność nie stanowi problemu. Zakłada się bowiem, że uczestnicy rynku zawsze są w stanie ustalić cenę odpowiadającą wartości fundamentalnej aktywów. Problemem jest więc tylko oczekiwana stopa zwrotu i przewidywane ryzyko z inwestycji mierzone zazwyczaj zmiennością kursu. Dla postkeynesistów natomiast kwestia płynności ma kluczowe znaczenie. Zakładają oni, że inwestorzy powinni zawsze brać pod uwagę niemożność spieniężenia swoich aktywów. Wynika z tego konieczność istnienia kreatorów rynków (*market makers*), którzy gwarantują kupno lub sprzedaż aktywów w każdym czasie (naturalnie nie po stałej cenie). Jak zauważa P. Mehrling (2010) dostarczanie płynności nie jest „darmowym obiadem" i podmioty, które się tym zajmują robią to dla zysku. Jeśli taka działalność zaczyna przynosić straty to przestaje być świadczona i płynność znika.
+Kryzys ten wydobył na światło dzienne również kolejny paradoks dla szkoły neoklasycznej -- paradoks płynności. Według współczesnych teorii finansów, opartych właśnie o model neoklasyczny i wynikającą z niego hipotezę efektywności rynków, płynność nie stanowi problemu. Zakłada się bowiem, że uczestnicy rynku zawsze są w stanie ustalić cenę odpowiadającą wartości fundamentalnej aktywów. Problemem jest więc tylko oczekiwana stopa zwrotu i przewidywane ryzyko z inwestycji mierzone zazwyczaj zmiennością kursu. Dla postkeynesistów natomiast kwestia płynności ma kluczowe znaczenie. Zakładają oni, że inwestorzy powinni zawsze brać pod uwagę niemożność spieniężenia swoich aktywów. Wynika z tego konieczność istnienia kreatorów rynków (*market makers*), którzy gwarantują kupno lub sprzedaż aktywów w każdym czasie (naturalnie nie po stałej cenie). Jak zauważa P. Mehrling (2010) dostarczanie płynności nie jest „darmowym obiadem" i podmioty, które się tym zajmują robią to dla zysku. Jeśli taka działalność zaczyna przynosić straty to przestaje być świadczona i płynność znika.
 
 Paradoks płynności ma dwa aspekty. Pierwszy, związany z paradoksem czwartym, mówi o tym, że aktywa traktowane jako płynne, w momencie gdy każdy stara się ich pozbyć w celu redukcji swojego zadłużenia stają się niepłynne ponieważ nie ma na nie kupców. Dokładnie tak, jak to miało miejsce w czasie globalnego kryzysu finansowego. Drugi aspekt paradoksu płynności dotyczy innowacji finansowych. Okazuje się, że nowe, innowacyjne aktywa finansowe tworzą coraz bardziej skomplikowaną sieć wzajemnych zależności. Powoduje to po pierwsze, że najbardziej płynne aktywa emitowane przez banki centralne i rządy stanowią zabezpieczenie dla coraz większej liczby instrumentów finansowych. Po drugie efekt „zarażania" wspomnianym nagłym brakiem płynności szybciej i w większej skali przenosi się na inne aktywa finansowe. Oznacza to ponownie wzrost ryzyka a nie jego spadek.
 
-Przedostatni już omawiany „paradoks" dotyczy makroekonomicznych skutków innowacji finansowych mających na celu ograniczanie indywidualnego, mikroekonomicznego ryzyka rozpraszając je na wiele innych podmiotów. Dotyczy on szerokiej i rosnącej gamy instrumentów pochodnych takich jak CDO (collateralized debt obligations), CDS (credit default swaps), IRS (interest rates swaps) itp. Instrumenty te nie powodują, że ryzyko znika, tylko przenoszą je dalej na kolejne podmioty . Oznacza to, że choć druga strona kontraktu może być bezpieczna, to jej kolejny kontrahent już niekoniecznie i jego upadek może pociągnąć za sobą innych. Ta iluzja bezpieczeństwa powoduje, że podmioty podejmują coraz większe ryzyko, które choć niewidoczne na poziomie mikro, kumuluje się na poziomie makroekonomicznym. Ryzyko dodatkowo rośnie, jeśli uwzględni się niedoskonałości metod statystycznych i ekonometrycznych będących podstawą zaawansowanych modeli wyceny instrumentów pochodnych oraz faktu, iż ich założenia są często dość podobne, skutkując jednakową reakcją wielu podmiotów na podobne sygnały rynkowe. Przykładem takich wydarzeń są tzw. „flash crashes" (Biesenbach & Cipriani, 2012; Demirer i in., 2019)
+Przedostatni już omawiany paradoks dotyczy makroekonomicznych skutków innowacji finansowych mających na celu ograniczanie indywidualnego, mikroekonomicznego ryzyka, rozpraszając je na wiele innych podmiotów. Dotyczy on szerokiej i rosnącej gamy tzw. instrumentów pochodnych takich jak CDO (*collateralized debt obligations*), CDS (*credit default swaps*), IRS (*interest rates swaps*) itp. Instrumenty te nie powodują, że ryzyko znika, tylko przenoszą je dalej na kolejne podmioty. Oznacza to, że choć druga strona kontraktu może być bezpieczna, to jej kolejny kontrahent już niekoniecznie i jego upadek może pociągnąć za sobą innych. Ta iluzja bezpieczeństwa powoduje, że podmioty podejmują coraz większe ryzyko, które, choć niewidoczne na poziomie pojedynczej firmy, kumuluje się na poziomie makroekonomicznym. Ryzyko dodatkowo rośnie, jeśli uwzględni się niedoskonałości metod statystycznych i ekonometrycznych będących podstawą zaawansowanych modeli wyceny instrumentów pochodnych oraz faktu, iż ich założenia są często dość podobne, skutkując jednakową reakcją wielu podmiotów na podobne sygnały rynkowe. Przykładem takich wydarzeń są tzw. „*flash crashes*" (Biesenbach & Cipriani, 2012; Demirer i in., 2019)
 
-Ostatni z przytoczonych „paradoksów" dotyczy często stosowanej polityki gospodarczej zwanej w języku angielskim jako „beggar thy neighbour", która oznacza próbę zdobycia przewagi gospodarczej poprzez obniżkę płac realnych i tym samym zwiększenie zysków.
-Polityka ta może być skuteczna tylko pod warunkiem, że partnerzy handlowi nie pójdą tą samą drogą.
-W innym przypadku oznacza pogorszenie ogólnej sytuacji gospodarczej we wszystkich krajach.
+Ostatni z przytoczonych paradoksów dotyczy często stosowanej polityki gospodarczej zwanej w języku angielskim jako „*beggar thy neighbour*", która oznacza próbę zdobycia przewagi gospodarczej poprzez obniżkę płac realnych i tym samym zwiększenie zysków. Polityka ta może być jednak skuteczna tylko pod warunkiem, że partnerzy handlowi nie pójdą tą samą drogą.
+W takim przypadku skutkiem będzie jedynie pogorszenie ogólnej sytuacji gospodarczej we wszystkich krajach.
 
-Nowoczesna Teoria Pieniężna zwracając szczególną uwagę na hierarchię pieniądza i kwestie długu publicznego i prywatnego pozwala więc na lepsze zrozumienie funkcjonowania współczesnych gospodarek krajów rozwiniętych.
+Teoria współczesnych systemów monetarnych zwracając szczególną uwagę na hierarchię pieniądza oraz kwestie długu publicznego i prywatnego pozwala więc na lepsze zrozumienie funkcjonowania współczesnych gospodarek krajów rozwiniętych.
 
-Jak już wspomniano, MMT umieszcza się w nurcie postkeynesowskiej tradycji monetarnej.
-Przez teorię pieniądza rozumie się tutaj opis mechanizmu cyrkulacji pieniądza w gospodarce kapitalistycznej o wyrafinowanym systemie finansów, nie zaś jako opis uniwersalnych cech pieniądza (Toporowski, 2015).
-Pieniądz jest tworem społecznym i jakakolwiek jego teoria z konieczności musi się odnosić do danych warunków historycznych.
-W obecnych warunkach oznacza to, że teoria pieniądza musi wiązać się z produkcją towarów w warunkach gospodarki pieniężnej, nie zaś tylko ich wymianą, z którą to tradycyjnie wiąże się powstawanie i funkcjonowanie pieniądza.
-W tym drugim przypadku na pierwszym miejscu stoi funkcja pieniądza jako środka wymiany przezwyciężającego trudności pojawiające się nieuchronnie w gospodarce bezpieniężnej.
+Jak już wspomniano, MMT umieszcza się w nurcie postkeynesowskiej tradycji monetarnej. Przez teorię pieniądza rozumie się tutaj opis mechanizmu cyrkulacji pieniądza w gospodarce kapitalistycznej o wyrafinowanym systemie finansów, nie zaś opis uniwersalnych cech pieniądza (Toporowski, 2015). Pieniądz jest tworem społecznym i jakakolwiek jego teoria z konieczności musi się odnosić do danych warunków historycznych. W obecnych warunkach oznacza to, że **teoria pieniądza musi wiązać się z produkcją towarów w warunkach gospodarki pieniężnej, nie zaś tylko ich wymianą**, z którą to tradycyjnie wiąże się powstawanie i funkcjonowanie pieniądza. W tym drugim przypadku na pierwszym miejscu stoi funkcja pieniądza jako środka wymiany przezwyciężającego trudności pojawiające się nieuchronnie w gospodarce bezpieniężnej.
 
-W klasycznym rozumowaniu, przy wymianie bezpośredniej towaru A na towar B właściciel jednego dobra musiałby nie tylko znaleźć gotowego do wymiany właściciela dobra B, lecz ponadto ów właściciel musiałby być zainteresowany ich wymianą na dobro A.
-W przeciwnym razie mogłaby wystąpić sytuacja, w której właściciel towaru A musiałby go wymienić wpierw na towar C, którym jest zainteresowany właściciel towaru B, na którym zależy posiadaczowi towaru A.
-Liczbę takich dóbr pośredniczących można oczywiście dowolnie mnożyć.
+W klasycznym rozumowaniu przy wymianie bezpośredniej towaru A na towar B właściciel jednego dobra musiałby nie tylko znaleźć gotowego do wymiany właściciela dobra B, lecz ponadto ów właściciel musiałby być zainteresowany jego wymianą na dobro A. W przeciwnym razie mogłaby wystąpić sytuacja, w której właściciel towaru A musiałby go wymienić najpierw na towar C, którym jest zainteresowany właściciel towaru B, na którym zależy posiadaczowi towaru A. Liczbę takich dóbr pośredniczących można oczywiście dowolnie mnożyć.
 W takiej sytuacji pieniądz pojawia się jako środek ułatwiający wymianę, a więc coś w rodzaju smaru niezbędnego dla zmniejszenia tarcia w maszynie.
 
-Podejście do pieniądza jako środka wymiany jest charakterystyczne dla tradycyjnej wersji ilościowej teorii pieniądza.
-Najczęściej przedstawiana jest ona w formie
+Podejście do pieniądza jako środka wymiany jest charakterystyczne dla tradycyjnej wersji ilościowej teorii pieniądza. Najczęściej przedstawiana jest ona w formie
 
 MV = PT
 
-gdzie *M* oznacza ilość pieniądza, *V* -- prędkość jego obiegu, *P* -- ogólny poziom cen, wreszcie *T* -- liczbę transakcji w danym okresie.
-Należy podkreślić, że w powyższej formule symbol ilości pieniądza, *M*, oznacza zasób (mierzony w jakimś punkcie czasu), podczas gdy symbol liczby transakcji *T*, oznacza strumień (mierzony w jakimś okresie).
+gdzie *M* oznacza ilość pieniądza, *V* -- prędkość jego obiegu, *P* -- ogólny poziom cen, wreszcie *T* -- liczbę transakcji w danym okresie. Należy podkreślić, że w powyższej formule symbol ilości pieniądza, *M*, oznacza zasób (mierzony w jakimś punkcie czasu), podczas gdy symbol liczby transakcji *T*, oznacza strumień (mierzony w jakimś okresie).
 Wobec tego przy tym samym *M* otrzymujemy różne wielkości dla *T* oraz *V* zależnie od tego, jaki okres wybieramy (np. miesiąc czy rok) (Łaski, 2015, s.182).
 
-Należy zwrócić uwagę, że jako definicja powyższa formuła jest zawsze prawdziwa.
-Dla każdej wartości empirycznej *M*, *P* i *T* zawsze znaleźć można wartość V tak, aby obie strony równania były jednakowe.
-Okazuje się jednak, że jeśli równanie to ma być podstawą teorii, to trzeba dokładnie zdefiniować wszystkie wchodzące w jego skład zmienne.
-Nie jest to jednak proste, gdyż samych miar inflacji jest wiele a żadna z nich nie uwzględnia cen instrumentów finansowych.
-Tymczasem transakcje finansowe we współczesnych krajach rozwiniętych znacznie przekraczają liczbę transakcji dotyczących dóbr i usług.
-Mimo to przyjmuje się często (Łaski, 2015, s. 184), że istnieje związek między liczbą transakcji T, oraz wielkością PKB, wobec czego klasyczne równanie zapisuje się w formie
+Należy zwrócić uwagę, że jako definicja powyższa formuła jest zawsze prawdziwa. Dla każdej wartości empirycznej *M*, *P* i *T* zawsze znaleźć można wartość V tak, aby obie strony równania były jednakowe. Okazuje się jednak, że jeśli równanie to ma być podstawą teorii, to trzeba dokładnie zdefiniować wszystkie wchodzące w jego skład zmienne. Nie jest to jednak proste, gdyż samych miar inflacji jest wiele, a żadna z nich nie uwzględnia cen instrumentów finansowych. Tymczasem transakcje finansowe we współczesnych krajach rozwiniętych znacznie przekraczają liczbę transakcji dotyczących dóbr i usług. Mimo to przyjmuje się często (Łaski, 2015, s. 184), że istnieje związek między liczbą transakcji *T*, oraz wielkością PKB, wobec czego klasyczne równanie zapisuje się w formie
 
 MV = PY
 
-gdzie PY oznacza nominalną wielkość PKB czy też dochodu narodowego.
-Najważniejszą wielkością w tak zmienionej formule staje się prędkość cyrkulacji.
-We wszystkich wersjach ilościowej teorii pieniądza przyjmuje się, że jest to wartość stała (lub względnie stała), wobec czego implikuje się związek między ilością (zasobem) pieniądza M a oraz strumieniem dochodu pieniężnego PY.
-Wynika z tego wniosek, że wzrost cen, a więc inflacja, jest zawsze skutkiem wzrostu ilości pieniądza obiegu.
-Zmienną niezależną w równaniu jest ilość pieniądza w obiegu M, zaś zmienną zależną poziom cen P.
-Jak pisze Łaski, (2015, s. 183) Joan Robinson zwróciła kiedyś uwagę na to, że w tego typu formule sensowniej byłoby traktować iloczyn PY jako zmienną niezależną, zaś M przy mniej więcej danym V jako zmienną zależną.
-W istocie rzeczy tak się dzieje, kiedy pieniądz traktujemy jako zjawisko endogeniczne, zaś zasób pieniądza nie jako punk wyjścia, lecz punkt końcowy jego ruchu okrężnego.
+gdzie *PY* oznacza nominalną wielkość PKB czy też dochodu narodowego. Najważniejszą wielkością w tak zmienionej formule staje się prędkość cyrkulacji. We wszystkich wersjach ilościowej teorii pieniądza przyjmuje się, że jest to wartość stała lub względnie stała, wobec czego implikuje się związek między ilością (zasobem) pieniądza *M* a oraz strumieniem dochodu pieniężnego *PY*. Wynika z tego wniosek, że wzrost cen, a więc inflacja, jest zawsze skutkiem wzrostu ilości pieniądza obiegu. Zmienną niezależną w równaniu jest ilość pieniądza w obiegu *M*, zaś zmienną zależną poziom cen *P*. Jak pisze Łaski, (2015, s. 183) Joan Robinson zwróciła kiedyś uwagę na to, że w tego typu formule sensowniej byłoby traktować iloczyn *PY* jako zmienną niezależną, zaś *M* przy mniej więcej danym *V* jako zmienną zależną. W istocie rzeczy tak się dzieje, kiedy pieniądz traktujemy jako zjawisko endogeniczne, zaś zasób pieniądza nie jako punk wyjścia, lecz punkt końcowy jego ruchu okrężnego.
 
 ## **Teoria obiegu pieniężnego**
 
  
 
-Wracamy tutaj do kolejnego istotnego wyróżnika postkeynesowskiej (w tym MMT) teorii pieniądza czyli jego roli w produkcji gospodarczej.
-Jak już wspomniano teoria pieniądza musi wiązać się z produkcją towarów w warunkach gospodarki pieniężnej, nie zaś tylko ich wymianą.
-Teorią, która spełnia ten warunek jest teoria obiegu pieniężnego (the theory of the monetary circuit).
-Wywodzi się ona z prac J.M.
-Keynesa a została rozwinięta przez ekonomistów włoskich i francuskich w latach sześćdziesiątych (Rochon & Rossi, 2016).
-Fundamentalną ideą tej teorii jest połączenie teorii produkcji z teorią pieniądza w system, w którym pieniądz jest wpierw tworzony, następnie cyrkuluje w gospodarce aby na końcu zostać zniszczonym (Rys. \@ref(fig:rys)).
+Wracamy tutaj do kolejnego istotnego wyróżnika postkeynesowskiej (w tym MMT) teorii pieniądza, czyli jego roli w produkcji gospodarczej. Jak już wspomniano, teoria pieniądza musi wiązać się z produkcją towarów w warunkach gospodarki pieniężnej, nie zaś tylko ich wymianą. Teorią, która spełnia ten warunek, jest teoria obiegu pieniężnego (*the theory of the monetary circuit*). Wywodzi się ona z prac J. M. Keynesa, a została rozwinięta przez ekonomistów włoskich i francuskich w latach sześćdziesiątych (Rochon & Rossi, 2016). Fundamentalną ideą tej teorii jest połączenie teorii produkcji z teorią pieniądza w system, w którym pieniądz jest wpierw tworzony, następnie cyrkuluje w gospodarce aby na końcu zostać zniszczonym (Rys. \@ref(fig:rys)).
 
-Decyzje dotyczące produkcji i konsumpcji są tutaj podejmowane etapami a nie jednocześnie.
-Etapy te nie reprezentują określonych jednostek czasu a kolejne fazy procesu gospodarczego.
-Oznacza to na przykład, że podmioty najpierw muszą uzyskać środki pieniężne zanim będą mogły dokonać wydatków.
+Decyzje dotyczące produkcji i konsumpcji są tutaj podejmowane etapami a nie jednocześnie. Etapy te nie reprezentują określonych jednostek czasu a kolejne fazy procesu produkcyjnego. Oznacza to na przykład, że podmioty najpierw muszą uzyskać środki pieniężne zanim będą mogły dokonać wydatków.
 
 (ref:rys1) Uproszczony schemat obiegu pieniężnego w gospodarce <br> Źródło: (Rochon & Rossi, 2016, s. 106)
 
@@ -202,10 +175,9 @@ W takim układzie można wyróżnić pięć etapów obiegu pieniądza:
 
 1.  Planowanie produkcji.
     Obieg zaczyna się od etapu, w którym przedsiębiorstwa produkcyjne (i usługowe) planują poziom sprzedaży na podstawie przewidywanego popytu.
-    Oznacza to, że wielkość strumienia dóbr i usług, który pojawi się na rynku zależy od opinii firm na temat kształtowania się najbliższej przyszłości.
-    Podaż dostosowuje się do prognozowanego popytu.
-    Rośnie jeśli przewidywany jest wzrost gospodarczy i maleje gdy oczekiwany jest kryzys.
-    Stanowi to odrzucenia prawa Saya z jednej strony, oraz generuje samospełniające się przepowiednie, którym zaradzić może na przykład aktywna polityka państwa.
+    Oznacza to, że wielkość strumienia dóbr i usług, który pojawi się na rynku, zależy od opinii firm na temat kształtowania się najbliższej przyszłości.
+    Podaż dostosowuje się do prognozowanego popytu i rośnie, jeśli przewidywany jest wzrost gospodarczy, i maleje, gdy oczekiwany jest kryzys.
+    Stanowi to odrzucenia prawa Saya z jednej strony oraz generuje samospełniające się przepowiednie, którym zaradzić może na przykład aktywna polityka państwa.
     Po zaplanowaniu produkcji firmy mogą ustalić zapotrzebowanie na pracowników[^geneza-12] a zatem również koszty.
     Znając koszty, przedsiębiorstwa ustalają swoje ceny.
     Ceny są kalkulowane jako koszty plus marża[^geneza-13]
@@ -215,32 +187,32 @@ W takim układzie można wyróżnić pięć etapów obiegu pieniądza:
 2.  Produkcja dóbr i usług.
     Ponieważ firmy jeszcze niczego nie sprzedały, nie posiadają wystarczających funduszy do pokrycia kosztów i rozpoczęcia produkcji.
     Potrzebują do tego finansowania zewnętrznego z banków.
-    Banki odgrywają w tej teorii istotną rolę ponieważ decydują komu i na jakie działania udzielą kredytu.
-    Wpływają w ten sposób na alokację produkcji w gospodarce.
+    Banki odgrywają w tej teorii istotną rolę ponieważ decydują komu i na jakich zasadach udzielą kredytu.
+    Wpływają w ten sposób na strukturę produkcji w gospodarce.
     Te firmy i projekty, które według banków są nieopłacalne, nie otrzymają funduszy i zbankrutują lub nie zostaną zrealizowane.
     Pozostałe otrzymają linie kredytowe umożliwiające zakup środków produkcji.
     W tym momencie pieniądze zostają wykreowane i pojawiają się w gospodarce a dokładniej na kontach gospodarstw domowych.
     Następuje endogeniczna kreacja pieniądza w takiej ilości, na jaką zgłaszają zapotrzebowanie przedsiębiorstwa.
-    Banki nie są ograniczone od strony podażowej.
+    Banki nie są ograniczone od strony możliwości tworzenia pieniędzy. To popyt zgłaszany przez wiarygodne firmy decyduje o ilości pieniądza.
     Mamy więc tu do czynienia z rozwinięciem teorii pieniądza endogenicznego.
 
 3.  Konsumpcja.
-    W etapie tym zarówno gospodarstwa domowe czyli konsumenci jak i produkty i usługi pojawiają się na rynku i następuje proces wymiany.
-    W rezultacie firmy odzyskują środki wydane wcześniej na poniesienie kosztów produkcji oraz otrzymują zysk.
-    Dzieje się tak jednak tylko pod warunkiem, że gospodarstwa domowe wydają wszystko co zarobiły, nie dokonując żadnych oszczędności.
+    Na tym etapie tym zarówno gospodarstwa domowe czyli konsumenci, jak i produkty i usługi pojawiają się na rynku i następuje proces wymiany.
+    W rezultacie firmy odzyskują środki wydane wcześniej na pokrycie kosztów produkcji oraz otrzymują zysk.
+    Dzieje się tak jednak tylko pod warunkiem, że gospodarstwa domowe wydają wszystko co zarobiły, nie gromadząc żadnych oszczędności.
     Każda niewydana złotówka zmniejsza przychody firm, ograniczając zyski lub nawet uniemożliwiając pokrycie poniesionych kosztów.
-    Skłonność do oszczędzania gospodarstw domowych zależy od poziomu dochodów -- im są wyższe, tym mniejszy jest udział wydatków w dochodach[^geneza-14].
+    Skłonność gospodarstw domowych do oszczędzania zależy od poziomu dochodów -- im są wyższe, tym mniejszy jest udział wydatków w dochodach[^geneza-14].
     Oszczędności gospodarstwa domowe mogą lokować w bankach lub trzymać w formie papierów wartościowych.
-    Mamy tu więc do czynienia z wyjaśnieniem paradoksu oszczędności wspomnianego wcześniej.
+    Mechanizm ten wyjaśnia paradoks oszczędności wspomnianego wcześniej.
 
 4.  Zwrot pieniądza.
-    W poprzednim etapie, dzięki przychodom ze sprzedaży, firmy były w stanie pozyskać nowe środki.
+    Na poprzednim etapie, dzięki przychodom ze sprzedaży, firmy były w stanie pozyskać nowe środki.
     Ponieważ jednak wciąż są zadłużone w bankach, pieniądze te zostają wykorzystane obecnie na spłatę zobowiązań.
-    W ten sposób wykreowany w etapie drugim pieniądz zostaje zlikwidowany, usunięty z gospodarki.
+    W ten sposób wykreowany na drugim etapie pieniądz zostaje zlikwidowany, usunięty z gospodarki.
     Naturalnie, na poziomie mikroekonomicznym część firm osiąga zyski znacznie przekraczające podjęte wcześniej zobowiązania a inna część bankrutuje, ale na poziomie makroekonomicznym te różnice między firmami znikają i całkowity dług sektora firm nieprodukcyjnych wobec sektora bankowego równy jest niewydanym dochodom, czyli oszczędnościom sektora gospodarstw domowych.
     Jak już jednak wspomniano, oszczędności te mogą mieć różne formy, nie tylko depozytów lub lokat bankowych.
     Umożliwia to firmom „przelicytowanie" banków i „odzyskanie" części oszczędności dzięki emisji papierów wartościowych takich jak akcje czy obligacje.
-    Niemniej część oszczędności pozostaje w sektorze bankowym przez co zwiększa się zadłużenie przedsiębiorstw i zmniejsza ich chęć do inwestowania[^geneza-15].
+    Niemniej część oszczędności pozostaje w sektorze bankowym, przez co zwiększa się zadłużenie przedsiębiorstw i zmniejsza ich chęć do inwestowania[^geneza-15].
 
 [^geneza-12]: ponieważ półprodukty są wytwarzane przez pracowników i ich składniki oraz składniki składników też są wytwarzane przez pracowników to ostatecznie wszystkie koszty są kosztami pracy.
 
