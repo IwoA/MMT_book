@@ -8,13 +8,12 @@
 
 <br>
 
-Chyba największą zasługą dla ekonomii, jaką wniosła Nowoczesna Teoria Monetarna, jest szczegółowa analiza relacji między bankiem centralnym a skarbem państwa (Lavoie 2013).
-Jak się okazuje, wychodząc od najprostszej relacji sektor publiczny -- państwo oraz uwzględniając zasady rachunkowości sektorów instytucjonalnych, można dojść do nowych, dla wielu zaskakujących wniosków dotyczących roli polityki pieniężnej i fiskalnej w gospodarce.
-Jak zostanie to wyjaśnione poniżej, nie da się ich sprowadzić do prostego stwierdzenia, że bank centralny może „drukować" pieniądze w dowolnej ilości bez skutków negatywnych. Również często krytykowany postulat integracji banku centralnego i skarbu państwa jest w rzeczywistości znacznie bardziej zniuansowany niż dostrzegają to krytycy. MMT umożliwia dużo lepsze zrozumienie prawdziwej roli pieniądza oraz banku centralnego w nowoczesnych gospodarkach pieniężnych. Doskonale wyjaśnia dlaczego obecnie, w dobie kryzysu i rosnącego długu publicznego, stopy procentowe spadają a ceny na głównych giełdach światowych biją rekordy.
+Chyba największą zasługą dla ekonomii, jaką wniosła nowoczesna teoria monetarna, jest szczegółowa analiza relacji między bankiem centralnym a skarbem państwa (Lavoie 2013).
+Jak się okazuje, wychodząc od najprostszej relacji sektor publiczny -- państwo oraz uwzględniając zasady rachunkowości sektorów instytucjonalnych, można dojść do nowych, dla wielu zaskakujących, wniosków dotyczących roli polityki pieniężnej i fiskalnej w gospodarce. Jak zostanie to wyjaśnione poniżej, nie da się ich sprowadzić do prostego stwierdzenia, że bank centralny może „drukować" pieniądze w dowolnej ilości bez skutków negatywnych. Również często krytykowany postulat integracji banku centralnego i skarbu państwa jest w rzeczywistości znacznie bardziej zniuansowany niż dostrzegają to krytycy. MMT umożliwia dużo lepsze zrozumienie prawdziwej roli pieniądza oraz banku centralnego w nowoczesnych gospodarkach pieniężnych. Doskonale wyjaśnia dlaczego obecnie, w dobie kryzysu i rosnącego długu publicznego, stopy procentowe spadają, a ceny na głównych giełdach światowych biją rekordy.
 
 ## Rachunkowość sektorów instytucjonalnych
 
-Punktem wyjścia dla znacznej części wniosków i propozycji stawianych przez Nowoczesną Teorię Monetarną jest analiza systemu rachunków narodowych[^polityka_pieniezna-1].
+Punktem wyjścia dla znacznej części wniosków i propozycji stawianych przez teorię współczesnych systemów monetarnych jest analiza systemu rachunków narodowych[^polityka_pieniezna-1].
 Wykorzystanie przytoczonych poniżej podstawowych reguł księgowości powoduje, że odpowiedzi na pytania dotyczące natury i roli deficytu, długu publicznego oraz pieniądza są zupełnie inne niż zazwyczaj przedstawiane w podręcznikach czy popularnych czasopismach ekonomicznych.
 W Polsce, tak jak we wszystkich krajach Unii Europejskiej system ten opracowywany jest zgodnie z zasadami Europejskiego Systemu Rachunków Narodowych i Regionalnych w Unii Europejskiej (ESA2010 2013), wprowadzonego Rozporządzeniem Parlamentu Europejskiego i Rady (UE) Nr 549/2013 z dnia 21 maja 2013 r.
 
@@ -23,14 +22,9 @@ W Polsce, tak jak we wszystkich krajach Unii Europejskiej system ten opracowywan
 Przedstawianie danych dotyczących gospodarki w formie rachunków i bilansów pozwalają na wykorzystanie metod rachunkowości w celu zapewnienia spójności obrazu gospodarki.
 W szczególności umożliwia to traktowanie gospodarki jako systemu zamkniętego, w którym żadne przepływy nie „wyciekają" z gospodarki ani się w nim nie pojawiają „z niczego".
 
-Zgodnie z podstawową metodą rachunkowości, czyli metodą bilansową, każda operacja jest zapisywana dwustronnie.
-Na przykład, po lewej stronie rachunku finansowego rejestrowane są zmiany aktywów finansowych, po prawej -- zmiany pasywów i wartości netto.
-W części dotyczącej zmian aktywów finansowych rachunek rejestruje nabycie aktywów finansowych pomniejszone o ich rozdysponowanie (przyrost należności finansowych).
-W części dotyczącej zmian pasywów finansowych i wartości netto rejestrowane jest zaciągnięcie zobowiązań pomniejszone o ich spłatę (przyrost zobowiązań finansowych) (Marczewski 2006).
+Zgodnie z podstawową metodą rachunkowości, czyli metodą bilansową, każda operacja jest zapisywana dwustronnie. Na przykład, po lewej stronie rachunku finansowego rejestrowane są zmiany aktywów finansowych, po prawej -- zmiany pasywów i wartości netto. W części dotyczącej zmian aktywów finansowych rachunek rejestruje nabycie aktywów finansowych pomniejszone o ich rozdysponowanie (przyrost należności finansowych). W części dotyczącej zmian pasywów finansowych i wartości netto rejestrowane jest zaciągnięcie zobowiązań pomniejszone o ich spłatę (przyrost zobowiązań finansowych) (Marczewski 2006).
 
-Równie ważna z punktu widzenia analiz ekonomicznych prowadzonych w MMT jest inna podstawowa zasada rachunkowości czyli reguła podwójnego zapisu a dokładniej jej rozszerzona wersja czyli reguła poczwórnej rejestracji operacji.
-Jak pokazano na rysunku \@ref(fig:rys21) oznacza ona, że każda operacja zapisywana jest podwójnie przez obie jednostki w nią zaangażowane tj.
-jako przychód (lub zmiana zobowiązań) i jako rozchód (lub zmiana aktywów).
+Równie ważna z punktu widzenia analiz ekonomicznych prowadzonych w MMT jest inna podstawowa zasada rachunkowości, czyli reguła podwójnego zapisu, a dokładniej jej rozszerzona wersja czyli reguła poczwórnej rejestracji operacji. Jak pokazano na rysunku \@ref(fig:rys21), oznacza ona, że każda operacja zapisywana jest podwójnie przez obie jednostki w nią zaangażowane tj. jako przychód (lub zmiana zobowiązań) i jako rozchód (lub zmiana aktywów).
 
 (ref:schemat1) Zapis wypłaty wynagrodzeń zgodnie z regułą poczwórnej rejestracji operacji <br> Źródło: (OECD 2017, str. 29)
 
@@ -38,9 +32,7 @@ jako przychód (lub zmiana zobowiązań) i jako rozchód (lub zmiana aktywów).
 knitr::include_graphics("rysunki\\Schemat_1.png")
 ```
 
-Instrument finansowy wykazywany w aktywach przez wierzyciela (posiadacza) jest jednocześnie ujmowany w zobowiązaniach przez dłużnika (emitenta).
-Pokazuje to rysunek \@ref(fig:rys22).
-W konsekwencji dla każdego uwzględnionego instrumentu finansowego, musi zachodzić równość między sumą aktywów i sumą zobowiązań, dla stanów i transakcji, wykazywanych odpowiednio przez wierzycieli i dłużników.
+Instrument finansowy wykazywany w aktywach przez wierzyciela (posiadacza) jest jednocześnie ujmowany w zobowiązaniach przez dłużnika (emitenta). Pokazuje to rysunek \@ref(fig:rys22). W konsekwencji dla każdego uwzględnionego instrumentu finansowego, musi zachodzić równość między sumą aktywów i sumą zobowiązań, dla stanów i transakcji, wykazywanych odpowiednio przez wierzycieli i dłużników.
 
 (ref:schemat2) Zapis operacji zakupu instrumentu dłużnego przez gospodarstwo domowe <br> Źródło: (OECD 2017, str. 30)
 
@@ -48,28 +40,18 @@ W konsekwencji dla każdego uwzględnionego instrumentu finansowego, musi zachod
 knitr::include_graphics("rysunki\\Schemat_2.png")
 ```
 
-Reguła poczwórnej rejestracji operacji stanowi potężne narzędzie zapewniające wysoką jakość danych ponieważ zapewnia spójność informacji na dwa sposoby (OECD 2017, str. 31).
-Po pierwsze umożliwia sprawdzenie, czy liczby dla danego podmiotu czy sektora są wewnętrznie spójne, czyli czy są zgodne z zasadą podwójnego zapisu.
-W systemie rachunków narodowych sprawdzenie to polega na porównaniu pozycji bilansujących na rachunku kapitałowym z pozycjami bilansującymi na rachunku finansowym.
-Drugi sposób polega na weryfikacji spójności danych między sumą płatności dokonanych i otrzymanych dla każdej transakcji (i pozycji).
+Reguła poczwórnej rejestracji operacji stanowi potężne narzędzie zapewniające wysoką jakość danych, ponieważ zapewnia spójność informacji na dwa sposoby (OECD 2017, str. 31).
+Po pierwsze umożliwia sprawdzenie, czy liczby dla danego podmiotu czy sektora są wewnętrznie spójne, czyli czy są zgodne z zasadą podwójnego zapisu. W systemie rachunków narodowych sprawdzenie to polega na porównaniu pozycji bilansujących na rachunku kapitałowym z pozycjami bilansującymi na rachunku finansowym. Drugi sposób polega na weryfikacji spójności danych między sumą płatności dokonanych i otrzymanych dla każdej transakcji i pozycji.
 
-Te dwie podstawowe reguły, stanowiące bazę całego systemu analizy gospodarki, pozwalają na wyciągnięcie daleko idących wniosków na temat prawdziwych relacji między sektorami i podsektorami gospodarki oraz zidentyfikowanie ważnych ograniczeń w funkcjonowaniu tejże.
-Stanowi to podstawę postkeynesowskich modeli makroekonomicznych (tzw. stock-flow consistent models) (Godley i Lavoie 2007; Caverzasi i Godin 2015), z których korzysta również Nowoczesna Teoria Monetarna.
-Istnienie tych reguł jest jednak ignorowane przez najpopularniejsze podręczniki z makroekonomii.
+Te dwie podstawowe reguły, stanowiące bazę całego systemu analizy gospodarki, pozwalają na wyciągnięcie daleko idących wniosków na temat prawdziwych relacji między sektorami i podsektorami gospodarki oraz zidentyfikowanie ważnych ograniczeń w funkcjonowaniu tejże. Stanowi to podstawę postkeynesowskich modeli makroekonomicznych (tzw. *stock-flow consistent models*) (Godley i Lavoie 2007; Caverzasi i Godin 2015), z których korzysta również Nowoczesna Teoria Monetarna. Istnienie tych reguł jest jednak ignorowane przez najpopularniejsze podręczniki z makroekonomii.
 
-Nie oznacza to oczywiście, że dane te nie są powszechnie wykorzystywane w badaniach i przy podejmowaniu decyzji politycznych.
-Problemem według MMT jest jednak pomijanie istotnych związków i częściowo związane z tym błędne określanie kierunku zależności przyczynowo-skutkowych.
+Nie oznacza to oczywiście, że dane te nie są powszechnie wykorzystywane w badaniach i przy podejmowaniu decyzji politycznych. Problemem według MMT jest jednak pomijanie istotnych związków i częściowo związane z tym błędne określanie kierunku zależności przyczynowo-skutkowych.
 
-Dotyczy to na przykład kwestii roli deficytu i długu publicznego w gospodarce.
-Jest on traktowany przez większość ekonomistów jako coś negatywnego.
-Przykładem tego była dyskusja wokół kontrowersji związanych z istotnymi błędami w obliczeniach w słynnej książce "This Time Is Different: Eight Centuries of Financial Folly" (Reinhart i Rogoff 2009).
+Dotyczy to na przykład kwestii roli deficytu i długu publicznego w gospodarce. Jest on traktowany przez dużą część ekonomistów jako coś negatywnego. Przykładem tego była dyskusja wokół kontrowersji związanych z istotnymi błędami w obliczeniach w słynnej książce "This Time Is Different: Eight Centuries of Financial Folly" (Reinhart i Rogoff 2009).
 Jej autorzy starali się udowodnić tezę, że rosnący dług publiczny powoduje obniżenie stopy wzrostu gospodarczego.
 
-Wyjaśnienie tego problemu można jednak uzyskać w dość prosty sposób wykorzystując metody rachunków narodowych, jak postuluje MMT.
-Otóż, zgodnie z systemem rachunków narodowych całą gospodarkę można podzielić na trzy sektory: sektor publiczny, sektor prywatny i sektor zagraniczny.
-Suma bilansów tych sektorów (czyli aktywów i zobowiązań) musi się równać zeru.
-Jednak naturalnie każdy z poszczególnych sektorów nie musi mieć zrównoważonego bilansu.
-Możliwe kombinacje przedstawia tabela \@ref(tab:tab2).
+Wyjaśnienie tego problemu można jednak uzyskać w dość prosty sposób wykorzystując metody rachunków narodowych, jak postuluje MMT. Otóż, zgodnie z systemem rachunków narodowych całą gospodarkę można podzielić na trzy sektory: sektor publiczny, sektor prywatny i sektor zagraniczny. Suma bilansów tych sektorów (czyli aktywów i zobowiązań) musi się równać zeru.
+Jednak naturalnie każdy z poszczególnych sektorów nie musi mieć zrównoważonego bilansu. Możliwe kombinacje przedstawia tabela \@ref(tab:tab2).
 
 ```{r tab2}
 library(kableExtra)
@@ -81,41 +63,29 @@ kbl(schemat, align = "c",
     ) %>% row_spec(1:3, background = "#e5e5e5") %>% column_spec(c(1,5), background = "white")
 ```
 
-Jak zauważa m.in.
-Łaski (2011) z rachunków narodowych wynika tożsamość oszczędności prywatnych (SP) oraz inwestycji prywatnych (IP) powiększonych o deficyt budżetowy (wydatki rządu na dobra i usługi (G) minus wszelkiego typu dochody budżetowe netto, a więc po potrąceniu wszelkich transferów pieniężnych (TN) plus bilans handlu zagranicznego (wydatki reszty świata na dobra eksportowane danego kraju (X) minus dochody reszty świata z tytułu dóbr importowanych przez dany kraj (M)), więc:
+Jak zauważa m.in. Łaski (2011), z rachunków narodowych wynika tożsamość oszczędności prywatnych (SP) oraz inwestycji prywatnych (IP) powiększonych o deficyt budżetowy (wydatki rządu na dobra i usługi (G) minus wszelkiego typu dochody budżetowe netto, a więc po potrąceniu wszelkich transferów pieniężnych (TN) plus bilans handlu zagranicznego (wydatki reszty świata na dobra eksportowane danego kraju (X) minus dochody reszty świata z tytułu dóbr importowanych przez dany kraj (M)), więc:
 
 |                  |       |
 |------------------|------:|
 | $SP≡IP+G-TN+X-M$ | \(1\) |
 
-Tożsamość (1) jest zawsze prawdziwa.
-Odejmując IP od obu stron równania (1), otrzymujemy:
+Tożsamość (1) jest zawsze prawdziwa. Odejmując IP od obu stron równania (1), otrzymujemy:
 
 |                        |       |
 |------------------------|------:|
 | $(SP-IP)=(G-TN)-(X-M)$ | \(2\) |
 
-gdzie każdy nawias reprezentuje bilans finansowy danego sektora.
-Bilans finansowy sektora prywatnego ( NSP = SP -- IP ) oznacza netto oszczędności prywatne tego sektora; bilans finansowy sektora publicznego oznacza deficyt budżetowy ( D = G -- TN ); wreszcie bilans finansowy reszty świata oznacza netto eksport ( E = X -- M ).
-Wobec tego mamy:
+gdzie każdy nawias reprezentuje bilans finansowy danego sektora. Bilans finansowy sektora prywatnego (NSP = SP - IP) oznacza netto oszczędności prywatne tego sektora; bilans finansowy sektora publicznego oznacza deficyt budżetowy (D = G - TN); wreszcie bilans finansowy reszty świata oznacza netto eksport (E = X - M). Wobec tego mamy:
 
 |           |       |
 |-----------|------:|
 | $NSP=D+E$ | \(3\) |
 
-Aby bilans sektora prywatnego był ujemny to inwestycje prywatne (wydatki) musiałyby być wyższe niż oszczędności prywatne.
-Nie ma to miejsca w krajach wysoko rozwiniętych.
-W takiej sytuacji, co pokazuje górna połowa tabeli 1, możliwości są następujące: zadłużenie publiczne i deficyt obrotów bieżących z zagranicą -- czyli sytuacja, której doświadczają kraje południa Europy, deficyt budżetowy i nadwyżka w obrotach bieżących -- sytuacja w krajach północy Europy, oraz nadwyżka budżetowa i nadwyżka obrotów bieżących.
-Niemożliwa jest natomiast sytuacja gdy występuje nadwyżka budżetowa (D jest ujemne) oraz deficyt obrotów bieżących (E również jest ujemne).
-Oznacza to, że jeśli nadwyżka sektora prywatnego (oszczędności) zostaną uznane za coś pozytywnego, to automatycznie trzeba uznać deficyt i dług publiczny także za coś pozytywnego.
-Trzecią, ostatnią opcją jest przyjęcie, że przechowywanie oszczędności w formie długu sektora zagranicznego jest lepszą alternatywą niż krajowy dług publiczny.
+Aby bilans sektora prywatnego był ujemny, to inwestycje prywatne (wydatki) musiałyby być wyższe niż oszczędności prywatne. Nie ma to miejsca w krajach wysoko rozwiniętych.
+W takiej sytuacji, co pokazuje górna połowa tabeli 1, możliwości są następujące: zadłużenie publiczne i deficyt obrotów bieżących z zagranicą -- sytuacja, której doświadczają kraje południa Europy, deficyt budżetowy i nadwyżka w obrotach bieżących -- sytuacja w krajach północy Europy, oraz nadwyżka budżetowa i nadwyżka obrotów bieżących. Niemożliwa jest natomiast sytuacja gdy występuje nadwyżka budżetowa (D jest ujemne) oraz deficyt obrotów bieżących (E również jest ujemne). Oznacza to, że jeśli nadwyżka sektora prywatnego (oszczędności) zostaną uznane za coś pozytywnego, to automatycznie trzeba uznać deficyt i dług publiczny także za coś pozytywnego. Trzecią, ostatnią opcją jest przyjęcie, że przechowywanie oszczędności w formie długu sektora zagranicznego jest lepszą alternatywą niż krajowy dług publiczny.
 
-Zmiany bilansów trzech głównych sektorów w Polsce przedstawia rysunek \@ref(fig:rys23).
-W całym przedstawionym okresie sektor prywatny gromadził oszczędności.
-Jednak aż do roku 2012 zjawisko to dotyczyło również zagranicy.
-Oznacza to, że w tym okresie import był większy niż eksport a różnica ta była finansowana kosztem deficytu sektora publicznego.
-Widać to najlepiej w 2008 r.
-kiedy to dochody sektora prywatnego były niemal równe jego wydatkom.
+Zmiany bilansów trzech głównych sektorów w Polsce przedstawia rysunek \@ref(fig:rys23). W całym przedstawionym okresie sektor prywatny gromadził oszczędności. Jednak aż do roku 2012 zjawisko to dotyczyło również zagranicy. Oznacza to, że w tym okresie import był większy niż eksport a różnica ta była finansowana kosztem deficytu sektora publicznego.
+Widać to najlepiej w 2008 r., kiedy to dochody sektora prywatnego były niemal równe jego wydatkom.
 
 ```{r rys23, fig.align='center', fig.cap='Bilanse sektorowe w Polsce, <br> Źródło:  Eurostat (nama_10_gdp)', out.width='100%', cache = TRUE}
 library(eurostat)
@@ -169,30 +139,13 @@ ggplot(x1, aes(x = time, y = values, group = na_item)) +
 
 Począwszy od 2013 roku nadwyżka sektora prywatnego ma w części postać długu zagranicy, co wynikało z dodatniego salda handlowego i umożliwiło zwiększenie oszczędności prywatnych.
 
-Jak wspomniano, wnioski te wynikają z konsekwentnego używania podstawowych zasad księgowości a nie teorii ekonomii.
-Zasady te jednak nie odpowiadają na pytania o kierunki zależności między deficytami a nadwyżkami poszczególnych sektorów.
-
-W tym miejscu należy jednak jeszcze dodać, iż Nowoczesna Teoria Monetarna dokonuje rozróżnienia na transakcje horyzontalne i wertykalne (Mitchell, Wray, i Watts 2019).
-Transakcje horyzontalne dotyczą operacji wewnątrz sektora (np. zakup dóbr i usług, kredyty bankowe między podmiotami sektora prywatnego) natomiast transakcje wertykalne obejmują transakcje między sektorem publicznym a pozostałymi, głównie prywatnym (np. wydatki publiczne czy podatki).
-Oznacza to, że transakcje horyzontalne nie zwiększają stanu (zasobu) aktywów finansowych posiadanych przez dany sektor.
-W statystyce publicznej prowadzonej np.
-przez Narodowy Bank Polski („Narodowy Bank Polski - Internetowy Serwis Informacyjny" b.d.) podział ten znajduje odzwierciedlenie w różnicy między rachunkami skonsolidowanymi i nieskonsolidowanymi.
+Wnioski te wynikają z konsekwentnego używania podstawowych zasad księgowości a nie teorii ekonomii. Zasady te jednak nie odpowiadają na pytania o kierunki zależności między deficytami a nadwyżkami poszczególnych sektorów. W tym miejscu należy jednak jeszcze dodać, iż teoria współczesnych systemów monetarnych dokonuje rozróżnienia na transakcje horyzontalne i wertykalne (Mitchell, Wray, i Watts 2019). Transakcje horyzontalne dotyczą operacji wewnątrz sektora (np. zakup dóbr i usług, kredyty bankowe między podmiotami sektora prywatnego) natomiast transakcje wertykalne obejmują transakcje między sektorami na przykład między sektorem publicznym a pozostałymi, głównie prywatnym (np. wydatki publiczne czy podatki). Oznacza to, że transakcje horyzontalne nie zwiększają stanu (zasobu) aktywów finansowych posiadanych przez dany sektor. W statystyce publicznej prowadzonej np. przez Narodowy Bank Polski („Narodowy Bank Polski - Internetowy Serwis Informacyjny") podział ten znajduje odzwierciedlenie w różnicy między rachunkami skonsolidowanymi i nieskonsolidowanymi.
 
 ## Kreacja pieniądza
 
-Nowoczesna Teoria Monetarna funkcjonowała początkowo w kręgach akademickich jako neoczartalizm (*neo-chartalism*).
-Czartalizm jest terminem stworzonym przez G.F.
-Knappa oznaczającym pogląd, że podstawowym pojęciem w teorii pieniądza jest jednostka obrachunkowa, w której wyraża się zobowiązania, ceny i ogólny poziom cen.
-Natomiast główną formą tej jednostki jest nominalny pieniądz ustawowy (*chartale Zahlungsmittel*) (Knakiewicz 1984).
-Wyraz czartalizm (*chartalism*) pochodzi od łacińskiego słowa charta oznaczającego papier.
-Stanowi więc przeciwieństwo metalizmu, czyli poglądu, iż wartość pieniądza opiera się na kruszcu z jakiego został zrobiony (złoto, srebro).
-Z poglądami Knappa w pełni zgadzał się J.M.Keynes.
-Wyraźnie podkreślał, że w nowoczesnym państwie nominalistyczna doktryna G.F.
-Knappa ma pełne zastosowanie.
-Jego zdaniem warunki do praktycznego zastosowania nominalizmu, czyli realizacji systemu pieniądza państwowego, występują wtedy, gdy państwo może nie tylko domagać się przestrzegania nakazów, ale także je ustanawiać.
-Stwierdzał z całym przekonaniem, że każdy współczesny pieniądz jest pieniądzem ustanawianym przez państwo (Knakiewicz 1984; Wray 2014b).
-Między innymi z tego powodu Nowoczesną Teorię Monetarną zalicza się do nurtu postkeynesowskiego a dokładniej tzw.
-horyzontalistów (*horizontalists*) i zwolenników teorii obiegu pieniężnego (monetary circuit theory).
+Nowoczesna teoria monetarna funkcjonowała początkowo w kręgach akademickich jako neoczartalizm (*neo-chartalism*). Czartalizm jest terminem stworzonym przez G.F. Knappa oznaczającym pogląd, że podstawowym pojęciem w teorii pieniądza jest jednostka obrachunkowa, w której wyraża się zobowiązania, ceny i ogólny poziom cen. Natomiast główną formą tej jednostki jest nominalny pieniądz ustawowy (*chartale Zahlungsmittel*) (Knakiewicz 1984). Wyraz czartalizm (*chartalism*) pochodzi od łacińskiego słowa charta oznaczającego papier.
+Stanowi więc przeciwieństwo metalizmu, czyli poglądu, iż wartość pieniądza opiera się na kruszcu z jakiego został zrobiony (złoto, srebro). Z poglądami Knappa w pełni zgadzał się J.M.Keynes. Wyraźnie podkreślał, że w nowoczesnym państwie nominalistyczna doktryna G.F. Knappa ma pełne zastosowanie. Jego zdaniem warunki do praktycznego zastosowania nominalizmu, czyli realizacji systemu pieniądza państwowego, występują wtedy, gdy państwo może nie tylko domagać się przestrzegania nakazów, ale także je ustanawiać.
+Stwierdzał z całym przekonaniem, że każdy współczesny pieniądz jest pieniądzem ustanawianym przez państwo (Knakiewicz 1984; Wray 2014b). Między innymi z tego powodu MMT zalicza się do nurtu postkeynesowskiego a dokładniej tzw. horyzontalistów (*horizontalists*) i zwolenników teorii obiegu pieniężnego (*monetary circuit theory*).
 Jak pisze (Lavoie 2013) następujące poglądy łączą neo-czartalistów z postkeynesistami:
 
 -   Podaż pieniądza jest endogeniczna Kredyty tworzą depozyty a depozyty tworzą rezerwy.
@@ -209,37 +162,20 @@ Jak pisze (Lavoie 2013) następujące poglądy łączą neo-czartalistów z post
 
 [^polityka_pieniezna-3]: "Głównym celem wykorzystania systemu rezerwy obowiązkowej będzie oddziaływanie w kierunku stabilizacji krótkoterminowych rynkowych stóp procentowych." ([NBP 2021, s. 9](https://www.nbp.pl/polityka_pieniezna/dokumenty/zalozenia/zalozenia_pp_2021.pdf))
 
-Poza tym występują elementy wspólne dla MMT i teorii obiegu pieniężnego, według której istnieje określona kolejność w jakiej poszczególne podmioty włączają się do cyklu (obiegu) pieniężnego: firmy najpierw biorą pożyczki z banków i wydają je na płace (i dywidendy), następnie w drugim kroku, dzięki sprzedaży swoich produktów i usług oraz instrumentów finansowych odzyskują wydane wcześniej środki.
-W przypadku Nowoczesnej Teorii Monetarnej występuje podobna zależność czasowa: państwo najpierw dokonuje wydatków, a następnie dopiero w drugiej fazie rekompensuje te wydatki w postaci podatków.
-Podmioty prywatne nie mogą zapłacić podatków dopóki nie otrzymają pieniędzy emitowanych przez państwo.
-
-Z powyższych rozważań wynika, że Nowoczesna Teoria Monetarna, tak samo jak cały nurt postkeynesowski wyróżnia kilka rodzajów pieniądza a sprzeczności i kontrowersje dotyczą ich wzajemnych relacji.
-Istnieją dwa źródła kreacji pieniądza w gospodarce.
-Jednym z nich jest bank centralny, który tworzy bazę monetarną emitując gotówkę w postaci monet i banknotów służące przede wszystkim gospodarstwom domowym i w mniejszym stopniu przedsiębiorstwom niefinansowym oraz pieniądz rezerwowy dostępny jedynie bankom.
-Pieniądz rezerwowy służy wyłącznie do prowadzenia rozrachunków pomiędzy bankami komercyjnymi oraz pomiędzy bankami komercyjnymi i bankiem centralnym.
-Drugim źródłem są banki komercyjne tworzące pieniądz poprzez udzielanie kredytów.
-Powyższą strukturę kreacji pieniądza przedstawiono na rysunku \@ref(fig:rys24).
-Można powiedzieć, że do wymiany towarów i usług w gospodarce realnej służy pieniądz generowany przez stronę trzecią, w tym przypadku banki komercyjne.
-Podobna relacja zachodzi w relacjach między bankami komercyjnymi, w rozliczeniach również używają pieniądza generowanego przez stronę trzecią.
-Tym razem jest to pieniądz banku centralnego.
+Z powyższych rozważań wynika, że MMT, tak samo jak cały nurt postkeynesowski, wyróżnia kilka rodzajów pieniądza, a sprzeczności i kontrowersje dotyczą ich wzajemnych relacji.
+**Istnieją dwa źródła kreacji pieniądza w gospodarce**. Jednym z nich jest bank centralny, który tworzy bazę monetarną emitując gotówkę w postaci monet i banknotów służące przede wszystkim gospodarstwom domowym i w mniejszym stopniu przedsiębiorstwom niefinansowym oraz pieniądz rezerwowy dostępny jedynie bankom. Pieniądz rezerwowy służy wyłącznie do prowadzenia rozrachunków pomiędzy bankami komercyjnymi oraz pomiędzy bankami komercyjnymi i bankiem centralnym. Drugim źródłem są banki komercyjne tworzące pieniądz poprzez udzielanie kredytów. Powyższą strukturę kreacji pieniądza przedstawiono na rysunku \@ref(fig:rys24). Można powiedzieć, że do wymiany towarów i usług w gospodarce realnej służy pieniądz generowany przez stronę trzecią, gwaranta, w tym przypadku banki komercyjne. Podobna relacja zachodzi w relacjach między bankami komercyjnymi, w rozliczeniach również używają pieniądza generowanego przez stronę trzecią. Tym razem jest to pieniądz banku centralnego.
 
 ```{r rys24, echo=FALSE, fig.align='center', fig.cap='Źródła pieniądza w gospodarce <br>Źródło: Opracowanie własne', out.width='100%'}
 knitr::include_graphics("rysunki\\Zrodla_pieniadza.png")
 ```
 
-Według Rochon i Vernengo (2003) podstawową różnicą między zwolennikami MMT a postkeynesistami jest opis relacji między pieniądzem (bazą monetarną) kreowanym przez bank centralny a pieniądzem tworzonym przez banki komercyjne.
-Według MMT pieniądz „bankowy" odgrywa wtórną rolę. Dla postkeynesistów odwrotnie, to kredytowy pieniądz bankowy stanowi główną siłę kreacji pieniądza a gotówka i rezerwy banku centralnego ma drugorzędne znaczenie[^polityka_pieniezna-4].
+Według Rochon i Vernengo (2003) podstawową różnicą między zwolennikami MMT a postkeynesistami jest opis relacji między pieniądzem (bazą monetarną) kreowanym przez bank centralny a pieniądzem tworzonym przez banki komercyjne. Według MMT pieniądz „bankowy" odgrywa wtórną rolę. Dla postkeynesistów odwrotnie, to kredytowy pieniądz bankowy stanowi główną siłę kreacji pieniądza a gotówka i rezerwy banku centralnego ma drugorzędne znaczenie[^polityka_pieniezna-4].
 
 [^polityka_pieniezna-4]: Nie chodzi tu o ilość poszczególnych form pieniądza ale o kierunek związku przyczynowo-skutkowego.
 
-Należy podkreślić, że niezależnie od źródła pochodzenia pieniądza (bank centralny czy banki komercyjne), ma on charakter endogeniczny to znaczy, że o jego ilości w obiegu decyduje wyłącznie popyt kreowany przez sektor prywatny w postaci gospodarstw domowych i firm oraz przez sektor publiczny.
-Emisja pieniądza z obu źródeł się do tego popytu pasywnie dostosowuje i nie zależy od żadnych innych czynników.
-Jest to zgodne z rzeczywistością (Knakiewicz 1998; McLeay, Radia, i Thomas 2014) ale sprzeczne z popularną w podręcznikach ekonomii teorią funduszy pożyczkowych (*loanable funds theory*), zgodnie z którą banki komercyjne muszą najpierw pozyskać wkłady aby móc je dalej pożyczać.
-Według tej teorii, choć dzięki efektowi mnożnikowemu sektor bankowy może efektywnie pożyczyć znacznie więcej niż wynosi wartość depozytów, które wstępnie otrzymał, to jednak kreacja pieniądza jest uzależniona od wysokości tego pierwotnego wkładu oraz od wysokości rezerwy obowiązkowej czyli czynników egzogenicznych względem gospodarki.
+Należy podkreślić, że niezależnie od źródła pochodzenia pieniądza (bank centralny czy banki komercyjne), ma on charakter endogeniczny to znaczy, że o jego ilości w obiegu decyduje wyłącznie popyt kreowany przez sektor prywatny w postaci gospodarstw domowych i firm oraz przez sektor publiczny. **Emisja pieniądza z obu źródeł się do tego popytu pasywnie dostosowuje** i nie zależy od żadnych innych czynników. Jest to zgodne z rzeczywistością (Knakiewicz 1998; McLeay, Radia, i Thomas 2014) ale sprzeczne z popularną w podręcznikach ekonomii teorią funduszy pożyczkowych (*loanable funds theory*), zgodnie z którą banki komercyjne muszą najpierw pozyskać wkłady aby móc je dalej pożyczać. Według tej teorii, choć dzięki efektowi mnożnikowemu sektor bankowy może efektywnie pożyczyć znacznie więcej niż wynosi wartość depozytów, które wstępnie otrzymał, to jednak kreacja pieniądza jest uzależniona od wysokości tego pierwotnego wkładu oraz od wysokości rezerwy obowiązkowej czyli czynników egzogenicznych względem gospodarki.
 
-Sposób kreacji pieniądza przez bank centralny i przez banki komercyjne zostanie omówiony w dalszej części rozdziału.
-Wpierw jednak należy zwrócić uwagę na strukturę ilościową pieniądza w Polsce.
-Przedstawiono ją na rysunku \@ref(fig:rys25) poniżej.
+Sposób kreacji pieniądza przez bank centralny i przez banki komercyjne zostanie omówiony w dalszej części rozdziału. Wpierw jednak należy zwrócić uwagę na strukturę ilościową pieniądza w Polsce. Przedstawiono ją na rysunku \@ref(fig:rys25) poniżej.
 
 ```{r rys25, echo=FALSE, fig.align='center', fig.cap='Relacja gotówki w obiegu do agregatu M1<br>Źródło: Opracowanie własne na podstawie danych NBP', out.width='100%'}
 library(dplyr)
@@ -311,18 +247,13 @@ plot_ly(dane3, x = ~data, y=~M, type = "scatter", mode = "lines+markers") %>%
 
 ```
 
-Jak widać, wyraźnie dominuje pieniądz kreowany przez banki komercyjne, który stanowi obecnie prawie 80% pieniądza w obrocie.
-Nawet po wybuchu pandemii COVID-19 zapotrzebowanie na gotówkę wzrosło jedynie o 2 pp.
+Jak widać, wyraźnie dominuje pieniądz kreowany przez banki komercyjne, który stanowi obecnie prawie 80% pieniądza w obrocie. Nawet po wybuchu pandemii COVID-19 zapotrzebowanie na gotówkę wzrosło jedynie o 2 pp.
 
 <br>
 
 ### **Rola banku centralnego i ministerstwa finansów w kreacji pieniądza**
 
-Jedną z cech charakterystycznych Nowoczesnej Teorii Monetarnej (i przy okazji najbardziej kontrowersyjnych) jest hipoteza konsolidacji banku centralnego i ministerstwa finansów w jeden podmiot pojawiająca się w prowadzonych analizach ekonomicznych.
-Jest to punkt wyjścia, z którego wynika cała logiczna konstrukcja MMT, w tym dominująca rola polityki budżetowej, specyficzna rola podatków oraz obiegu pieniężnego.
-Według zwolenników integracji jest to uproszczenie ułatwiające zrozumienie prawdziwych relacji między bankiem centralnym a budżetem publicznym (Mitchell i in., 2019 s. 321), które nie ma wpływu na prawdziwość i możliwość uogólnienia wniosków.
-Łącząc ministerstwo finansów i bank centralny w jeden sektor rządowy, który emituje walutę, MMT zwraca uwagę, że współcześnie obowiązujące ograniczenia instytucjonalne zostały nałożone przez władzę ustawodawczą, czyli są samoograniczeniem.
-Poza tym (Tymoigne i Wray 2013):
+Jedną z cech charakterystycznych teori współczesnych systemów monetarnych, przy okazji najbardziej kontrowersyjnych, jest propozycja konsolidacji banku centralnego i ministerstwa finansów w jeden podmiot pojawiająca się w prowadzonych analizach ekonomicznych. Jest to punkt wyjścia, z którego wynika cała logiczna konstrukcja MMT, w tym dominująca rola polityki budżetowej, specyficzna rola podatków oraz obiegu pieniężnego. Według zwolenników integracji jest to uproszczenie ułatwiające zrozumienie prawdziwych relacji między bankiem centralnym a budżetem publicznym (Mitchell i in., 2019 s. 321), które nie ma wpływu na prawdziwość i możliwość uogólnienia wniosków. Łącząc ministerstwo finansów i bank centralny w jeden sektor rządowy, który emituje walutę, MMT zwraca uwagę, że współcześnie obowiązujące ograniczenia instytucjonalne zostały nałożone przez władzę ustawodawczą, czyli są samoograniczeniem. Poza tym (Tymoigne i Wray 2013):
 
 -   bez względu na ramy instytucjonalne końcowa zawartość bilansu jest taka sama;
 
@@ -330,11 +261,9 @@ Poza tym (Tymoigne i Wray 2013):
 
 -   bank centralny i ministerstwo finansów tak czy inaczej współpracują -- bank centralny jest zaangażowany w politykę fiskalną, a ministerstwo finansów w pieniężną - by ministerstwo finansów mogło realizować swoje cela, a bank centralny mógł łagodzić wahania stóp procentowych;
 
--   hipoteza konsolidacji nie ma na celu opisu obecnych warunków instytucjonalnych.
-    Jest teoretycznym uproszczeniem umożliwiającym analizę podstawowych relacji we współczesnym systemie monetarnym.
+-   propozycja konsolidacji nie ma na celu opisu obecnych warunków instytucjonalnych. Jest teoretycznym uproszczeniem umożliwiającym analizę podstawowych relacji we współczesnym systemie monetarnym.
 
-Sposób finansowania wydatków publicznych w kraju dysponującym własną walutą według przedstawicieli Nowoczesnej Teorii Monetarnej przedstawia tabela \@ref(tab:tab3).
-Ilustruje ona właśnie schemat, w którym bank centralny i ministerstwo finansów funkcjonują w ramach jednej instytucji.
+Sposób finansowania wydatków publicznych w kraju dysponującym własną walutą według przedstawicieli nowoczesnej teorii monetarnej przedstawia tabela \@ref(tab:tab3). Ilustruje ona właśnie schemat, w którym bank centralny i ministerstwo finansów funkcjonują w ramach jednej instytucji.
 
 ```{r tab3}
 library(flextable)
@@ -353,36 +282,18 @@ flextable(tab2) %>% theme_vanilla() %>%
      add_footer_lines("Źródło: Opracowanie własne na podstawie M. Lavoie, (2013), The Monetary and Fiscal Nexus of Neo-Chartalism: A Friendly Critique, Journal of Economic Issues, Vol. XLVII, No. 1")
 ```
 
-Proces rozpoczyna się od utworzenia depozytu ministerstwa finansów na jego koncie w banku centralnym.
-Pozycją bilansującą są skarbowe papiery wartościowe (SPW) wyemitowane przez ministerstwo finansów (krok 1)[^polityka_pieniezna-5] .
-Jeśli dokonamy połączenia obu tych instytucji to krok ten jest zbędny.
-Operacja ta nie ma wpływu na gospodarkę realną ponieważ ma charakter księgowy i przebiega wyłącznie między dwiema instytucjami publicznymi.
-Nie ma też większego znaczenia oprocentowanie obligacji skoro zysk banku centralnego jest przekazywany do budżetu państwa.
-Dopiero w drugim kroku aktywny udział bierze sektor bankowy i realna gospodarka, tutaj w postaci dochodów gospodarstw domowych ulokowanych na kontach banków komercyjnych (pierwszy wiersz w drugim kroku).
-Są one następstwem wydatków publicznych.
-Na koniec dnia depozyty te banki wolą złożyć na oprocentowanym[^polityka_pieniezna-6] rachunku w banku centralnym a w zamian otrzymują pieniądz rezerwowy banku centralnego (drugi wiersz w drugim kroku)
-. Dopóki bank centralny nie przeprowadzi operacji kompensujących banki centralne nie mogą wiele zrobić aby pozbyć się tego dodatkowego pieniądza rezerwowego
-.
+Proces rozpoczyna się od utworzenia depozytu ministerstwa finansów na jego koncie w banku centralnym. Pozycją bilansującą są skarbowe papiery wartościowe (SPW) wyemitowane przez ministerstwo finansów (krok 1)[^polityka_pieniezna-5] . Jeśli dokonamy połączenia obu tych instytucji, to krok ten jest zbędny. Operacja ta nie ma wpływu na gospodarkę realną, ponieważ ma charakter księgowy i przebiega wyłącznie między dwiema instytucjami publicznymi. Nie ma też większego znaczenia oprocentowanie obligacji, skoro zysk banku centralnego jest przekazywany do budżetu państwa. Dopiero w drugim kroku aktywny udział bierze sektor bankowy i realna gospodarka, tutaj w postaci dochodów gospodarstw domowych ulokowanych na kontach banków komercyjnych (pierwszy wiersz w drugim kroku). Są one następstwem wydatków publicznych. Na koniec dnia depozyty te banki wolą złożyć na oprocentowanym[^polityka_pieniezna-6] rachunku w banku centralnym, a w zamian otrzymują pieniądz rezerwowy banku centralnego (drugi wiersz w drugim kroku). Dopóki bank centralny nie przeprowadzi operacji kompensujących, banki centralne nie mogą wiele zrobić aby pozbyć się tego dodatkowego pieniądza rezerwowego.
 
-[^polityka_pieniezna-5]: taki sam schemat występuje w przypadku, gdy klient udaje się do swojego banku komercyjnego w celu uzyskania pożyczki.
-    Bank tworzy dla niego depozyt jako pasywo i utrzymuje umowę kredytową jako aktywo.
-    Szerzej o tym w dalszej części rozdziału.
+[^polityka_pieniezna-5]: taki sam schemat występuje w przypadku, gdy klient udaje się do swojego banku komercyjnego w celu uzyskania pożyczki. Bank tworzy dla niego depozyt jako element pasywów i utrzymuje umowę kredytową jako część aktywów. Szerzej o tym w dalszej części rozdziału.
 
-[^polityka_pieniezna-6]: w Polsce od 9 kwietnia 2020 r.
-    stopa depozytowa w wyniku kryzysu wywołanego pandemią COVID 19 [została obniżona do 0%](https://www.nbp.pl/home.aspx?f=/dzienne/stopy_archiwum.htm).
+[^polityka_pieniezna-6]: w Polsce od 9 kwietnia 2020 r. stopa depozytowa w wyniku kryzysu wywołanego pandemią COVID 19 [została obniżona do 0%](https://www.nbp.pl/home.aspx?f=/dzienne/stopy_archiwum.htm).
      Banki i tak preferują posiadanie pieniądza rezerwowego nad zobowiązaniami innych banków komercyjnych więc brak oprocentowania w niewielkim stopniu zniechęca je do składania depozytów w banku centralnym.
 
-Krok 3 przedstawia właśnie wynik takich operacji.
-Przyjęto założenie, że gospodarstwa domowe chcą przechowywać 10% jednostek pieniężnych w formie gotówki.
-Drugie założenie dotyczy 10% stopy rezerwy obowiązkowej od depozytów[^polityka_pieniezna-7].
-Oznacza to, że po zamianie 10 jednostek depozytów na gotówkę banki komercyjne muszą pozostawić jeszcze 9 jednostek jako rezerwę obowiązkową w banku centralnym.
-Pozostałe 81 dodatkowych jednostek pieniężnych zostaje usunięte z systemu bankowego poprzez operacje otwartego rynku.
-W tym przypadku banki komercyjne nabywają SPW o wartości 81 jednostek.
-SPW, które w przeciwieństwie do depozytów w banku centralnym, przynoszą odsetki (lub gdy te depozyty są oprocentowane przynoszą wyższe odsetki)[^polityka_pieniezna-8]
+Krok 3. przedstawia właśnie wynik takich operacji. Przyjęto założenie, że gospodarstwa domowe chcą przechowywać 10% jednostek pieniężnych w formie gotówki. Drugie założenie dotyczy 10% stopy rezerwy obowiązkowej od depozytów[^polityka_pieniezna-7]. Oznacza to, że po zamianie 10 jednostek depozytów na gotówkę banki komercyjne muszą pozostawić jeszcze 9 jednostek jako rezerwę obowiązkową w banku centralnym. Pozostałe 81 dodatkowych jednostek pieniężnych zostaje usunięte z systemu bankowego poprzez operacje otwartego rynku.
+W tym przypadku banki komercyjne nabywają SPW o wartości 81 jednostek. SPW w przeciwieństwie do depozytów w banku centralnym, przynoszą odsetki (lub gdy te depozyty są oprocentowane przynoszą wyższe odsetki)[^polityka_pieniezna-8]
 .
 
-[^polityka_pieniezna-7]: Od 30 kwietnia 2020 r.
-    stopa rezerwy obowiązkowej wynosi 0,5 proc.
+[^polityka_pieniezna-7]: Od 30 kwietnia 2020 r. stopa rezerwy obowiązkowej wynosi 0,5 proc.
     Wcześniej wynosiła 3,5% dla wszystkich rodzajów depozytów, z wyjątkiem środków uzyskanych z tytułu transakcji repo i sell-buy-back oraz środków pozyskanych co najmniej na 2 lata, dla których stopa rezerwy obowiązkowej wynosi 0 proc.Podmioty naliczające rezerwę obowiązkową pomniejszają kwotę naliczonej rezerwy o równowartość 500 tys.
     euro.
     Środki rezerwy obowiązkowej są oprocentowane na poziomie stopy referencyjnej.
@@ -390,33 +301,22 @@ SPW, które w przeciwieństwie do depozytów w banku centralnym, przynoszą odse
 
 [^polityka_pieniezna-8]: Nie muszą to być obligacje skarbowe, w Polsce w ramach operacji otwartego rynku NBP sprzedaje emitowane przez siebie bony skarbowe.
 
-Bez działań kompensujących banku centralnego deficyt budżetowy prowadzi do wzrostu pieniądza w obiegu, a co za tym idzie spadku stopy *overnight*.
-Jest to zaskakujący wniosek dla osób przyzwyczajonych do teorii funduszy pożyczkowych i modelu IS/LM gdzie wzrost deficytu, poprzez tzw.
-efekt wypychania, powoduje wzrost stóp procentowych.
-Jednakże dla praktyków rynków finansowych (do których zalicza się W. Mosler) jest oczywiste, że nie może być inaczej niż to przedstawiono w tabeli \@ref(tab:tab3).
-Jeśli rząd dokonuje wydatków poprzez swój rachunek w banku centralnym to pieniądz rezerwowy jest dodawany do systemu bankowego.
-Pojawienie się nowego pieniądza powoduje spadek stóp *overnight* ponieważ nie ma popytu, który byłby w stanie w całości zaabsorbować tę dodatkową podaż.
-Oznacza to, że bank centralny aby osiągnąć oczekiwany poziom stopy overnight musi interweniować na rynku, stworzyć ten popyt i „ściągnąć" nadmierną płynność. Nie można więc mówić o operacyjnej niezależności banku centralnego (Wray 2014a).
+Bez działań kompensujących banku centralnego deficyt budżetowy prowadzi do wzrostu pieniądza w obiegu, a co za tym idzie spadku stopy *overnight*. Jest to zaskakujący wniosek dla osób przyzwyczajonych do teorii funduszy pożyczkowych i modelu IS/LM gdzie wzrost deficytu, poprzez tzw. efekt wypychania, powoduje wzrost stóp procentowych. Jednakże dla praktyków rynków finansowych (do których zalicza się W. Mosler) jest oczywiste, że nie może być inaczej niż to przedstawiono w tabeli \@ref(tab:tab3). Jeśli rząd dokonuje wydatków poprzez swój rachunek w banku centralnym to pieniądz rezerwowy jest dodawany do systemu bankowego. Pojawienie się nowego pieniądza powoduje spadek stóp *overnight*, ponieważ nie ma popytu, który byłby w stanie w całości zaabsorbować tę dodatkową podaż.Oznacza to, że bank centralny aby osiągnąć oczekiwany poziom stopy *overnight*, musi interweniować na rynku, stworzyć ten popyt i „ściągnąć" nadmiar pieniądza. Nie można więc mówić o operacyjnej niezależności banku centralnego (Wray 2014a).
 
-W Polsce taki przebieg spraw potwierdzają zapisy w najważniejszych dokumentach prawnych.
-Art. 227 ust.
-1 Konstytucji mówi, że „Centralnym bankiem państwa jest Narodowy Bank Polski.[...]" natomiast art. 3 ust. 2 Ustawy o Narodowym Banku Polskim (Dz.U. 1997 nr 140 poz. 938) w punktach 4 i 5 stanowi, że „do zadań NBP należy także:[...] 4) prowadzenie obsługi budżetu państwa; 5) regulowanie płynności banków oraz ich refinansowanie".
-Podobnie brzmi art. 197 ustawy o finansach publicznych (Dz.U. 2009 nr 157 poz. 1240):
+W Polsce taki przebieg spraw potwierdzają zapisy w najważniejszych dokumentach prawnych. Art. 227 ust. 1 Konstytucji mówi, że „Centralnym bankiem państwa jest Narodowy Bank Polski.[...]" natomiast art. 3 ust. 2 Ustawy o Narodowym Banku Polskim (Dz.U. 1997 nr 140 poz. 938) w punktach 4 i 5 stanowi, że „[...]do zadań NBP należy także:[...] 4) prowadzenie obsługi budżetu państwa; 5) regulowanie płynności banków oraz ich refinansowanie". Podobnie brzmi art. 197 Ustawy o finansach publicznych (Dz.U. 2009 nr 157 poz. 1240):
 
 > 1.  *Dochody budżetu państwa są gromadzone odpowiednio na rachunkach urzędów obsługujących organy podatkowe dla gromadzenia dochodów lub na rachunkach bieżących dochodów państwowych jednostek budżetowych i przekazywane na centralny rachunek bieżący budżetu państwa, którego dysponentem jest Minister Finansów.*
 > 2.  *Wydatki budżetu państwa są dokonywane przez dysponentów środków budżetowych z ich rachunków bieżących wydatków ze środków otrzymanych bezpośrednio lub za pośrednictwem rachunku bieżącego wydatków dysponenta nadrzędnego z centralnego rachunku bieżącego budżetu państwa.*
 > 3.  *Niewykorzystane przez dysponentów środków budżetowych środki, o których mowa w ust.2, są przekazywane bezpośrednio lub za pośrednictwem rachunku bieżącego wydatków dysponenta nadrzędnego na centralny rachunek bieżący budżetu państwa.*
 > 4.  *Operacje z tytułu przychodów i rozchodów budżetu państwa są dokonywane na centralnym rachunku bieżącym budżetu państwa lub na rachunkach pomocniczych Ministra Finansów.*
 
-Oczywiście pobieranie podatków działa w przeciwnym kierunku.Zebrane w postaci podatków środki są przekazywane na rachunek państwa w banku centralnym.Oznacza to, że banki komercyjne tracą pieniądz rezerwowy w takiej wysokości.Ujemna podaż może prowadzić do wzrostu stopy *overnight*.
+Oczywiście pobieranie podatków działa w przeciwnym kierunku. Zebrane w postaci podatków środki są przekazywane na rachunek państwa w banku centralnym.Oznacza to, że banki komercyjne tracą pieniądz rezerwowy w takiej wysokości.Ujemna podaż może prowadzić do wzrostu stopy *overnight*.
 
-W polskich uwarunkowaniach instytucjonalno-prawnych krok pierwszy w tabeli \@ref(tab:tab3) nie jest jednak możliwy.
-Wynika to z art. 220 ust.2 Konstytucji, który mówi, że „Ustawa budżetowa nie może przewidywać pokrywania deficytu budżetowego przez zaciąganie zobowiązania w centralnym banku państwa." Podobnie, acz szerzej stanowi art. 123 ust. 1 TFUE:
+W polskich uwarunkowaniach instytucjonalno-prawnych krok pierwszy w tabeli \@ref(tab:tab3) nie jest jednak możliwy. Wynika to z art. 220 ust.2 Konstytucji RP, który mówi, że „Ustawa budżetowa nie może przewidywać pokrywania deficytu budżetowego przez zaciąganie zobowiązania w centralnym banku państwa." Podobnie, acz szerzej stanowi art. 123 ust. 1 TFUE:
 
 > *„Zakazane jest udzielanie przez Europejski Bank Centralny lub banki centralne Państw Członkowskich, zwane dalej „krajowymi bankami centralnymi", pożyczek na pokrycie deficytu lub jakichkolwiek innych kredytów instytucjom, organom lub jednostkom organizacyjnym Unii, rządom centralnym, władzom regionalnym, lokalnym lub innym władzom publicznym, innym instytucjom lub przedsiębiorstwom publicznym Państw Członkowskich, jak również nabywanie bezpośrednio od nich przez Europejski Bank Centralny lub krajowe banki centralne ich papierów dłużnych."*
 
-Powstaje więc zasadnicze pytanie, czy założenie o konsolidacji banku centralnego i skarbu państwa oznacza błędną interpretację zjawisk realnych przez MMT i konieczność jej odrzucenia tak jak teorii funduszy pożyczkowych?
-Aby się o tym przekonać, w tabeli \@ref(tab:tab4) przedstawiono proces dokonywania wydatków publicznych w istniejących aktualnie w Polsce warunkach instytucjonalno-prawnych.
+Powstaje więc zasadnicze pytanie, czy założenie o konsolidacji banku centralnego i skarbu państwa oznacza błędną interpretację zjawisk realnych przez MMT i konieczność jej odrzucenia tak jak teorii funduszy pożyczkowych? Aby się o tym przekonać, w tabeli \@ref(tab:tab4) przedstawiono proces dokonywania wydatków publicznych w istniejących aktualnie w Polsce warunkach instytucjonalno-prawnych.
 
 ```{r tab4, tab.topcaption = FALSE}
 tab3 <- readxl::read_excel("tabele_rozdz.2.xlsx", sheet = 2, col_types = "text")
@@ -432,12 +332,7 @@ flextable(tab3) %>% theme_vanilla() %>%
      set_caption("Proces dokonywania wydatków publicznych w warunkach polskich <br> Źródło: Opracowanie własne na podstawie M. Lavoie, (2013), The Monetary and Fiscal Nexus of Neo-Chartalism: A Friendly Critique, Journal of Economic Issues, Vol. XLVII, No. 1", html_escape = FALSE)
 ```
 
-Tym razem w kroku 1 skarb państwa emituje obligacje o wartości 100 jednostek pieniężnych.
-Ich nabywcami są banki, gdyż bank centralny ma zakaz ich nabywania.
-Ponieważ bankiem państwa jest bank centralny, pieniądz bankowy musi zostać zamieniony na depozyt w tymże (wiersz drugi w kroku 1).
-Oznacza to, że 100 jednostek depozytu banków komercyjnych staje się depozytem rządowym (państwa).
-Pieniądz rezerwowy w takiej wysokości znika z sektora bankowego gdyż jest teraz w dyspozycji ministra finansów.
-W kolejnym kroku sektor publiczny dokonuje wydatków, przez co tak samo jak w poprzednim przypadku, 100 jednostek pieniężnych znowu pojawia się w sektorze bankowym jako depozyty gospodarstw domowych.
+Tym razem w kroku piewszym skarb państwa emituje obligacje o wartości 100 jednostek pieniężnych. Ich nabywcami są banki, gdyż bank centralny ma zakaz ich kupna. Ponieważ bankiem państwa jest bank centralny, pieniądz bankowy musi zostać zamieniony na depozyt w tymże (wiersz drugi w kroku 1). Oznacza to, że 100 jednostek depozytu banków komercyjnych staje się depozytem rządowym (państwa). Pieniądz rezerwowy w takiej wysokości znika z sektora bankowego gdyż jest teraz w dyspozycji ministra finansów. W kolejnym kroku sektor publiczny dokonuje wydatków, przez co tak samo jak w poprzednim przypadku, 100 jednostek pieniężnych znowu pojawia się w sektorze bankowym jako depozyty gospodarstw domowych.
 Na koniec dnia są przenoszone z sektora bankowego do banku centralnego dla zysku z oprocentowania lub dla bezpieczeństwa.
 Za te depozyty banki komercyjne otrzymują od banku centralnego pieniądz rezerwowy.
 Ponieważ założenia dotyczące gotówki i rezerwy obowiązkowej są takie same jak poprzednio, banki komercyjne zgłaszają dodatkowy popyt na pieniądz rezerwowy.
