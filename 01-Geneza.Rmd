@@ -232,28 +232,15 @@ Pozostaje jeszcze konieczność odpowiedzi na pytanie, dlaczego banki chcą kred
 Wyjaśnienie jest dwojakie: przede wszystkim oprócz produkcji dóbr i usług konsumpcyjnych firmy także inwestują, powiększając swój majątek będący zabezpieczeniem kredytów.
 Po drugie, dla banków bardziej istotne są przepływy pieniężne kredytobiorców umożliwiające spłatę odsetek i części kredytu, który to mogą w każdym cyklu odnawiać.
 
-Jak widać, w teorii obiegu pieniężnego pieniądz pełni dwojaką rolę: stanowi przepływ, jak sugerują strzałki na rysunku 1 ale również zasób jakim są oszczędności gospodarstw domowych na końcu cyklu.
-Dodatkowo z teorii tej wynika, że inwestycje zależą przede wszystkim od oczekiwań co do kształtowania się przyszłego popytu a nie od stóp procentowych.
+Jak widać, w teorii obiegu pieniężnego pieniądz pełni dwojaką rolę: stanowi przepływ, jak sugerują strzałki na rysunku 1 ale również zasób, którym są oszczędności gospodarstw domowych i dług firm na końcu cyklu. Dodatkowo z teorii tej wynika, że inwestycje zależą przede wszystkim od oczekiwań co do kształtowania się przyszłego popytu, a nie od stóp procentowych.
 
-Z teorii obiegu pieniężnego wynikają trzy możliwe źródła kryzysów.
-Pierwsze źródło dotyczy sektora bankowego, który może wywołać kryzys gdy nadmiernie będzie ograniczał akcję kredytową w wyniku źle skalkulowanego ryzyka mikroekonomicznego lub makroekonomicznego.
-Przykładem jest tu globalny kryzys finansowy z 2008 r.
-Drugie źródło leży w sektorze przedsiębiorstw, które również mogą ograniczyć produkcję w oczekując spadku sprzedaży (i w ten sposób same go wywołując).
-Trzecim źródłem są gospodarstwa domowe, które autonomicznie decydują o stopie oszczędności.
-Jeśli zdecydują się mniej konsumować a więcej oszczędzać (np. na przyszłe emerytury lub spodziewając się bezrobocia) to spadnie sprzedaż i wzrośnie zadłużenie firm[^geneza-16].
-Oba te czynniki działają w kierunku obniżenia produkcji w gospodarce.
+Z teorii obiegu pieniężnego wynikają trzy możliwe źródła kryzysów. Pierwsze źródło dotyczy sektora bankowego, który może wywołać kryzys gdy nadmiernie będzie ograniczał akcję kredytową w wyniku źle skalkulowanego ryzyka mikroekonomicznego lub makroekonomicznego. Przykładem jest tu globalny kryzys finansowy z 2008 r. Drugie źródło leży w sektorze przedsiębiorstw, które również mogą ograniczyć produkcję, oczekując spadku sprzedaży i w ten sposób same go wywołując. Trzecim źródłem są gospodarstwa domowe, które autonomicznie decydują jaką część dochodów oszczędzają -- czyli jakiej części nie wydają. Jeśli zdecydują się mniej konsumować, a więcej oszczędzać (np. na przyszłe emerytury lub spodziewając się bezrobocia), to spadnie sprzedaż i wzrośnie zadłużenie firm[^geneza-16]. Oba te czynniki działają w kierunku obniżenia produkcji w gospodarce.
 
 [^geneza-16]: Zadłużenie firm nie wzrośnie proporcjonalnie, gdyż jak wspomniano, mogą „przejąć" część oszczędności emitując np. akcje.
 
-Pojawia się tu więc istotna przestrzeń dla interwencji państwa jako jedynego podmiotu, który jest w stanie uzupełnić powstałą lukę popytową.
-Nie da się bowiem zmusić konsumentów, żeby więcej wydawali ani firm, żeby więcej inwestowały.
-Nie można też zmusić innych krajów do zwiększenia importu.
-Państwo, dzięki swojej polityce gospodarczej może przyczynić się do zmniejszenia niepewności.
-Wydatki publiczne zwiększają dochody firm i gospodarstw domowych, poprawiając ich wiarygodność finansową i ułatwiając pozyskanie kredytów w kolejnym cyklu.
+Pojawia się tu więc istotna przestrzeń dla interwencji państwa jako jedynego podmiotu, który jest w stanie uzupełnić powstałą lukę popytową. Nie da się bowiem zmusić konsumentów, żeby więcej wydawali ani firm, żeby więcej inwestowały. Nie można też zmusić innych krajów do zwiększenia importu. Państwo, dzięki swojej polityce gospodarczej, może przyczynić się do zmniejszenia niepewności. Wydatki publiczne zwiększają dochody firm i gospodarstw domowych, poprawiając ich wiarygodność finansową i ułatwiając pozyskanie kredytów w kolejnym cyklu.
 
-Teoria obiegu pieniężnego znajduje potwierdzenie w danych empirycznych.
-Wykres \@ref(fig:rys2) pokazuje utrzymującą się nadwyżkę oszczędności sektora gospodarstw domowych w Polsce i korespondujące z nim zadłużenie sektora przedsiębiorstw niefinansowych.
-Sektor bankowy pozostaje w równowadze, gdyż emituje kredyt (swoje aktywa) na rzecz przedsiębiorstw w drugim etapie i przyjmuje depozyty od gospodarstw domowych (swoje pasywa) w ostatnim etapie.
+Teoria obiegu pieniężnego znajduje potwierdzenie w danych empirycznych. Wykres \@ref(fig:rys2) pokazuje utrzymującą się nadwyżkę oszczędności sektora gospodarstw domowych w Polsce i korespondujące z nim zadłużenie sektora przedsiębiorstw niefinansowych. Sektor bankowy pozostaje w równowadze, gdyż emituje kredyt (swoje aktywa) na rzecz przedsiębiorstw w drugim etapie i przyjmuje depozyty od gospodarstw domowych (swoje pasywa) w ostatnim etapie.
 
 (ref:rys2) Aktywa finansowe netto sektora przedsiębiorstw niefinansowych, banków i gospodarstw domowych w Polsce <br> Źródło: Opracowanie własne na podstawie danych Eurostat (NASA_10_F\_BS)
 
@@ -295,9 +282,7 @@ Teoria ta niezmiernie ułatwia analizę i zrozumienie na przykład roli bankowo�
 knitr::include_graphics("rysunki\\Klasyczny schemat obiegu pieniadza.png")
 ```
 
-Schemat klasyczny nie uwzględnia możliwości zakupu obligacji skarbowych przez bank centralny, ani pośrednio poprzez rynki finansowe.
-Nie wynika to jednak z ograniczenia teorii obiegu pieniądza, gdyż na jej podstawie można prowadzić analizy różnych schematów obiegu finansowego i realnego w gospodarce w zależności od potrzeb.
-Schemat przedstawiający gospodarkę z punktu widzenia Nowoczesnej Teorii Monetarnej pokazano na rysunku \@ref(fig:rys4).
+Schemat klasyczny nie uwzględnia możliwości zakupu obligacji skarbowych przez bank centralny ani pośrednio poprzez rynki finansowe. Nie wynika to jednak z ograniczenia teorii obiegu pieniądza, gdyż na jej podstawie można prowadzić analizy różnych schematów obiegu finansowego i realnego w gospodarce w zależności od potrzeb. Schemat przedstawiający gospodarkę z punktu widzenia Nowoczesnej Teorii Monetarnej pokazano na rysunku \@ref(fig:rys4).
 
 (ref:rys4) Schemat obiegu pieniądza z punktu widzenia MMT <br> Źródło:  opracowanie własne
 
@@ -305,9 +290,9 @@ Schemat przedstawiający gospodarkę z punktu widzenia Nowoczesnej Teorii Moneta
 knitr::include_graphics("rysunki\\Schemat obiegu pieniadza MMT.png")
 ```
 
-MMT dzieli gospodarkę zazwyczaj na trzy sektory: finansowy (zaznaczony przerywaną linią), rządowy (general government, zaznaczony linią kropkowaną) i realny.
-Jak zostanie wykazane w dalszej części pracy, głównym wkładem MMT do nauki ekonomii jest szczegółowe wyjaśnienie relacji między skarbem państwa a bankiem centralnym, czyli obszar zaznaczony linią kropkowaną.
-Można powiedzieć, że punktem wyjścia do budowy całej Nowoczesnej Teorii Monetarnej jest rysunek \@ref(fig:rys) przekształcony w następujący sposób (rys. \@ref(fig:rys5))
+MMT dzieli gospodarkę zazwyczaj na trzy sektory: finansowy (zaznaczony przerywaną linią), rządowy (*general government*, zaznaczony linią kropkowaną) i realny.
+Głównym wkładem teorii współczesnych systemów montetarnych do nauki ekonomii jest szczegółowe wyjaśnienie relacji między skarbem państwa a bankiem centralnym, czyli obszar zaznaczony linią kropkowaną.
+Można powiedzieć, że punktem wyjścia do budowy całej nowoczesnej teorii monetarnej jest rysunek \@ref(fig:rys) przekształcony w następujący sposób (rys. \@ref(fig:rys5))
 
 (ref:rys5) Prosty obieg pieniądza w przypadku rządu dysponującego niezależnością monetarną <br> Źródło: E. Tymoigne, L. R. Wray (2013), Modern Money Theory 101: A Reply to Critics, Economics Working Paper, No. 778, Levy Economics Institute
 
@@ -315,5 +300,4 @@ Można powiedzieć, że punktem wyjścia do budowy całej Nowoczesnej Teorii Mon
 knitr::include_graphics("rysunki\\Prosty obieg pieniadza.png")
 ```
 
-Jak widać sednem MMT jest szczegółowa analiza konsekwencji faktu, że państwo jest emitentem i gwarantem waluty (tzw. high powered money), na której opiera się zarówno sektor finansowy jak i cała realna gospodarka.
-Zagadnienie to zostanie szerzej rozwinięte w następnym rozdziale.
+Jak widać sednem MMT jest szczegółowa analiza konsekwencji faktu, że państwo jest monopolistycznym emitentem i gwarantem waluty (tzw. *high powered money*), na której opiera się zarówno sektor finansowy jak i cała realna gospodarka. Zagadnienie to zostanie szerzej rozwinięte w następnym rozdziale.
