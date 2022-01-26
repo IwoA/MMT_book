@@ -8,28 +8,18 @@
     ```
 <br>
 
-O ile neoklasycy i neokeynesiści koncentrują się na podażowych ograniczeniach wzrostu gospodarczego, o tyle postkeynesiści i zwolennicy Nowoczesnej Teorii Monetarnej przyjmują przeciwną postawę.
-Uważają, że we współczesnych gospodarkach wzrost jest ograniczany wielkością całkowitego popytu a bariery związane z ogólną podażą np.
-pracy nie są istotne (Skott 2018).
-Wynika to jednak, w przeciwieństwie do dwóch pierwszych szkół ekonomicznych, z faktu, iż przedmiotem analizy postkeynesowskiej są gospodarki doświadczające trwałego bezrobocia czyli praktycznie wszystkie współcześnie istniejące.
-Nie oznacza to oczywiście, że w teorii postkeynesowskiej i MMT coś takiego jak ograniczenia podażowe nie istnieje.
-Ponieważ jednak występują one rzadko i są przejściowe, to nie stanowią ważnego elementu badań w przeciwieństwie do neoklasyków i neokeynesistów.
-Propozycje dotyczące polityki budżetowej przedstawiane przez MMT stanowią kontynuację wizji stworzonej przez Abbę Lernera (Lerner 1943)[^polityka_budzetowa-1] pod nazwą finanse funkcjonalne.
-Wynika to z takiego samego rozumienia roli państwa w tworzeniu pieniądza (L. Randall Wray 2018).
-Idea, że państwo w swoich wydatkach nie jest ograniczone przez wysokość ściąganych podatków jest bezpośrednim pokłosiem modelu gospodarki wojennej realizowanego przez takie kraje jak Wielka Brytania i USA.
-Mimo niespotykanej skali wydatków wojennych udało się utrzymać inflację w ryzach.
-Było to możliwe m.in.
-dzięki emisji tzw.
-obligacji wojennych, których głównym celem było "zamrożenie" nadmiernego popytu w sytuacji, gdy większość produkcji była skierowana nie na potrzeby konsumpcji a na cele wojenne (Levey, 2019).
+O ile neoklasycy i neokeynesiści koncentrują się na podażowych ograniczeniach wzrostu gospodarczego, o tyle postkeynesiści i zwolennicy nowoczesnej teorii monetarnej przyjmują przeciwną postawę. Uważają, że we współczesnych gospodarkach wzrost jest ograniczany wielkością całkowitego popytu, a bariery związane z ogólną podażą np. pracy nie są istotne (Skott 2018). Wynika to jednak, w przeciwieństwie do dwóch pierwszych szkół ekonomicznych, z faktu, iż przedmiotem analizy postkeynesowskiej są gospodarki doświadczające trwałego bezrobocia czyli praktycznie wszystkie współcześnie istniejące.
+Nie oznacza to oczywiście, że w teorii postkeynesowskiej i MMT coś takiego jak ograniczenia podażowe nie istnieje. Ponieważ jednak występują one rzadko i są przejściowe, to nie stanowią ważnego elementu badań.
+
+Propozycje dotyczące polityki budżetowej przedstawiane przez MMT stanowią kontynuację wizji stworzonej przez Abbę Lernera (Lerner 1943)[^polityka_budzetowa-1] pod nazwą finanse funkcjonalne. Wynika to z takiego samego rozumienia roli państwa w tworzeniu pieniądza (Wray 2018). Idea, że państwo w swoich wydatkach nie jest ograniczone przez wysokość ściąganych podatków jest bezpośrednim pokłosiem modelu gospodarki wojennej realizowanego przez takie kraje jak Wielka Brytania i USA. Mimo niespotykanej skali wydatków wojennych udało się utrzymać inflację w ryzach.
+Było to możliwe m.in. dzięki emisji tzw. obligacji wojennych, których głównym celem było "zamrożenie" nadmiernego popytu w sytuacji, gdy większość produkcji była skierowana nie na potrzeby konsumpcji a na cele wojenne (Levey, 2019).
 
 [^polityka_budzetowa-1]: polskie tłumaczenie, używane dalej w tekście (Lerner 2015).
-    A.
-    Lerner inspirował się z kolei na pracy A.G.
-    Knappa, której doskonałe omówienie znajduje się w pracy Knakiewicz (1984)
+    A. Lerner inspirował się z kolei na pracy A.G. Knappa, której doskonałe omówienie znajduje się w pracy Knakiewicz (1984)
 
 ## Cele polityki budżetowej według MMT
 
-Lerner (2015, s. 126) uważał, iż
+Lerner (2015, s. 126) uważał, iż:
 
 > *jedynym punktem odniesienia polityki fiskalnej państwa -- podatków i wydatków, zaciągania pożyczek i ich spłaty, wreszcie emisji przez państwo pieniądza i ściągania go z rynku -- powinny być wyniki tych działań dla gospodarki, nie zaś jakakolwiek tradycyjnie uznana doktryna tego, co jest dla gospodarki zdrowe, a co zdrowe nie jest.*
 
@@ -38,69 +28,49 @@ Wychodząc z tego założenia sformułował on dwa prawa finansów funkcjonalnyc
 1.  *„Podstawowym obszarem finansowej odpowiedzialności państwa (jako że nikt inny nie może jej przejąć) jest utrzymanie całkowitych wydatków na dobra i usługi w kraju na poziomie nie większym ani nie mniejszych niż taki, przy którym po aktualnych cenach mogą zostać wykupione wszystkie możliwe do wyprodukowania produkty. Jeśli pozwoli się, aby całkowite wydatki przewyższyły ten poziom, pojawi się inflacja; jeśli z kolei całkowite wydatki spadną poniżej tego poziomu, wystąpi bezrobocie.„* Dlatego gdy popyt jest zbyt wysoki państwo powinno zmniejszyć wydatki i podnieść podatki, a gdy popyt jest niedostateczny to powinno zwiększyć swoje wydatki i obniżyć podatki.
 2.  *„[R]ząd powinien pożyczać pieniądze jedynie wówczas, gdy pożądane jest, aby obywatele posiadali mniej pieniędzy, a więcej obligacji rządowych [...]. A pożądane może to być w sytuacji, gdy bez tego zabiegu stopy procentowe byłyby zbyt niskie [...]."*
 
-Do tak sformułowanych dwóch celów polityki fiskalnej (likwidacja bezrobocia i inflacji) należy dodać trzeci, sformułowany na samym początku cytowanego artykułu: eliminacja gospodarczej niepewności.
-Naturalnie nie chodzi tu o całkowitą likwidację powyższych zjawisk ale działania w celu ich maksymalnego ograniczania.
-MMT zwraca dodatkowo uwagę na bardzo ważne uzależnienie stosowalności powyższych praw od posługiwania się własną walutą przez gospodarki.
+Do tak sformułowanych dwóch celów polityki fiskalnej (likwidacja bezrobocia i inflacji) należy dodać trzeci, sformułowany na samym początku cytowanego artykułu: eliminacja gospodarczej niepewności. Naturalnie nie chodzi tu o całkowitą likwidację powyższych zjawisk ale działania w celu ich maksymalnego ograniczania. MMT zwraca dodatkowo uwagę na bardzo ważne uzależnienie stosowalności powyższych praw od posługiwania się własną walutą przez gospodarki.
 
-Jak widać, niejako wbrew swojej nazwie, głównym podmiotem polityki ekonomicznej państwa Nowoczesna Teoria Monetarna czyni ministerstwo finansów a nie bank centralny.
-Nawet do kontrolowania inflacji zaleca używanie instrumentów fiskalnych.
+Jak widać, niejako wbrew swojej nazwie, głównym podmiotem polityki ekonomicznej państwa teoria współczesnych systemów monetarnych czyni ministerstwo finansów, a nie bank centralny. Nawet do kontrolowania inflacji zaleca używanie instrumentów fiskalnych.
 
-Takie sformułowanie celów polityki fiskalnej nie było jednak niczym szczególnie kontrowersyjnym w okresie „New Deal" w USA i czasach powojennych. Nawet M. Friedman (1948) uważał, iż rząd powinien równoważyć budżet tylko w sytuacji osiągnięcia pełnego zatrudnienia. Większość ówczesnych rządów krajów tzw. „pierwszego świata" stawiało sobie za cel szybki rozwój gospodarczy przy maksymalnym zatrudnieniu opierając się na teorii Keynesa, a co za tym idzie posługując się głównie polityką budżetową.
-Dopiero kryzys naftowy i okres stagflacji rozpoczęty kryzysem naftowym w 1973 r.
-doprowadził do zmiany paradygmatu polityki ekonomicznej.
+Takie sformułowanie celów polityki fiskalnej nie było jednak niczym szczególnie kontrowersyjnym w okresie New Deal w USA i czasach powojennych. Nawet M. Friedman (1948) uważał, iż rząd powinien równoważyć budżet tylko w sytuacji osiągnięcia pełnego zatrudnienia. Większość ówczesnych rządów krajów tzw. pierwszego świata stawiało sobie za cel szybki rozwój gospodarczy przy maksymalnym zatrudnieniu opierając się na teorii Keynesa, a co za tym idzie posługując się głównie polityką budżetową. Dopiero kryzys naftowy i okres stagflacji rozpoczęty kryzysem naftowym w 1973 r. doprowadził do zmiany priorytetów polityki ekonomicznej.
 
-Ze słabości podejścia polegającego na dyskrecjonalnym sterowaniu ogólnym popytem zdał sobie sprawę nawet twórca finansów funkcjonalnych Abba Lerner (L. Randall Wray 2018).
-Do najbardziej znanych problemów związanych z wdrażaniem finansów funkcjonalnych należą te będące konsekwencją upływu czasu, jaki zajmuje podjęcie kolejnych decyzji politycznych czyli: a) rozpoznanie konieczności podjęcia decyzji, b) podjęcie decyzji o kształcie, formie i warunkach zastosowania instrumentu fiskalnego oraz c) czasu potrzebnego gospodarce na reakcję na podjęte działania (Friedman 1966; za Mitchell, Wray, i Watts 2019, s. 341) .
-Oznacza to, iż podjęcie decyzji może zająć tyle czasu, że przyjęte działania zamiast efektu antycyklicznego będą cykl dodatkowo wzmacniać i działać inflacyjnie.
-Inną, powszechnie znaną wadą dyskrecjonalnej polityki fiskalnej jest destabilizujący efekt zerojedynkowego działania typu stop/go -- rząd zwiększa wydatki aby stymulować popyt a następnie ścina wydatki gdy pojawia się inflacja.
-Z problemów tych zdawano sobie naturalnie sprawę.
-Nie udało się znaleźć jednak ich skutecznego rozwiązania.
+Ze słabości podejścia polegającego na sterowaniu ogólnym popytem na podstawie decyzji podejmowanych w parlamencie (tzw. polityki dyskrecjonalnej) zdał sobie sprawę nawet twórca finansów funkcjonalnych Abba Lerner (Wray 2018). Do najbardziej znanych problemów związanych z wdrażaniem finansów funkcjonalnych należą te będące konsekwencją upływu czasu, jaki zajmuje podjęcie kolejnych decyzji politycznych, czyli: a) rozpoznanie konieczności podjęcia decyzji, b) podjęcie decyzji o kształcie, formie i warunkach zastosowania instrumentu fiskalnego oraz c) czasu potrzebnego gospodarce na reakcję na podjęte działania (Friedman 1966; za Mitchell, Wray, i Watts 2019, s. 341). Oznacza to, iż podjęcie decyzji może zająć tyle czasu, że przyjęte działania zamiast efektu antycyklicznego będą cykl dodatkowo wzmacniać i działać inflacyjnie. Inną, powszechnie znaną wadą dyskrecjonalnej polityki fiskalnej jest destabilizujący efekt zerojedynkowego działania typu stop/go -- rząd zwiększa wydatki aby stymulować popyt a następnie ścina wydatki gdy pojawia się inflacja. Z problemów tych zdawano sobie naturalnie sprawę. Nie udało się znaleźć jednak ich skutecznego rozwiązania.
 
-Postkeynesowska krytyka prób ogólnego podnoszenia popytu nie ograniczała się jednak tylko do powyższych zastrzeżeń.
-H.
-Minsky, twórca teorii kryzysów finansowych (Kąsek i Lubiński 2010; Nawrot 2009; Minsky 2008), który wywarł ogromny wpływ na twórców MMT, swoją krytykę wywodzi częściowo z pozycji instytucjonalnych[^polityka_budzetowa-2].
-Ewolucja poglądów na finanse funkcjonalne, wynikająca ze zmian instytucjonalnych, których był świadkiem przez przeszło 50 lat, doprowadziła go do następujących wniosków (L. Randall Wray 2018):
+Postkeynesowska krytyka prób ogólnego podnoszenia popytu nie ograniczała się jednak tylko do powyższych zastrzeżeń. H. Minsky, twórca teorii kryzysów finansowych (Kąsek i Lubiński 2010; Nawrot 2009; Minsky 2008), który wywarł ogromny wpływ na twórców MMT, swoją krytykę wywodzi częściowo z pozycji instytucjonalnych[^polityka_budzetowa-2]. Ewolucja poglądów na finanse funkcjonalne, wynikająca ze zmian instytucjonalnych, których był świadkiem przez przeszło 50 lat, doprowadziła go do następujących wniosków (Wray 2018):
 
 [^polityka_budzetowa-2]: promotorem jego pracy doktorskiej był J.
     Schumpeter.
 
-1)  ogólne zwiększanie całkowitego popytu zwiększyłoby niestabilność finansową oraz wywołałoby kryzysy kredytowe (*credit crunches*) poprzez stymulowanie wydatków prywatnych, z których część byłaby finansowana długiem;
+1)  Ogólne zwiększanie całkowitego popytu zwiększyłoby niestabilność finansową oraz wywołałoby kryzysy kredytowe (*credit crunches*) poprzez stymulowanie wydatków prywatnych, z których część byłaby finansowana długiem.
 
-2)  wywołałoby też inflację, gdyż płace i ceny wzrosłyby w sektorach wysoko zaawansowanych zanim zostałaby wygenerowana wystarczająca podaż miejsc pracy w sektorach opóźnionych;
+2)  Powyższe wywołałoby też inflację, gdyż płace i ceny wzrosłyby w sektorach wysoko zaawansowanych zanim zostałaby wygenerowana wystarczająca podaż miejsc pracy w sektorach opóźnionych.
 
-3)  taka polityka nie zmniejszyłaby nierówności a nawet mogłaby doprowadzić do ich zwiększenia (zwiększając relatywne dochody w sektorach rozwiniętych);
+3)  Taka polityka nie zmniejszyłaby nierówności a nawet mogłaby doprowadzić do ich zwiększenia (zwiększając relatywne dochody w sektorach rozwiniętych).
 
-4)  stan pełnego zatrudnienia doprowadziłby do zbyt dużych inwestycji wywołanych nadmiernym optymizmem a to wywołałoby inflację, która dodatkowo zwiększyłaby nierówności[^polityka_budzetowa-3];
+4)  Stan pełnego zatrudnienia doprowadziłby do zbyt dużych inwestycji wywołanych nadmiernym optymizmem a to wywołałoby inflację, która dodatkowo zwiększyłaby nierówności[^polityka_budzetowa-3].
 
-5)  rosnąca część dochodu narodowego pochodząca z odsetek od długu publicznego trafiałaby do zagranicznych posiadaczy, osób o wysokich dochodach, sektora finansowego, nieruchomościowego i ubezpieczeniowego (*FIRE -- finance, insurance, real estate*) a przez to byłaby „marnowana" czyli nie zwiększałaby ani popytu ani podaży produkcji krajowej;
+5)  Rosnąca część dochodu narodowego pochodząca z odsetek od długu publicznego trafiałaby do zagranicznych posiadaczy, osób o wysokich dochodach, sektora finansowego, nieruchomościowego i ubezpieczeniowego (*FIRE -- finance, insurance, real estate*) a przez to byłaby marnowana czyli nie zwiększałaby ani popytu ani podaży produkcji krajowej.
 
-6)  rosnący strumień odsetek od długu publicznego może znacznie ograniczyć możliwości walki z inflacją gdyż wymagane będzie wtedy znacznie większe zmniejszenie wydatków lub podniesienie podatków;
+6)  Rosnący strumień odsetek od długu publicznego może znacznie ograniczyć możliwości walki z inflacją gdyż wymagane będzie wtedy znacznie większe zmniejszenie wydatków lub podniesienie podatków.
 
 [^polityka_budzetowa-3]: ponieważ podwyżki płac nie nadążają za wzrostem cen to ich realna wartość spada co powoduje wzrost zysków firm.
 
-Z powyższych uwag wynika nie wprost, że po pierwsze, rosnący strumień odsetek wspomniany w punkcie 6 prawdopodobnie zwiększyłby oczekiwania inflacyjne, a po drugie przy bardzo dużym długu publicznym w celu utrzymania stabilizacji gospodarczej i walki z inflacją państwo może zostać zmuszone do ogłoszenia „bankructwa" czyli przestać spłacać dług paradoksalnie nie dlatego, że nie jest go w stanie spłacać (bo jako emitent waluty zawsze jest w stanie) ale dlatego że traci kontrolę nad wydatkami publicznymi i polityką budżetową. Należy również zauważyć, że punkt 5 również wskazuje na wzrost nierówności społecznych. Autorzy związani z nurtem MMT zwracają również uwagę na to, że konsekwencją stymulowania ogólnego popytu w celu osiągnięcia poziomu pełnego zatrudnienia, może być osiągnięcie stanu podobnego do NAIRU -- z wyżej wymienionych powodów bariera inflacji pojawi się zanim zostanie osiągnięty stan pełnego zatrudnienia (Tcherneva 2008, s. 30). Nie oznacza to oczywiście, że H. Minsky a za nim MMT są zwolennikami zrównoważonego budżetu. Proponowanym przez MMT rozwiązaniem tych problemów jest propozycja gwarancji zatrudnienia omówiona w kolejnym rozdziale.
+Z powyższych uwag można wysnuć wniosek, że po pierwsze rosnący strumień odsetek wspomniany w punkcie 6 prawdopodobnie zwiększyłby oczekiwania inflacyjne, a po drugie przy bardzo dużym długu publicznym w celu utrzymania stabilizacji gospodarczej i walki z inflacją państwo może zostać zmuszone do ogłoszenia „bankructwa" czyli przestać spłacać dług paradoksalnie nie dlatego, że nie jest go w stanie spłacać (bo jako emitent waluty zawsze jest w stanie) ale dlatego, że traci kontrolę nad wydatkami publicznymi i polityką budżetową. Należy również zauważyć, że punkt 5 również wskazuje na wzrost nierówności społecznych. Autorzy związani z nurtem MMT zwracają również uwagę na to, że konsekwencją stymulowania ogólnego popytu w celu osiągnięcia poziomu pełnego zatrudnienia, może być osiągnięcie stanu podobnego do NAIRU -- z wyżej wymienionych powodów bariera inflacji pojawi się zanim zostanie osiągnięty stan pełnego zatrudnienia (Tcherneva 2008, s. 30). Nie oznacza to oczywiście, że H. Minsky a za nim MMT są zwolennikami zrównoważonego budżetu. Proponowanym przez MMT rozwiązaniem tych problemów jest propozycja gwarancji zatrudnienia omówiona w kolejnym rozdziale.
 
 ## Założenia polityki budżetowej
 
-W kwestii założeń polityki budżetowej Nowoczesna Teoria Monetarna jest głęboko zakorzeniona w teorii post-keynesowskiej i swoje teoretyczne założenia wywodzi od takich ekonomistów jak M.
-Kalecki i J.M.
-Keynes.
-Oznacza to, że jest w wielu miejscach sprzeczna z teorią neoklasyczną.
-Już w 1934 r.
-M.
-Kalecki wykazał, „że inwestycje „wymuszają" oszczędności, których wartość równa się wartości tych inwestycji" (Kalecki 1979, s. 267).
-Oznacza to, że inwestycje publiczne nie tylko nie wymagają i nie „zabierają" oszczędności prywatnych ale je tworzą. Jak wykazano w rozdziale drugim banki komercyjne nie są ograniczone w kreowaniu kredytu ani przez depozyty ani przez rezerwy. Jeśli ten wniosek uzupełni się o fakt, że wydatki publiczne działają w kierunku obniżenia stóp procentowych kreując dodatkowe depozyty to oznacza, że według MMT nie tylko nie występuje efekt wypychania (*crowding out*) opisywany w literaturze neoklasycznej, ale mamy do czynienia ze zjawiskiem przyciągania (*crowding in*) inwestycji prywatnych zwłaszcza w fazie recesji (Mitchell, Wray, i Watts 2019, s. 337). Wzmacnia to rolę polityki fiskalnej. Kolejnym ważnym założeniem przesądzającym o tak istotnej roli jaką odgrywa polityka fiskalna w MMT jest wielkość mnożnika wydatków państwowych większa od jedności. Badania przeprowadzone w Polsce (Łaski, Osiatyński, i Zięba 2010; Lawędziak 2017) pokazały, że mnożnik ten w latach 2006-2013 wahał się w przedziale 1,59-1,7 dla danych odsezonowanych i nie odbiegał znacznie od wartości dla USA, Niemiec i Francji gdzie mieścił się w przedziale 1,5-1,6. Mnożnik ten dodatkowo rośnie, jeśli uwzględni się sektor finansowy (Makrelov i in. 2019). Zmniejszenie ryzyka bankructwa, wzrost wartości aktywów oraz poprawa oczekiwań spowodowane zwiększonymi wydatkami publicznymi zmniejsza ograniczenia kredytowe co dodatkowo stymuluje inwestycje i wzrost. Analiza jedenastu krajów strefy euro jest zgodna z powyższymi wynikami (Levrero, Deleidi, i Iafrate 2019). Mnożnik inwestycji publicznych w latach 1970-2016 był powyżej jedności i wzrósł dodatkowo po kryzysie z 2008 r.
+W kwestii założeń polityki budżetowej nowoczesna teoria monetarna jest głęboko zakorzeniona w teorii postkeynesowskiej i swoje teoretyczne założenia wywodzi od takich ekonomistów jak M. Kalecki i J.M. Keynes. Oznacza to, że jest w wielu miejscach sprzeczna z teorią neoklasyczną. Już w 1934 r. M.
+Kalecki wykazał, „że inwestycje wymuszają oszczędności, których wartość równa się wartości tych inwestycji" (Kalecki 1979, s. 267). Oznacza to, że inwestycje publiczne nie tylko nie wymagają i nie zabierają oszczędności prywatnych ale je tworzą. 
+
+Banki komercyjne nie są ograniczone w kreowaniu kredytu ani przez depozyty, ani przez rezerwy. Jeśli ten wniosek uzupełni się o fakt, że wydatki publiczne działają w kierunku obniżenia stóp procentowych, kreując dodatkowe depozyty, to oznacza, że według MMT nie tylko nie występuje efekt wypychania (*crowding out*) opisywany w literaturze neoklasycznej, ale mamy do czynienia ze zjawiskiem przyciągania (*crowding in*) inwestycji prywatnych zwłaszcza w fazie recesji (Mitchell, Wray, i Watts 2019, s. 337). 
+
+Kolejnym ważnym założeniem przesądzającym o istotnej roli, jaką odgrywa polityka fiskalna w MMT, jest wielkość mnożnika wydatków państwowych większa od jedności. Badania przeprowadzone w Polsce (Łaski, Osiatyński, i Zięba 2010; Lawędziak 2017) pokazały, że mnożnik ten w latach 2006-2013 wahał się w przedziale 1,59-1,7 dla danych odsezonowanych i nie odbiegał znacznie od wartości dla USA, Niemiec i Francji, gdzie mieścił się w przedziale 1,5-1,6. Mnożnik ten dodatkowo rośnie, jeśli uwzględni się sektor finansowy (Makrelov i in. 2019). Zmniejszenie ryzyka bankructwa, wzrost wartości aktywów oraz poprawa oczekiwań spowodowane zwiększonymi wydatkami publicznymi zmniejsza ograniczenia kredytowe, co dodatkowo stymuluje inwestycje i wzrost. Analiza jedenastu krajów strefy euro jest zgodna z powyższymi wynikami (Levrero, Deleidi, i Iafrate 2019). Mnożnik inwestycji publicznych w latach 1970-2016 był powyżej jedności i wzrósł dodatkowo po kryzysie z 2008 roku.
 
 ## Deficyt budżetowy i dług publiczny
 
-Nowoczesna Teoria Monetarna podkreśla, że dług publiczny w praktyce nie jest żadnym długiem a bardziej przypomina mniej płynną, za to dającą dochody odsetkowe formą pieniądza emitowaną przez ministerstwo finansów (Kelton 2020).
-Jego emisja służy głównie do kontroli płynności w sektorze bankowym, a co za tym idzie stóp procentowych.
-W połączeniu z teorią finansów funkcjonalnych oznacza to, że z punktu widzenia MMT wielkość deficytu i długu publicznego ma drugorzędne znaczenie.
-Rząd równie dobrze może osiągać nadwyżki (gdy konieczne jest zmniejszenie inflacji) jak i znaczne deficyty w sytuacji spowolnienia gospodarczego lub kryzysów.
-Zagrożenie inflacją pojawia się dopiero gdy gospodarka zbliża się do maksimum swoich możliwości produkcyjnych.
-Jak się okazuje w praktyce, w Polsce bariera ta jest dość odległa.
-Naturalny eksperyment, jakim jest napływ funduszy unijnych sięgający nawet przeszło 3% PKB spowodował proporcjonalny wzrost wydatków budżetowych.
-Ten ogromny strumień pieniędzy, który trafił do gospodarki w żaden sposób nie wpłynął jednak na wzrost inflacji (rys. \@ref(fig:rys30)).
+Teoria współczesnych systemów monetarnych podkreśla, że **dług publiczny w praktyce nie jest żadnym długiem**, a bardziej przypomina mniej płynną, za to dającą dochody odsetkowe formą pieniądza emitowaną przez ministerstwo finansów (Kelton 2020). Jego emisja służy głównie do kontroli płynności w sektorze bankowym, a co za tym idzie stóp procentowych. W połączeniu z teorią finansów funkcjonalnych oznacza to, że z punktu widzenia MMT wielkość deficytu i długu publicznego ma drugorzędne znaczenie. Rząd równie dobrze może osiągać nadwyżki (gdy konieczne jest zmniejszenie inflacji) jak i znaczne deficyty w sytuacji spowolnienia gospodarczego lub kryzysów. Zagrożenie inflacją pojawia się dopiero gdy gospodarka zbliża się do maksimum swoich możliwości produkcyjnych. 
+
+Jak się okazuje w praktyce, w Polsce bariera ta może być dość odległa. Naturalny eksperyment, jakim jest napływ funduszy unijnych sięgający nawet przeszło 3% PKB spowodował proporcjonalny wzrost wydatków budżetowych. Ten ogromny strumień pieniędzy, który trafił do gospodarki w żaden sposób nie wpłynął jednak na wzrost inflacji (rys. \@ref(fig:rys30)).
 
 (ref:rys30) Saldo transferów z budżetu UE do Polski a inflacja CPI <br> Źródło: Opracowanie własne na podstawie danych MF, Eurostatu i NBP
 
@@ -144,15 +114,9 @@ plot_ly(dane1, x = ~Rok) %>%
             showlegend = FALSE)
 ```
 
-Jednakże w Polsce wysokość deficytu oraz długu publicznego jest znacznie ograniczony.
-Polska, oprócz Węgier, prawdopodobnie jedyny kraj na świecie posiada konstytucyjne ograniczenie wysokości długu publicznego[^polityka_budzetowa-4].
-Dodatkowo, będąc członkiem Unii Europejskiej podlega zapisom traktatowym.
-Traktat o Funkcjonowaniu Unii Europejskiej w artykule 126 następująco reguluje kwestie deficytu budżetowego:
+Jednakże w Polsce wysokość deficytu oraz długu publicznego jest znacznie ograniczona. Polska, oprócz Węgier, to prawdopodobnie jedyny kraj na świecie posiada konstytucyjne ograniczenie wysokości długu publicznego[^polityka_budzetowa-4]. Dodatkowo, będąc członkiem Unii Europejskiej podlega zapisom traktatowym. Traktat o Funkcjonowaniu Unii Europejskiej w artykule 126 następująco reguluje kwestie deficytu budżetowego:
 
-[^polityka_budzetowa-4]: Art. 216.
-    pkt 5.
-    Nie wolno zaciągać pożyczek lub udzielać gwarancji i poręczeń finansowych, w następstwie których państwowy dług publiczny przekroczy 3/5 wartości rocznego produktu krajowego brutto.
-    Sposób obliczania wartości rocznego produktu krajowego brutto oraz państwowego długu publicznego określa ustawa.
+[^polityka_budzetowa-4]: Art. 216. pkt 5. Nie wolno zaciągać pożyczek lub udzielać gwarancji i poręczeń finansowych, w następstwie których państwowy dług publiczny przekroczy 3/5 wartości rocznego produktu krajowego brutto. Sposób obliczania wartości rocznego produktu krajowego brutto oraz państwowego długu publicznego określa ustawa.
 
 > 1.  *Państwa Członkowskie unikają nadmiernego deficytu budżetowego.*
 > 2.  *Komisja nadzoruje rozwój sytuacji budżetowej i wysokość długu publicznego w Państwach Członkowskich w celu wykrycia oczywistych błędów. Bada ona poszanowanie dyscypliny budżetowej na podstawie poniższych dwóch kryteriów:*
@@ -177,17 +141,9 @@ Odpowiednie zapisy w [wymienionym Protokole](https://eur-lex.europa.eu/legal-con
 >
 > *- 60 % dla stosunku zadłużenia publicznego do produktu krajowego brutto wyrażonego w cenach rynkowych.*
 
-Takie zapisy zawarte w najważniejszych dokumentach prawnych Unii Europejskiej i Polski sugerują, że wdrożenie rozwiązań proponowanych przez MMT jest praktycznie niemożliwe, przynajmniej w najbliższych czasach, a teoria ta pozostanie tylko teorią.
-Jednak działania podjęte przez kraje europejskie oraz instytucje UE w reakcji na pandemię koronawirusa pokazują, że nie jest to prawda.
-Nawet w obecnym systemie prawnym, tak restrykcyjnym w tym względzie jak polski, legalne znacznie zwiększenie deficytu i długu publicznego jest możliwe.
-W 2020 roku w celu przeciwdziałania skutkom pandemii wykorzystano do tego instytucję kontrolowaną przez państwo ale nie zaliczaną do sektora instytucji państwowych czyli Państwowy Fundusz Rozwoju S.A (PFR)[^polityka_budzetowa-5].
-Emitowane przez ten podmiot obligacje nie zwiększają [państwowego długu publicznego](https://www.gov.pl/web/finanse/zadluzenie-sektora-finansow-publicznych) obliczanego na potrzeby określenia przekroczenia limitu konstytucyjnego.
-Wartość tzw.
-Tarczy Finansowej oferowanej przez PFR [wynosi ponad 60 mld zł](https://pfr.pl/tarcza.html), co stanowi ok. 3% polskiego PKB.
-Jest to możliwe, gdyż zgodnie z ustawą o finansach publicznych, to minister finansów określa zasady obliczania długu publicznego (Marchewka-Bartkowiak 2013).
-Jednak metodologia Eurostatu nie pozwala na takie zabiegi i dług wykreowany w ten sposób zalicza się do wskaźnika długu publicznego a co za tym idzie stanowi podstawę do weryfikacji w ramach procedury nadmiernego deficytu.
-Jednak zapisy traktatowe są bardziej elastyczne niż zapis w polskiej konstytucji.
-Zgodnie ze wspomnianym traktatem (art. 126):
+Takie zapisy zawarte w najważniejszych dokumentach prawnych Unii Europejskiej i Polski sugerują, że wdrożenie rozwiązań proponowanych przez MMT jest praktycznie niemożliwe, przynajmniej w najbliższych latach, a teoria ta pozostanie tylko teorią. Jednak działania podjęte przez kraje europejskie oraz instytucje UE w reakcji na pandemię koronawirusa pokazują, że nie jest to prawda. Nawet w obecnym systemie prawnym, tak restrykcyjnym w tym względzie jak polski, legalne znacznie zwiększenie deficytu i długu publicznego jest możliwe.
+
+W 2020 roku w celu przeciwdziałania skutkom pandemii wykorzystano do tego instytucję kontrolowaną przez państwo ale nie zaliczaną do sektora instytucji państwowych czyli Państwowy Fundusz Rozwoju S.A (PFR)[^polityka_budzetowa-5]. Emitowane przez ten podmiot obligacje nie zwiększają [państwowego długu publicznego](https://www.gov.pl/web/finanse/zadluzenie-sektora-finansow-publicznych) obliczanego na potrzeby określenia przekroczenia limitu konstytucyjnego. Wartość tzw. Tarczy Finansowej oferowanej przez PFR [wynosi ponad 60 mld zł](https://pfr.pl/tarcza.html), co stanowi ok. 3% polskiego PKB. Jest to możliwe, gdyż zgodnie z ustawą o finansach publicznych to minister finansów określa zasady obliczania długu publicznego (Marchewka-Bartkowiak 2013). Jednak metodologia Eurostatu nie pozwala na takie zabiegi i dług wykreowany w ten sposób zalicza się do wskaźnika długu publicznego a co za tym idzie stanowi podstawę do weryfikacji w ramach procedury nadmiernego deficytu. Jednak zapisy traktatowe są bardziej elastyczne niż zapis w polskiej konstytucji. Zgodnie ze wspomnianym traktatem (art. 126):
 
 [^polityka_budzetowa-5]: lista jednostek sektora instytucji rządowych i samorządowych dostępna jest [pod tym adresem](https://stat.gov.pl/obszary-tematyczne/rachunki-narodowe/statystyka-sektora-instytucji-rzadowych-i-samorzadowych/lista-jednostek-sektora-instytucji-rzadowych-i-samorzadowych-s-13-zgodnie-z-esa2010-stan-na-31-grudnia-2017-r-,6,8.html) .
 
@@ -199,23 +155,21 @@ Zgodnie ze wspomnianym traktatem (art. 126):
 >
 > *- nałożyć grzywnę w stosownej wysokości.*
 
-Należy ponadto zauważyć, że Rada głosuje większością kwalifikowaną, co oznacza, że gdyby 14 krajów członkowskich również postanowiło wdrożyć rozwiązania proponowane przez MMT lub tylko dopuścić je w jednym kraju jako „poligonie doświadczalnym" to można by dokonać takiej zmiany polityki budżetowej unikając kary. Niemniej, nawet biorąc pod uwagę fakt, iż UE przy obliczaniu deficytu bierze pod uwagę fazę cyklu koniunkturalnego (European Commission i Directorate-General for Economic and Financial Affairs 2019, s. 8), należy uznać, że obecnie próba wdrożenia polityki budżetowej proponowanej przez Nowoczesną Teorię Monetarną byłaby sprzeczna z prawem Unii Europejskiej. Konsekwencji nie da się obecnie przewidzieć gdyż po pierwsze Rada dysponuje wachlarzem środków dyscyplinujących, pod drugie nie wiadomo jak w średnim i dłuższym okresie kształtowałby się deficyt i dług w stosunku do PKB i po trzecie instytucje europejskie bardzo różnie podchodzą do kwestii łamania prawa w zależności od typu sprawy oraz kraju członkowskiego.
+Należy ponadto zauważyć, że Rada głosuje większością kwalifikowaną, co oznacza, że gdyby 14 krajów członkowskich również postanowiło wdrożyć rozwiązania proponowane przez MMT lub tylko dopuścić je w jednym kraju jako „poligonie doświadczalnym" to można by dokonać takiej zmiany polityki budżetowej unikając kary. Jednak, nawet biorąc pod uwagę fakt, iż UE przy obliczaniu deficytu bierze pod uwagę fazę cyklu koniunkturalnego (European Commission i Directorate-General for Economic and Financial Affairs 2019, s. 8), należy uznać, że obecnie próba wdrożenia polityki budżetowej proponowanej przez nowoczesną teorię monetarną byłaby sprzeczna z prawem Unii Europejskiej. Konsekwencji nie da się obecnie przewidzieć, gdyż po pierwsze Rada dysponuje wachlarzem środków dyscyplinujących, pod drugie nie wiadomo jak w średnim i dłuższym okresie kształtowałby się deficyt i dług w stosunku do PKB i po trzecie instytucje europejskie bardzo różnie podchodzą do kwestii łamania prawa w zależności od typu sprawy oraz kraju członkowskiego.
 
 ## Podatki
 
-Jak już wspomniano, według MMT podatki są siłą napędową pieniądza.
-To konieczność płacenia podatków kreuje popyt na pieniądz tworzony przez państwo.
-Celem systemu monetarnego (z punktu widzenia emitenta waluty) jest przesunięcie niektórych zasobów do sektora publicznego; celem podatków z kolei jest wykreowanie popytu na walutę, którą wykorzystuje się do osiągnięcia tego głównego celu.
-Zatem pieniądz został wykreowany, by umożliwić rządowi dysponowanie zasobami, które wytworzyło społeczeństwo (Larry Randall Wray 2019, s. 214).
-Jeśli państwo nie będzie w stanie wyegzekwować i zgromadzić podatków, nie spotka się z wystarczającą skłonnością do akceptacji jego waluty krajowej przy sprzedaży dokonywanej na jego rzecz.
-Oznacza to, że podatki muszą być płacone powszechnie.
-Zaskakujący jest więc prawie całkowity brak prac przestawiających poglądy MMT na temat optymalnej struktury systemu podatkowego.
-Kwestie te zostały chyba najszerzej opisane w popularno-naukowej książce „Nowoczesna teoria monetarna MMT: wprowadzenie do makroekonomii suwerennych systemów monetarnych" (Larry Randall Wray 2019) oraz w artykule tego samego autora o równie mało naukowym charakterze (L. Randall Wray 1993). Przedstawione w niej cechy systemu podatkowego można ująć w dwóch kategoriach, „ilościowej" i „jakościowej". Podział taki wynika z faktu, iż strona dochodowa budżetu czyli podatki nie jest bezpośrednio związana ze stroną wydatkową. Od strony ilościowej podatki mają spełniać funkcję „legitymizacji" pieniądza emitowanego przez państwo.
-W tym celu muszą być pobierane w takiej wysokości aby zapewnić wystarczający popyt na pieniądze, którymi państwo płaci za świadczone na jego rzecz usługi i wykorzystywane przez nie produkty.
-Autorzy ze szkoły MMT nie przedstawiają jednak żadnych propozycji minimalnej, koniecznej do zebrania, kwoty w stosunku do planowanych wydatków.
-Można jedynie przypuszczać, że jest to zależność nieliniowa i związana z poziomem rozwoju gospodarczego, stopniem „monetyzacji" gospodarki, struktury instytucjonalnej, zdolności państwa do ściągania podatków oraz poziomu zaufania do instytucji państwa. Wydaje się, że MMT zakłada, iż w krajach wysokorozwiniętych nie istnieje bariera popytu na walutę krajową. Nie jest to kontrowersyjne założenie w przypadku Stanów Zjednoczonych, krajów członkowskich UE czy Japonii. W przypadku wielu innych krajów warunek ten nie musi być jednak spełniony, czego autorzy piszący w nurcie MMT wydają się być świadomi. Istnieje szeroka literatura dotycząca dolaryzacji lub euroizacji gospodarek państw. Z badań wynika (Rochon i Seccareccia 2003; Drenik i Perez 2020; Özyurt i Economics) 2020; Tweneboah, Gatsi, i Asamoah 2019), że wzrost popytu na walutę obcą jest związany głównie z wysoka inflacją i wysoką zmiennością kursu waluty krajowej. W Polsce również dość niedawno funkcjonował drugi obieg dolarowy.
+Jak już wspomniano, według MMT podatki są siłą napędową pieniądza. To konieczność płacenia podatków kreuje popyt na pieniądz tworzony przez państwo.
+Celem systemu monetarnego (z punktu widzenia emitenta waluty) jest przesunięcie niektórych zasobów do sektora publicznego; celem podatków z kolei jest wykreowanie popytu na walutę, którą wykorzystuje się do osiągnięcia tego głównego celu. Zatem pieniądz został wykreowany, by umożliwić rządowi dysponowanie zasobami, które wytworzyło społeczeństwo (Larry Randall Wray 2019, s. 214). Jeśli państwo nie będzie w stanie wyegzekwować i zgromadzić podatków, nie spotka się z wystarczającą skłonnością do akceptacji jego waluty krajowej przy sprzedaży dokonywanej na jego rzecz. Oznacza to, że podatki muszą być płacone powszechnie.
 
-Opierając się na danych Międzynarodowego Funduszu Walutowego można sprawdzić, czy istnieje związek między ilością pieniądza w wybranych gospodarkach a dochodami podatkowymi. Odrzucając dyktatury takie jak Mjanma (gdzie za posiadanie walut obcych może grozić więzienie) czy będące w stanie wojny jak Afganistan minimalny poziom można szacować na 11% PKB czyli taki jak w przypadku Ugandy. Jednak [Wikipedia sugeruje](https://en.wikipedia.org/wiki/Ugandan_shilling), że nie jest to dobry przykład ponieważ dolar amerykański jest tam w powszechnym użyciu. Dlatego bezpieczniej uznać, że jest to raczej ok. 13% tak jak w Egipcie, który wyróżnia się poza tym wysokim użyciem pieniądza (rys. \@ref(fig:rys301))
+Zaskakujący jest więc prawie całkowity brak prac przestawiających poglądy MMT na temat optymalnej struktury systemu podatkowego.
+Kwestie te zostały chyba najszerzej opisane w popularno-naukowej książce „Nowoczesna teoria monetarna MMT: wprowadzenie do makroekonomii suwerennych systemów monetarnych" (Larry Randall Wray 2019) oraz w artykule tego samego autora o równie mało naukowym charakterze (L. Randall Wray 1993). Przedstawione w niej cechy systemu podatkowego można ująć w dwóch kategoriach -- ilościowej i jakościowej. Podział taki wynika z faktu, iż strona dochodowa budżetu czyli podatki nie jest bezpośrednio związana ze stroną wydatkową. 
+
+Od strony ilościowej podatki mają spełniać funkcję legitymizacji pieniądza emitowanego przez państwo. W tym celu muszą być pobierane w takiej wysokości aby zapewnić wystarczający popyt na pieniądze, którymi państwo płaci za świadczone na jego rzecz usługi i wykorzystywane przez nie produkty.
+Autorzy ze szkoły MMT nie przedstawiają jednak żadnych propozycji minimalnej, koniecznej do zebrania, kwoty w stosunku do planowanych wydatków.
+Można jedynie przypuszczać, że jest to zależność nieliniowa i związana z poziomem rozwoju gospodarczego, stopniem monetyzacji gospodarki, struktury instytucjonalnej, zdolności państwa do ściągania podatków oraz poziomu zaufania do instytucji państwa. Wydaje się, że MMT zakłada, iż w krajach wysokorozwiniętych nie istnieje bariera popytu na walutę krajową. Nie jest to kontrowersyjne założenie w przypadku Stanów Zjednoczonych, krajów członkowskich UE czy Japonii. W przypadku wielu innych krajów warunek ten nie musi być jednak spełniony, czego autorzy piszący w nurcie MMT wydają się być świadomi. Istnieje szeroka literatura dotycząca dolaryzacji lub euroizacji gospodarek państw. Z badań wynika (Rochon i Seccareccia 2003; Drenik i Perez 2020; Özyurt i Economics) 2020; Tweneboah, Gatsi, i Asamoah 2019), że wzrost popytu na walutę obcą jest związany głównie z wysoka inflacją i wysoką zmiennością kursu waluty krajowej. W Polsce również dość niedawno funkcjonował drugi obieg dolarowy.
+
+Opierając się na danych Międzynarodowego Funduszu Walutowego można sprawdzić, czy istnieje związek między ilością pieniądza w wybranych gospodarkach a dochodami podatkowymi. Odrzucając dyktatury takie jak Mjanma (gdzie za posiadanie walut obcych może grozić więzienie) czy będące w stanie wojny jak Afganistan, minimalny poziom można szacować na 11% PKB, czyli taki jak w przypadku Ugandy. Jednak [Wikipedia sugeruje](https://en.wikipedia.org/wiki/Ugandan_shilling), że nie jest to dobry przykład ponieważ dolar amerykański jest tam w powszechnym użyciu. Dlatego bezpieczniej uznać, że jest to raczej ok. 13% tak jak w Egipcie, który wyróżnia się poza tym wysokim użyciem pieniądza (rys. \@ref(fig:rys301))
 
 (ref:rys301) Relacja między ilością pieniądza w obiegu a dochodami budżetowymi <br> \* M0 to gotówka w obiegu plus depozyty płatne na żądanie <br> Źródło: opracowanie własne na podstawie bazy GFSR IMF
 
@@ -264,17 +218,10 @@ plot_ly() %>%
 ```
 
 
-Oznacza to, że w sytuacji stabilnej inflacji i stabilnego kursu walutowego wystarczy, że podatki będą generować popyt na walutę krajową nie większy niż 13% PKB aby waluta ta była w powszechnym użyciu.
+Oznacza to, że w sytuacji stabilnej inflacji i stabilnego kursu walutowego wystarczy, że podatki będą generować popyt na walutę krajową nie większy niż 13% PKB aby waluta ta była w powszechnym użyciu. 
 
-Od strony jakościowej rozważania w ramach MMT dotyczą optymalnej struktury podatkowej.
-Skoro podatki nie służą finansowaniu wydatków, to logika tego co i w jakim stopniu powinno być opodatkowane, jest zupełnie inna niż obecnie funkcjonująca.
-Znika, uważana za najważniejszą (Mazurek-Chwiejczak 2016), fiskalna funkcja podatków i związane z nią wymagania odnośnie efektywnego sposobu finansowania wydatków budżetowych.
-W takim paradygmacie istnieje znacznie większa swoboda kształtowania systemu podatkowego.
-Według Larry Randall Wray (2019) głównym kryterium nakładania podatków powinna być realizacja celów społecznych w tym wpływanie na zachowania podmiotów gospodarczych -- zniechęcanie do niepożądanych społecznie zachowań i zachęcanie do działań pożądanych.
-W takim ujęciu redystrybucyjna funkcja podatków traci swój sens, choć ograniczanie najwyższych dochodów pozostaje jednym z celów nakładania podatków według MMT.
-Jest to jednak uzasadniane koniecznością powiązania wysokości dochodów z wykonywaną pracą a nie z koniecznością sfinansowania transferów socjalnych.
-Wynika z tego, że nie należy opodatkowywać rzeczy i czynności uznanych za pozytywne, na przykład pracy[^polityka_budzetowa-6].
-Przy takim podejściu nie do uniknięcia są oczywiście dyskusje czy potencjalny przedmiot opodatkowania jest pozytywny czy negatywny dla społeczeństwa oraz gdzie jest granica, za którą działanie negatywne przeważa nad pozytywnym[^polityka_budzetowa-7]
+Od strony jakościowej rozważania w ramach MMT dotyczą optymalnej struktury podatkowej. Skoro podatki nie służą finansowaniu wydatków, to logika tego, co i w jakim stopniu powinno być opodatkowane, jest zupełnie inna niż obecnie funkcjonująca. Znika, uważana za najważniejszą (Mazurek-Chwiejczak 2016), fiskalna funkcja podatków i związane z nią wymagania odnośnie efektywnego sposobu finansowania wydatków budżetowych. Przy takim podejściu istnieje znacznie większa swoboda kształtowania systemu podatkowego. Według L. R. Wray'a (2019) głównym kryterium nakładania podatków powinna być realizacja celów społecznych, w tym wpływanie na zachowania podmiotów gospodarczych -- zniechęcanie do niepożądanych społecznie zachowań i zachęcanie do działań pożądanych. W takim ujęciu redystrybucyjna funkcja podatków traci swój sens, choć ograniczanie najwyższych dochodów pozostaje jednym z celów nakładania podatków według MMT. Jest to jednak uzasadniane koniecznością powiązania wysokości dochodów z wykonywaną pracą, a nie z koniecznością sfinansowania transferów socjalnych. Wynika z tego, że nie należy opodatkowywać rzeczy i czynności uznanych za pozytywne, na przykład pracy[^polityka_budzetowa-6].
+W takiej sytuacji nie do uniknięcia są oczywiście dyskusje, czy potencjalny przedmiot opodatkowania jest pozytywny czy negatywny dla społeczeństwa oraz, gdzie jest granica, za którą działanie negatywne przeważa nad pozytywnym[^polityka_budzetowa-7]
 .
 
 [^polityka_budzetowa-6]: Podatki od innych dochodów np.
@@ -282,20 +229,15 @@ Przy takim podejściu nie do uniknięcia są oczywiście dyskusje czy potencjaln
 
 [^polityka_budzetowa-7]: Jak pisał Paracelsus „*Cóż jest trucizną? Wszystko jest trucizną i nic nie jest trucizną. Tylko dawka czyni, że dana substancja nie jest trucizną"*
 
-Dobrym przykładem podatku, który pokazuje konsekwencje różnicy w podejściu do podatków między MMT a obecnie obowiązującym paradygmatem jest podatek od powierzchni (lub objętości) domu.
-Posiada on obie wymagane przez MMT cechy: byłby podatkiem powszechnym oraz zwiększałby koszt działań społecznie negatywnych.
-Jak pisze Larry Randall Wray (2019, s. 219) „Dlaczego zachowaniem niepożądanym miałoby być mieszkanie w domu?
-Chodzi o wpływ na środowisko: o przygotowanie ziemi, materiałów budowlanych, umeblowanie i -- co najważniejsze -- o energię, którą wykorzystujemy do ogrzewania i chłodzenia naszych domów". Brzeziński (2017, s. 177) dodaje, iż opodatkowanie nieruchomości usprawiedliwia fakt ponoszenia wydatków na infrastrukturę obsługującą te nieruchomości oraz stanowi w pewnej mierze odpłatność za zajęcie na cele prywatne przestrzeni publicznej. Jak widać nie jest to jednak inna nazwa dla istniejącego w wielu krajach podatku katastralnego gdyż podstawą opodatkowania jest wielkość domu a nie jego nominalna wartość. Wartość ta ma znacznie większy związek z lokalizacją nieruchomości a nie jej szkodliwością społeczną i ekologiczną. Co więcej, podatek od wartości nieruchomości zachęca do przenoszenia się z dala od centrów miast a co za tym idzie podnosi koszty społeczne związane z rozlewaniem się miast.
+Dobrym przykładem podatku, który pokazuje konsekwencje różnicy w podejściu do podatków między MMT a obecnie obowiązującym paradygmatem jest podatek od powierzchni (lub objętości) domu. Posiada on obie wymagane przez MMT cechy: byłby podatkiem powszechnym oraz zwiększałby koszt działań społecznie negatywnych. Jak pisze L. R. Wray (2019, s. 219) „Dlaczego zachowaniem niepożądanym miałoby być mieszkanie w domu? Chodzi o wpływ na środowisko: o przygotowanie ziemi, materiałów budowlanych, umeblowanie i -- co najważniejsze -- o energię, którą wykorzystujemy do ogrzewania i chłodzenia naszych domów". Brzeziński (2017, s. 177) dodaje, iż opodatkowanie nieruchomości usprawiedliwia fakt ponoszenia wydatków na infrastrukturę obsługującą te nieruchomości oraz stanowi w pewnej mierze odpłatność za zajęcie na cele prywatne przestrzeni publicznej. Jak widać nie jest to jednak inna nazwa dla istniejącego w wielu krajach podatku katastralnego, gdyż podstawą opodatkowania jest wielkość domu, a nie jego nominalna wartość. Wartość ta ma znacznie większy związek z lokalizacją nieruchomości a nie z jej szkodliwością społeczną i ekologiczną. Co więcej, podatek od wartości nieruchomości zachęca do przenoszenia się z dala od centrów miast, a co za tym idzie podnosi koszty społeczne związane z rozlewaniem się miast.
 
-Istotną zaletą podatków majątkowych jest stosunkowo duża przewidywalność możliwych do osiągnięcia za ich pomocą wpływów podatkowych, które to wpływy są w zasadzie niezależne od zmian koniunktury gospodarczej (Brzeziński 2017).
-Pisał już o tym M. Kalecki w 1943 r. (Kalecki 1979, s. 339-349):
+Istotną zaletą podatków majątkowych jest stosunkowo duża przewidywalność możliwych do osiągnięcia za ich pomocą wpływów podatkowych, które to wpływy są w zasadzie niezależne od zmian koniunktury gospodarczej (Brzeziński 2017). Pisał już o tym M. Kalecki w 1943 r. (Kalecki 1979, s. 339-349):
 
 > *„Gdy utrzymuje się pełne zatrudnienie za pomocą wydatków państwowych finansowanych z pożyczek, to dług publiczny będzie stale rosnąć. Nie musi to jednak prowadzić do żadnych zaburzeń rozmiarów produkcji i zatrudnienia, jeśli odsetki od długu finansuje się za pomocą rocznego podatku majątkowego. Po opłaceniu podatku majątkowego bieżący dochód jednych kapitalistów będzie niższy, a innych -- wyższy niż w przypadku, gdyby dług publiczny się nie zwiększył. Niemniej ich łączne dochody pozostaną niezmienione, a ich zagregowana konsumpcja zapewne też znacznie się nie zmniejszy. Dalej, podatek majątkowy nie wpłynie na skłonność do inwestowania w kapitał trwały, gdyż podatek ten płaci się od każdego rodzaju majątku."*
 
-Larry Randall Wray (2019, s. 221) wyróżnia trzy rodzaje niepożądanych podatków: podatki od wynagrodzeń, podatki konsumpcyjne oraz podatki dochodowe od osób prawnych. Uzasadnienie ich likwidacji jest jednak pobieżne i pomija wiele ważnych aspektów.
+L. R. Wray (2019, s. 221) wyróżnia trzy rodzaje niepożądanych podatków: podatki od wynagrodzeń, podatki konsumpcyjne oraz podatki dochodowe od osób prawnych. Uzasadnienie ich likwidacji jest jednak pobieżne i pomija wiele ważnych aspektów.
 
-W przypadku podatku od wynagrodzeń trafnie zauważa, iż promuje on dochody uzyskiwane z innych źródeł niż praca przez co zwiększa nierówności. Jednak podnoszone przez niego zarzuty takie jak preferowanie zastępowanie ludzi maszynami, obniżanie konkurencyjności międzynarodowej spowodowane wyższymi kosztami pracy są sprzeczne z proponowaną zasadą opodatkowania rzeczy niekorzystnych społecznie. Z punktu widzenia społeczeństwa podnoszenie wydajności pracy jest korzystne, a strategia zdobywania przewagi konkurencyjnej poprzez obniżanie kosztów pracy jest niekorzystna.
-Podatek ten z kolei posiada ważne zalety z punktu widzenia MMT gdyż jest jednym z najbardziej powszechnych oraz istotnie wpływa na ograniczenie popytu. W artykule (L. Randall Wray 1993) pojawia się lepszy argument za co najmniej pogłębioną analizą podatku PIT a mianowicie fakt, iż będąc kosztem dla pracodawcy zostaje przerzucony przynajmniej częściowo na ceny produktów i usług i w ten sposób jest potencjalnie inflacjogenny[^polityka_budzetowa-8]. Argument ten jest prawdziwy również dla pozostałych dwóch podatków.
+W przypadku podatku od wynagrodzeń trafnie zauważa, iż promuje on dochody uzyskiwane z innych źródeł niż praca, przez co zwiększa nierówności. Jednak podnoszone przez niego zarzuty, takie jak preferowanie zastępowania ludzi maszynami czy obniżanie konkurencyjności międzynarodowej spowodowane wyższymi kosztami pracy są sprzeczne z proponowaną zasadą opodatkowania rzeczy niekorzystnych społecznie. Z punktu widzenia społeczeństwa podnoszenie wydajności pracy jest korzystne, a strategia zdobywania przewagi konkurencyjnej poprzez obniżanie kosztów pracy jest niekorzystna. Podatek ten z kolei posiada ważne zalety z punktu widzenia MMT, gdyż jest jednym z najbardziej powszechnych oraz istotnie wpływa na ograniczenie popytu. W artykule (L. R. Wray 1993) pojawia się lepszy argument za co najmniej pogłębioną analizą podatku PIT, a mianowicie fakt, iż będąc kosztem dla pracodawcy zostaje przerzucony przynajmniej częściowo na ceny produktów i usług i w ten sposób jest potencjalnie inflacjogenny[^polityka_budzetowa-8]. Argument ten jest prawdziwy również dla pozostałych dwóch podatków.
 
 [^polityka_budzetowa-8]: Potencjał ten zależy od możliwości kształtowania marży przez firmy, a ta z kolei od stopnia monopolizacji (Kalecki 1980).
 
