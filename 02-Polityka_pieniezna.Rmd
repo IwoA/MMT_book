@@ -278,8 +278,9 @@ flextable(tab2) %>% theme_vanilla() %>%
      merge_v(j=c("X", "Aktywa", "Pasywa", "Aktywa.1", "Pasywa.1" )) %>% 
      align(align = "center", part = "all") %>% 
      width(j=2:5, width = 2) %>% 
-     set_caption("Proces dokonywania wydatków publicznych wg MMT") %>% 
-     add_footer_lines("Źródło: Opracowanie własne na podstawie M. Lavoie, (2013), The Monetary and Fiscal Nexus of Neo-Chartalism: A Friendly Critique, Journal of Economic Issues, Vol. XLVII, No. 1")
+     set_caption("Proces dokonywania wydatków publicznych wg MMT <br> Źródło: Opracowanie własne na podstawie M. Lavoie, (2013), The Monetary and Fiscal Nexus of Neo-Chartalism: A Friendly Critique, Journal of Economic Issues, Vol. XLVII, No. 1", html_escape = FALSE) 
+#%>% 
+     #add_footer_lines("Źródło: Opracowanie własne na podstawie M. Lavoie, (2013), The Monetary and Fiscal Nexus of Neo-Chartalism: A Friendly Critique, Journal of Economic Issues, Vol. XLVII, No. 1")
 ```
 
 Proces rozpoczyna się od utworzenia depozytu ministerstwa finansów na jego koncie w banku centralnym. Pozycją bilansującą są skarbowe papiery wartościowe (SPW) wyemitowane przez ministerstwo finansów (krok 1)[^polityka_pieniezna-5] . Jeśli dokonamy połączenia obu tych instytucji, to krok ten jest zbędny. Operacja ta nie ma wpływu na gospodarkę realną, ponieważ ma charakter księgowy i przebiega wyłącznie między dwiema instytucjami publicznymi. Nie ma też większego znaczenia oprocentowanie obligacji, skoro zysk banku centralnego jest przekazywany do budżetu państwa. Dopiero w drugim kroku aktywny udział bierze sektor bankowy i realna gospodarka, tutaj w postaci dochodów gospodarstw domowych ulokowanych na kontach banków komercyjnych (pierwszy wiersz w drugim kroku). Są one następstwem wydatków publicznych. Na koniec dnia depozyty te banki wolą złożyć na oprocentowanym[^polityka_pieniezna-6] rachunku w banku centralnym, a w zamian otrzymują pieniądz rezerwowy banku centralnego (drugi wiersz w drugim kroku). Dopóki bank centralny nie przeprowadzi operacji kompensujących, banki centralne nie mogą wiele zrobić aby pozbyć się tego dodatkowego pieniądza rezerwowego.
@@ -290,8 +291,7 @@ Proces rozpoczyna się od utworzenia depozytu ministerstwa finansów na jego kon
      Banki i tak preferują posiadanie pieniądza rezerwowego nad zobowiązaniami innych banków komercyjnych więc brak oprocentowania w niewielkim stopniu zniechęca je do składania depozytów w banku centralnym.
 
 Krok 3. przedstawia właśnie wynik takich operacji. Przyjęto założenie, że gospodarstwa domowe chcą przechowywać 10% jednostek pieniężnych w formie gotówki. Drugie założenie dotyczy 10% stopy rezerwy obowiązkowej od depozytów[^polityka_pieniezna-7]. Oznacza to, że po zamianie 10 jednostek depozytów na gotówkę banki komercyjne muszą pozostawić jeszcze 9 jednostek jako rezerwę obowiązkową w banku centralnym. Pozostałe 81 dodatkowych jednostek pieniężnych zostaje usunięte z systemu bankowego poprzez operacje otwartego rynku.
-W tym przypadku banki komercyjne nabywają SPW o wartości 81 jednostek. SPW w przeciwieństwie do depozytów w banku centralnym, przynoszą odsetki (lub gdy te depozyty są oprocentowane przynoszą wyższe odsetki)[^polityka_pieniezna-8]
-.
+W tym przypadku banki komercyjne nabywają SPW o wartości 81 jednostek. SPW w przeciwieństwie do depozytów w banku centralnym, przynoszą odsetki (lub gdy te depozyty są oprocentowane przynoszą wyższe odsetki)[^polityka_pieniezna-8].
 
 [^polityka_pieniezna-7]: Od 30 kwietnia 2020 r. stopa rezerwy obowiązkowej wynosi 0,5 proc.
     Wcześniej wynosiła 3,5% dla wszystkich rodzajów depozytów, z wyjątkiem środków uzyskanych z tytułu transakcji repo i sell-buy-back oraz środków pozyskanych co najmniej na 2 lata, dla których stopa rezerwy obowiązkowej wynosi 0 proc.Podmioty naliczające rezerwę obowiązkową pomniejszają kwotę naliczonej rezerwy o równowartość 500 tys.
