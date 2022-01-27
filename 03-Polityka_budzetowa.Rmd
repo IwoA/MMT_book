@@ -237,16 +237,15 @@ Istotną zaletą podatków majątkowych jest stosunkowo duża przewidywalność 
 
 L. R. Wray (2019, s. 221) wyróżnia trzy rodzaje niepożądanych podatków: podatki od wynagrodzeń, podatki konsumpcyjne oraz podatki dochodowe od osób prawnych. Uzasadnienie ich likwidacji jest jednak pobieżne i pomija wiele ważnych aspektów.
 
-W przypadku podatku od wynagrodzeń trafnie zauważa, iż promuje on dochody uzyskiwane z innych źródeł niż praca, przez co zwiększa nierówności. Jednak podnoszone przez niego zarzuty, takie jak preferowanie zastępowania ludzi maszynami czy obniżanie konkurencyjności międzynarodowej spowodowane wyższymi kosztami pracy są sprzeczne z proponowaną zasadą opodatkowania rzeczy niekorzystnych społecznie. Z punktu widzenia społeczeństwa podnoszenie wydajności pracy jest korzystne, a strategia zdobywania przewagi konkurencyjnej poprzez obniżanie kosztów pracy jest niekorzystna. Podatek ten z kolei posiada ważne zalety z punktu widzenia MMT, gdyż jest jednym z najbardziej powszechnych oraz istotnie wpływa na ograniczenie popytu. W artykule (L. R. Wray 1993) pojawia się lepszy argument za co najmniej pogłębioną analizą podatku PIT, a mianowicie fakt, iż będąc kosztem dla pracodawcy zostaje przerzucony przynajmniej częściowo na ceny produktów i usług i w ten sposób jest potencjalnie inflacjogenny[^polityka_budzetowa-8]. Argument ten jest prawdziwy również dla pozostałych dwóch podatków.
+W przypadku podatku od wynagrodzeń trafnie zauważa, iż promuje on dochody uzyskiwane z innych źródeł niż praca, przez co zwiększa nierówności. Jednak podnoszone przez niego zarzuty, takie jak preferowanie zastępowania ludzi maszynami czy obniżanie konkurencyjności międzynarodowej spowodowane wyższymi kosztami pracy są sprzeczne z proponowaną zasadą opodatkowania rzeczy niekorzystnych społecznie. Z punktu widzenia społeczeństwa podnoszenie wydajności pracy jest korzystne, a strategia zdobywania przewagi konkurencyjnej poprzez obniżanie kosztów pracy jest niekorzystna. Podatek ten z kolei posiada ważne zalety z punktu widzenia MMT, gdyż jest jednym z najbardziej powszechnych oraz istotnie wpływa na ograniczenie popytu. W artykule (L. R. Wray 1993) pojawia się lepszy argument za co najmniej pogłębioną analizą podatku PIT, a mianowicie fakt, iż będąc kosztem dla pracodawcy, zostaje przerzucony przynajmniej częściowo na ceny produktów oraz usług i w ten sposób jest potencjalnie inflacjogenny[^polityka_budzetowa-8]. Argument ten jest prawdziwy również dla pozostałych dwóch podatków.
 
 [^polityka_budzetowa-8]: Potencjał ten zależy od możliwości kształtowania marży przez firmy, a ta z kolei od stopnia monopolizacji (Kalecki 1980).
 
-Nieprzekonująca jest również argumentacja za zniesieniem podatku od konsumpcji, który jest nawet bardziej powszechny niż dochodowy i jeszcze skuteczniej obniża popyt nie wpływając negatywnie na inflację. Słuszna jest uwaga, że jest to podatek silnie degresywny (wraz ze wzrostem dochodów spada udział wydatków konsumpcyjnych na rzecz oszczędności) jednak realnie istniejące systemy podatków konsumpcyjnych (podatek VAT) posiadają zwykle kilka stawek w tym stawkę zerową a poprzez swoją powszechność pozwalają na takie korzystne z punktu widzenia ekologii i zdrowia działania jak podnoszenie cen mięsa w stosunku do żywności pochodzenia roślinnego. Oczywiście można VAT zastąpić szeregiem indywidualnych podatków o charakterze akcyzowym ale koszty administracyjne takiej zmiany mogły by być znaczne a korzyści ekonomiczne bardzo wątpliwe.
+Nieprzekonująca jest również argumentacja za zniesieniem podatku od konsumpcji, który jest nawet bardziej powszechny niż dochodowy i jeszcze skuteczniej obniża popyt, nie wpływając negatywnie na inflację. Słuszna jest uwaga, że jest to podatek silnie degresywny (wraz ze wzrostem dochodów spada udział wydatków konsumpcyjnych na rzecz oszczędności). Jednak realnie istniejące systemy podatków konsumpcyjnych (podatek VAT) posiadają zwykle kilka stawek, w tym stawkę zerową, a poprzez swoją powszechność pozwalają na takie korzystne z punktu widzenia ekologii i zdrowia działania, jak podnoszenie cen mięsa w stosunku do żywności pochodzenia roślinnego. Oczywiście można VAT zastąpić szeregiem indywidualnych podatków o charakterze akcyzowym ale koszty administracyjne takiej zmiany mogłyby być znaczne, a korzyści ekonomiczne bardzo wątpliwe.
 
-Najwięcej kontrowersji wzbudza jednak postulat likwidacji podatku dochodowego od osób prawnych (CIT). Rzeczywiście jego podstawową wadą jest konstrukcja zachęcająca do zaciągania długu (tzw. „tarcza podatkowa"). Sprzyja również generowaniu niepotrzebnych kosztów, które mogą być odpisane od podatku. Likwidacja tego podatku rozwiązałaby również problem rajów podatkowych. Podatek ten ma również charakter degresywny - dużym podmiotom łatwiej wynegocjować jego obniżenie lub likwidację a także łatwiej przenieść jego ciężar na klientów. Niemniej zaproponowana alternatywa w postaci zwiększonego opodatkowania właścicieli firm jest nierealna w dzisiejszym świecie. Likwidacja podatku CIT oznaczałaby, że wzrośnie dochód do dyspozycji firm. Część tego dochodu zostaje w firmie na potrzeby inwestycyjne a reszta jest wypłacana właścicielom np.
-w formie dywidendy. Obecnie sposobem na uniknięcie lub obniżenie zobowiązania CIT stosowanym przez korporacje jest wykazywanie dochodów w krajach o bardzo niskiej lub zerowej stawce tego podatku przy jednoczesnym generowaniu kosztów w krajach o wysokim podatku. Pozwala to zarówno na uniknięcie płacenia podatku CIT, jak i wykazywania dochodów z własności kapitału w podatkach PIT. Proponowana przez MMT likwidacja CIT tylko uprości ten proceder unikania opodatkowania bo raje podatkowe dalej będą umożliwiać uniknięcie płacenia podatków przez właścicieli firm.
+Najwięcej kontrowersji wzbudza jednak postulat likwidacji podatku dochodowego od osób prawnych (CIT). Rzeczywiście jego podstawową wadą jest konstrukcja zachęcająca do zaciągania długu (tzw. „tarcza podatkowa"). Sprzyja również generowaniu niepotrzebnych kosztów, które mogą być odpisane od podatku. Likwidacja tego podatku rozwiązałaby również problem rajów podatkowych. Podatek ten ma również charakter degresywny -- dużym podmiotom łatwiej wynegocjować jego obniżenie lub likwidacjęa a także łatwiej przenieść jego ciężar na klientów. Niemniej zaproponowana alternatywa w postaci zwiększonego opodatkowania właścicieli firm jest nierealna w dzisiejszym świecie. Likwidacja podatku CIT oznaczałaby, że wzrośnie dochód do dyspozycji firm. Część tego dochodu zostaje w firmie na potrzeby inwestycyjne, a reszta jest wypłacana właścicielom np. w formie dywidendy. Obecnie sposobem na uniknięcie lub obniżenie zobowiązania CIT stosowanym przez korporacje jest wykazywanie dochodów w krajach o bardzo niskiej lub zerowej stawce tego podatku przy jednoczesnym generowaniu kosztów w krajach o wysokim podatku. Pozwala to zarówno na uniknięcie płacenia podatku CIT, jak i wykazywania dochodów z własności kapitału w podatkach PIT. Proponowana przez MMT likwidacja CIT tylko uprości ten proceder unikania opodatkowania, bo raje podatkowe dalej będą umożliwiać uniknięcie płacenia podatków przez właścicieli firm.
 
-Ciekawą propozycją o daleko idących skutkach, jest postulat MMT ukształtowania takiej struktury dochodów aby podatki nie musiały być wykorzystywane w celu redukcji nierówności. Inaczej mówiąc szkoła ta preferuje metody zmniejszające nierówności w dochodach przed opodatkowaniem a nie po.
+Ciekawą propozycją o daleko idących skutkach, jest postulat MMT ukształtowania takiej struktury dochodów, aby podatki nie musiały być wykorzystywane w celu redukcji nierówności. Inaczej mówiąc, szkoła ta preferuje metody zmniejszające nierówności w dochodach przed opodatkowaniem, a nie po.
 
 Ujmując kwestie opodatkowania z innej strony można uznać, że według MMT sekwencja ustalania optymalnej struktury podatkowej wygląda następująco:
 
@@ -254,11 +253,10 @@ Ujmując kwestie opodatkowania z innej strony można uznać, że według MMT sek
 2.  Wprowadzenie podatków od dochodów niezwiązanych z pracą w celu ograniczenia „wycieku" wydatków publicznych na oszczędności.
 3.  Wprowadzenie podatków zmniejszających konsumpcję w celu przeciwdziałania inflacji.
 
-Podział taki pokrywa się z grubsza z podziałem podatków odpowiednio na majątkowe, dochodowe i konsumpcyjne.
+Podział taki pokrywa się z grubsza z podziałem podatków odpowiednio na: majątkowe, dochodowe i konsumpcyjne.
 
-W Polsce największym źródłem dochodów budżetowych jest podatek konsumpcyjny czyli podatek od towarów i usług VAT, kolejny dużo mniejszy udział ma podatek akcyzowy.
-Na trzecim miejscu jest podatek dochodowy od osób fizycznych PIT i od osób prawnych CIT.
-Pozostałe podatki, w tym podatek od niektórych instytucji finansowych (zwany popularnie podatkiem bankowym), podatek od gier czy podatek od nieruchomości stanowią razem mniej niż połowę tego ostatniego.
+W Polsce największym źródłem dochodów budżetowych jest podatek konsumpcyjny, czyli podatek od towarów i usług VAT, kolejny, dużo mniejszy udział ma podatek akcyzowy.
+Na trzecim miejscu jest podatek dochodowy od osób fizycznych PIT i od osób prawnych CIT. Pozostałe podatki, w tym podatek od niektórych instytucji finansowych (zwany popularnie podatkiem bankowym), podatek od gier czy podatek od nieruchomości stanowią razem mniej niż połowę tego ostatniego.
 
 (ref:rys31) Struktura dochodów budżetowych w Polsce w 2021 r. (mln zł) <br> Źródło: Opracowanie własne na podstawie danych [dane.gov.pl](https://api.dane.gov.pl/media/resources/20211109/20211108_Zalaczniki_do_zmiany_UB_2021.zip)
 
@@ -282,17 +280,13 @@ highchart() %>%
      hc_add_series(rev)
 ```
 
-Przed analizą struktury podatków w Polsce z punktu widzenia MMT i zaproponowaniem wersji bardziej zgodnej z tą szkołą należy rozwinąć kwestię różnicy między podatkiem VAT i akcyzą oraz uzupełnić powyższy obraz o dwa podatki: od nieruchomości oraz od dochodów kapitałowych.
+Przed analizą struktury podatków w Polsce z punktu widzenia MMT i zaproponowaniem wersji bardziej zgodnej z tą szkołą należy rozwinąć kwestię różnicy między podatkiem VAT i akcyzą oraz uzupełnić powyższy obraz o dwa podatki -- od nieruchomości oraz od dochodów kapitałowych.
 
 ### Podatek od towarów i usług a podatek akcyzowy
 
-Jak wspomniano, przedstawiciele szkoły MMT reprezentowani przez L.
-Randalla Wray'a są zwolennikami podatku akcyzowego oraz przeciwnikami podatku od konsumpcji jakim jest VAT.
-Jak się jednak bliżej przyjrzeć obu tym daninom, to okazuje się, że istnieje między nimi dużo podobieństw.
-Największy wpływ na oba te podatki w Polsce odgrywa prawodawstwo Unii Europejskiej ponieważ oba podlegają częściowej harmonizacji w ramach tego ugrupowania.
-Akcyza jest podatkiem selektywnym, nakładanym na pewne rodzaje towarów, nie podlegają mu w ogóle usługi.
-Akcyzę można uznać za podatek uzupełniający w stosunku do podatku od towarów i usług (Wolański 2016, str. 180).
-Podatkiem tym objęte są wyroby akcyzowe czyli produkty energetyczne takie jak paliwa czy węgiel, energia elektryczna, alkohol i napoje alkoholowe oraz wyroby tytoniowe oraz samochody osobowe (Ustawa z dnia 6 grudnia 2008 r. o podatku akcyzowym z póz. zm. 2008).
+Jak wspomniano, przedstawiciele szkoły MMT reprezentowani przez L.R. Wray'a są zwolennikami podatku akcyzowego oraz przeciwnikami podatku od konsumpcji jakim jest VAT. Jak się jednak bliżej przyjrzeć obu tym daninom, to okazuje się, że istnieje między nimi dużo podobieństw.
+
+Największy wpływ na oba te podatki w Polsce odgrywa prawodawstwo Unii Europejskiej, ponieważ oba podlegają częściowej harmonizacji w ramach tego ugrupowania. Akcyza jest podatkiem selektywnym, nakładanym na pewne rodzaje towarów, nie podlegają mu w ogóle usługi. Akcyzę można uznać za podatek uzupełniający w stosunku do podatku od towarów i usług (Wolański 2016, str. 180). Podatkiem tym objęte są wyroby akcyzowe czyli produkty energetyczne takie jak paliwa czy węgiel, energia elektryczna, alkohol i napoje alkoholowe oraz wyroby tytoniowe a także samochody osobowe (Ustawa z dnia 6 grudnia 2008 r. o podatku akcyzowym z póz. zm. 2008).
 
 ```{r tab31}
 library(kableExtra)
@@ -303,17 +297,13 @@ kbl(schemat, align = "l",
      #%>% row_spec(1:3, background = "#e5e5e5") %>% column_spec(c(1,5), background = "white")
 ```
 
-Porównanie przedstawione w tabeli \@ref(tab:tab31) pokazuje, iż należy zgodzić się z poglądem o komplementarności tych dwóch rodzajów podatków. Podczas gdy podatek akcyzowy zapewnia znacznie większą swobodę w kształtowaniu wysokości opodatkowania wybranych dóbr to podatek VAT obejmuje znacznie szerszą bazę podatkową przez co znacznie lepiej nadaje się do ograniczania nadmiernego popytu. Ogólność podatku od towarów i usług powoduje również, że łatwiej nim manipulować a nawet niewielki zmiany mają duży wpływ na całkowity popyt. Funkcjonowanie wielu jego stawek powoduje, że może on mieć również wpływ na kształtowanie struktury konsumpcji jednak nie tak selektywny jak podatek akcyzowy. Można więc chyba przyjąć, że w Polsce i w Unii Europejskiej, w przeciwieństwie do USA, optymalnym rozwiązaniem z punktu widzenia MMT jest miks obu podatków z większą rolą podatku akcyzowego niż obecnie. Pełniłyby on funkcje dodatkowego, wysokiego progu podatkowego od dóbr luksusowych lub uznanych za wyjątkowo niekorzystne społecznie. Taka zmiana zwiększyłaby również skuteczność systemu podatkowego jako automatycznego stabilizatora koniunktury. Wraz ze wzrostem dochodów rośnie właśnie konsumpcja dóbr luksusowych.
-Zwiększenie roli automatycznych stabilizatorów jest jednym z ważniejszych postulatów MMT. Łatwość nabywania towarów w innych krajach UE, zwłaszcza dla osób zamożnych, wymagała by jednak większej harmonizacji podatku akcyzowego w UE.
+Porównanie przedstawione w tabeli \@ref(tab:tab31) pokazuje, iż należy zgodzić się z poglądem o komplementarności tych dwóch rodzajów podatków. Podczas gdy podatek akcyzowy zapewnia znacznie większą swobodę w kształtowaniu wysokości opodatkowania wybranych dóbr, to podatek VAT obejmuje znacznie szerszą bazę podatkową, przez co znacznie lepiej nadaje się do ograniczania nadmiernego popytu. Ogólność podatku od towarów i usług powoduje również, że łatwiej nim manipulować, a nawet niewielkie zmiany mają duży wpływ na całkowity popyt. Funkcjonowanie wielu jego stawek powoduje, że może on mieć również wpływ na kształtowanie struktury konsumpcji, jednak nie tak selektywny jak podatek akcyzowy. Można więc przyjąć, że w Polsce i w Unii Europejskiej, w przeciwieństwie do USA, optymalnym rozwiązaniem z punktu widzenia MMT jest współistnienie obu podatków z większą rolą podatku akcyzowego niż obecnie. Pełniłyby on funkcje dodatkowego, wysokiego progu podatkowego od dóbr luksusowych lub uznanych za wyjątkowo niekorzystne społecznie. Taka zmiana zwiększyłaby również skuteczność systemu podatkowego jako automatycznego stabilizatora koniunktury. Wraz ze wzrostem dochodów rośnie właśnie konsumpcja dóbr luksusowych.
+Zwiększenie roli automatycznych stabilizatorów jest jednym z ważniejszych postulatów MMT. Łatwość nabywania towarów w innych krajach UE, zwłaszcza dla osób zamożnych, wymagałaby jednak większej harmonizacji podatku akcyzowego w UE.
 
 ### Podatek od nieruchomości
 
-Podatek od nieruchomości uregulowany jest w ustawie z dnia 12 stycznia 1991 r.
-o podatkach i opłatach lokalnych (tekst jedn.: Dz. U. z 2014 r. poz. 849 z późn. zm.).
-Jest podatkiem zasilającym dochody gmin, dotyczy wszelkich nieruchomości, bez względu na charakter prawny właściciela nieruchomości.
-Przedmiotem opodatkowania podlegają budynki, budowle i grunty.
-Podstawa opodatkowania w podatku od nieruchomości nie jest definiowana jako wartość rynkowa nieruchomości czy gruntów.
-Brane są pod uwagę znamiona zewnętrzne, takie jak powierzchnia i wartość amortyzacyjna (Wolański 2016, s. 240).
+Podatek od nieruchomości uregulowany jest w Ustawie z dnia 12 stycznia 1991 r. o podatkach i opłatach lokalnych (tekst jedn.: Dz. U. z 2014 r. poz. 849 z późn. zm.). Jest podatkiem zasilającym dochody gmin, dotyczy wszelkich nieruchomości, bez względu na charakter prawny właściciela nieruchomości. Przedmiotem opodatkowania podlegają budynki, budowle i grunty.
+Podstawa opodatkowania w podatku od nieruchomości nie jest definiowana jako wartość rynkowa nieruchomości czy gruntów. Brane są pod uwagę znamiona zewnętrzne, takie jak powierzchnia i wartość amortyzacyjna (Wolański 2016, s. 240).
 
 (ref:rys3tab2) Udział podatku od nieruchomości w dochodach gmin<br> Źródło: Opracowanie własne na podstawie Banku Danych Lokalnych GUS
 
@@ -365,31 +355,23 @@ plot_ly(y = udzial$udzial, type = "box", name = "",
      )
 ```
 
-Tak marginalna rola tego podatku wynika głównie z faktu jego bardzo niskiej stopy opodatkowania w przypadku budynków mieszkalnych.
-W 2021 r.[^polityka_budzetowa-9]
-maksymalna stawka podatku od nieruchomości w przypadku budynków mieszkalnych wyniosła 0,85 zł od 1 m2 powierzchni użytkowej a w przypadku budynków związanych z prowadzeniem działalności gospodarczej 24,84 zł od 1 m2 powierzchni użytkowej.
-Oznacza to, że podatek od mieszkania o powierzchni 100 m2 wyniósł maksymalnie[^polityka_budzetowa-10] 85 zł rocznie a podatek od zakładu usługowego o takiej samej powierzchni 2 484 zł rocznie
-. Oznacza to, że w przypadku mieszkań i budynków mieszkalnych stawka podatku jest obecnie symboliczna i istnieje w Polsce instytucjonalna przestrzeń do znacznego zwiększenia roli tego podatku, zwłaszcza przy jednoczesnym obniżeniu podatku dochodowego
-.
+Tak marginalna rola tego podatku wynika głównie z faktu jego bardzo niskiej stopy opodatkowania w przypadku budynków mieszkalnych. W 2021 r.[^polityka_budzetowa-9] maksymalna stawka podatku od nieruchomości w przypadku budynków mieszkalnych wyniosła 0,85 zł od 1 m2 powierzchni użytkowej a w przypadku budynków związanych z prowadzeniem działalności gospodarczej 24,84 zł od 1 m2 powierzchni użytkowej. Oznacza to, że podatek od mieszkania o powierzchni 100 m2 wyniósł maksymalnie[^polityka_budzetowa-10] 85 zł rocznie a podatek od zakładu usługowego o takiej samej powierzchni 2 484 zł rocznie. Oznacza to, że w przypadku mieszkań i budynków mieszkalnych stawka podatku jest obecnie symboliczna i istnieje w Polsce instytucjonalna przestrzeń do znacznego zwiększenia roli tego podatku, zwłaszcza przy jednoczesnym obniżeniu podatku dochodowego.
 
 [^polityka_budzetowa-9]: Stawki tego podatku są waloryzowane corocznie w oparciu o inflację.
 
 [^polityka_budzetowa-10]: Gminy mają możliwość stosowania niższych stawek podatku.
 
-Należy jeszcze zauważyć, że przyznanie podatkowi od nieruchomości tak istotnej roli jest możliwe właśnie przy założeniu, że celem państwa jest dążenie do pełnego zatrudnienia oraz że państwo ma realne narzędzia osiągnięcia tego stanu.
-W przeciwnym przypadku wzrost opodatkowania podatkiem od nieruchomości wymagałby systemu zwolnień z uwagi na fakt, iż obejmuje on także osoby bez dochodów umożliwiających jego opłacanie.
-W sytuacji występującego przymusowego bezrobocia podatek od nieruchomości nie może być rozpatrywany jako substytut podatku od dochodów.
+Należy jeszcze zauważyć, że przyznanie podatkowi od nieruchomości tak istotnej roli jest możliwe właśnie przy założeniu, że celem państwa jest dążenie do pełnego zatrudnienia oraz że państwo ma realne narzędzia osiągnięcia tego stanu. W przeciwnym przypadku wzrost opodatkowania podatkiem od nieruchomości wymagałby systemu zwolnień z uwagi na fakt, iż obejmuje on także osoby bez dochodów umożliwiających jego opłacanie. W sytuacji występującego przymusowego bezrobocia podatek od nieruchomości nie może być rozpatrywany jako substytut podatku od dochodów.
 
 ### Podatek od dochodów kapitałowych
 
-Podatek od osób fizycznych w Polsce obejmuje, oprócz dochodów z pracy, również dochody od kapitału.
-Są one opodatkowane ryczałtowo stawką 19% (pozostałe dochody do kwoty 85 528 zł rocznie są opodatkowane stawką 18% a powyżej tej kwoty stawką 32%) i dotyczą dochodów uzyskanych między innymi z:
+Podatek od osób fizycznych obejmuje w Polsce, oprócz dochodów z pracy, również dochody od kapitału. Są one opodatkowane ryczałtowo stawką 19% (pozostałe dochody do kwoty 85 528 zł rocznie są opodatkowane stawką 18%, a powyżej tej kwoty stawką 32%) i dotyczą dochodów uzyskanych między innymi z:
 
-1.  odsetek
+1.  odsetek,
 
-2.  dywidend
+2.  dywidend,
 
-3.  dochodu z tytułu udziału w funduszach kapitałowych
+3.  dochodu z tytułu udziału w funduszach kapitałowych,+
 
 4.  z odpłatnego zbycia:
 
@@ -399,10 +381,9 @@ Są one opodatkowane ryczałtowo stawką 19% (pozostałe dochody do kwoty 85 528
 
     3.  pochodnych instrumentów finansowych oraz realizacji praw z nich wynikających,
 
-    4.  udziałów w spółkach,
+    4.  udziałów w spółkach.
 
-Z powodu stosunkowo niskiej stawki oraz słabo rozwiniętego rynku kapitałowego w Polsce podatek ten odgrywa dość niewielką rolę (rys. \@ref(fig:rys32)).
-Coraz mniej podatników osiąga dochody z tego tytułu, choć ci, którzy tego dokonali osiągają coraz większe zyski.
+Z powodu stosunkowo niskiej stawki oraz słabo rozwiniętego rynku kapitałowego w Polsce podatek ten odgrywa dość niewielką rolę (rys. \@ref(fig:rys32)). Coraz mniej podatników osiąga dochody z tego tytułu, choć ci, którzy tego dokonali osiągają coraz większe zyski.
 
 (ref:rys32) Rola podatku od dochodów kapitałowych w Polskim systemie podatkowym <br> \* PIT-38 składają osoby opodatkowujące dochody kapitałowe <br> Źródło: Opracowanie własne na podstawie danych Departamentu Podatków Dochodowych Ministerstwa Finansów za: dane.gov.pl
 
@@ -418,15 +399,11 @@ plot_ly(dane4, x = ~Rok) %>%
             xaxis = list(title = ""))
 ```
 
-Trzeba jednak zauważyć, że powyższy obraz jest niepełny.
-Dzięki funkcjonującej w UE swobodzie przepływu osób i kapitału, osoby uzyskujące wysokie dochody z kapitału mogą stosunkowo łatwo przenieść swoją siedzibę podatkową do jednego z wielu funkcjonujących w UE rajów podatkowych np.
-Luksemburga, Monako czy Lichtensteinu[^polityka_budzetowa-11].
+Trzeba jednak zauważyć, że powyższy obraz jest niepełny. Dzięki funkcjonującej w UE swobodzie przepływu osób i kapitału, osoby uzyskujące wysokie dochody z kapitału mogą stosunkowo łatwo przenieść swoją siedzibę podatkową do jednego z wielu funkcjonujących w UE rajów podatkowych np. Luksemburga, Monako czy Lichtensteinu[^polityka_budzetowa-11].
 
 [^polityka_budzetowa-11]: Przykłady rajów podatkowych w UE: <https://financialsecrecyindex.com/en/introduction/fsi-2018-results>, <https://missingprofits.world/>
 
-Rozwijając jednak zagadnienie podatku od osób fizycznych to oprócz tego, że stanowi on czwarte najważniejsze źródło dochodów publicznych to istotny jest fakt, że mimo dwóch stawek jest to w rzeczywistości podatek liniowy.
-Liczba podatników w wyższym przedziale podatkowym nie sięga 4% (rys. \@ref(fig:rys33)).
-Przeszło dwukrotny wzrost tej liczby wynika częściowo z efektu inflacji czyli nominalnego a nie realnego wzrostu płac.
+Rozwijając jednak zagadnienie podatku od osób fizycznych należy zauważyć, że oprócz czwartego najważniejszego źródła dochodów publicznych, istotny jest fakt, że mimo dwóch stawek jest to w rzeczywistości podatek liniowy. Liczba podatników w wyższym przedziale podatkowym nie sięga 4% (rys. \@ref(fig:rys33)). Przeszło dwukrotny wzrost tej liczby wynika częściowo z efektu inflacji, czyli nominalnego a nie realnego wzrostu płac.
 
 (ref:rys33) Udział podatników w II przedziale podatkowym PIT <br> - PIT-38 składają osoby opodatkowujące dochody kapitałowe <br> Źródło: Opracowanie własne na podstawie danych Departamentu Podatków Dochodowych Ministerstwa Finansów za: dane.gov.pl
 
@@ -470,39 +447,22 @@ plot_ly(dane4, x = ~Rok, hoverinfo = 'text',
             annotations = list(an1, an2))
 ```
 
-Liniowy charakter podatku dochodowego w Polsce jest sprzeczny z generalnym postulatem MMT zalecającym wprowadzanie automatycznych stabilizatorów koniunktury wyrażonym najbardziej bezpośrednio w uzasadnieniu sztandarowej propozycji tej szkoły czyli gwarancji zatrudnienia[^polityka_budzetowa-12].
-Otóż mimo swoich wad wypunktowanych przez L.
-Randay'a Wray'a w cytowanej książce, podatek ten posiada istotną przewagę nad podatkami konsumpcyjnymi i majątkowymi.
-W przeciwieństwie do tych pierwszych powoduje zmniejszenie oszczędności, które stanowią „dziurę" osłabiającą skuteczność polityki fiskalnej. W stosunku do tych drugich przewaga polega na tym, że progresywny podatek dochodowy jest pozytywnie wrażliwy na inflację. Progresja powoduje, że inflacja skutkuje przenoszeniem podatników do wyższych progów podatkowych. Oznacza to, że w wyniku wyższej inflacji następuje automatyczny wzrost przeciętnego opodatkowania co hamuje tendencje inflacyjne. Efekt ten jednak maleje wraz ze wzrostem zamożności społeczeństwa i spadającym udziałem konsumpcji w wydatkach gospodarstw domowych. W tym sensie spełnia warunek idealnego podatku wg MMT (Mitchell, Wray, i Watts 2019, s. 323).
+Liniowy charakter podatku dochodowego w Polsce jest sprzeczny z generalnym postulatem teorii współczesnych systemów monetarnych zalecającym wprowadzanie automatycznych stabilizatorów koniunktury wyrażonym najbardziej bezpośrednio w uzasadnieniu sztandarowej propozycji tej szkoły czyli gwarancji zatrudnienia[^polityka_budzetowa-12].
+Otóż mimo swoich wad wypunktowanych przez L. R. Wray'a w cytowanej książce, podatek ten posiada istotną przewagę nad podatkami konsumpcyjnymi i majątkowymi. W przeciwieństwie do tych pierwszych powoduje zmniejszenie oszczędności, które stanowią „dziurę" osłabiającą skuteczność polityki fiskalnej. W stosunku do tych drugich przewaga polega na tym, że progresywny podatek dochodowy jest pozytywnie wrażliwy na inflację. Progresja powoduje, że inflacja skutkuje przenoszeniem podatników do wyższych progów podatkowych. Oznacza to, że w wyniku wyższej inflacji następuje automatyczny wzrost przeciętnego opodatkowania co hamuje tendencje inflacyjne. Efekt ten jednak maleje wraz ze wzrostem zamożności społeczeństwa i spadającym udziałem konsumpcji w wydatkach gospodarstw domowych. W tym sensie spełnia warunek idealnego podatku według nowoczesnej teorii monetarnej (Mitchell, Wray, i Watts 2019, s. 323).
 
-[^polityka_budzetowa-12]: Ciekawym sposobem na rozwiązanie dylematu czy zlikwidować PIT czy utrzymać jego progresywną wersję jest postulat znacznego zwiększenia kwoty wolnej od podatku.
-    Szerzej na temat ekonomicznych skutków takiego rozwiązania (Augustyński 2016)
+[^polityka_budzetowa-12]: Ciekawym sposobem na rozwiązanie dylematu czy zlikwidować PIT czy utrzymać jego progresywną wersję jest postulat znacznego zwiększenia kwoty wolnej od podatku.     Szerzej na temat ekonomicznych skutków takiego rozwiązania (Augustyński 2016)
 
 ## Podsumowanie
 
-Konstytucja RP doskonale pokazuje jak pełny sprzeczności jest system gospodarczy w Polsce.
-Z jednej strony jest Art. 65.
-pkt 5, który stwierdza iż „Władze publiczne prowadzą politykę zmierzającą do pełnego, produktywnego zatrudnienia poprzez realizowanie programów zwalczania bezrobocia, w tym organizowanie i wspieranie poradnictwa i szkolenia zawodowego oraz robót publicznych i prac interwencyjnych." Bez żadnych zmian może być on podstawą do wdrażania jednej z podstawowych propozycji MMT czyli systemu gwarancji zatrudnienia.
+Konstytucja RP doskonale pokazuje jak pełny sprzeczności jest system gospodarczy w Polsce. Z jednej strony jest art. 65. pkt 5, który stwierdza, iż „Władze publiczne prowadzą politykę zmierzającą do pełnego, produktywnego zatrudnienia poprzez realizowanie programów zwalczania bezrobocia, w tym organizowanie i wspieranie poradnictwa i szkolenia zawodowego oraz robót publicznych i prac interwencyjnych." Bez żadnych zmian może być on podstawą do wdrażania jednej z podstawowych propozycji MMT czyli systemu gwarancji zatrudnienia. Z drugiej strony jednak są w konstytucji zawarte takie artykuły jak: 
 
-Z drugiej strony jednak są w konstytucji zawarte takie artykuły jak: ·
+-   Art. 216. pkt 5. "Nie wolno zaciągać pożyczek lub udzielać gwarancji i poręczeń finansowych, w następstwie których państwowy dług publiczny przekroczy 3/5 wartości rocznego produktu krajowego brutto. Sposób obliczania wartości rocznego produktu krajowego brutto oraz państwowego długu publicznego określa ustawa"
 
--   Art. 216.
-    pkt 5.
-    Nie wolno zaciągać pożyczek lub udzielać gwarancji i poręczeń finansowych, w następstwie których państwowy dług publiczny przekroczy 3/5 wartości rocznego produktu krajowego brutto.
-    Sposób obliczania wartości rocznego produktu krajowego brutto oraz państwowego długu publicznego określa ustawa, ·
+-   Art. 220. pkt 2. "Ustawa budżetowa nie może przewidywać pokrywania deficytu budżetowego przez zaciąganie zobowiązania w centralnym banku państwa",
 
--   Art. 220.
-    pkt 2.
-    Ustawa budżetowa nie może przewidywać pokrywania deficytu budżetowego przez zaciąganie zobowiązania w centralnym banku państwa,
+które są emanacją pewnych postaw ideologicznych dominujących w okresie jej pisania i niepodparte żadną teorią ekonomiczną ani faktami. Nie istnieją żadne prace naukowe uzasadniające próg 3/5 PKB, a przykłady wielu krajów, w tym europejskich, pokazują brak związku między przekroczeniem tego progu a wzrostem gospodarczym. Również działania wielu banków centralnych w tym EBC, Banku Japonii, Banku Wielkiej Brytanii, FED po 2008 r. pokazały nieracjonalność art. 220 pkt 2 konstytucji. Na gruncie teoretycznym wyjaśnia to właśnie szkoła nowoczesnej teorii monetarnej.
 
-które są emanacją pewnych postaw ideologicznych dominujących w okresie jej pisania i niepodparte żadną teorią ekonomiczną ani faktami.
-Nie istnieją żadne prace naukowe uzasadniające próg 3/5 PKB, a przykłady wielu krajów, w tym europejskich, pokazują brak związku między przekroczeniem tego progu a wzrostem gospodarczym.
-Również działania wielu banków centralnych w tym EBC, Banku Japonii, Banku Wielkiej Brytanii, FED po 2008 r.
-pokazały nieracjonalność art. 220 pkt 2 konstytucji.
-Na gruncie teoretycznym wyjaśnia to właśnie szkoła Nowoczesnej Teorii Monetarnej.
-
-Jeśli naprawdę celem polityki gospodarczej państwa ma być pełne i produktywne zatrudnienie, to według MMT można to osiągnąć wyłącznie za pomocą polityki budżetowej.
-Wynika to z dwóch faktów: po pierwsze tylko polityka budżetowa dysponuje odpowiednimi narzędziami wpływu na ogólny popyt, którego niedostateczny poziom jest główną przyczyną bezrobocia w krajach wysoko rozwiniętych; po drugie wydatki publiczne nie są ograniczone dochodami państwa.
+Jeśli naprawdę celem polityki gospodarczej państwa ma być pełne i produktywne zatrudnienie, to według MMT można to osiągnąć wyłącznie za pomocą polityki budżetowej. Wynika to z dwóch faktów: po pierwsze tylko polityka budżetowa dysponuje odpowiednimi narzędziami wpływu na ogólny popyt, którego niedostateczny poziom jest główną przyczyną bezrobocia w krajach wysoko rozwiniętych; po drugie wydatki publiczne nie są ograniczone dochodami państwa.
 
 Skalę wydatków publicznych ogranicza za to:
 
@@ -514,16 +474,6 @@ Skalę wydatków publicznych ogranicza za to:
 
 [^polityka_budzetowa-13]: Wzrost popytu mógłby wywołać inflację gdyż płace i ceny wzrosłyby w sektorach wysoko zaawansowanych zanim zostałaby wygenerowana wystarczająca podaż miejsc pracy z sektorów opóźnionych.
 
-Podatki pełnią według MMT dwie funkcje: kreują popyt na państwowy pieniądz oraz poprzez ograniczanie popytu stanowią narzędzie kontroli inflacji.
-Powinny zatem być powszechne i automatycznie reagować na wzrost inflacji.
-Otwarte jest jednak pytanie czy automatyczna reakcja systemu podatkowego możliwa dzięki (wielu) progom podatkowym jest w stanie utrzymać inflację w ryzach?
-Czy może niezbędne są działania dyskrecjonalne a jeśli tak czy są one politycznie realne?
+Podatki pełnią według MMT dwie funkcje: kreują popyt na państwowy pieniądz oraz poprzez ograniczanie popytu stanowią narzędzie kontroli inflacji. Powinny zatem być powszechne i automatycznie reagować na wzrost inflacji. Otwarte jest jednak pytanie, czy automatyczna reakcja systemu podatkowego możliwa dzięki (wielu) progom podatkowym jest w stanie utrzymać inflację w ryzach? Czy może niezbędne są działania dyskrecjonalne, a jeśli tak czy są one politycznie realne?
 
-Literatura nurtu MMT jest dość uboga jeśli chodzi o zdefiniowanie optymalnej struktury podatkowej.
-Stwierdza się jedynie, że powinna być optymalna z punktu widzenia realizacji celów społecznych.
-Kryterium powszechności najlepiej realizuje podatek od nieruchomości liczony od powierzchni, a kwestie społeczne podatek akcyzowy.
-Za sprzeczne z celami społecznymi uznano podatki od wynagrodzeń, podatki konsumpcyjne oraz podatki dochodowe od osób prawnych.
-Uzasadnienie ich likwidacji jest jednak pobieżne.
-Biorąc więc pod uwagę polskie i europejskie uwarunkowania instytucjonalno-prawne należałoby raczej mówić nie o likwidacji takich podatków jak PIT, VAT czy CIT ale ich znacznej redukcji na korzyść podatku od nieruchomości, podatku od dochodów kapitałowych oraz podatku akcyzowego.
-Głębsze zmiany w krajowym systemie podatkowym wymagałyby jednak większej harmonizacji podatków na szczeblu UE i likwidacji istniejących w tym ugrupowaniu rajów podatkowych.
-Niemniej MMT stoi na stanowisku, że w sytuacji gdy podatki nie są bezpośrednio powiązane z wydatkami publicznymi to powinny być obniżone w stosunku do obecnego poziomu.
+Literatura nurtu MMT jest dość uboga jeśli, chodzi o zdefiniowanie optymalnej struktury podatkowej. Stwierdza się jedynie, że powinna być optymalna z punktu widzenia realizacji celów społecznych. Kryterium powszechności najlepiej realizuje podatek od nieruchomości liczony od powierzchni, a kwestie społeczne -- podatek akcyzowy. Za sprzeczne z celami społecznymi uznano podatki od wynagrodzeń, podatki konsumpcyjne oraz podatki dochodowe od osób prawnych. Uzasadnienie ich likwidacji jest jednak pobieżne. Biorąc więc pod uwagę polskie i europejskie uwarunkowania instytucjonalno-prawne należałoby raczej mówić nie o likwidacji takich podatków jak PIT, VAT czy CIT, ale ich znacznej redukcji na korzyść podatku od nieruchomości, podatku od dochodów kapitałowych oraz podatku akcyzowego. Głębsze zmiany w krajowym systemie podatkowym wymagałyby jednak większej harmonizacji podatków na szczeblu UE i likwidacji istniejących w tym ugrupowaniu rajów podatkowych. Niemniej teoria współczesnych systemów monetarnych stoi na stanowisku, że w sytuacji, gdy podatki nie są bezpośrednio powiązane z wydatkami publicznymi, to powinny być obniżone w stosunku do obecnego poziomu.
