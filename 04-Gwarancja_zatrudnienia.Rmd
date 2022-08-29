@@ -30,9 +30,9 @@ Działa on według trzech zasad:
 Jak udowodnił J.
 M. Keynes i co wielokrotnie potwierdzali postkeynesiści, gospodarka rynkowa może się znajdować w stanie równowagi przy występującym bezrobociu (Kalecki, 1979; Lavoie, 2014; Łaski, 2015; Rochon & Rossi, 2016).
 W takiej sytuacji jedynie państwo ma możliwość, a co za tym idzie ponosi odpowiedzialność, za zapewnienie pełnego zatrudnienia w kraju.
-W świetle teorii współczesnych systemów monetarnych można to sformułować następująco: jeśli są osoby szukające pracy to państwo zawsze ma środki na to aby ich zatrudnić zwiększając swoje wydatki[^gwarancja_zatrudnienia-1].
+W świetle teorii współczesnych systemów monetarnych można to sformułować następująco: jeśli są osoby szukające pracy to państwo zawsze ma środki na to aby ich zatrudnić zwiększając swoje wydatki[^04-gwarancja_zatrudnienia-1].
 
-[^gwarancja_zatrudnienia-1]: Pisał o tym już M.
+[^04-gwarancja_zatrudnienia-1]: Pisał o tym już M.
     Kalecki w 1943 w artykule „[Polityczne aspekty pełnego zatrudnienia](https://fundacjalipinskiego.pl/m-kalecki-polityczne-aspekty-pelnego-zatrudnienia-1943/)"
 
 Pierwszą osobą, która rozwinęła koncepcję gwarancji zatrudnienia w formie, która praktycznie bezpośrednio została inkorporowana przez MMT, był H.
@@ -66,14 +66,14 @@ Wymaga to przyjęcia kolejnych założeń, czyli przyjęcia ilościowej teorii p
 Niezerowy poziom NAIRU oznacza istnienie „naturalnej" rezerwowej armii bezrobotnych będącej częściowo buforem związanym z cyklem koniunkturalnym, ale przede wszystkim stanowiący mechanizm antyinflacyjny. Zatem uznanie za prawdziwą hipotezy istnienia NAIRU oznacza, że nie jest możliwe, nawet w długim okresie, istnienie gospodarki bez bezrobocia. Jak piszą M. Socha i Sztanderska, (2002, s. 23) zarówno szkoła neokeynesowska, neoklasyczna oraz tzw. nurt strukturalistyczny „akceptują istnienie bezrobocia w równowadze, które w długim okresie nie jest podatne na wpływ czynników monetarnych, a zależy od sił realnych, instytucji, struktury technologii itp. oraz jest podstawą, wokół której oscyluje zarówno rzeczywiste bezrobocie, jak i bezrobocie w równowadze krótkookresowej".
 Spostrzeżenie to ulega nawet dalszemu wzmocnieniu, jeśli koncepcja NAIRU zostanie uzupełniona o efekt histerezy.
 Efekt ten oznacza, że wpływ na obecny poziom bezrobocia ma również bezrobocie z poprzednich okresów, czyli np.
-wzrost bezrobocia spowodowany cyklem koniunkturalnym przynosi trwały efekt w postaci podniesienia stopy bezrobocia równowagi[^gwarancja_zatrudnienia-2].
+wzrost bezrobocia spowodowany cyklem koniunkturalnym przynosi trwały efekt w postaci podniesienia stopy bezrobocia równowagi[^04-gwarancja_zatrudnienia-2].
 Ten związek międzyokresowy jest wyjaśniany na wiele sposobów: przewagą pracujących nad bezrobotnymi - mechanizm *insider-outsider* (Blanchard i Summers, 1986, 1987; Blanchard i Summers, 1988), mechanizmem utraty umiejętności (Pissarides, 1992) oraz czynnikami społecznymi (Skott, 2005; Stockhammer, 2011).
 Szkoła postkeynesowska, z której MMT się wywodzi, argumentuje z kolei, iż **w długim okresie główną przyczyną występowania bezrobocia jest niewystarczający poziom inwestycji**, a nie niedoskonałości rynku pracy czy kwestie instytucjonalne (Stockhammer, 2011).
 Jak jednak [argumentował Kalecki](https://fundacjalipinskiego.pl/m-kalecki-polityczne-aspekty-pelnego-zatrudnienia-1943/), (1979, s. 342) osiągnięcie odpowiedniego poziomu inwestycji prywatnych jest prawie niemożliwe ze względu na opór firm.
 Taki sam wniosek wynika z teorii endogenicznej stopy bezrobocia strukturalnego E.
 Phelpsa (Phelps, 1994): „w celu osiągnięcia stanu trwałej równowagi (*steady state*) bezrobocie musi wzrosnąć, aby można było obniżyć skłonność pracowników do odchodzenia z pracy i ustalić płace na poziomie, jaki jest oczekiwany przez inne firmy".
 
-[^gwarancja_zatrudnienia-2]: Hipoteza histerezy została zaproponowana w odpowiedzi na niemożność wyjaśnienia utrzymującego się wysokiego bezrobocia w krajach Unii Europejskiej w latach osiemdziesiątych.
+[^04-gwarancja_zatrudnienia-2]: Hipoteza histerezy została zaproponowana w odpowiedzi na niemożność wyjaśnienia utrzymującego się wysokiego bezrobocia w krajach Unii Europejskiej w latach osiemdziesiątych.
 
 ## Szacunki NAIRU w Polsce
 
@@ -103,9 +103,9 @@ knitr::include_graphics("rysunki\\GZ_wyk2.png")
 
 Oba badania wskazują, że co najmniej od początku 2008 roku faktyczna stopa bezrobocia była niższa niż stopa NAIRU co oznaczało wystąpienie presji inflacyjnej, która jednak się nie zrealizowała.
 
-We wcześniejszych badaniach stopę NAIRU w Polsce oszacowano na poziomie ok. 12% w okresie 1995-2003 (Arendt, 2005) oraz ok. 13-15% w okresie 2000-2002 (J. Socha i Wojciechowski, 2004)[^gwarancja_zatrudnienia-3].
+We wcześniejszych badaniach stopę NAIRU w Polsce oszacowano na poziomie ok. 12% w okresie 1995-2003 (Arendt, 2005) oraz ok. 13-15% w okresie 2000-2002 (J. Socha i Wojciechowski, 2004)[^04-gwarancja_zatrudnienia-3].
 
-[^gwarancja_zatrudnienia-3]: Przy zastrzeżeniu dużej niepewności wyniku związanej z niską wiarygodnością danych.
+[^04-gwarancja_zatrudnienia-3]: Przy zastrzeżeniu dużej niepewności wyniku związanej z niską wiarygodnością danych.
 
 Wszystkie przeprowadzone dotychczas badania dotyczące kształtowania się NAIRU w Polsce charakteryzują się niską pewnością wyników i bardzo słabą (lub wręcz nieistotną statystycznie) zależnością między stopą bezrobocia a inflacją.
 Oznacza to, że od strony prowadzenia polityki gospodarczej jest to koncepcja nieprzydatna a od strony teoretycznej co najmniej wątpliwa.
@@ -121,19 +121,20 @@ Takim alternatywnym rozwiązaniem według nowoczesnej teorii monetarnej jest utw
 Ma on istotne przewagi nad buforem bezrobotnych, a jest możliwy do zrealizowania, ponieważ państwo emitujące własną walutę nie jest w tym zakresie ograniczone wielkością swojego budżetu.
 Oznacza to, że takie państwo zawsze ma możliwość zatrudnienia osoby poszukującej pracy.
 Trzeba tutaj jasno stwierdzić, że koncepcji tej nie można sprowadzać do prostej propozycji nowej formy prowadzenia polityki rynku pracy będącej ubocznym produktem MMT.
-Idea bufora zatrudnionych, określana zazwyczaj jako gwarancja zatrudnienia lub jako funkcja państwa jako pracodawcy ostatniej instancji[^gwarancja_zatrudnienia-4] (ELR - *Employer of Last Resort*), stanowi jeden z kluczowych elementów całej teorii wynikający z takiej a nie innej definicji celów państwa oraz narzędzi, jakimi może się posługiwać (Mitchell, 2017, s. 49).
+Idea bufora zatrudnionych, określana zazwyczaj jako gwarancja zatrudnienia lub jako funkcja państwa jako pracodawcy ostatniej instancji[^04-gwarancja_zatrudnienia-4] (ELR - *Employer of Last Resort*), stanowi jeden z kluczowych elementów całej teorii wynikający z takiej a nie innej definicji celów państwa oraz narzędzi, jakimi może się posługiwać (Mitchell, 2017, s. 49).
 Polityka gwarancji zatrudnienia polega na tym, że państwo bezterminowo oraz bezwarunkowo oferuje pracę każdemu, kto chce pracować, a nie może znaleźć pracy, za społecznie akceptowalnym minimalnym wynagrodzeniem.
 Program gwarancji zatrudnienia jest finansowany centralnie ale administrowany lokalnie (Tcherneva, 2018).
 Taki bufor zatrudnionych zwiększałby się lub zmniejszał zależnie od sytuacji w sektorze prywatnym.
 Definiowałby również płacę minimalną w gospodarce oraz minimalny standard warunków pracy.
 W ten sposób bufor ten minimalizowałby koszty społeczno-gospodarcze cykli koniunkturalnych.
-Brak konkurencji płacowej ze strony programu w stosunku do sektora prywatnego oraz fakt, że tworzyłby wartość dodatkową w gospodarce (w przeciwieństwie do zasiłków dla bezrobotnych czy programu gwarantowanego dochodu podstawowego) zapewniałby jego antyinflacyjny charakter[^gwarancja_zatrudnienia-5]
-. Jego przewaga jakościowa nad buforem bezrobotnych jest dość oczywista gdyż pozwala ograniczyć bądź uniknąć m.in.
+Brak konkurencji płacowej ze strony programu w stosunku do sektora prywatnego oraz fakt, że tworzyłby wartość dodatkową w gospodarce (w przeciwieństwie do zasiłków dla bezrobotnych czy programu gwarantowanego dochodu podstawowego) zapewniałby jego antyinflacyjny charakter[^04-gwarancja_zatrudnienia-5]
+. Jego przewaga jakościowa nad buforem bezrobotnych jest dość oczywista gdyż pozwala ograniczyć bądź uniknąć m.in
+.
 :
 
-[^gwarancja_zatrudnienia-4]: Tak jak bank centralny jest pożyczkodawcą ostatniej instancji dla banków prywatnych.
+[^04-gwarancja_zatrudnienia-4]: Tak jak bank centralny jest pożyczkodawcą ostatniej instancji dla banków prywatnych.
 
-[^gwarancja_zatrudnienia-5]: Podobnie jak wydatki zbrojeniowe, przez wielu uważane za zbędne społecznie, nie wywołują presji inflacyjnej.
+[^04-gwarancja_zatrudnienia-5]: Podobnie jak wydatki zbrojeniowe, przez wielu uważane za zbędne społecznie, nie wywołują presji inflacyjnej.
 
 -   spadku produkcji i dochodów,
 
@@ -167,9 +168,9 @@ Problem ukrytego bezrobocia jest związany ze specyficznym rodzajem pracy oferow
 Skoro program ten ma być buforem dostosowującym się do potrzeb rynku prywatnego, to oznacza, że oferowane w jego ramach stanowiska pracy mają charakter tymczasowy, umożliwiający łatwe przystąpienie do pracy i rezygnację z niej.
 Problem polega na tym, że taką cechę mają prace proste, co oznacza dla dużej części osób z niej korzystających pracę poniżej kwalifikacji.
 Społeczna użyteczność takich prac może też być stosunkowo niska i nie zapobiegają one utracie umiejętności związanych z odejściem od dotychczasowej pracy (lub oferują podobne wymagania za niższą płacę).
-Większym zagrożeniem jest jednak istnienie silnej pokusy, aby przenosić stanowiska pracy z sektora publicznego do programu gwarancji zatrudnienia, gdyż granica między nimi jest bardzo płynna[^gwarancja_zatrudnienia-6].
+Większym zagrożeniem jest jednak istnienie silnej pokusy, aby przenosić stanowiska pracy z sektora publicznego do programu gwarancji zatrudnienia, gdyż granica między nimi jest bardzo płynna[^04-gwarancja_zatrudnienia-6].
 
-[^gwarancja_zatrudnienia-6]: Biorąc pod uwagę liczne przypadki, w których administracja publiczna stara się omijać przepisy o płacy minimalnej, w obecnych warunkach w Polsce  działania takie z pewnością byłyby stosowane na szeroką skalę.
+[^04-gwarancja_zatrudnienia-6]: Biorąc pod uwagę liczne przypadki, w których administracja publiczna stara się omijać przepisy o płacy minimalnej, w obecnych warunkach w Polsce  działania takie z pewnością byłyby stosowane na szeroką skalę.
 
 Podnoszony jest również zarzut, iż znaczna część prac, które zwolennicy programu uznają za możliwe do realizacji w jego ramach wcale takimi nie jest.
 Dotyczy to przede wszystkim opieki nad osobami starszymi i niepełnosprawnymi oraz pracy w sektorze edukacyjnym.
@@ -179,15 +180,15 @@ Oznacza to, że osoby zatrudnione w ramach programu gwarancji zatrudnienia praco
 
 J. Toporowski (2019) zauważa, że choć MMT odrzuca monetarystyczną teorię inflacji to stosunkowo słabo wyjaśnia przyczyny inflacji.
 Podobne braki dotyczą wyjaśnienia przyczyn bezrobocia, które tłumaczone jest jedynie poprzez niewystarczający popyt całkowity bez podania przyczyn dlaczego jest niewystarczający.
-Jedną z nich może być na przykład polityczny sprzeciw właścicieli kapitału wobec pełnego zatrudnienia, co opisał Kalecki we wspominanym już artykule „\[Polityczne aspekty pełnego zatrudnienia\](<https://fundacjalipinskiego.pl/m-kalecki-polityczne-aspekty-pelnego-zatrudnienia-1943/>". Innym skutkiem, ignorowanym przez MMT, mogą być rosnące oczekiwania inflacyjne, które -- jak zauważa J. Toporowski -- choć bezpodstawne, mogą stać się samospełniającą przepowiednią, gdy nastąpi odpływ kapitału z kraju skutkujący dewaluacją waluty wywołującą inflację zwłaszcza w niedużych, otwartych gospodarkach. Tak sztucznie wywołana inflacja będzie prowadzić do porzucenia programu gwarancji zatrudnienia.
+Jedną z nich może być na przykład polityczny sprzeciw właścicieli kapitału wobec pełnego zatrudnienia, co opisał Kalecki we wspominanym już artykule „$$Polityczne aspekty pełnego zatrudnienia$$(<https://fundacjalipinskiego.pl/m-kalecki-polityczne-aspekty-pelnego-zatrudnienia-1943/>". Innym skutkiem, ignorowanym przez MMT, mogą być rosnące oczekiwania inflacyjne, które -- jak zauważa J. Toporowski -- choć bezpodstawne, mogą stać się samospełniającą przepowiednią, gdy nastąpi odpływ kapitału z kraju skutkujący dewaluacją waluty wywołującą inflację zwłaszcza w niedużych, otwartych gospodarkach. Tak sztucznie wywołana inflacja będzie prowadzić do porzucenia programu gwarancji zatrudnienia.
 
 Jak wspomniano, program gwarancji zatrudnienia pokazywany jest jako lepsza alternatywa dla nieskutecznych publicznych programów inwestycyjnych realizowanych w duchu Keynesa, które tworzą presję inflacyjną konkurując z sektorem prywatnym o wysoko wykwalifikowanych pracowników.
 Jednak w świetle powyższych zastrzeżeń należy stwierdzić, że są to działania silnie komplementarne a nie substytucyjne.
 Jeśliby rzeczywiście uznać, że gwarancja zatrudnienia powinna zastąpić inwestycje publiczne to oznaczałoby to pogorszenie perspektyw rozwoju ekonomicznego i społecznego kraju.
 
-Należy jednak zauważyć, że wszystkie przytoczone artykuły krytyczne wobec programu gwarancji zatrudnienia konkludują, iż jest to dalece niedoskonała ale jednak lepsza alternatywa dla obecnego modelu bufora bezrobotnych[^gwarancja_zatrudnienia-7].
+Należy jednak zauważyć, że wszystkie przytoczone artykuły krytyczne wobec programu gwarancji zatrudnienia konkludują, iż jest to dalece niedoskonała ale jednak lepsza alternatywa dla obecnego modelu bufora bezrobotnych[^04-gwarancja_zatrudnienia-7].
 
-[^gwarancja_zatrudnienia-7]: Odpowiedź na większość tych uwag można znaleźć m.in.
+[^04-gwarancja_zatrudnienia-7]: Odpowiedź na większość tych uwag można znaleźć m.in.
     w (W. Mitchell & Muysken, 2010; W. Mitchell & Wray, 2005)
 
 Biorąc pod uwagę powyższe zastrzeżenia szczegółowy opis programu gwarancji zatrudnienia i sposobu jego wdrożenia w USA przedstawia Tcherneva (2018).
@@ -245,7 +246,7 @@ Podstawowe cechy programu:
     Jako program przejściowy ułatwia przejście od bezrobocia do zatrudnienia lub od zatrudnienia w ramach gwarancji zatrudnienia do pracy w sektorze prywatnym, publicznym czy pozarządowym.
 
 -   Dopasowuje oferowane stanowiska pracy do ludzi: odpowiada na potrzeby ludzi związane z ich zdolnościami.
-    Oferuje odpowiednie, użyteczne miejsca pracy dopasowane do poziomu wykształcenia i umiejętności osoby aplikującej[^gwarancja_zatrudnienia-8].
+    Oferuje odpowiednie, użyteczne miejsca pracy dopasowane do poziomu wykształcenia i umiejętności osoby aplikującej[^04-gwarancja_zatrudnienia-8].
 
 -   Oferuje elastyczność czasu pracy: umożliwia pracę na część etatu w różnych godzinach odpowiednich dla studentów, opiekunów itp.
 
@@ -261,7 +262,7 @@ Podstawowe cechy programu:
 
 -   Inwestuje w środowisko: w programie koncentruje się na kwestiach ochrony środowiska.
 
-[^gwarancja_zatrudnienia-8]: Sugeruje to stosowanie wielu stawek a nie jednolitego wynagrodzenia dla wszystkich.
+[^04-gwarancja_zatrudnienia-8]: Sugeruje to stosowanie wielu stawek a nie jednolitego wynagrodzenia dla wszystkich.
 
 Oczekiwane korzyści:
 
@@ -292,11 +293,11 @@ Oczekiwane korzyści:
 -   Korzyści gospodarcze, społeczne i środowiskowe: program zredukuje problem bezdomności i przestępczości, zwiększy dostępność dóbr i usług publicznych; zwiększy inwestycje w ochronę środowiska, ludzi i lokalne społeczności.
 
 Przestrzeń na wdrożenie powyższych rozwiązań wygląda w Polsce następująco.
-Od 2004 roku stopa bezrobocia rejestrowanego[^gwarancja_zatrudnienia-9] w Polsce spadała (rys. \@ref(fig:rys43)) i na koniec 2020 r.
+Od 2004 roku stopa bezrobocia rejestrowanego[^04-gwarancja_zatrudnienia-9] w Polsce spadała (rys. \@ref(fig:rys43)) i na koniec 2020 r.
 wyniosła 5,2%.
 Jednak z punktu widzenia potencjalnego wdrożenia programu gwarancji zatrudnienia najważniejsze są cztery daty: rok 2008 -- odwrócenie trendu spadkowego spowodowane Globalnym Kryzysem Finansowym, lata 2012-2013 -- maksimum wzrostu bezrobocia oraz najnowszy 2020 r., w którym odnotowano niewielki wzrost a następnie spadek mimo pandemii COVID19.
 
-[^gwarancja_zatrudnienia-9]: Do rozważań przyjęto dane na temat bezrobocia rejestrowanego gdyż po pierwsze, jest ona wyższa niż ta rejestrowana metodą BAEL przez co szacunki są bardziej konserwatywne, a po drugie lepiej oddaje ona potencjalne zainteresowanie programem ze strony osób zatrudnionych na czarno lub w złych warunkach pracy.
+[^04-gwarancja_zatrudnienia-9]: Do rozważań przyjęto dane na temat bezrobocia rejestrowanego gdyż po pierwsze, jest ona wyższa niż ta rejestrowana metodą BAEL przez co szacunki są bardziej konserwatywne, a po drugie lepiej oddaje ona potencjalne zainteresowanie programem ze strony osób zatrudnionych na czarno lub w złych warunkach pracy.
 
 (ref:rys43) Stopa bezrobocia rejestrowanego <br> Źródło: opracowanie własne na podstawie danych z Banku Danych Lokalnych GUS
 

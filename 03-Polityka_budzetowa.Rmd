@@ -16,7 +16,7 @@ Wynika to jednak, w przeciwieństwie do dwóch pierwszych szkół ekonomicznych,
 Nie oznacza to oczywiście, że w teorii postkeynesowskiej i MMT coś takiego jak ograniczenia podażowe nie istnieje.
 Ponieważ jednak występują one rzadko i są przejściowe, to nie stanowią ważnego elementu badań.
 
-Propozycje dotyczące polityki budżetowej przedstawiane przez MMT stanowią kontynuację wizji stworzonej przez Abbę Lernera (Lerner 1943)[^polityka_budzetowa-1] pod nazwą finanse funkcjonalne.
+Propozycje dotyczące polityki budżetowej przedstawiane przez MMT stanowią kontynuację wizji stworzonej przez Abbę Lernera (Lerner 1943)[^03-polityka_budzetowa-1] pod nazwą finanse funkcjonalne.
 Wynika to z takiego samego rozumienia roli państwa w tworzeniu pieniądza (L. Randall Wray 2018).
 Idea, że państwo w swoich wydatkach nie jest ograniczone przez wysokość ściąganych podatków jest bezpośrednim pokłosiem modelu gospodarki wojennej realizowanego przez takie kraje jak Wielka Brytania i USA.
 Mimo niespotykanej skali wydatków wojennych udało się utrzymać inflację w ryzach.
@@ -24,7 +24,7 @@ Było to możliwe m.in.
 dzięki emisji tzw.
 obligacji wojennych, których głównym celem było "zamrożenie" nadmiernego popytu w sytuacji, gdy większość produkcji była skierowana nie na potrzeby konsumpcji a na cele wojenne (Levey, 2019).
 
-[^polityka_budzetowa-1]: Polskie tłumaczenie, używane dalej w tekście (Lerner 2015).
+[^03-polityka_budzetowa-1]: Polskie tłumaczenie, używane dalej w tekście (Lerner 2015).
     A.
     Lerner inspirował się z kolei na pracy A.G.
     Knappa, której doskonałe omówienie znajduje się w pracy Knakiewicz (1984)
@@ -38,7 +38,7 @@ Lerner (2015, s. 126) uważał, iż
 Wychodząc z tego założenia sformułował on dwa prawa finansów funkcjonalnych:
 
 1.  *„Podstawowym obszarem finansowej odpowiedzialności państwa (jako że nikt inny nie może jej przejąć) jest utrzymanie całkowitych wydatków na dobra i usługi w kraju na poziomie nie większym ani nie mniejszych niż taki, przy którym po aktualnych cenach mogą zostać wykupione wszystkie możliwe do wyprodukowania produkty. Jeśli pozwoli się, aby całkowite wydatki przewyższyły ten poziom, pojawi się inflacja; jeśli z kolei całkowite wydatki spadną poniżej tego poziomu, wystąpi bezrobocie.„* Dlatego gdy popyt jest zbyt wysoki państwo powinno zmniejszyć wydatki i podnieść podatki, a gdy popyt jest niedostateczny to powinno zwiększyć swoje wydatki i obniżyć podatki.
-2.  *„\[R\]ząd powinien pożyczać pieniądze jedynie wówczas, gdy pożądane jest, aby obywatele posiadali mniej pieniędzy, a więcej obligacji rządowych \[...\]. A pożądane może to być w sytuacji, gdy bez tego zabiegu stopy procentowe byłyby zbyt niskie \[...\]."*
+2.  *„*$$R$$ząd powinien pożyczać pieniądze jedynie wówczas, gdy pożądane jest, aby obywatele posiadali mniej pieniędzy, a więcej obligacji rządowych $$...$$. A pożądane może to być w sytuacji, gdy bez tego zabiegu stopy procentowe byłyby zbyt niskie $$...$$."
 
 Do tak sformułowanych dwóch celów polityki fiskalnej (likwidacja bezrobocia i inflacji) należy dodać trzeci, sformułowany na samym początku cytowanego artykułu: eliminacja gospodarczej niepewności.
 Naturalnie nie chodzi tu o całkowitą likwidację powyższych zjawisk ale działania w celu ich maksymalnego ograniczania.
@@ -60,10 +60,10 @@ Nie udało się znaleźć jednak ich skutecznego rozwiązania.
 
 Postkeynesowska krytyka prób ogólnego podnoszenia popytu nie ograniczała się jednak tylko do powyższych zastrzeżeń.
 H.
-Minsky, twórca teorii kryzysów finansowych (Kąsek i Lubiński 2010; Nawrot 2009; Minsky 2008), który wywarł ogromny wpływ na twórców MMT, swoją krytykę wywodzi częściowo z pozycji instytucjonalnych[^polityka_budzetowa-2].
+Minsky, twórca teorii kryzysów finansowych (Kąsek i Lubiński 2010; Nawrot 2009; Minsky 2008), który wywarł ogromny wpływ na twórców MMT, swoją krytykę wywodzi częściowo z pozycji instytucjonalnych[^03-polityka_budzetowa-2].
 Ewolucja poglądów na finanse funkcjonalne, wynikająca ze zmian instytucjonalnych, których był świadkiem przez przeszło 50 lat, doprowadziła go do następujących wniosków (L. Randall Wray 2018):
 
-[^polityka_budzetowa-2]: Promotorem jego pracy doktorskiej był J.
+[^03-polityka_budzetowa-2]: Promotorem jego pracy doktorskiej był J.
     Schumpeter.
 
 1)  ogólne zwiększanie całkowitego popytu zwiększyłoby niestabilność finansową oraz wywołałoby kryzysy kredytowe (*credit crunches*) poprzez stymulowanie wydatków prywatnych, z których część byłaby finansowana długiem;
@@ -72,13 +72,13 @@ Ewolucja poglądów na finanse funkcjonalne, wynikająca ze zmian instytucjonaln
 
 3)  taka polityka nie zmniejszyłaby nierówności a nawet mogłaby doprowadzić do ich zwiększenia (zwiększając relatywne dochody w sektorach rozwiniętych);
 
-4)  stan pełnego zatrudnienia doprowadziłby do zbyt dużych inwestycji wywołanych nadmiernym optymizmem a to wywołałoby inflację, która dodatkowo zwiększyłaby nierówności[^polityka_budzetowa-3];
+4)  stan pełnego zatrudnienia doprowadziłby do zbyt dużych inwestycji wywołanych nadmiernym optymizmem a to wywołałoby inflację, która dodatkowo zwiększyłaby nierówności[^03-polityka_budzetowa-3];
 
 5)  rosnąca część dochodu narodowego pochodząca z odsetek od długu publicznego trafiałaby do zagranicznych posiadaczy, osób o wysokich dochodach, sektora finansowego, nieruchomościowego i ubezpieczeniowego (*FIRE -- finance, insurance, real estate*) a przez to byłaby „marnowana" czyli nie zwiększałaby ani popytu ani podaży produkcji krajowej;
 
 6)  rosnący strumień odsetek od długu publicznego może znacznie ograniczyć możliwości walki z inflacją gdyż wymagane będzie wtedy znacznie większe zmniejszenie wydatków lub podniesienie podatków;
 
-[^polityka_budzetowa-3]: Ponieważ podwyżki płac nie nadążają za wzrostem cen to ich realna wartość spada co powoduje wzrost zysków firm.
+[^03-polityka_budzetowa-3]: Ponieważ podwyżki płac nie nadążają za wzrostem cen to ich realna wartość spada co powoduje wzrost zysków firm.
 
 Z powyższych uwag wynika nie wprost, że po pierwsze, rosnący strumień odsetek wspomniany w punkcie 6 prawdopodobnie zwiększyłby oczekiwania inflacyjne, a po drugie przy bardzo dużym długu publicznym w celu utrzymania stabilizacji gospodarczej i walki z inflacją państwo może zostać zmuszone do ogłoszenia „bankructwa" czyli przestać spłacać dług paradoksalnie nie dlatego, że nie jest go w stanie spłacać (bo jako emitent waluty zawsze jest w stanie) ale dlatego że traci kontrolę nad wydatkami publicznymi i polityką budżetową. Należy również zauważyć, że punkt 5 również wskazuje na wzrost nierówności społecznych. Autorzy związani z nurtem MMT zwracają również uwagę na to, że konsekwencją stymulowania ogólnego popytu w celu osiągnięcia poziomu pełnego zatrudnienia, może być osiągnięcie stanu podobnego do NAIRU -- z wyżej wymienionych powodów bariera inflacji pojawi się zanim zostanie osiągnięty stan pełnego zatrudnienia (Tcherneva 2008, s. 30). Nie oznacza to oczywiście, że H. Minsky a za nim MMT są zwolennikami zrównoważonego budżetu. Proponowanym przez MMT rozwiązaniem tych problemów jest propozycja gwarancji zatrudnienia omówiona w kolejnym rozdziale.
 
@@ -147,11 +147,11 @@ plot_ly(dane1, x = ~Rok) %>%
 ```
 
 Jednakże w Polsce wysokość deficytu oraz długu publicznego są znacznie ograniczone.
-Polska, oprócz Węgier, prawdopodobnie jedyny kraj na świecie posiada konstytucyjne ograniczenie wysokości długu publicznego[^polityka_budzetowa-4].
+Polska, oprócz Węgier, prawdopodobnie jedyny kraj na świecie posiada konstytucyjne ograniczenie wysokości długu publicznego[^03-polityka_budzetowa-4].
 Dodatkowo, będąc członkiem Unii Europejskiej podlega zapisom traktatowym.
 Traktat o Funkcjonowaniu Unii Europejskiej w artykule 126 następująco reguluje kwestie deficytu budżetowego:
 
-[^polityka_budzetowa-4]: Art. 216.
+[^03-polityka_budzetowa-4]: Art. 216.
     pkt 5.
     Nie wolno zaciągać pożyczek lub udzielać gwarancji i poręczeń finansowych, w następstwie których państwowy dług publiczny przekroczy 3/5 wartości rocznego produktu krajowego brutto.
     Sposób obliczania wartości rocznego produktu krajowego brutto oraz państwowego długu publicznego określa ustawa.
@@ -182,7 +182,7 @@ Odpowiednie zapisy w [wymienionym Protokole](https://eur-lex.europa.eu/legal-con
 Takie zapisy zawarte w najważniejszych dokumentach prawnych Unii Europejskiej i Polski sugerują, że wdrożenie rozwiązań proponowanych przez MMT jest praktycznie niemożliwe, przynajmniej w najbliższych czasach, a teoria ta pozostanie tylko teorią.
 Jednak działania podjęte przez kraje europejskie oraz instytucje UE w reakcji na pandemię koronawirusa pokazują, że nie jest to prawda.
 Nawet w obecnym systemie prawnym, tak restrykcyjnym w tym względzie jak polski, legalne znacznie zwiększenie deficytu i długu publicznego jest możliwe.
-W 2020 roku w celu przeciwdziałania skutkom pandemii wykorzystano do tego instytucję kontrolowaną przez państwo ale nie zaliczaną do sektora instytucji państwowych czyli Państwowy Fundusz Rozwoju S.A (PFR)[^polityka_budzetowa-5].
+W 2020 roku w celu przeciwdziałania skutkom pandemii wykorzystano do tego instytucję kontrolowaną przez państwo ale nie zaliczaną do sektora instytucji państwowych czyli Państwowy Fundusz Rozwoju S.A (PFR)[^03-polityka_budzetowa-5].
 Emitowane przez ten podmiot obligacje nie zwiększają [państwowego długu publicznego](https://www.gov.pl/web/finanse/zadluzenie-sektora-finansow-publicznych) obliczanego na potrzeby określenia przekroczenia limitu konstytucyjnego.
 Wartość tzw.
 Tarczy Finansowej oferowanej przez PFR [wynosi ponad 60 mld zł](https://pfr.pl/tarcza.html), co stanowi ok. 3% polskiego PKB.
@@ -191,7 +191,7 @@ Jednak metodologia Eurostatu nie pozwala na takie zabiegi i dług wykreowany w t
 Jednak zapisy traktatowe są bardziej elastyczne niż zapis w polskiej konstytucji.
 Zgodnie ze wspomnianym traktatem (art. 126):
 
-[^polityka_budzetowa-5]: Lista jednostek sektora instytucji rządowych i samorządowych dostępna jest [pod tym adresem](https://stat.gov.pl/obszary-tematyczne/rachunki-narodowe/statystyka-sektora-instytucji-rzadowych-i-samorzadowych/lista-jednostek-sektora-instytucji-rzadowych-i-samorzadowych-s-13-zgodnie-z-esa2010-stan-na-31-grudnia-2017-r-,6,8.html) .
+[^03-polityka_budzetowa-5]: Lista jednostek sektora instytucji rządowych i samorządowych dostępna jest [pod tym adresem](https://stat.gov.pl/obszary-tematyczne/rachunki-narodowe/statystyka-sektora-instytucji-rzadowych-i-samorzadowych/lista-jednostek-sektora-instytucji-rzadowych-i-samorzadowych-s-13-zgodnie-z-esa2010-stan-na-31-grudnia-2017-r-,6,8.html) .
 
 > *9. Jeśli Państwo Członkowskie w dalszym ciągu nie realizuje zalecenia Rady, może ona wezwać dane Państwo Członkowskie do przyjęcia w wyznaczonym terminie środków zmierzających do takiego ograniczenia deficytu, jakie zostanie uznane przez Radę za niezbędne do zaradzenia sytuacji.*
 >
@@ -277,14 +277,14 @@ W takim paradygmacie istnieje znacznie większa swoboda kształtowania systemu p
 Według Larry Randall Wray (2019) głównym kryterium nakładania podatków powinna być realizacja celów społecznych w tym wpływanie na zachowania podmiotów gospodarczych -- zniechęcanie do niepożądanych społecznie zachowań i zachęcanie do działań pożądanych.
 W takim ujęciu redystrybucyjna funkcja podatków traci swój sens, choć ograniczanie najwyższych dochodów pozostaje jednym z celów nakładania podatków według MMT.
 Jest to jednak uzasadniane koniecznością powiązania wysokości dochodów z wykonywaną pracą a nie z koniecznością sfinansowania transferów socjalnych.
-Wynika z tego, że nie należy opodatkowywać rzeczy i czynności uznanych za pozytywne, na przykład pracy[^polityka_budzetowa-6].
-Przy takim podejściu nie do uniknięcia są oczywiście dyskusje czy potencjalny przedmiot opodatkowania jest pozytywny czy negatywny dla społeczeństwa oraz gdzie jest granica, za którą działanie negatywne przeważa nad pozytywnym[^polityka_budzetowa-7]
+Wynika z tego, że nie należy opodatkowywać rzeczy i czynności uznanych za pozytywne, na przykład pracy[^03-polityka_budzetowa-6].
+Przy takim podejściu nie do uniknięcia są oczywiście dyskusje czy potencjalny przedmiot opodatkowania jest pozytywny czy negatywny dla społeczeństwa oraz gdzie jest granica, za którą działanie negatywne przeważa nad pozytywnym[^03-polityka_budzetowa-7]
 .
 
-[^polityka_budzetowa-6]: Podatki od innych dochodów np.
+[^03-polityka_budzetowa-6]: Podatki od innych dochodów np.
     finansowych są za to wskazane.
 
-[^polityka_budzetowa-7]: Jak pisał Paracelsus „*Cóż jest trucizną? Wszystko jest trucizną i nic nie jest trucizną. Tylko dawka czyni, że dana substancja nie jest trucizną"*
+[^03-polityka_budzetowa-7]: Jak pisał Paracelsus „*Cóż jest trucizną? Wszystko jest trucizną i nic nie jest trucizną. Tylko dawka czyni, że dana substancja nie jest trucizną"*
 
 Dobrym przykładem podatku, który pokazuje konsekwencje różnicy w podejściu do podatków między MMT a obecnie obowiązującym paradygmatem jest podatek od powierzchni (lub objętości) domu.
 Posiada on obie wymagane przez MMT cechy: byłby podatkiem powszechnym oraz zwiększałby koszt działań społecznie negatywnych.
@@ -305,10 +305,10 @@ W przypadku podatku od wynagrodzeń trafnie zauważa, iż promuje on dochody uzy
 Jednak podnoszone przez niego zarzuty takie jak preferowanie zastępowanie ludzi maszynami, obniżanie konkurencyjności międzynarodowej spowodowane wyższymi kosztami pracy są sprzeczne z proponowaną zasadą opodatkowania rzeczy niekorzystnych społecznie.
 Z punktu widzenia społeczeństwa podnoszenie wydajności pracy jest korzystne, a strategia zdobywania przewagi konkurencyjnej poprzez obniżanie kosztów pracy jest niekorzystna.
 Podatek ten z kolei posiada ważne zalety z punktu widzenia MMT gdyż jest jednym z najbardziej powszechnych oraz istotnie wpływa na ograniczenie popytu.
-W artykule (L. Randall Wray 1993) pojawia się lepszy argument za co najmniej pogłębioną analizą podatku PIT a mianowicie fakt, iż będąc kosztem dla pracodawcy zostaje przerzucony przynajmniej częściowo na ceny produktów i usług i w ten sposób jest potencjalnie inflacjogenny[^polityka_budzetowa-8].
+W artykule (L. Randall Wray 1993) pojawia się lepszy argument za co najmniej pogłębioną analizą podatku PIT a mianowicie fakt, iż będąc kosztem dla pracodawcy zostaje przerzucony przynajmniej częściowo na ceny produktów i usług i w ten sposób jest potencjalnie inflacjogenny[^03-polityka_budzetowa-8].
 Argument ten jest prawdziwy również dla pozostałych dwóch podatków.
 
-[^polityka_budzetowa-8]: Potencjał ten zależy od możliwości kształtowania marży przez firmy, a ta z kolei od stopnia monopolizacji (Kalecki 1980).
+[^03-polityka_budzetowa-8]: Potencjał ten zależy od możliwości kształtowania marży przez firmy, a ta z kolei od stopnia monopolizacji (Kalecki 1980).
 
 Nieprzekonująca jest również argumentacja za zniesieniem podatku od konsumpcji, który jest nawet bardziej powszechny niż dochodowy i jeszcze skuteczniej obniża popyt.
 Słuszna jest uwaga, że jest to podatek silnie degresywny (wraz ze wzrostem dochodów spada udział wydatków konsumpcyjnych na rzecz oszczędności) jednak realnie istniejące systemy podatków konsumpcyjnych (podatek VAT) posiadają zwykle kilka stawek w tym stawkę zerową a poprzez swoją powszechność pozwalają na takie korzystne z punktu widzenia ekologii i zdrowia działania jak podnoszenie cen mięsa w stosunku do żywności pochodzenia roślinnego.
@@ -457,15 +457,15 @@ plot_ly(y = udzial$udzial, type = "box", name = "",
 ```
 
 Tak marginalna rola tego podatku wynika głównie z faktu jego bardzo niskiej stopy opodatkowania w przypadku budynków mieszkalnych.
-W 2021 r.[^polityka_budzetowa-9]
+W 2021 r.[^03-polityka_budzetowa-9]
 maksymalna stawka podatku od nieruchomości w przypadku budynków mieszkalnych wyniosła 0,85 zł od 1 m2 powierzchni użytkowej a w przypadku budynków związanych z prowadzeniem działalności gospodarczej 24,84 zł od 1 m2 powierzchni użytkowej.
-Oznacza to, że podatek od mieszkania o powierzchni 100 m2 wyniósł maksymalnie[^polityka_budzetowa-10] 85 zł rocznie a podatek od zakładu usługowego o takiej samej powierzchni 2 484 zł rocznie
+Oznacza to, że podatek od mieszkania o powierzchni 100 m2 wyniósł maksymalnie[^03-polityka_budzetowa-10] 85 zł rocznie a podatek od zakładu usługowego o takiej samej powierzchni 2 484 zł rocznie
 . Oznacza to, że w przypadku mieszkań i budynków mieszkalnych stawka podatku jest obecnie symboliczna i istnieje w Polsce instytucjonalna przestrzeń do znacznego zwiększenia roli tego podatku, zwłaszcza przy jednoczesnym obniżeniu podatku dochodowego
 .
 
-[^polityka_budzetowa-9]: Stawki tego podatku są waloryzowane corocznie w oparciu o inflację.
+[^03-polityka_budzetowa-9]: Stawki tego podatku są waloryzowane corocznie w oparciu o inflację.
 
-[^polityka_budzetowa-10]: Gminy mają możliwość stosowania niższych stawek podatku.
+[^03-polityka_budzetowa-10]: Gminy mają możliwość stosowania niższych stawek podatku.
 
 Należy jeszcze zauważyć, że przyznanie podatkowi od nieruchomości tak istotnej roli jest możliwe właśnie przy założeniu, że celem państwa jest dążenie do pełnego zatrudnienia oraz że państwo ma realne narzędzia osiągnięcia tego stanu.
 W przeciwnym przypadku wzrost opodatkowania podatkiem od nieruchomości wymagałby systemu zwolnień z uwagi na fakt, iż obejmuje on także osoby bez dochodów umożliwiających jego opłacanie.
@@ -511,9 +511,9 @@ plot_ly(dane4, x = ~Rok) %>%
 
 Trzeba jednak zauważyć, że powyższy obraz jest niepełny.
 Dzięki funkcjonującej w UE swobodzie przepływu osób i kapitału, osoby uzyskujące wysokie dochody z kapitału mogą stosunkowo łatwo przenieść swoją siedzibę podatkową do jednego z wielu funkcjonujących w UE rajów podatkowych np.
-Luksemburga, Monako czy Lichtensteinu[^polityka_budzetowa-11].
+Luksemburga, Monako czy Lichtensteinu[^03-polityka_budzetowa-11].
 
-[^polityka_budzetowa-11]: Przykłady rajów podatkowych w UE: <https://financialsecrecyindex.com/en/introduction/fsi-2018-results>, <https://missingprofits.world/>
+[^03-polityka_budzetowa-11]: Przykłady rajów podatkowych w UE: <https://financialsecrecyindex.com/en/introduction/fsi-2018-results>, <https://missingprofits.world/>
 
 Rozwijając jednak zagadnienie podatku od osób fizycznych to oprócz tego, że stanowi on czwarte najważniejsze źródło dochodów publicznych to istotny jest fakt, że mimo dwóch stawek jest to w rzeczywistości podatek liniowy.
 Liczba podatników w wyższym przedziale podatkowym nie sięga 4% (rys. \@ref(fig:rys33)).
@@ -561,12 +561,12 @@ plot_ly(dane4, x = ~Rok, hoverinfo = 'text',
             annotations = list(an1, an2))
 ```
 
-Liniowy charakter podatku dochodowego w Polsce jest sprzeczny z generalnym postulatem MMT zalecającym wprowadzanie automatycznych stabilizatorów koniunktury wyrażonym najbardziej bezpośrednio w uzasadnieniu sztandarowej propozycji tej szkoły czyli gwarancji zatrudnienia[^polityka_budzetowa-12].
+Liniowy charakter podatku dochodowego w Polsce jest sprzeczny z generalnym postulatem MMT zalecającym wprowadzanie automatycznych stabilizatorów koniunktury wyrażonym najbardziej bezpośrednio w uzasadnieniu sztandarowej propozycji tej szkoły czyli gwarancji zatrudnienia[^03-polityka_budzetowa-12].
 Otóż mimo swoich wad wypunktowanych przez L.
 Randay'a Wray'a w cytowanej książce, podatek ten posiada istotną przewagę nad podatkami konsumpcyjnymi i majątkowymi.
 W przeciwieństwie do tych pierwszych powoduje zmniejszenie oszczędności, które stanowią „dziurę" osłabiającą skuteczność polityki fiskalnej. W stosunku do tych drugich przewaga polega na tym, że progresywny podatek dochodowy jest pozytywnie wrażliwy na inflację. Progresja powoduje, że inflacja skutkuje przenoszeniem podatników do wyższych progów podatkowych. Oznacza to, że w wyniku wyższej inflacji następuje automatyczny wzrost przeciętnego opodatkowania co hamuje tendencje inflacyjne. Efekt ten jednak maleje wraz ze wzrostem zamożności społeczeństwa i spadającym udziałem konsumpcji w wydatkach gospodarstw domowych. W tym sensie spełnia warunek idealnego podatku wg MMT (Mitchell, Wray, i Watts 2019, s. 323).
 
-[^polityka_budzetowa-12]: Ciekawym sposobem na rozwiązanie dylematu czy zlikwidować PIT czy utrzymać jego progresywną wersję jest postulat znacznego zwiększenia kwoty wolnej od podatku.
+[^03-polityka_budzetowa-12]: Ciekawym sposobem na rozwiązanie dylematu czy zlikwidować PIT czy utrzymać jego progresywną wersję jest postulat znacznego zwiększenia kwoty wolnej od podatku.
     Szerzej na temat ekonomicznych skutków takiego rozwiązania (Augustyński 2016)
 
 ## Podsumowanie
@@ -597,13 +597,13 @@ Wynika to z dwóch faktów: po pierwsze tylko polityka budżetowa dysponuje odpo
 
 Skalę wydatków publicznych ogranicza za to:
 
-1.  Strona podażowa - w krótkim okresie w postaci zainstalowanych mocy produkcyjnych, w średnim okresie struktura zatrudnienia[^polityka_budzetowa-13], a w długim okresie wzrost wydajności pracy.
+1.  Strona podażowa - w krótkim okresie w postaci zainstalowanych mocy produkcyjnych, w średnim okresie struktura zatrudnienia[^03-polityka_budzetowa-13], a w długim okresie wzrost wydajności pracy.
 
 2.  Strumień dochodów z tytułu odsetek od długu publicznego.
 
 3.  Wzrost zadłużenia prywatnego i wynikające z tego zagrożenie kryzysami finansowymi.
 
-[^polityka_budzetowa-13]: Wzrost popytu mógłby wywołać inflację gdyż płace i ceny wzrosłyby w sektorach wysoko zaawansowanych zanim zostałaby wygenerowana wystarczająca podaż miejsc pracy z sektorów opóźnionych.
+[^03-polityka_budzetowa-13]: Wzrost popytu mógłby wywołać inflację gdyż płace i ceny wzrosłyby w sektorach wysoko zaawansowanych zanim zostałaby wygenerowana wystarczająca podaż miejsc pracy z sektorów opóźnionych.
 
 Podatki pełnią według MMT dwie funkcje: kreują popyt na państwowy pieniądz oraz poprzez ograniczanie popytu stanowią narzędzie kontroli inflacji.
 Powinny zatem być powszechne i automatycznie reagować na wzrost inflacji.
