@@ -180,7 +180,7 @@ Oznacza to, że osoby zatrudnione w ramach programu gwarancji zatrudnienia praco
 
 J. Toporowski (2019) zauważa, że choć MMT odrzuca monetarystyczną teorię inflacji to stosunkowo słabo wyjaśnia przyczyny inflacji.
 Podobne braki dotyczą wyjaśnienia przyczyn bezrobocia, które tłumaczone jest jedynie poprzez niewystarczający popyt całkowity bez podania przyczyn dlaczego jest niewystarczający.
-Jedną z nich może być na przykład polityczny sprzeciw właścicieli kapitału wobec pełnego zatrudnienia, co opisał Kalecki we wspominanym już artykule „$$Polityczne aspekty pełnego zatrudnienia$$(<https://fundacjalipinskiego.pl/m-kalecki-polityczne-aspekty-pelnego-zatrudnienia-1943/>". Innym skutkiem, ignorowanym przez MMT, mogą być rosnące oczekiwania inflacyjne, które -- jak zauważa J. Toporowski -- choć bezpodstawne, mogą stać się samospełniającą przepowiednią, gdy nastąpi odpływ kapitału z kraju skutkujący dewaluacją waluty wywołującą inflację zwłaszcza w niedużych, otwartych gospodarkach. Tak sztucznie wywołana inflacja będzie prowadzić do porzucenia programu gwarancji zatrudnienia.
+Jedną z nich może być na przykład polityczny sprzeciw właścicieli kapitału wobec pełnego zatrudnienia, co opisał Kalecki we wspominanym już artykule „[Polityczne aspekty pełnego zatrudnienia](https://fundacjalipinskiego.pl/m-kalecki-polityczne-aspekty-pelnego-zatrudnienia-1943)". Innym skutkiem, ignorowanym przez MMT, mogą być rosnące oczekiwania inflacyjne, które -- jak zauważa J. Toporowski -- choć bezpodstawne, mogą stać się samospełniającą przepowiednią, gdy nastąpi odpływ kapitału z kraju skutkujący dewaluacją waluty wywołującą inflację zwłaszcza w niedużych, otwartych gospodarkach. Tak sztucznie wywołana inflacja będzie prowadzić do porzucenia programu gwarancji zatrudnienia.
 
 Jak wspomniano, program gwarancji zatrudnienia pokazywany jest jako lepsza alternatywa dla nieskutecznych publicznych programów inwestycyjnych realizowanych w duchu Keynesa, które tworzą presję inflacyjną konkurując z sektorem prywatnym o wysoko wykwalifikowanych pracowników.
 Jednak w świetle powyższych zastrzeżeń należy stwierdzić, że są to działania silnie komplementarne a nie substytucyjne.
@@ -305,7 +305,8 @@ Jednak z punktu widzenia potencjalnego wdrożenia programu gwarancji zatrudnieni
 library(plotly)
 library(dplyr)
 
-bezrobocie_plt = read.csv2("rysunki\\wykres_4_3.csv")
+bezrobocie_plt = read.csv2("rysunki\\wykres_4_3.csv") %>% 
+     mutate(year = ifelse(is.na(val), paste0(year," '22"),year))
 lev <- bezrobocie_plt$year
 bezrobocie_plt$year <- factor(bezrobocie_plt$year, levels = lev)
 
@@ -373,7 +374,7 @@ plot_ly(bezrobocie_plt, x = ~year, text = paste(bezrobocie_plt$year, "\n", bezro
 
 ```
 
-Wzrost stopy bezrobocia rejestrowanego w następstwie kryzysu wyniósł więc prawie 4 punkty procentowe (pracę straciło ponad 1,1 mln osób) natomiast w 2019 zbliżyła się ona do poziomu uznawanego powszechnie za poziom bezrobocia wynikającego z normalnych procesów zmiany pracy lub miejsca zamieszkania (ok. 2%-3%).
+Wzrost stopy bezrobocia rejestrowanego w następstwie kryzysu wyniósł więc prawie 4 punkty procentowe (pracę straciło ponad 1,1 mln osób) natomiast w 2019 zbliżyła się ona do poziomu uznawanego powszechnie za poziom bezrobocia wynikającego z normalnych procesów zmiany pracy lub miejsca zamieszkania (ok. 2%-3%). Co istotne, w 2022 roku, pomimo wojny w Ukrainie i związanego z tym napływu uchodźców stopa bezrobocia rejestrowanego dalej spadała.
 
 To stosunkowo niskie bezrobocie nie zmniejsza jednak przydatności programu gwarancji zatrudnienia gdyż stopa bezrobocia rozkłada się w kraju bardzo nierównomiernie (rys. \@ref(fig:rys44)).
 
@@ -392,19 +393,19 @@ krak <- powiaty_mapa_liczba %>% filter(stringr::str_detect(name, "Kraków"))
 
 Waha się od `r as.character(xmax$val)`% (`r as.character(tolower(xmax$name))`) do poniżej 2% w największych miastach takich jak Poznań i Warszawa (odpowiednio `r as.character(pozn$val)`%, `r as.character(wawa$val)`%).
 
-(ref:rys44) Stopa bezrobocia rejestrowanego w powiatach w Polsce w październiku 2021 <br> Źródło: opracowanie własne na podstawie danych z Banku Danych Lokalnych GUS
+(ref:rys44) Stopa bezrobocia rejestrowanego w powiatach w Polsce w czerwcu 2022 <br> Źródło: opracowanie własne na podstawie danych z Banku Danych Lokalnych GUS
 
 ```{r rys44, echo=FALSE, fig.align='center', fig.cap='(ref:rys44)', out.width='75%'}
-knitr::include_graphics("rysunki\\mapa_st_bezrobocia.png")
+knitr::include_graphics("rysunki\\mapa_st_bezrobocia.svg")
 ```
 
 Z punktu widzenia wdrażania programu gwarancji zatrudnienia i jego skutków, ważna jest również informacja o nominalnej liczbie osób bezrobotnych.
 Dane takie przedstawia rysunek \@ref(fig:rys45).
 
-(ref:rys45) Liczba zarejestrowanych bezrobotnych w powiatach w Polsce w październiku 2021 <br> Źródło: opracowanie własne na podstawie danych z Banku Danych Lokalnych GUS
+(ref:rys45) Liczba zarejestrowanych bezrobotnych w powiatach w Polsce w czerwcu 2022 <br> Źródło: opracowanie własne na podstawie danych z Banku Danych Lokalnych GUS
 
 ```{r rys45, echo=FALSE, fig.align='center', fig.cap='(ref:rys45)', out.width='75%'}
-knitr::include_graphics("rysunki\\mapa_l_bezrobotnych.png")
+knitr::include_graphics("rysunki\\mapa_l_bezrobotnych.svg")
 ```
 
 \*w Warszawie, Łodzi i Krakowie liczba bezrobotnych przekraczała prawie dwukrotnie maksimum dla reszty powiatów i wyniosła odpowiednio `r as.character(wawa_liczba$val)`, `r as.character(lodz$val)` oraz `r as.character(krak$val)` osób.
@@ -444,12 +445,12 @@ beeswarm <- function(x){
 }
 
 beeswarm(powiaty_mapa_liczba)
-beeswarm(powiaty_mapa)
+#beeswarm(powiaty_mapa)
 
 ```
 
 Problem ten lepiej pokazuje rysunek \@ref(fig:rys47).
-Okazuje się, że w przypadku 75% powiatów w dzisiejszych warunkach należałoby wygenerować miejsca pracy dla nie więcej niż ok. 10% osób w wieku produkcyjnym.
+Okazuje się, że w przypadku 75% powiatów w dzisiejszych warunkach należałoby wygenerować miejsca pracy dla mniej niż ok. 10% osób w wieku produkcyjnym.
 Rysunki \@ref(fig:rys46) i \@ref(fig:rys47) pokazują również nieliniowy związek między liczbą bezrobotnych a populacją osób w wieku produkcyjnym.
 Różnice w stopie bezrobocia wynikają przede wszystkim z różnicy w liczbie mieszkańców w powiecie a nie z różnic w liczbie bezrobotnych.
 
@@ -472,7 +473,7 @@ top <- ggplot(top10,aes(x= Data, y = Os, group=powiat)) +
      labs(x = "", y = "Liczba bezrobotnych w tys.") +
      geom_line(aes(color=powiat)) + facet_wrap(vars(powiat), nrow = 2) + 
      theme_minimal() + 
-     scale_x_discrete(breaks=c("2011 I kw.","2021 III kw.")) +
+     scale_x_discrete(breaks=c("2011 I kw.","2022 I kw.")) +
      scale_color_manual(values = rep("#1f77b4", times = 10)) +
      theme(axis.text.x = element_text(angle = 90), legend.position="none")
 plotly::ggplotly(top)
@@ -483,10 +484,10 @@ plotly::ggplotly(top)
 ```{r rys49, echo=FALSE, fig.align='left', fig.cap='(ref:rys49)', out.width='100%'}
 bot10 <- read.csv2("rysunki\\bot10.csv")
 bott <- ggplot(bot10,aes(x= Data, y = Os, group=powiat)) + 
-     labs(x = "", y = "Liczba bezrobotnych") +
+     labs(x = "", y = "Liczba bezrobotnych w tys.") +
      geom_line(aes(color=powiat)) + facet_wrap(vars(powiat), nrow = 2) + 
      theme_minimal() + 
-     scale_x_discrete(breaks=c("2011 I kw.","2021 III kw.")) +
+     scale_x_discrete(breaks=c("2011 I kw.","2022 I kw.")) +
      scale_color_manual(values = rep("#1f77b4", times = 10)) +
      theme(axis.text.x = element_text(angle = 90),legend.position="none")
 plotly::ggplotly(bott)
