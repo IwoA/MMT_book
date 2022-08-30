@@ -38,7 +38,7 @@ Lerner (2015, s. 126) uważał, iż
 Wychodząc z tego założenia sformułował on dwa prawa finansów funkcjonalnych:
 
 1.  *„Podstawowym obszarem finansowej odpowiedzialności państwa (jako że nikt inny nie może jej przejąć) jest utrzymanie całkowitych wydatków na dobra i usługi w kraju na poziomie nie większym ani nie mniejszych niż taki, przy którym po aktualnych cenach mogą zostać wykupione wszystkie możliwe do wyprodukowania produkty. Jeśli pozwoli się, aby całkowite wydatki przewyższyły ten poziom, pojawi się inflacja; jeśli z kolei całkowite wydatki spadną poniżej tego poziomu, wystąpi bezrobocie.„* Dlatego gdy popyt jest zbyt wysoki państwo powinno zmniejszyć wydatki i podnieść podatki, a gdy popyt jest niedostateczny to powinno zwiększyć swoje wydatki i obniżyć podatki.
-2.  *„*$$R$$ząd powinien pożyczać pieniądze jedynie wówczas, gdy pożądane jest, aby obywatele posiadali mniej pieniędzy, a więcej obligacji rządowych $$...$$. A pożądane może to być w sytuacji, gdy bez tego zabiegu stopy procentowe byłyby zbyt niskie $$...$$."
+2.  *„Rząd powinien pożyczać pieniądze jedynie wówczas, gdy pożądane jest, aby obywatele posiadali mniej pieniędzy, a więcej obligacji rządowych .... A pożądane może to być w sytuacji, gdy bez tego zabiegu stopy procentowe byłyby zbyt niskie ..."*
 
 Do tak sformułowanych dwóch celów polityki fiskalnej (likwidacja bezrobocia i inflacji) należy dodać trzeci, sformułowany na samym początku cytowanego artykułu: eliminacja gospodarczej niepewności.
 Naturalnie nie chodzi tu o całkowitą likwidację powyższych zjawisk ale działania w celu ich maksymalnego ograniczania.
@@ -348,12 +348,12 @@ Pozostałe podatki, w tym podatek od niektórych instytucji finansowych (zwany p
 ```{r rys31, echo=FALSE, fig.align='left', fig.cap='(ref:rys31)', out.width='100%'}
 library(RColorBrewer)
 library(highcharter)
-dane <- read_excel("rysunki\\dochody_budz_2021.xlsx", skip = 11)
+dane <- readxl::read_excel("rysunki\\dochody_budz_2021.xlsx", skip = 11)
 dane <- dane %>% select(1, 7) %>% 
      rename_with(~c("Podatek", "kwota")) %>% 
      filter(!is.na(Podatek)) %>% 
      filter(Podatek!="Dochody niepodatkowe") %>% 
-     mutate(kwota = kwota/1000) #w mln zł
+     dplyr::mutate(kwota = kwota/1000) #w mln zł
 
 
 kolory <- c(brewer.pal(8, "Blues"), brewer.pal(7, "Purples"), "#c90076")
