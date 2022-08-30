@@ -451,13 +451,19 @@ Schemat w tabeli \@ref(tab:tab4) przedstawia mianowicie sytuację w krajach stre
 Jest on również prawdziwy dla Polski, choć naturalnie emituje ona własną walutę, ponieważ w wyniku procesów historycznych prezesi NBP sami narzucili tej instytucji wzorzec działania narodowego banku Niemiec (Bundesbanku) a następnie EBC.
 Naśladowaniu banków centralnych krajów strefy euro sprzyjała również utrzymująca się nadpłynność sektora bankowego w Polsce wynikająca z dużego napływu walut obcych wymienianych w NBP na złotówki (rysunek \@ref(fig:rys26)).
 
-(ref:rys26) Główne czynniki wpływające na krótkoterminową płynność sektora bankowego w 2020 r. <br> Źródło: [NBP, Raport Roczny 2020. Płynność sektora bankowego, instrumenty polityki pieniężnej NBP, Warszawa, 2020 s. 14](https://www.nbp.pl/publikacje/operacje_or/2020/raport2020.pdf)
+(ref:rys26) Główne czynniki wpływające na krótkoterminową płynność sektora bankowego w 2021 r. <br> Źródło: [NBP, Raport Roczny 2021. Płynność sektora bankowego, instrumenty polityki pieniężnej NBP, Warszawa, 2021 s. 12](https://www.nbp.pl/publikacje/operacje_or/2021/raport2021.pdf)
 
 ```{r rys26, echo=FALSE, fig.align='center', fig.cap='(ref:rys26)', out.width='100%'}
 knitr::include_graphics("rysunki\\Glowne_czynniki_kreacji_pieniadza.png")
 ```
 
-Polskie banki komercyjne posiadały tyle pieniędzy w wyniku wymiany walut, że nie tylko były w stanie zakupić wszystkie skarbowe papiery wartościowe emitowane przez ministerstwo finansów ale NBP musiał się dodatkowo angażować w emisję bonów pieniężnych aby utrzymać stopy procentowe na oczekiwanym poziomie.
+Polskie banki komercyjne posiadały tyle pieniędzy w wyniku wymiany walut, że nie tylko były w stanie zakupić wszystkie skarbowe papiery wartościowe emitowane przez ministerstwo finansów ale NBP musiał się dodatkowo angażować w emisję bonów pieniężnych aby utrzymać stopy procentowe na oczekiwanym poziomie (rysunek \@ref(fig:rys26a)).
+
+(ref:rys26a) Operacje absorbujące środki z sektora bankowego prowadzone przez NBP w 2021 r. <br> Źródło: [NBP, Raport Roczny 2021. Płynność sektora bankowego, instrumenty polityki pieniężnej NBP, Warszawa, 2021 s. 11](https://www.nbp.pl/publikacje/operacje_or/2021/raport2021.pdf)
+
+```{r rys26a, echo=FALSE, fig.align='center', fig.cap='(ref:rys26a)', out.width='100%'}
+knitr::include_graphics("rysunki\\bony_pieniezne.png")
+```
 
 To historyczne samoograniczenie zakończył kryzys wywołany przez pandemię COVID19.
 Wymusił on największy w historii wzrost wydatków publicznych i to w sytuacji znacznego ograniczenia w handlu międzynarodowym.
