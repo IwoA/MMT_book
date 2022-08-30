@@ -110,7 +110,7 @@ Ten ogromny strumień pieniędzy, który trafił do gospodarki w żaden sposób 
 library(plotly)
 library(readxl)
 library(dplyr)
-dane1 <- read_excel("rysunki\\transfery_z_UE.xlsx", range = "A1:E18")
+dane1 <- read_excel("rysunki\\transfery_z_UE.xlsx", range = "A1:E19")
 
 an1 <- list(
      x = dane1$Rok[3],
@@ -139,7 +139,7 @@ plot_ly(dane1, x = ~Rok) %>%
      add_trace(y = ~`Saldo transferów z UE`, name = 'Saldo transferów z UE (% PKB)',type = 'scatter', mode = 'lines+markers') %>% 
      add_trace(y = ~CPI, name = 'Inflacja CPI',type = 'scatter', mode = 'lines+markers') %>% 
      layout(legend = list(x = 0.1, y = 0.1),
-            yaxis = list(tickformat = '.2%', title = "", range = c(-0.01,0.05), zeroline = FALSE),
+            yaxis = list(tickformat = '.2%', title = "", range = c(-0.01,0.06), zeroline = FALSE),
             yaxis = list(title = ""),
             xaxis = list(title = "", showgrid = F),
             annotations = list(an1, an2),
@@ -259,7 +259,7 @@ plot_ly() %>%
      add_trace(x = plt$revenues, y = fit, type = "scatter", mode = "lines") %>%
      add_text(x = plt$revenues+.5, y=plt$M0_mean, text = plt$country, textposition = 'right') %>% 
      layout(
-          xaxis = list(title = "Dochody budżetowe jako % of PKB", range = c(5,41)),
+          xaxis = list(title = "Dochody budżetowe jako % of PKB", range = c(5,31)),
           yaxis = list(title = "M0* jako % PKB"),
           shapes = list(vline(13)),
           showlegend = FALSE,
@@ -548,7 +548,7 @@ an2 <- list(
      arrowcolor = "#1F77B4",
      ax = 0,
      ay = -20,
-     font = list(color = "blue")
+     font = list(color = "#1F77B4")
 )
 
 plot_ly(dane4, x = ~Rok, hoverinfo = 'text',
