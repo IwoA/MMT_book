@@ -5,7 +5,7 @@ library(RColorBrewer)
 library(plotly)
 # -----------------------------------------
 # Wykres 1 Saldo transferów z budżetu UE do Polski a inflacja CPI 
-dane1 <- read_excel("rysunki\\transfery_z_UE.xlsx", range = "A1:E18")
+dane1 <- read_excel("rysunki\\transfery_z_UE.xlsx", range = "A1:E19")
 cor(dane1$`Saldo transferów z UE`, dane1$CPI, method = "pearson")
 
 # ggplot(dane1,group=Rok) + geom_line(aes(x=Rok, y=`Saldo transferów z UE`), color="#8DA0CB", size=1.5) +
@@ -42,7 +42,7 @@ plot_ly(dane1, x = ~Rok) %>%
      add_trace(y = ~`Saldo transferów z UE`, name = 'Saldo transferów z UE (% PKB)',type = 'scatter', mode = 'lines+markers') %>% 
      add_trace(y = ~CPI, name = 'Inflacja CPI',type = 'scatter', mode = 'lines+markers') %>% 
      layout(legend = list(x = 0.1, y = 0.1),
-            yaxis = list(tickformat = '.2%', title = "", range = c(-0.01,0.05), zeroline = FALSE),
+            yaxis = list(tickformat = '.2%', title = "", range = c(-0.01,0.06), zeroline = FALSE),
             xaxis = list(title = "", showgrid = F),
             annotations = list(an1, an2),
             showlegend = FALSE)
@@ -84,8 +84,9 @@ gdp_pc_usd$country <- if_else(gdp_pc_usd$country=="Hong Kong SAR", "Hong Kong, C
 gdp_pc_usd$country <- if_else(gdp_pc_usd$country=="Côte d'Ivoire", "Cote d`Ivoire", gdp_pc_usd$country)
 
 ## Population
-population <- read.csv2("rysunki\\population1.csv")
-pop <- population %>% group_by(country) %>% summarise(pop=mean(pop))
+population <- wbstats::wb_data("SP.POP.TOTL")#read.csv2("rysunki\\population1.csv")
+#pop <- population %>% group_by(country) %>% summarise(pop=mean(pop))
+pop <- population %>% filter(date==max(population$date))
 
 ## Obliczenia
 
@@ -177,8 +178,8 @@ plot_ly() %>%
 # K27; G423; P2621 (dochody ogółem)
 library(bdl)
 get_variables("P2621")
-podatek <- get_data_by_variable("76077", year = 2020, unitLevel = 6)
-dochody <- get_data_by_variable("76037", year = 2020, unitLevel = 6)
+podatek <- get_data_by_variable("76077", year = 2021, unitLevel = 6) %>% filter(attrId==1 & year == 2021)
+dochody <- get_data_by_variable("76037", year = c(2020,2021), unitLevel = 6) %>% filter(attrId==1 & year == 2021)
 udzial <- left_join(podatek[,1:4], dochody[,1:4], by = c( "id" = "id")) %>% 
      mutate(udzial = val.x/val.y) %>% 
      filter(!is.nan(udzial)) %>% 
@@ -195,7 +196,7 @@ an1 <- list(
      showarrow = FALSE,
      arrowhead = 6,
      ay = 0,
-     font = list(color = "blue")
+     font = list(color = "#1F77B4")
 )
 an2 <- list(
      x = 0,
@@ -207,7 +208,7 @@ an2 <- list(
      showarrow = FALSE,
      arrowhead = 6,
      ay = 0,
-     font = list(color = "blue")
+     font = list(color = "#1F77B4")
 )
 an3 <- list(
      x = 0,
@@ -219,7 +220,7 @@ an3 <- list(
      showarrow = FALSE,
      arrowhead = 6,
      ay = 0,
-     font = list(color = "blue")
+     font = list(color = "#1F77B4")
 )
 plot_ly(y = udzial$udzial, type = "box", name = "",
         text = paste(as.character(round(udzial$udzial*100, digits = 2)), "%\n", as.character(udzial$name.x)),
@@ -262,14 +263,14 @@ highchart() %>%
 
 # ------------------------------------------
 # Wykres 4
-dane4 <- read_excel("rysunki\\podatki.xlsx", sheet = 4) %>% 
+dane4 <- readxl::read_excel("rysunki\\podatki.xlsx", sheet = 4) %>% 
      mutate(across(where(is.double), ~round(.,digits = 3)))
 
 plot_ly(dane4, x = ~Rok) %>% 
      add_trace(y = ~`Udział podatku od dochodów kapitałowych w przychodach z PIT`, name = 'Udział podatku od dochodów kapitałowych w przychodach z PIT',type = 'scatter', mode = 'lines+markers') %>% 
      add_trace(y = ~`Udział podatników składających PIT-38*`, name = 'Udział podatników składających PIT-38*',type = 'scatter', mode = 'lines+markers') %>% 
      layout(legend = list(x = 0.1, y = 0.1),
-            yaxis = list(tickformat = '.2%', title = "", range = c(0,0.03)),
+            yaxis = list(tickformat = '.2%', title = "", range = c(0,0.035)),
             xaxis = list(title = ""))
 
 # ------------------------------------------
@@ -284,10 +285,10 @@ an1 <- list(
      yref = "y",
      showarrow = TRUE,
      arrowhead = 6,
-     arrowcolor = "blue",
+     arrowcolor = "#1F77B4",
      ax = -0,
      ay = 20,
-     font = list(color = "blue")
+     font = list(color = "#1F77B4")
 )
 an2 <- list(
      x = dane4$Rok[nrow(dane4)],
@@ -297,16 +298,16 @@ an2 <- list(
      yref = "y",
      showarrow = TRUE,
      arrowhead = 6,
-     arrowcolor = "blue",
+     arrowcolor = "#1F77B4",
      ax = 0,
      ay = -20,
-     font = list(color = "blue")
+     font = list(color = "#1F77B4")
 )
 
 plot_ly(dane4, x = ~Rok, hoverinfo = 'text',
         text = ~paste0(Rok, ", ", `Podatnicy w II przedziale podatkowym`*100, " %")) %>% 
      add_trace(y = ~`Podatnicy w II przedziale podatkowym`, name = 'Podatnicy w II przedziale podatkowym',type = 'scatter', mode = 'lines') %>% 
      layout(legend = list(x = 0.1, y = 0.1),
-            yaxis = list(tickformat = '.1%', showticklabels = FALSE, title = "", range = c(0,0.05), zeroline = FALSE),
+            yaxis = list(tickformat = '.1%', showticklabels = FALSE, title = "", range = c(0,0.06), zeroline = FALSE),
             xaxis = list(title = ""),
             annotations = list(an1, an2))

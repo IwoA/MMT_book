@@ -7,19 +7,19 @@ library(plotly)
 
 # P2392  	Stopa bezrobocia rejestrowanego
 get_variables("P2392")
-bezrobocie <- get_data_by_variable("60270", year = 2004:2021, unitLevel = 0) %>% select(year, val)
+bezrobocie <- get_data_by_variable("60270", year = 2004:2022, unitLevel = 0) %>% select(year, val)
 miesiace <- get_variables("P3559") %>% select(n1) %>% slice_head(n=12)
-bezrobocie_m <- get_data_by_variable(as.character(c(461680:461691)), year = 2020:2021, unitLevel = 0)
+bezrobocie_m <- get_data_by_variable(as.character(c(461680:461691)), year = 2020:2022, unitLevel = 0)
 bezrobocie_m <- bezrobocie_m[,3:15]
 colnames(bezrobocie_m)[2:13] <- miesiace$n1
 bezrobocie_ml <- bezrobocie_m %>% tidyr::pivot_longer(cols = 2:13, names_to = "miesiac", values_to = "proc") %>% #values_to = "val", żeby ggplot działał
-     filter(year==2021) %>% select(-year) %>% rename(year = miesiac)
+     filter(year==2022) %>% select(-year) %>% rename(year = miesiac)
 bezrobocie_plt <- bind_rows(bezrobocie, bezrobocie_ml)
 lev <- bezrobocie_plt$year
 bezrobocie_plt$year <- factor(bezrobocie_plt$year, levels = lev)
 col <- data.frame(col=c(rep("y", times =nrow(bezrobocie)-1), rep("m", times=13)))
 bezrobocie_plt <- bind_cols(bezrobocie_plt,col)
-bezrobocie_plt$proc[17] <- bezrobocie_plt$val[17]
+bezrobocie_plt$proc[nrow(bezrobocie)] <- bezrobocie_plt$val[nrow(bezrobocie)]
 bezrobocie_plt$text <- ifelse(is.na(bezrobocie_plt$proc), bezrobocie_plt$val, bezrobocie_plt$proc)
 write.csv2(bezrobocie_plt, "rysunki\\wykres_4_3.csv")
 # ggplot(bezrobocie_plt, aes(x=year, y=val, group = 1)) +
@@ -119,7 +119,7 @@ powiaty_mapa %>% select(geometry, val) %>%
      theme_void() +
      theme(legend.position = "bottom", axis.text.x = element_blank(), axis.text.y = element_blank(),
            axis.title.x = element_blank(), axis.title.y = element_blank())
-ggsave(filename = "rysunki\\mapa_st_bezrobocia.png", device = "png") #nie wiem dlaczego, ale rysunek nie chce się knitować w .Rmd
+ggsave(filename = "rysunki\\mapa_st_bezrobocia.svg", device = "svg", width = 1000, height = 900, units = "px") #nie wiem dlaczego, ale rysunek nie chce się knitować w .Rmd
 
 get_variables("P2961") #P1944
 nr <- get_variables("P2961") %>% filter(n2 == "ogółem")
@@ -145,7 +145,7 @@ powiaty_mapa_liczba %>% select(geometry, val) %>%
      theme_void() +
      theme(legend.position = "bottom", axis.text.x = element_blank(), axis.text.y = element_blank(),
            axis.title.x = element_blank(), axis.title.y = element_blank())
-ggsave(filename = "rysunki\\mapa_l_bezrobotnych.png", device = "png")
+ggsave(filename = "rysunki\\mapa_l_bezrobotnych.svg", device = "svg", width = 1000, height = 900, units = "px")
 
 #### Zapis danych
 bezrobocie_pow %>% select(val, name) %>% write.csv2(., "rysunki\\powiaty_mapa.csv", row.names = FALSE)
@@ -241,7 +241,7 @@ top <- ggplot(top10,aes(x= Data, y = Os, group=powiat)) +
      labs(x = "", y = "Liczba bezrobotnych w tys.") +
      geom_line() + facet_wrap(vars(powiat), nrow = 2) + 
      theme_minimal() + 
-     scale_x_discrete(breaks=c("2011 I kw.","2021 III kw.")) +
+     scale_x_discrete(breaks=c("2011 I kw.","2022 I kw.")) +
      theme(axis.text.x = element_text(angle = 90))
 
 plotly::ggplotly(top)
@@ -259,6 +259,6 @@ bott <- ggplot(bot10,aes(x= Data, y = Os, group=powiat)) +
      labs(x = "", y = "Liczba bezrobotnych") +
      geom_line() + facet_wrap(vars(powiat), nrow = 2) + 
      theme_minimal() + 
-     scale_x_discrete(breaks=c("2011 I kw.","2021 III kw.")) +
+     scale_x_discrete(breaks=c("2011 I kw.","2022 I kw.")) +
      theme(axis.text.x = element_text(angle = 90))
 plotly::ggplotly(bott)
