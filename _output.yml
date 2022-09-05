@@ -4,6 +4,8 @@ bookdown::bs4_book:
   theme:
     primary: "#096B72"
   repo: 
+  includes:
+    after_body: disqus.html
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex

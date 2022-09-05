@@ -1,7 +1,7 @@
 ---
 title: "Teoria Współczesnych Systemów Monetarnych"
 author: "Iwo Augustyński"
-date: "2022-08-30"
+date: "2022-09-05"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, MMT.bib]
