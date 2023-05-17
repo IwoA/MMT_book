@@ -244,12 +244,12 @@ Przedstawiono ją na rysunku \@ref(fig:rys25) poniżej.
 ```{r rys25, echo=FALSE, fig.align='center', fig.cap='Relacja gotówki w obiegu do agregatu M1<br>Źródło: Opracowanie własne na podstawie danych NBP', out.width='100%'}
 library(dplyr)
 library(plotly)
-url <- "https://www.nbp.pl/statystyka/pieniezna_i_bankowa/dwn/miarypieniadza_nowe.xlsx"
+url <- "https://static.nbp.pl/dane/monetarno-finansowa/miarypieniadza_nowe.xlsx"
 dane <- rio::import(url, skip=2)
 colnames(dane) <- c("data", "M0", "M1", "M2", "M3")
 dane1 <- dane %>% select(data, M1)
 
-url <- "https://www.nbp.pl/statystyka/pieniezna_i_bankowa/dwn/bilans_nbp.xlsx"
+url <- "https://static.nbp.pl/dane/monetarno-finansowa/bilans_nbp.xlsx"
 dane <- rio::import(url, skip=5, sheet=3) 
 colnames(dane)[1:2] <- c("data", "MM")
 dane2 <- dane %>% select(1,2)
@@ -318,7 +318,7 @@ Nawet po wybuchu pandemii COVID-19 zapotrzebowanie na gotówkę wzrosło jedynie
 
 ### **Rola banku centralnego i ministerstwa finansów w kreacji pieniądza**
 
-Jedną z cech charakterystycznych teorii współczesnych systemó monetarnych (i przy okazji najbardziej kontrowersyjnych) jest hipoteza konsolidacji banku centralnego i ministerstwa finansów w jeden podmiot pojawiająca się w prowadzonych analizach ekonomicznych.
+Jedną z cech charakterystycznych teorii współczesnych systemów monetarnych (i przy okazji najbardziej kontrowersyjnych) jest hipoteza konsolidacji banku centralnego i ministerstwa finansów w jeden podmiot pojawiająca się w prowadzonych analizach ekonomicznych.
 Jest to punkt wyjścia, z którego wynika cała logiczna konstrukcja MMT, w tym dominująca rola polityki budżetowej, specyficzna rola podatków oraz obiegu pieniężnego.
 Według zwolenników integracji jest to uproszczenie ułatwiające zrozumienie prawdziwych relacji między bankiem centralnym a budżetem publicznym (Mitchell i in., 2019 s. 321), które nie ma wpływu na prawdziwość i możliwość uogólnienia wniosków.
 Łącząc ministerstwo finansów i bank centralny w jeden sektor rządowy, który emituje walutę, MMT zwraca uwagę, że współcześnie obowiązujące ograniczenia instytucjonalne zostały nałożone przez władzę ustawodawczą, czyli są samoograniczeniem.
@@ -328,7 +328,7 @@ Poza tym (Tymoigne i Wray 2013):
 
 -   wpływ wydatków dokonywanych przez ministerstwo finansów, opodatkowania czy też operacji związanych ze skarbowymi papierami wartościowymi na stopę procentową jest taki sam, bez względu na założenie o konsolidacji;
 
--   bank centralny i ministerstwo finansów tak czy inaczej współpracują -- bank centralny jest zaangażowany w politykę fiskalną, a ministerstwo finansów w pieniężną - by ministerstwo finansów mogło realizować swoje cela, a bank centralny mógł łagodzić wahania stóp procentowych;
+-   bank centralny i ministerstwo finansów tak czy inaczej współpracują -- bank centralny jest zaangażowany w politykę fiskalną, a ministerstwo finansów w pieniężną - by ministerstwo finansów mogło realizować swoje cele, a bank centralny mógł łagodzić wahania stóp procentowych;
 
 -   hipoteza konsolidacji nie ma na celu opisu obecnych warunków instytucjonalnych.
     Jest teoretycznym uproszczeniem umożliwiającym analizę podstawowych relacji we współczesnym systemie monetarnym.
@@ -381,12 +381,12 @@ W tym przypadku banki komercyjne nabywają SPW o wartości 81 jednostek.
 SPW, które w przeciwieństwie do depozytów w banku centralnym, przynoszą odsetki (lub gdy te depozyty są oprocentowane przynoszą wyższe odsetki)[^polityka_pieniezna-8]
 .
 
-[^polityka_pieniezna-7]: Od 30 kwietnia 2020 r.
-    stopa rezerwy obowiązkowej wynosi 0,5 proc.
-    Wcześniej wynosiła 3,5% dla wszystkich rodzajów depozytów, z wyjątkiem środków uzyskanych z tytułu transakcji repo i sell-buy-back oraz środków pozyskanych co najmniej na 2 lata, dla których stopa rezerwy obowiązkowej wynosi 0 proc.Podmioty naliczające rezerwę obowiązkową pomniejszają kwotę naliczonej rezerwy o równowartość 500 tys.
+[^polityka_pieniezna-7]: Od 30 kwietnia 2020 r. do listopada 2021
+    stopa rezerwy obowiązkowej wynosiła 0,5 proc.
+    od marca 2022 wynosi 3,5% dla wszystkich rodzajów depozytów, z wyjątkiem środków uzyskanych z tytułu transakcji repo i sell-buy-back oraz środków pozyskanych co najmniej na 2 lata, dla których stopa rezerwy obowiązkowej wynosi 0 proc. Podmioty naliczające rezerwę obowiązkową pomniejszają kwotę naliczonej rezerwy o równowartość 500 tys.
     euro.
     Środki rezerwy obowiązkowej są oprocentowane na poziomie stopy referencyjnej.
-    <https://www.nbp.pl/home.aspx?f=/o_nbp/informacje/polityka_pieniezna.html>
+    <https://nbp.pl/statystyka-i-sprawozdawczosc/instrumenty-banku-centralnego/>
 
 [^polityka_pieniezna-8]: Nie muszą to być obligacje skarbowe, w Polsce w ramach operacji otwartego rynku NBP sprzedaje emitowane przez siebie bony skarbowe.
 
@@ -408,7 +408,7 @@ Podobnie brzmi art. 197 ustawy o finansach publicznych (Dz.U. 2009 nr 157 poz. 1
 > 3.  *Niewykorzystane przez dysponentów środków budżetowych środki, o których mowa w ust.2, są przekazywane bezpośrednio lub za pośrednictwem rachunku bieżącego wydatków dysponenta nadrzędnego na centralny rachunek bieżący budżetu państwa.*
 > 4.  *Operacje z tytułu przychodów i rozchodów budżetu państwa są dokonywane na centralnym rachunku bieżącym budżetu państwa lub na rachunkach pomocniczych Ministra Finansów.*
 
-Oczywiście pobieranie podatków działa w przeciwnym kierunku. Zebrane w postaci podatków środki są przekazywane na rachunek państwa w banku centralnym.Oznacza to, że banki komercyjne tracą pieniądz rezerwowy w takiej wysokości. Ujemna podaż może prowadzić do wzrostu stopy *overnight*.
+Oczywiście pobieranie podatków działa w przeciwnym kierunku. Zebrane w postaci podatków środki są przekazywane na rachunek państwa w banku centralnym. Oznacza to, że banki komercyjne tracą pieniądz rezerwowy w takiej wysokości. Ujemna podaż może prowadzić do wzrostu stopy *overnight*.
 
 W polskich uwarunkowaniach instytucjonalno-prawnych krok pierwszy w tabeli \@ref(tab:tab3) nie jest jednak możliwy.
 Wynika to z art. 220 ust.2 Konstytucji, który mówi, że „Ustawa budżetowa nie może przewidywać pokrywania deficytu budżetowego przez zaciąganie zobowiązania w centralnym banku państwa." Podobnie, acz szerzej stanowi art. 123 ust. 1 TFUE:
@@ -451,7 +451,7 @@ Schemat w tabeli \@ref(tab:tab4) przedstawia mianowicie sytuację w krajach stre
 Jest on również prawdziwy dla Polski, choć naturalnie emituje ona własną walutę, ponieważ w wyniku procesów historycznych prezesi NBP sami narzucili tej instytucji wzorzec działania narodowego banku Niemiec (Bundesbanku) a następnie EBC.
 Naśladowaniu banków centralnych krajów strefy euro sprzyjała również utrzymująca się nadpłynność sektora bankowego w Polsce wynikająca z dużego napływu walut obcych wymienianych w NBP na złotówki (rysunek \@ref(fig:rys26)).
 
-(ref:rys26) Główne czynniki wpływające na krótkoterminową płynność sektora bankowego w 2021 r. <br> Źródło: [NBP, Raport Roczny 2021. Płynność sektora bankowego, instrumenty polityki pieniężnej NBP, Warszawa, 2021 s. 12](https://www.nbp.pl/publikacje/operacje_or/2021/raport2021.pdf)
+(ref:rys26) Główne czynniki wpływające na krótkoterminową płynność sektora bankowego w 2021 r. <br> Źródło: [NBP, Raport Roczny 2021. Płynność sektora bankowego, instrumenty polityki pieniężnej NBP, Warszawa, 2021 s. 12](https://nbp.pl/wp-content/uploads/2022/10/raport2021.pdf)
 
 ```{r rys26, echo=FALSE, fig.align='center', fig.cap='(ref:rys26)', out.width='100%'}
 knitr::include_graphics("rysunki\\Glowne_czynniki_kreacji_pieniadza.png")
@@ -459,7 +459,7 @@ knitr::include_graphics("rysunki\\Glowne_czynniki_kreacji_pieniadza.png")
 
 Polskie banki komercyjne posiadały tyle pieniędzy w wyniku wymiany walut, że nie tylko były w stanie zakupić wszystkie skarbowe papiery wartościowe emitowane przez ministerstwo finansów ale NBP musiał się dodatkowo angażować w emisję bonów pieniężnych aby utrzymać stopy procentowe na oczekiwanym poziomie (rysunek \@ref(fig:rys26a)).
 
-(ref:rys26a) Operacje absorbujące środki z sektora bankowego prowadzone przez NBP w 2021 r. <br> Źródło: [NBP, Raport Roczny 2021. Płynność sektora bankowego, instrumenty polityki pieniężnej NBP, Warszawa, 2021 s. 11](https://www.nbp.pl/publikacje/operacje_or/2021/raport2021.pdf)
+(ref:rys26a) Operacje absorbujące środki z sektora bankowego prowadzone przez NBP w 2021 r. <br> Źródło: [NBP, Raport Roczny 2021. Płynność sektora bankowego, instrumenty polityki pieniężnej NBP, Warszawa, 2021 s. 11](https://nbp.pl/wp-content/uploads/2022/10/raport2021.pdf)
 
 ```{r rys26a, echo=FALSE, fig.align='center', fig.cap='(ref:rys26a)', out.width='100%'}
 knitr::include_graphics("rysunki\\bony_pieniezne.png")
@@ -585,10 +585,10 @@ Rzecz wygląda inaczej w przypadku krajów członkowskich EMU. Europejski Bank C
 MMT zwraca uwagę, że każda forma związania własnej waluty z obcą oznacza konieczność posiadania odpowiednich zapasów tejże waluty. Podobny skutek niesie ze sobą zadłużanie się w walutach zagranicznych. Źródłami obcych walut może być nadwyżka eksportu nad importem, zagraniczne kredyty, inwestycje zagraniczne, programy pomocowe (np. fundusze strukturalne UE) czy transfery pieniężne od emigrantów. Struktura napływu i odpływu walut obcych zależy naturalnie od specyficznych warunków danego kraju. Nie zmienia to faktu, że kontrola kursu walutowego jest ważnym zadaniem banku centralnego, gdyż jest potencjalnie istotnym czynnikiem wpływającym na inflację czyli stabilność pieniądza.
 Sytuacja Polski jest w tym przypadku dosyć komfortowa. Od 2005 roku aktywa rezerwowe, którymi dysponuje NBP przekraczają zobowiązania skarbu państwa w walutach obcych (rys. \@ref(fig:rys27)). Przeszło 90% tych aktywów stanowiły waluty wymienialne. Oznacza to, że polski bank centralny jest w stanie spłacić wszystkich wierzycieli posiadających obligacje skarbowe denominowane w walutach obcych. Co więcej ta nadwyżka wciąż rośnie.
 
-(ref:rys27) Pokrycie zadłużenia zagranicznego Skarbu Państwa aktywami rezerwowymi NBP <br> Źródło: [NBP](https://www.nbp.pl/home.aspx?f=/statystyka/aktywa_rezerwowe.html) oraz [Ministerstwo Finansów](https://www.gov.pl/web/finanse/zadluzenie-skarbu-panstwa)
+(ref:rys27) Pokrycie zadłużenia zagranicznego Skarbu Państwa aktywami rezerwowymi NBP <br> Źródło: [NBP](https://nbp.pl/statystyka-i-sprawozdawczosc/statystyka-bilansu-platniczego/oficjalne-aktywa-rezerwowe/) oraz [Ministerstwo Finansów](https://www.gov.pl/web/finanse/zadluzenie-skarbu-panstwa)
 
 ```{r rys27, echo=FALSE, fig.align='center', fig.cap='(ref:rys27)', out.width='100%'}
-debt1 <- read.csv2("rysunki\\wykres_5.csv", colClasses = c("rok" = "Date"))
+debt1 <- read.csv2("rysunki\\wykres_5.csv", colClasses = c("rok" = "Date"), dec = ".")
 ggplot(debt1) + geom_area(aes(x=rok, waluty), fill="grey40") +
      geom_area(aes(x=rok, dług), fill="grey") +
      theme_minimal() +
@@ -596,11 +596,12 @@ ggplot(debt1) + geom_area(aes(x=rok, waluty), fill="grey40") +
      annotate("text", x = as.Date("2019", format = "%Y"), y=150, label="Zadłużenie w walutach obcych\nSkarbu Państwa", 
               hjust=1, size = 4) +
      annotate("text", x = as.Date("2019", format = "%Y"), y=350, label="Aktywa rezerwowe", 
-              hjust=1, size = 4, color = "white")  
+              hjust=1, size = 4, color = "white")  +
+     scale_x_date(breaks = as.Date(c("2005-11-11", "2010-11-11", "2020-11-11", "2022-11-11")), date_labels = c("2005", "2010", "2020", "2022"))
 ```
 
-Malejąca od 2016 r. wartość zadłużenia zagranicznego, mimo niższych stóp procentowych np.
-w strefie euro jest świadomą decyzją polityczną ministerstwa finansów, jak widać zgodną z duchem MMT.
+Spadek wartości zadłużenia zagranicznego po 2016 r., mimo niższych stóp procentowych np.
+w strefie euro był świadomą decyzją polityczną ministerstwa finansów, jak widać zgodną z duchem MMT.
 Jednak jak pokazuje rysunek \@ref(fig:rys28) w okresie 2008-2014 polityka państwa w tym względzie była odwrotna.
 
 (ref:rys28) Udział zadłużenia zagranicznego Skarbu Państwa <br> Źródło: [Ministerstwo Finansów](https://dane.gov.pl/pl/dataset/164,zaduzenie-skarbu-panstwa/resource/33681/table)
@@ -630,7 +631,7 @@ an2 <- list(
      ax = -40,
      ay = -20
 )
-tmp <- plt %>% filter(zagr==min(zagr))
+tmp <- plt %>% filter(zagr==min(zagr)) %>% slice(1)
 an3 <- list(
      x = tmp$data,
      y = tmp$zagr,
@@ -674,7 +675,7 @@ Akt ten wywołał jeszcze większy napływ zagranicznych środków pieniężnych
 Stosunkowo najmniejsze znaczenie miał transfer środków od fali imigrantów, którzy skorzystali na otwarciu rynków pracy w krajach UE.
 Choć wszystkie powyższe czynniki wykazywały dość dużą zmienność w czasie (rys. \@ref(fig:rys29)) to w sumie Polska w każdym roku odnotowywała napływ netto walut obcych.
 
-(ref:rys29) Źródła napływu walut obcych do Polski <br> Źródło: Opracowanie własne na podstawie [NBP](https://www.nbp.pl/statystyka/bilans_platniczy/bop_q_pln.xlsx)
+(ref:rys29) Źródła napływu walut obcych do Polski <br> Źródło: Opracowanie własne na podstawie [NBP](https://static.nbp.pl/dane/bilans-platniczy/bop_q_pln.xlsx)
 
 ```{r rys29, echo=FALSE, fig.align='left', fig.cap='(ref:rys29)', out.width='100%'}
  bop_plot <- readRDS("rysunki\\plot29.RDS")

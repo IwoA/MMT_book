@@ -12,9 +12,9 @@ Publikował również wielokrotnie na łamach [m.in. New York Times i Washington
 [Doradzał również prezydentowi Obamie](https://www.washingtonpost.com/business/modern-monetary-theory-is-an-unconventional-take-on-economic-strategy/2012/02/15/gIQAR8uPMR_story.html).
 
 Jednak samą nazwę „Modern Monetary Theory" stworzył inny wpływowy ekonomista, tym razem australijski - William Mitchell. Nazwa ta nawiązuje do prac J. M. Keynesa, w których używał on sformułowania „modern money".
-Można powiedzieć, że nowoczesna teoria monetarna zaczęła swoje istnienie jako marketingowa nazwa szkoły ekonomicznej zwanej neoczartalizmem[^geneza-1] a następnie rozwinęła się w nowy byt inkorporując finanse funkcjonalne Abby Lernera i program „bufora zatrudnionych" (czyli Gwarancji Zatrudnienia).
+Można powiedzieć, że nowoczesna teoria monetarna zaczęła swoje istnienie jako marketingowa nazwa szkoły ekonomicznej zwanej neoczartalizmem[^01-geneza-1] a następnie rozwinęła się w nowy byt inkorporując finanse funkcjonalne Abby Lernera i program „bufora zatrudnionych" (czyli Gwarancji Zatrudnienia).
 
-[^geneza-1]: [„Keynes coined the term "modern money," and Wray named his book after that. But we always have used the term neo-Chartalist to refer to ourselves in academic circles."](https://worthwhile.typepad.com/worthwhile_canadian_initi/2011/04/reverse-engineering-the-mmt-model.html?cid=6a00d83451688169e2014e87e90e9d970d#comment-6a00d83451688169e2014e87e90e9d970d)
+[^01-geneza-1]: [„Keynes coined the term "modern money," and Wray named his book after that. But we always have used the term neo-Chartalist to refer to ourselves in academic circles."](https://worthwhile.typepad.com/worthwhile_canadian_initi/2011/04/reverse-engineering-the-mmt-model.html?cid=6a00d83451688169e2014e87e90e9d970d#comment-6a00d83451688169e2014e87e90e9d970d)
 
 William Mitchell jest profesorem ekonomii oraz dyrektorem Centrum Pełnego Zatrudnienia i Sprawiedliwości (*Centre of Full Employment and Equity -- CofEE*) na Uniwersytecie w Newcastle w Australii.
 Wraz z L.
@@ -23,9 +23,9 @@ bardzo ciepło przyjęty pierwszy [podręcznik do makroekonomii](https://www.ama
 
 L. Randall Wray jest kolejną postacią zasłużoną dla rozwoju MMT.
 Obecnie jest profesorem w Bard College oraz Levy Economics Institute, wykładał jednak przez dłuższy czas na Uniwersytecie Missouri-Kansas City oraz Uniwersytecie w Denver.
-Jest on autorem lub współautorem największej liczby książek i artykułów o MMT[^geneza-2].
+Jest on autorem lub współautorem największej liczby książek i artykułów o MMT[^01-geneza-2].
 
-[^geneza-2]: <https://ideas.repec.org/e/pwr20.html>
+[^01-geneza-2]: <https://ideas.repec.org/e/pwr20.html>
 
 Do pozostałych ekonomistów aktywnie promujących i rozwijających MMT należą Jan Kregel, Mathew Forstater, Scott Fullwiler, Stephanie Kelton, Pavlina Tcherneva, Edward Nell oraz Eric Tymoigne (Wray, 2019, s. 15).
 Łączy ich, z wyjątkiem Edwarda Nella, także praca w Levy Economics Institute oraz na Uniwersytecie Missouri-Kansas City.
@@ -37,7 +37,8 @@ O jej pozycji świadczą takie wyróżnienia jak zaliczenie do grona 50 najbardz
 przez POLITICO, 50 osób, które zdefiniowały 2019 r.
 przez Bloomberga oraz do 100 najbardziej wpływowych kobiet w finansach w 2020 r.
 w rankingu [portalu Barron's](https://stephaniekelton.com/about/).
-Jej książka "The deficit myth", opublikowana w 2020 r., stała się bestsellerem New York Timesa i zajmowała 3 miejsce na liście bestsellerów Amazona. Wciąż jest bardzo popularna i obecnie jest na [6 miejscu](https://www.amazon.com/gp/bestsellers/books/2599/ref=pd_zg_hrsr_books) w kategorii Public Finance (12 w kategorii Money & Monetary Police i 13 w kategorii Economic Policy & Development).
+Jej książka "The deficit myth", opublikowana w 2020 r., stała się bestsellerem New York Timesa i zajmowała 3 miejsce na liście bestsellerów Amazona.
+Wciąż jest bardzo popularna i obecnie jest na [6 miejscu](https://www.amazon.com/gp/bestsellers/books/2599/ref=pd_zg_hrsr_books) w kategorii Public Finance (12 w kategorii Money & Monetary Police i 13 w kategorii Economic Policy & Development).
 
 Artykuły naukowe dotyczące MMT najczęściej można spotkać w takich czasopismach jak: Cambridge Journal of Economics, Review of Keynesian Economics, Journal of Economic Issues, Journal of Post Keynesian Economics, International Journal of Political Economy, Eastern Economic Journal, Review of Political Economy, Review of Social Economy czy SSRN.
 Poza tym znaczna liczba artykułów została opublikowana jako Working Papers przez Levy Economics Institute.
@@ -46,11 +47,13 @@ Wzrost popularności tej szkoły ekonomicznej najlepiej chyba jednak przedstawi�
 Pierwsze pozycje, do których bezpośrednio odwołują się ekonomiści nurtu MMT to z pewnością książka G.F.
 Knappa „Państwowa teoria pieniądza" (*Staatliche Theorie Des Geldes*), opublikowana w 1923 r., która opisuje państwo jako kreatora pieniądza. Zgodnie z pracami Keynesa teoria współczesnych systemów monetarnych kładzie nacisk na kluczową rolę całkowitego popytu w cyklu gospodarczym. Idzie jednak dalej i łączy te dwa elementy w sposób zaproponowany przez Abbę Lernera w postaci tzw. finansów funkcjonalnych. Pisząc o roli pieniądza w gospodarce, a zwłaszcza o programie gwarancji zatrudnienia, autorzy nurtu MMT powołują się zazwyczaj na prace H. P. Minsky'ego. Chronologicznie listę autorów i ich prac, które najwięcej wniosły do powstania i rozwoju nowoczesnej teorii monetarnej przedstawia tabela \@ref(tab:tab1).
 
-    ```{r, setup, include=FALSE}
-    knitr::opts_chunk$set(
-      echo=FALSE, warning=FALSE, message=FALSE
-    )
-    ```
+````         
+```{r, setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo=FALSE, warning=FALSE, message=FALSE
+)
+```
+````
 
 ```{r tab1}
 library(kableExtra)
@@ -73,9 +76,9 @@ Najczęstsza odpowiedź na pytanie czym zajmuje się ekonomia, brzmi następują
 4.  marksistowską.
 
 W ramach każdej z nich funkcjonuje wiele nurtów i teorii, jednak łączą je, i jednocześnie odróżniają od innych szkół właśnie różnice w metodologii.
-Pojęcie „metodologia" jest przy tym rozumiane szeroko i obejmuje zarówno faktycznie stosowane przez daną szkołę procedury badawcze (techniki modelowania, wybór kategorii, preferowane metody testowania hipotez), jak i leżący u ich podstaw światopogląd (konceptualizację rzeczywistości) (Wojtyna, 2000)[^geneza-3].
+Pojęcie „metodologia" jest przy tym rozumiane szeroko i obejmuje zarówno faktycznie stosowane przez daną szkołę procedury badawcze (techniki modelowania, wybór kategorii, preferowane metody testowania hipotez), jak i leżący u ich podstaw światopogląd (konceptualizację rzeczywistości) (Wojtyna, 2000)[^01-geneza-3].
 
-[^geneza-3]: Doskonale te różnice widać w pracach (Rochon & Rossi, 2016) oraz (Mitchell i in., 2019), których konstrukcja opiera się na konfrontacji teorii głównego nurtu z teoriami postkeynesowskimi (w pierwszym przypadku) i MMT (w drugim przypadku).
+[^01-geneza-3]: Doskonale te różnice widać w pracach (Rochon & Rossi, 2016) oraz (Mitchell i in., 2019), których konstrukcja opiera się na konfrontacji teorii głównego nurtu z teoriami postkeynesowskimi (w pierwszym przypadku) i MMT (w drugim przypadku).
 
 ## Teoria współczesnych systemów monetarnych jako część nurtu postkeynesowskiego
 
@@ -83,14 +86,14 @@ Ekonomia postkeynesowska, do której zalicza się teoria współczesnych system�
 Zauważa mianowicie, że w rzeczywistości ani ceny nie powodują optymalnej alokacji zasobów, zwłaszcza finansowych (Aliber & Kindleberger, 2017; Toporowski, 2005).
 Nie mamy także do czynienia z koniecznością racjonowania zasobów w realiach bezrobocia i kreacji dowolnej ilości pieniądza przez współczesny sektor bankowy i banki centralne.
 Ceny natomiast nie odzwierciedlają rzadkości a jedynie reprezentują jednostkowe koszty produkcji nowych dóbr i usług wynikające głównie z kosztów pracy oraz stopnia monopolizacji.
-**W efekcie centralnym punktem ekonomii nie jest alokacja rzadkich zasobów, ale produkcja i zrównoważony wzrost.** Podstawowa zasada ekonomii czyli zasada rzadkości jest zastąpiona zasadą efektywnego popytu (Lavoie, 2014, s. 41) - prawdziwym ograniczeniem we współczesnych gospodarkach nie jest podaż, lecz efektywny popyt i o ile można, a nawet należy, wyobrazić sobie i uwzględnić w badaniach stan pełnego zatrudnienia, to bariera podaży pieniądza fiducjarnego[^geneza-4] nigdy się nie pojawi.
+**W efekcie centralnym punktem ekonomii nie jest alokacja rzadkich zasobów, ale produkcja i zrównoważony wzrost.** Podstawowa zasada ekonomii czyli zasada rzadkości jest zastąpiona zasadą efektywnego popytu (Lavoie, 2014, s. 41) - prawdziwym ograniczeniem we współczesnych gospodarkach nie jest podaż, lecz efektywny popyt i o ile można, a nawet należy, wyobrazić sobie i uwzględnić w badaniach stan pełnego zatrudnienia, to bariera podaży pieniądza fiducjarnego[^01-geneza-4] nigdy się nie pojawi.
+
+[^01-geneza-4]: pieniądz fiducjarny (łac. fides -- wiara) -- waluta nie mająca oparcia w dobrach materialnych (jak np. kruszce), której wartość ma źródło z reguły w dekretowanym prawnie monopolu w wykorzystaniu go na danym obszarze jako legalny środek płatniczy oraz na popycie generowanym przez instytucje państwowe, głównie przez pobór podatków.
+    Wartość pieniądza fiducjarnego opiera się na zaufaniu do emitenta.
 
 Jak już wspomniano, nowoczesna teoria monetarna zalicza się do szerszego nurtu postkeynesizmu.
 Oznacza to, że korzysta z keynesowskiej teorii efektywnego popytu czyli opiera się ona na zupełnie innym systemie założeń analitycznych.
 Najważniejsze z tych założeń są następujące (Bhaduri, 2015):
-
-[^geneza-4]: pieniądz fiducjarny (łac. fides -- wiara) -- waluta nie mająca oparcia w dobrach materialnych (jak np. kruszce), której wartość ma źródło z reguły w dekretowanym prawnie monopolu w wykorzystaniu go na danym obszarze jako legalny środek płatniczy oraz na popycie generowanym przez instytucje państwowe, głównie przez pobór podatków.
-    Wartość pieniądza fiducjarnego opiera się na zaufaniu do emitenta.
 
 1.  Analogia między jednostką (gospodarstwem domowym) a całą gospodarką nie ma sensu z racji występowania ruchu okrężnego między wydatkami i dochodami na poziomie makro, gdzie wydatki jednego sektora gospodarki stają się dochodami drugiego.
     W efekcie wydatki wprowadzone do ruchu okrężnego (jako autonomiczne inwestycje) mogą stworzyć odpowiednią wielkość oszczędności przez wzrost dochodów.
@@ -98,34 +101,35 @@ Najważniejsze z tych założeń są następujące (Bhaduri, 2015):
 
 2.  W sytuacji recesji wytworzenie dodatkowego dochodu jest możliwe dzięki wyższym wydatkom, gdyż powodują one przede wszystkim wzrost rozmiarów produkcji.
     Na wyższy popyt wywołany przez wyższe wydatki autonomiczne produkcja reaguje gwałtowniej i szybciej dostosowaniem ilościowym niż cenowym, nawet w krótkim okresie.
-    Wynika to z istnienia niewykorzystanych mocy produkcyjnych w tym okresie.
+    Wynika to z istnienia niewykorzystanych mocy produkcyjnych.
 
-3.  W keynesowskim schemacie rozumowania ceny dostosowują się do płac nominalnych[^geneza-5], poziom produkcji zaś dostosowuje się do poziomu popytu (czyli wydatków), pozwalając w pewnym zakresie oddzielić kształtowanie cen od wyznaczania rozmiarów produkcji.
-    Co najważniejsze, poziom płac realnych[^geneza-6] jest wynikiem interakcji między poziomem cen a płacami nominalnymi, co czyni kształtowanie płac realnych mało przydatnym instrumentem polityki
+3.  W keynesowskim schemacie rozumowania ceny dostosowują się do płac nominalnych[^01-geneza-5], poziom produkcji zaś dostosowuje się do poziomu popytu (czyli wydatków), pozwalając w pewnym zakresie oddzielić kształtowanie cen od wyznaczania rozmiarów produkcji.
+    Co najważniejsze, poziom płac realnych[^01-geneza-6] jest wynikiem interakcji między poziomem cen a płacami nominalnymi, co czyni kształtowanie płac realnych mało przydatnym instrumentem polityki
     . Jako że płace negocjuje się w kategoriach nominalnych, zmianie podlega tylko poziom płac nominalnych, na które inflacja reaguje w sposób trudny do przewidzenia
-    [^geneza-7].
+    [^01-geneza-7].
 
-[^geneza-5]: czyli takich jakie widzimy, nie uwzględniających inflacji.
+[^01-geneza-5]: czyli takich jakie widzimy, nie uwzględniających inflacji.
 
-[^geneza-6]: Czyli właśnie takich, które uwzględniają inflację.
+[^01-geneza-6]: Czyli właśnie takich, które uwzględniają inflację.
 
-[^geneza-7]: Powstaje pętla relacji: wzrost cen powoduje wzrost płac nominalnych, które wpływają na wzrost cen itd.
+[^01-geneza-7]: Powstaje pętla relacji: wzrost cen powoduje wzrost płac nominalnych, które wpływają na wzrost cen itd.
     Niestety na wzrost cen wypływają również marże, zależne od stopnia monopolizacji, kurs walutowy i wydarzenia globalne (COVID, wojny, zmiany klimatyczne itp.)
 
-Nowoczesna teoria monetarna odrzuca w ten sposób charakterystyczne dla teorii neoklasycznej założenia dotyczące na przykład reprezentatywnego podmiotu dążącego do maksymalizacji zysku[^geneza-8], dążenia systemu do równowagi w długim okresie[^geneza-9], gdzie problem efektywnego popytu zanika jako krótkookresowy, a także doskonałej elastyczności płac i cen[^geneza-10] przy substytucji między pracą a kapitałem[^geneza-11], określanej relacją cen odzwierciedlających z kolei relatywną rzadkość danego zasobu -- co jest kluczowym mechanizmem prowadzącym gospodarkę do stanu równowagi przy pełnym zatrudnien
+Nowoczesna teoria monetarna odrzuca w ten sposób charakterystyczne dla teorii neoklasycznej założenia dotyczące na przykład reprezentatywnego podmiotu dążącego do maksymalizacji zysku[^01-geneza-8], dążenia systemu do równowagi w długim okresie[^01-geneza-9], gdzie problem efektywnego popytu zanika jako krótkookresowy, a także doskonałej elastyczności płac i cen[^01-geneza-10] przy substytucji między pracą a kapitałem[^01-geneza-11], określanej relacją cen odzwierciedlających z kolei relatywną rzadkość danego zasobu -- co jest kluczowym mechanizmem prowadzącym gospodarkę do stanu równowagi przy pełnym zatrudnien
 iu. Jak wspomniano, jedyne odchylenia dopuszczalne w tym neoklasycznym schemacie rozumowania to krótkookresowa zawodność mechanizmu cenowego, wynikająca z niedostępności pełnej informacji na ryn
 ku. Aby lepiej zrozumieć jak daleko idące są konsekwencje tych różnic w założeniach analitycznych, poniżej przedstawiono wyjaśnienie kilku paradoksów z jakimi borykają się ekonomiści neoklasycz
-ni. Należą do nich m.
+ni. Należą do nich
+m.
 in. (Lavoie, 201
 4):
 
-[^geneza-8]: Czyli "przeciętnego Polaka-cebulaka", który jest zainteresowany jedynie jak największym zyskiem.
+[^01-geneza-8]: Czyli "przeciętnego Polaka-cebulaka", który jest zainteresowany jedynie jak największym zyskiem.
 
-[^geneza-9]: Inaczej mówiąc, jeśli poczekamy wystarczająco długo, to w końcu zrobi sie normalnie.
+[^01-geneza-9]: Inaczej mówiąc, jeśli poczekamy wystarczająco długo, to w końcu zrobi sie normalnie.
 
-[^geneza-10]: Płace i ceny natychmiast dostosowują się do zmian podaży i popytu.
+[^01-geneza-10]: Płace i ceny natychmiast dostosowują się do zmian podaży i popytu.
 
-[^geneza-11]: Co oznacza, że można swobodnie zastępować pracę ludzką maszynami i odwrotnie.
+[^01-geneza-11]: Co oznacza, że można swobodnie zastępować pracę ludzką maszynami i odwrotnie.
     Jest to przeciwieństwo komplementarności pracy i kapitału, czyli założenia, że istnieje optymalny zestaw maszyn i ludzi, np.
     jeden komputer dla jednego pracownika.
 
@@ -139,13 +143,13 @@ in. (Lavoie, 201
 
 5.  Paradoks spokoju (sformułowany przez Minsky'ego) -- stabilność jest destabilizująca;
 
-6.  Paradoks płynności[^geneza-12] (sformułowany przez S. Dow i A. Nesvetailovą) -- nowe sposoby kreacji płynności kończą się transformacją płynnych aktywów w niepłynne;
+6.  Paradoks płynności[^01-geneza-12] (sformułowany przez S. Dow i A. Nesvetailovą) -- nowe sposoby kreacji płynności kończą się transformacją płynnych aktywów w niepłynne;
 
 7.  Paradoks ryzyka (sformułowany przez A. Wojnilowera) -- większa możliwość pokrycia ryzyka indywidualnego prowadzi do większego ryzyka ogólnego;
 
 8.  Paradoks popytu napędzanego zyskami (*profit-led demand*) (sformułowany przez R. A. Bleckera) -- próba zdobycia międzynarodowej przewagi konkurencyjnej poprzez dewaluację wewnętrzną prowadzi do spadku zysków.
 
-[^geneza-12]: płynność aktywów to zdolność do szybkiej, łatwej i bez nadmiernej straty zamiany papierów wartościowych na środki pieniężne.
+[^01-geneza-12]: Płynność aktywów to zdolność do szybkiej, łatwej i bez nadmiernej straty zamiany papierów wartościowych na środki pieniężne.
 
 Pierwszy paradoks stwierdza, że wzrost skłonności do oszczędzania, spowodowany na przykład spodziewanym kryzysem, przyczynia się do spadku produkcji, gdyż całkowity popyt w efekcie spada.
 W ten sposób kryzys się pogłębia (albo powstaje, jeśli jednostki zaczęły więcej oszczędzać obawiając się przyszłego kryzysu) i zwiększa się bezrobocie.
@@ -182,7 +186,7 @@ W ten sposób nie tylko sprzedawcy ponoszą stratę ale nowa, niższa wycena tyc
 Piąty paradoks, paradoks spokoju, został opisany przez H.
 Minsky'ego (Minsky, 2008).
 Według niego, czas stabilnego wzrostu gospodarki niesie w sobie zalążek przyszłego kryzysu.
-W świecie knightowskiej niepewności[^geneza-13] i asymetrii informacji, ciąg kolejnych lat, w których firmy realizują lub nawet przekraczają plany sprzedażowe powoduje, że skłonność do podejmowania ryzyka rośne.
+W świecie knightowskiej niepewności[^01-geneza-13] i asymetrii informacji, ciąg kolejnych lat, w których firmy realizują lub nawet przekraczają plany sprzedażowe powoduje, że skłonność do podejmowania ryzyka rośne.
 Pojawia się coraz więcej firm, których przychody wystarczają jedynie do spłaty odsetek od zaciągniętych kredytów, ale już nie kapitału.
 Negatywna przeszłość ulega szybkiemu zapomnieniu.
 Skutkuje to również tym, że ryzyko uwzględniane w modelach finansowych np.
@@ -190,7 +194,7 @@ bardzo popularnym modelu Value at Risk jest coraz mniejsze, gdyż dotyczy coraz 
 Im dłużej więc gospodarka pozostaje w stanie stabilnego wzrostu tym bardziej ryzyko jest ignorowane i rośnie ryzyko załamania gospodarczego.
 Doskonałym dowodem na prawdziwość tego paradoksu był globalny kryzys finansowy, który wybuchł w 2007 roku w USA.
 
-[^geneza-13]: Czyli takiej, w której nie da się statystycznie oszacować prawdopodobieństwa wystąpienia przyszłych zdarzeń.
+[^01-geneza-13]: Czyli takiej, w której nie da się statystycznie oszacować prawdopodobieństwa wystąpienia przyszłych zdarzeń.
 
 Kryzys ten wydobył na światło dzienne również kolejny „paradoks" dla szkoły neoklasycznej czyli paradoks płynności. Według współczesnych teorii finansów, opartych właśnie o model neoklasyczny i wynikającą z niego hipotezę efektywności rynków, płynność nie stanowi problemu. Zakłada się bowiem, że uczestnicy rynku zawsze są w stanie ustalić cenę odpowiadającą "wartości fundamentalnej" aktywów. Problemem jest więc tylko oczekiwana stopa zwrotu i przewidywane ryzyko z inwestycji mierzone zazwyczaj zmiennością kursu. Dla postkeynesistów natomiast kwestia płynności ma kluczowe znaczenie. Zakładają oni, że inwestorzy powinni zawsze brać pod uwagę niemożność spieniężenia swoich aktywów. Wynika z tego konieczność istnienia kreatorów rynków (*market makers*), którzy gwarantują kupno lub sprzedaż aktywów w każdym czasie (naturalnie nie po stałej cenie). Jak zauważa P. Mehrling (2010) dostarczanie płynności nie jest „darmowym obiadem" i podmioty, które się tym zajmują (często banki) robią to dla zysku.
 Jeśli taka działalność zaczyna przynosić straty to przestaje być świadczona i płynność znika.
@@ -215,7 +219,7 @@ W innym przypadku oznacza pogorszenie ogólnej sytuacji gospodarczej we wszystki
 Nowoczesna teoria monetarna zwracając szczególną uwagę na hierarchię pieniądza oraz kwestie długu publicznego i prywatnego pozwala więc na lepsze zrozumienie funkcjonowania współczesnych gospodarek krajów rozwiniętych.
 
 Jak już wspomniano, MMT umieszcza się w nurcie postkeynesowskiej tradycji monetarnej.
-Przez teorię pieniądza rozumie się tutaj opis mechanizmu cyrkulacji pieniądza w gospodarce kapitalistycznej o wyrafinowanym systemie finansów, nie zaś jako opis uniwersalnych cech pieniądza (Toporowski, 2015).
+**Przez teorię pieniądza rozumie się tutaj opis mechanizmu cyrkulacji pieniądza w gospodarce kapitalistycznej o wyrafinowanym systemie finansów, nie zaś jako opis uniwersalnych cech pieniądza** (Toporowski, 2015).
 Pieniądz jest tworem społecznym i jakakolwiek jego teoria z konieczności musi się odnosić do danych warunków historycznych.
 W obecnych warunkach oznacza to, że teoria pieniądza musi wiązać się z produkcją towarów w warunkach gospodarki pieniężnej, nie zaś tylko ich wymianą, z którą to tradycyjnie wiąże się powstawanie i funkcjonowanie pieniądza.
 W tym drugim przypadku na pierwszym miejscu stoi funkcja pieniądza jako środka wymiany przezwyciężającego trudności pojawiające się nieuchronnie w gospodarce bezpieniężnej.
@@ -249,7 +253,7 @@ We wszystkich wersjach ilościowej teorii pieniądza przyjmuje się, że jest to
 Wynika z tego wniosek, że wzrost cen, a więc inflacja, jest zawsze skutkiem wzrostu ilości pieniądza obiegu.
 Zmienną niezależną w równaniu jest ilość pieniądza w obiegu M, zaś zmienną zależną poziom cen P.
 Jak pisze Łaski, (2015, s. 183) Joan Robinson zwróciła kiedyś uwagę na to, że w tego typu formule sensowniej byłoby traktować iloczyn PY jako zmienną niezależną, zaś M przy mniej więcej danym V jako zmienną zależną.
-W istocie rzeczy tak się dzieje, kiedy pieniądz traktujemy jako zjawisko endogeniczne, zaś zasób pieniądza nie jako punk wyjścia, lecz punkt końcowy jego ruchu okrężnego.
+W istocie rzeczy tak się dzieje, kiedy pieniądz traktujemy jako zjawisko endogeniczne, zaś zasób pieniądza nie jako punkt wyjścia, lecz punkt końcowy jego ruchu okrężnego.
 
 ## **Teoria obiegu pieniężnego**
 
@@ -281,9 +285,9 @@ W takim układzie można wyróżnić pięć etapów obiegu pieniądza:
     Podaż dostosowuje się do prognozowanego popytu.
     Rośnie jeśli przewidywany jest wzrost gospodarczy i maleje gdy oczekiwany jest kryzys.
     Stanowi to odrzucenia prawa Saya z jednej strony, oraz generuje samospełniające się przepowiednie, którym zaradzić może na przykład aktywna polityka państwa.
-    Po zaplanowaniu produkcji firmy mogą ustalić zapotrzebowanie na pracowników[^geneza-14] a zatem również koszty.
+    Po zaplanowaniu produkcji firmy mogą ustalić zapotrzebowanie na pracowników[^01-geneza-14] a zatem również koszty.
     Znając koszty, przedsiębiorstwa ustalają swoje ceny.
-    Ceny są kalkulowane jako koszty plus marża[^geneza-15]
+    Ceny są kalkulowane jako koszty plus marża[^01-geneza-15]
     . Poziom marży zależy głównie od stopnia monopolizacji danego rynku
     .
 
@@ -304,7 +308,7 @@ W takim układzie można wyróżnić pięć etapów obiegu pieniądza:
     W rezultacie firmy odzyskują środki wydane wcześniej na poniesienie kosztów produkcji oraz otrzymują zysk.
     Dzieje się tak jednak tylko pod warunkiem, że gospodarstwa domowe wydają wszystko co zarobiły, nie dokonując żadnych oszczędności.
     Każda niewydana złotówka zmniejsza przychody firm, ograniczając zyski lub nawet uniemożliwiając pokrycie poniesionych kosztów.
-    Skłonność do oszczędzania gospodarstw domowych zależy od poziomu dochodów -- im są wyższe, tym mniejszy jest udział wydatków w dochodach[^geneza-16].
+    Skłonność do oszczędzania gospodarstw domowych zależy od poziomu dochodów -- im są wyższe, tym mniejszy jest udział wydatków w dochodach[^01-geneza-16].
     Oszczędności gospodarstwa domowe mogą lokować w bankach lub trzymać w formie papierów wartościowych.
     Mamy tu więc do czynienia z wyjaśnieniem paradoksu oszczędności wspomnianego wcześniej.
 
@@ -315,15 +319,15 @@ W takim układzie można wyróżnić pięć etapów obiegu pieniądza:
     Naturalnie, na poziomie mikroekonomicznym część firm osiąga zyski znacznie przekraczające podjęte wcześniej zobowiązania a inna część bankrutuje, ale na poziomie makroekonomicznym te różnice między firmami znikają i całkowity dług sektora firm nieprodukcyjnych wobec sektora bankowego równy jest niewydanym dochodom, czyli oszczędnościom sektora gospodarstw domowych.
     Jak już jednak wspomniano, oszczędności te mogą mieć różne formy, nie tylko depozytów lub lokat bankowych.
     Umożliwia to firmom „przelicytowanie" banków i „odzyskanie" części oszczędności dzięki emisji papierów wartościowych takich jak akcje czy obligacje.
-    Niemniej część oszczędności pozostaje w sektorze bankowym przez co zwiększa się zadłużenie przedsiębiorstw i zmniejsza ich chęć do inwestowania[^geneza-17].
+    Niemniej część oszczędności pozostaje w sektorze bankowym przez co zwiększa się zadłużenie przedsiębiorstw i zmniejsza ich chęć do inwestowania[^01-geneza-17].
 
-[^geneza-14]: Ponieważ półprodukty są wytwarzane przez pracowników i ich składniki oraz składniki składników też są wytwarzane przez pracowników to ostatecznie wszystkie koszty są kosztami pracy.
+[^01-geneza-14]: Ponieważ półprodukty są wytwarzane przez pracowników i ich składniki oraz składniki składników też są wytwarzane przez pracowników to ostatecznie wszystkie koszty są kosztami pracy.
 
-[^geneza-15]: Szerzej na ten temat pisze (Lavoie, 2014).
+[^01-geneza-15]: Szerzej na ten temat pisze (Lavoie, 2014).
 
-[^geneza-16]: W ten sposób duże nierówności dochodowe utrudniają firmom „odzyskanie" środków zainwestowanych w produkcję.
+[^01-geneza-16]: W ten sposób duże nierówności dochodowe utrudniają firmom „odzyskanie" środków zainwestowanych w produkcję.
 
-[^geneza-17]: Problem ten nie występuje, jeśli pieniądz służy tylko jako jednostka miary i nie jest postrzegany jako medium wymiany czy nośnik wartości.
+[^01-geneza-17]: Problem ten nie występuje, jeśli pieniądz służy tylko jako jednostka miary i nie jest postrzegany jako medium wymiany czy nośnik wartości.
     Stąd brak problemu niewystarczającego popytu w teorii równowagi ogólnej i konieczność uwzględniania „niedoskonałości" dostosowań cenowych.
 
 Etap drugi należy rozszerzyć o analizę czynników oceny ryzyka przez banki.
@@ -343,10 +347,10 @@ Pierwsze źródło dotyczy sektora bankowego, który może wywołać kryzys gdy 
 Przykładem jest tu globalny kryzys finansowy z 2008 r.
 Drugie źródło leży w sektorze przedsiębiorstw, które również mogą ograniczyć produkcję w oczekując spadku sprzedaży (i w ten sposób same go wywołując).
 Trzecim źródłem są gospodarstwa domowe, które autonomicznie decydują o stopie oszczędności.
-Jeśli zdecydują się mniej konsumować a więcej oszczędzać (np. na przyszłe emerytury lub spodziewając się bezrobocia) to spadnie sprzedaż i wzrośnie zadłużenie firm[^geneza-18].
+Jeśli zdecydują się mniej konsumować a więcej oszczędzać (np. na przyszłe emerytury lub spodziewając się bezrobocia) to spadnie sprzedaż i wzrośnie zadłużenie firm[^01-geneza-18].
 Oba te czynniki działają w kierunku obniżenia produkcji w gospodarce.
 
-[^geneza-18]: Zadłużenie firm nie wzrośnie proporcjonalnie, gdyż jak wspomniano, mogą „przejąć" część oszczędności emitując np. akcje.
+[^01-geneza-18]: Zadłużenie firm nie wzrośnie proporcjonalnie, gdyż jak wspomniano, mogą „przejąć" część oszczędności emitując np. akcje.
 
 Pojawia się tu więc istotna przestrzeń dla interwencji państwa jako jedynego podmiotu, który jest w stanie uzupełnić powstałą lukę popytową.
 Nie da się bowiem zmusić konsumentów, żeby więcej wydawali ani firm, żeby więcej inwestowały.
@@ -410,7 +414,7 @@ knitr::include_graphics("rysunki\\Schemat obiegu pieniadza MMT.png")
 
 MMT dzieli gospodarkę zazwyczaj na trzy sektory: finansowy (zaznaczony przerywaną linią), rządowy (general government, zaznaczony linią kropkowaną) i realny.
 Jak zostanie wykazane w dalszej części pracy, głównym wkładem teorii współczesnych systemów monetarnych do nauki ekonomii jest szczegółowe wyjaśnienie relacji między skarbem państwa a bankiem centralnym, czyli obszar zaznaczony linią kropkowaną.
-Można powiedzieć, że punktem wyjścia do budowy całej Nowoczesnej Teorii Monetarnej jest rysunek \@ref(fig:rys) przekształcony w następujący sposób (rys. \@ref(fig:rys5))
+Można powiedzieć, że punktem wyjścia do budowy całej nowoczesnej teorii monetarnej jest rysunek \@ref(fig:rys) przekształcony w następujący sposób (rys. \@ref(fig:rys5))
 
 (ref:rys5) Prosty obieg pieniądza w przypadku rządu dysponującego niezależnością monetarną <br> Źródło: E. Tymoigne, L. R. Wray (2013), Modern Money Theory 101: A Reply to Critics, Economics Working Paper, No. 778, Levy Economics Institute
 

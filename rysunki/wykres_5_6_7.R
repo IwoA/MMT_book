@@ -29,10 +29,10 @@ ggplot(debt1) + geom_area(aes(x=rok, waluty), fill="grey40") +
               hjust=1, size = 5, color = "white")  
 
 # https://dane.gov.pl/pl/dataset/164,zaduzenie-skarbu-panstwa/resource/33681/table
-dane6 <- rio::import("https://api.dane.gov.pl/media/resources/20211008/Zadluzenie_Skarbu_Panstwa.xlsx", sheet=3, skip = 7, col_types="text")
+dane6 <- rio::import("https://api.dane.gov.pl/media/resources/20230322/Zadluzenie_Skarbu_Panstwa.xlsx", sheet=3, skip = 7, col_types="text")
 dane6_t <-  as_tibble(t(dane6), rownames = "row_names")
 dane6_t1 <- dane6_t[6:nrow(dane6_t),3]
-month_names <- as.Date(format(seq(as.Date("2003-02-01"), as.Date("2021-08-01"), 
+month_names <- as.Date(format(seq(as.Date("2003-01-01"), as.Date("2023-01-01"), 
                           by = 'month')))
 plot6 <- bind_cols(month_names, dane6_t1)
 colnames(plot6) <- c("data", "PLN")
@@ -64,7 +64,7 @@ an2 <- list(
      ax = -10,
      ay = -20
 )
-tmp <- plot6 %>% filter(zagr==min(zagr))
+tmp <- plot6 %>% filter(zagr==min(zagr)) %>% slice(1)
 an3 <- list(
      x = tmp$data,
      y = tmp$zagr,
@@ -101,23 +101,23 @@ plot_ly() %>% add_trace(x = plot6$data, y=plot6$zagr, type = "scatter", mode = "
 
 #-----------------------------------------------
 # wykres 7
-url <- "https://www.nbp.pl/statystyka/bilans_platniczy/bop_q_pln.xlsx"
+url <- "https://static.nbp.pl/dane/bilans-platniczy/bop_q_pln.xlsx"
 
 #handel, usługi i rachunek kapitałowy
 bop1 <- rio::import(url, skip=8, sheet = 2) 
-bop1_1 <- bop1[5:21,] %>% select(1, 4, 7, 16) %>% mutate(handel= `4`+`7`)
+bop1_1 <- bop1 %>% filter(as.numeric(`1`) %in% c(2004:2030)) %>% select(1, 4, 7, 16) %>% mutate(handel= `4`+`7`)
 
 # wynagrodzenia pracowników
 bop2 <- rio::import(url, skip=9, sheet = 6) 
-bop2_1 <- bop2[5:21,] %>% select(1, 5)
+bop2_1 <- bop2 %>% filter(as.numeric(`1`) %in% c(2004:2030)) %>% select(1, 5)
 
 # przekazy zarobków
 bop3 <- rio::import(url, sheet = 'Dochody wtórne-Secondary income', skip=9)
-bop3_1 <- bop3[5:21,] %>% select(1, 11)
+bop3_1 <- bop3 %>% filter(as.numeric(`1`) %in% c(2004:2030)) %>% select(1, 11)
 
 # rachunek finansowy
 bop_fin <- rio::import(url, skip=8, sheet = 1) 
-bop_fin_1 <- bop_fin[5:21,] %>% select(1, 8)
+bop_fin_1 <- bop_fin %>% filter(as.numeric(`1`) %in% c(2004:2030)) %>% select(1, 8)
 
 bop <- bind_cols(bop1_1, bop2_1$`5`, bop3_1$`11`, bop_fin_1$`8`) %>% rename(
      rok = `1`, 
