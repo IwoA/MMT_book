@@ -108,7 +108,7 @@ Ten ogromny strumień pieniędzy, który trafił do gospodarki w żaden sposób 
 library(plotly)
 library(readxl)
 library(dplyr)
-dane1 <- read_excel("rysunki\\transfery_z_UE.xlsx", range = "A1:E19")
+dane1 <- read_excel("rysunki\\transfery_z_UE.xlsx", range = "A1:E30") 
 
 an1 <- list(
      x = dane1$Rok[3],
@@ -177,13 +177,13 @@ Odpowiednie zapisy w [wymienionym Protokole](https://eur-lex.europa.eu/legal-con
 >
 > *- 60 % dla stosunku zadłużenia publicznego do produktu krajowego brutto wyrażonego w cenach rynkowych.*
 
-Takie zapisy zawarte w najważniejszych dokumentach prawnych Unii Europejskiej i Polski sugerują, że wdrożenie rozwiązań proponowanych przez MMT jest praktycznie niemożliwe, przynajmniej w najbliższych czasach, a teoria ta pozostanie tylko teorią.
+Takie zapisy zawarte w najważniejszych dokumentach prawnych Unii Europejskiej i Polski sugerują, że wdrożenie rozwiązań sugerowanych przez MMT jest praktycznie niemożliwe, przynajmniej w najbliższych czasach, a teoria ta pozostanie tylko teorią.
 Jednak działania podjęte przez kraje europejskie oraz instytucje UE w reakcji na pandemię koronawirusa pokazują, że nie jest to prawda.
 Nawet w obecnym systemie prawnym, tak restrykcyjnym w tym względzie jak polski, legalne znacznie zwiększenie deficytu i długu publicznego jest możliwe.
 W 2020 roku w celu przeciwdziałania skutkom pandemii wykorzystano do tego instytucję kontrolowaną przez państwo ale nie zaliczaną do sektora instytucji państwowych czyli Państwowy Fundusz Rozwoju S.A (PFR)[^03-polityka_budzetowa-4].
 Emitowane przez ten podmiot obligacje nie zwiększają [państwowego długu publicznego](https://www.gov.pl/web/finanse/zadluzenie-sektora-finansow-publicznych) obliczanego na potrzeby określenia przekroczenia limitu konstytucyjnego.
 Wartość tzw.
-Tarczy Finansowej oferowanej przez PFR [wynosi ponad 60 mld zł](https://pfr.pl/tarcza.html), co stanowi ok. 3% polskiego PKB.
+Tarczy Finansowej oferowanej przez PFR [wyniosła 100 mld zł](https://pfrsa.pl/tarcza-finansowa-pfr.html), co stanowiło ok. 4,5% polskiego PKB. Z tego wypłacono ponad 67 mld zł.
 Jest to możliwe, gdyż zgodnie z ustawą o finansach publicznych, to minister finansów określa zasady obliczania długu publicznego (Marchewka-Bartkowiak 2013).
 Jednak metodologia Eurostatu nie pozwala na takie zabiegi i dług wykreowany w ten sposób zalicza się do wskaźnika długu publicznego a co za tym idzie stanowi podstawę do weryfikacji w ramach procedury nadmiernego deficytu.
 Jednak zapisy traktatowe są bardziej elastyczne niż zapis w polskiej konstytucji.
@@ -199,7 +199,7 @@ Zgodnie ze wspomnianym traktatem (art. 126):
 >
 > *- nałożyć grzywnę w stosownej wysokości.*
 
-Należy ponadto zauważyć, że Rada głosuje większością kwalifikowaną, co oznacza, że gdyby 14 krajów członkowskich również postanowiło wdrożyć rozwiązania proponowane przez MMT lub tylko dopuścić je w jednym kraju jako „poligonie doświadczalnym" to można by dokonać takiej zmiany polityki budżetowej unikając kary. Niemniej, nawet biorąc pod uwagę fakt, iż UE przy obliczaniu deficytu bierze pod uwagę fazę cyklu koniunkturalnego (European Commission i Directorate-General for Economic and Financial Affairs 2019, s. 8), należy uznać, że obecnie próba wdrożenia polityki budżetowej proponowanej przez nowoczesną teorię monetarną byłaby sprzeczna z prawem Unii Europejskiej. Konsekwencji nie da się obecnie przewidzieć gdyż po pierwsze Rada dysponuje wachlarzem środków dyscyplinujących, pod drugie nie wiadomo jak w średnim i dłuższym okresie kształtowałby się deficyt i dług w stosunku do PKB i po trzecie instytucje europejskie bardzo różnie podchodzą do kwestii łamania prawa w zależności od typu sprawy oraz kraju członkowskiego.
+Należy ponadto zauważyć, że Rada głosuje większością kwalifikowaną, co oznacza, że gdyby 14 krajów członkowskich również postanowiło wdrożyć rozwiązania sugerowane przez MMT lub tylko dopuścić je w jednym kraju jako „poligonie doświadczalnym" to można by dokonać takiej zmiany polityki budżetowej unikając kary. Niemniej, nawet biorąc pod uwagę fakt, iż UE przy obliczaniu deficytu bierze pod uwagę fazę cyklu koniunkturalnego (European Commission i Directorate-General for Economic and Financial Affairs 2019, s. 8), należy uznać, że obecnie próba wdrożenia polityki budżetowej proponowanej przez nowoczesną teorię monetarną byłaby sprzeczna z prawem Unii Europejskiej. Konsekwencji nie da się obecnie przewidzieć gdyż po pierwsze Rada dysponuje wachlarzem środków dyscyplinujących, pod drugie nie wiadomo jak w średnim i dłuższym okresie kształtowałby się deficyt i dług w stosunku do PKB i po trzecie instytucje europejskie bardzo różnie podchodzą do kwestii łamania prawa w zależności od typu sprawy oraz kraju członkowskiego.
 
 ## Podatki
 
@@ -341,12 +341,12 @@ W Polsce największym źródłem dochodów budżetowych jest podatek konsumpcyjn
 Na trzecim miejscu jest podatek dochodowy od osób fizycznych PIT i od osób prawnych CIT.
 Pozostałe podatki, w tym podatek od niektórych instytucji finansowych (zwany popularnie podatkiem bankowym), podatek od gier czy podatek od nieruchomości stanowią razem mniej niż połowę tego ostatniego.
 
-(ref:rys31) Struktura dochodów budżetowych w Polsce w 2021 r. (mln zł) <br> Źródło: Opracowanie własne na podstawie danych [dane.gov.pl](https://api.dane.gov.pl/media/resources/20211109/20211108_Zalaczniki_do_zmiany_UB_2021.zip)
+(ref:rys31) Struktura dochodów budżetowych w Polsce w 2023 r. (mln zł) <br> Źródło: Opracowanie własne na podstawie danych [dane.gov.pl](https://dane.gov.pl/en/dataset/1179,czesc-tabelaryczna-ustaw-budzetowych/resource/46184/table)
 
 ```{r rys31, echo=FALSE, fig.align='left', fig.cap='(ref:rys31)', out.width='100%'}
 library(RColorBrewer)
 library(highcharter)
-dane <- readxl::read_excel("rysunki\\dochody_budz_2021.xlsx", skip = 11)
+dane <- readxl::read_excel("rysunki\\dochody_budz_2022.xlsx", skip = 11)
 dane <- dane %>% select(1, 7) %>% 
      rename_with(~c("Podatek", "kwota")) %>% 
      filter(!is.na(Podatek)) %>% 

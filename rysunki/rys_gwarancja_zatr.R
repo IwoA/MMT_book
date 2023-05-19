@@ -7,9 +7,9 @@ library(plotly)
 
 # P2392  	Stopa bezrobocia rejestrowanego
 get_variables("P2392")
-bezrobocie <- get_data_by_variable("60270", year = 2004:2022, unitLevel = 0) %>% select(year, val)
+bezrobocie <- get_data_by_variable("60270", year = 2004:2023, unitLevel = 0) %>% select(year, val)
 miesiace <- get_variables("P3559") %>% select(n1) %>% slice_head(n=12)
-bezrobocie_m <- get_data_by_variable(as.character(c(461680:461691)), year = 2020:2022, unitLevel = 0)
+bezrobocie_m <- get_data_by_variable(as.character(c(461680:461691)), year = 2020:2023, unitLevel = 0)
 bezrobocie_m <- bezrobocie_m[,3:15]
 colnames(bezrobocie_m)[2:13] <- miesiace$n1
 bezrobocie_ml <- bezrobocie_m %>% tidyr::pivot_longer(cols = 2:13, names_to = "miesiac", values_to = "proc") %>% #values_to = "val", żeby ggplot działał
