@@ -183,7 +183,8 @@ Nawet w obecnym systemie prawnym, tak restrykcyjnym w tym względzie jak polski,
 W 2020 roku w celu przeciwdziałania skutkom pandemii wykorzystano do tego instytucję kontrolowaną przez państwo ale nie zaliczaną do sektora instytucji państwowych czyli Państwowy Fundusz Rozwoju S.A (PFR)[^03-polityka_budzetowa-4].
 Emitowane przez ten podmiot obligacje nie zwiększają [państwowego długu publicznego](https://www.gov.pl/web/finanse/zadluzenie-sektora-finansow-publicznych) obliczanego na potrzeby określenia przekroczenia limitu konstytucyjnego.
 Wartość tzw.
-Tarczy Finansowej oferowanej przez PFR [wyniosła 100 mld zł](https://pfrsa.pl/tarcza-finansowa-pfr.html), co stanowiło ok. 4,5% polskiego PKB. Z tego wypłacono ponad 67 mld zł.
+Tarczy Finansowej oferowanej przez PFR [wyniosła 100 mld zł](https://pfrsa.pl/tarcza-finansowa-pfr.html), co stanowiło ok. 4,5% polskiego PKB.
+Z tego wypłacono ponad 67 mld zł.
 Jest to możliwe, gdyż zgodnie z ustawą o finansach publicznych, to minister finansów określa zasady obliczania długu publicznego (Marchewka-Bartkowiak 2013).
 Jednak metodologia Eurostatu nie pozwala na takie zabiegi i dług wykreowany w ten sposób zalicza się do wskaźnika długu publicznego a co za tym idzie stanowi podstawę do weryfikacji w ramach procedury nadmiernego deficytu.
 Jednak zapisy traktatowe są bardziej elastyczne niż zapis w polskiej konstytucji.
@@ -404,7 +405,7 @@ Przedmiotem opodatkowania podlegają budynki, budowle i grunty.
 Podstawa opodatkowania w podatku od nieruchomości nie jest definiowana jako wartość rynkowa nieruchomości czy gruntów.
 Brane są pod uwagę znamiona zewnętrzne, takie jak powierzchnia i wartość amortyzacyjna (Wolański 2016, s. 240).
 
-(ref:rys3tab2) Udział podatku od nieruchomości w dochodach gmin<br> Źródło: Opracowanie własne na podstawie Banku Danych Lokalnych GUS
+(ref:rys3tab2) Udział podatku od nieruchomości w dochodach gmin w 2021 r.<br> Źródło: Opracowanie własne na podstawie Banku Danych Lokalnych GUS
 
 ```{r rys3tab2, echo=FALSE, fig.align='left', fig.cap='(ref:rys3tab2)', out.width='100%'}
 udzial = read.csv2("rysunki\\pod_od_nieruchomosci.csv")
@@ -455,9 +456,9 @@ plot_ly(y = udzial$udzial, type = "box", name = "",
 ```
 
 Tak marginalna rola tego podatku wynika głównie z faktu jego bardzo niskiej stopy opodatkowania w przypadku budynków mieszkalnych.
-W 2021 r.[^03-polityka_budzetowa-8]
-maksymalna stawka podatku od nieruchomości w przypadku budynków mieszkalnych wyniosła 0,85 zł od 1 m2 powierzchni użytkowej a w przypadku budynków związanych z prowadzeniem działalności gospodarczej 24,84 zł od 1 m2 powierzchni użytkowej.
-Oznacza to, że podatek od mieszkania o powierzchni 100 m2 wyniósł maksymalnie[^03-polityka_budzetowa-9] 85 zł rocznie a podatek od zakładu usługowego o takiej samej powierzchni 2 484 zł rocznie
+W 2023 r.[^03-polityka_budzetowa-8]
+maksymalna stawka podatku od nieruchomości w przypadku budynków mieszkalnych wynosi 1 zł od 1 m2 powierzchni użytkowej a w przypadku budynków związanych z prowadzeniem działalności gospodarczej 28,78 zł od 1 m2 powierzchni użytkowej.
+Oznacza to, że podatek od mieszkania o powierzchni 100 m2 wyniósł maksymalnie[^03-polityka_budzetowa-9] 100 zł rocznie a podatek od zakładu usługowego o takiej samej powierzchni 2 878 zł rocznie
 . Oznacza to, że w przypadku mieszkań i budynków mieszkalnych stawka podatku jest obecnie symboliczna i istnieje w Polsce instytucjonalna przestrzeń do znacznego zwiększenia roli tego podatku, zwłaszcza przy jednoczesnym obniżeniu podatku dochodowego
 .
 
@@ -491,7 +492,9 @@ Są one opodatkowane ryczałtowo stawką 19% (pozostałe dochody do kwoty 85 528
     4.  udziałów w spółkach,
 
 Z powodu stosunkowo niskiej stawki oraz słabo rozwiniętego rynku kapitałowego w Polsce podatek ten odgrywa dość niewielką rolę (rys. \@ref(fig:rys32)).
-Coraz mniej podatników osiąga dochody z tego tytułu, choć ci, którzy tego dokonali osiągają coraz większe zyski.
+Do czasów pandemii coraz mniej osób było zainteresowanych grą na giełdzie, choć ci, którzy tego dokonali osiągają coraz większe zyski.
+Interesujący jest skok obu parametrów w czasie pandemii.
+Sugeruje on, że środki zaoszczędzone w wyniku spadku konsumpcji i tarcz covidowych zostały ulokowane w papierach wartościowych.
 
 (ref:rys32) Rola podatku od dochodów kapitałowych w Polskim systemie podatkowym <br> \* PIT-38 składają osoby opodatkowujące dochody kapitałowe <br> Źródło: Opracowanie własne na podstawie danych Departamentu Podatków Dochodowych Ministerstwa Finansów za: dane.gov.pl
 
@@ -502,8 +505,8 @@ dane4 <- read_excel("rysunki\\podatki.xlsx", sheet = 4) %>%
 plot_ly(dane4, x = ~Rok) %>% 
      add_trace(y = ~`Udział podatku od dochodów kapitałowych w przychodach z PIT`, name = 'Udział podatku od dochodów kapitałowych w przychodach z PIT',type = 'scatter', mode = 'lines+markers') %>% 
      add_trace(y = ~`Udział podatników składających PIT-38*`, name = 'Udział podatników składających PIT-38*',type = 'scatter', mode = 'lines+markers') %>% 
-     layout(legend = list(x = 0.1, y = 0.1),
-            yaxis = list(title = "", tickformat = '.2%', title = "", range = c(0,0.035)),
+     layout(legend = list(x = 0.1, y = 0.05),
+            yaxis = list(title = "", tickformat = '.2%', title = "", range = c(0,0.045)),
             xaxis = list(title = ""))
 ```
 
@@ -514,10 +517,10 @@ Luksemburga, Monako czy Lichtensteinu[^03-polityka_budzetowa-10].
 [^03-polityka_budzetowa-10]: Przykłady rajów podatkowych w UE: <https://financialsecrecyindex.com/en/introduction/fsi-2018-results>, <https://missingprofits.world/>
 
 Rozwijając jednak zagadnienie podatku od osób fizycznych to oprócz tego, że stanowi on czwarte najważniejsze źródło dochodów publicznych to istotny jest fakt, że mimo dwóch stawek jest to w rzeczywistości podatek liniowy.
-Liczba podatników w wyższym przedziale podatkowym nie sięga 4% (rys. \@ref(fig:rys33)).
+Liczba podatników w wyższym przedziale podatkowym nie sięga 7,5% (rys. \@ref(fig:rys33)).
 Przeszło dwukrotny wzrost tej liczby wynika częściowo z efektu inflacji czyli nominalnego a nie realnego wzrostu płac.
 
-(ref:rys33) Udział podatników w II przedziale podatkowym PIT <br> - PIT-38 składają osoby opodatkowujące dochody kapitałowe <br> Źródło: Opracowanie własne na podstawie danych Departamentu Podatków Dochodowych Ministerstwa Finansów za: dane.gov.pl
+(ref:rys33) Udział podatników w II przedziale podatkowym PIT <br> Źródło: Opracowanie własne na podstawie danych Departamentu Podatków Dochodowych Ministerstwa Finansów za: dane.gov.pl
 
 ```{r rys33, echo=FALSE, fig.align='left', fig.cap='(ref:rys33)', out.width='100%'}
 dane4$Rok <- as.numeric(dane4$Rok)
@@ -553,7 +556,7 @@ plot_ly(dane4, x = ~Rok, hoverinfo = 'text',
         text = ~paste0(Rok, ", ", `Podatnicy w II przedziale podatkowym`*100, " %")) %>% 
      add_trace(y = ~`Podatnicy w II przedziale podatkowym`, name = 'Podatnicy w II przedziale podatkowym',type = 'scatter', mode = 'lines') %>% 
      layout(legend = list(x = 0.1, y = 0.1),
-            yaxis = list(tickformat = '.1%', showticklabels = FALSE, title = "", range = c(0,0.06), zeroline = FALSE),
+            yaxis = list(tickformat = '.1%', showticklabels = FALSE, title = "", range = c(0,0.075), zeroline = FALSE),
             yaxis = list(title = ""),
             xaxis = list(title = ""),
             annotations = list(an1, an2))
@@ -562,7 +565,7 @@ plot_ly(dane4, x = ~Rok, hoverinfo = 'text',
 Liniowy charakter podatku dochodowego w Polsce jest sprzeczny z generalnym postulatem MMT zalecającym wprowadzanie automatycznych stabilizatorów koniunktury wyrażonym najbardziej bezpośrednio w uzasadnieniu sztandarowej propozycji tej szkoły czyli gwarancji zatrudnienia[^03-polityka_budzetowa-11].
 Otóż mimo swoich wad wypunktowanych przez L.
 Randay'a Wray'a w cytowanej książce, podatek ten posiada istotną przewagę nad podatkami konsumpcyjnymi i majątkowymi.
-W przeciwieństwie do tych pierwszych powoduje zmniejszenie oszczędności, które stanowią „dziurę" osłabiającą skuteczność polityki fiskalnej. W stosunku do tych drugich przewaga polega na tym, że progresywny podatek dochodowy jest pozytywnie wrażliwy na inflację. Progresja powoduje, że inflacja skutkuje przenoszeniem podatników do wyższych progów podatkowych. Oznacza to, że w wyniku wyższej inflacji następuje automatyczny wzrost przeciętnego opodatkowania co hamuje tendencje inflacyjne. Efekt ten jednak maleje wraz ze wzrostem zamożności społeczeństwa i spadającym udziałem konsumpcji w wydatkach gospodarstw domowych. W tym sensie spełnia warunek idealnego podatku wg MMT (Mitchell, Wray, i Watts 2019, s. 323).
+W przeciwieństwie do tych pierwszych powoduje zmniejszenie oszczędności, które stanowią „dziurę" osłabiającą skuteczność polityki fiskalnej. W stosunku do tych drugich przewaga polega na tym, że progresywny podatek dochodowy jest pozytywnie wrażliwy na inflację. Progresja powoduje, że inflacja skutkuje przenoszeniem podatników do wyższych progów podatkowych. Oznacza to, że w wyniku wyższej inflacji następuje automatyczny wzrost przeciętnego opodatkowania co hamuje tendencje inflacyjne. W tym sensie spełnia warunek idealnego podatku wg MMT (Mitchell, Wray, i Watts 2019, s. 323).
 
 [^03-polityka_budzetowa-11]: Ciekawym sposobem na rozwiązanie dylematu czy zlikwidować PIT czy utrzymać jego progresywną wersję jest postulat znacznego zwiększenia kwoty wolnej od podatku.
     Szerzej na temat ekonomicznych skutków takiego rozwiązania (Augustyński 2016)

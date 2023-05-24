@@ -16,7 +16,7 @@ Jest to przecież naturalna konsekwencja takiego a nie innego określenia głów
 MMT udowadnia, że jest to możliwe w układzie instytucjonalnym państw wysoko rozwiniętych, posługujących się własną walutą i posiadających rozwinięty system bankowy.
 
 Należy jednak na początku wyjaśnić czym dokładnie jest program gwarancji zatrudnienia.
-Działa on według trzech zasad:
+Otóż działa on według trzech zasad:
 
 1.  Państwo oferuje pracę każdemu, kto chce pracować ale pracy nie ma.
 
@@ -26,8 +26,8 @@ Działa on według trzech zasad:
 
 Jak udowodnił J.
 M. Keynes i co wielokrotnie potwierdzali postkeynesiści, gospodarka rynkowa może się znajdować w stanie równowagi przy występującym bezrobociu (Kalecki, 1979; Lavoie, 2014; Łaski, 2015; Rochon & Rossi, 2016).
-W takiej sytuacji jedynie państwo ma możliwość, a co za tym idzie ponosi odpowiedzialność, za zapewnienie pełnego zatrudnienia w kraju.
-W świetle teorii współczesnych systemów monetarnych można to sformułować następująco: jeśli są osoby szukające pracy to państwo zawsze ma środki na to aby ich zatrudnić zwiększając swoje wydatki[^04-gwarancja_zatrudnienia-1].
+W takiej sytuacji jedynie państwo ma możliwość, a co za tym idzie ponosi odpowiedzialność, za zapewnienie pełnego zatrudnienia.
+W świetle teorii współczesnych systemów monetarnych można to sformułować następująco: jeśli są osoby szukające pracy to państwo zawsze ma środki na to aby ich zatrudnić[^04-gwarancja_zatrudnienia-1].
 
 [^04-gwarancja_zatrudnienia-1]: Pisał o tym już M.
     Kalecki w 1943 w artykule „[Polityczne aspekty pełnego zatrudnienia](https://fundacjalipinskiego.pl/m-kalecki-polityczne-aspekty-pelnego-zatrudnienia-1943/)"
@@ -52,8 +52,8 @@ Mówi ona, że jeśli aktualna stopa bezrobocia jest niższa niż NAIRU, to pows
 Analiza i obserwacja zmian NAIRU stanowi jeden z fundamentów współczesnej doktryny polityki gospodarczej (Blanchard, 2011, s. 255 i nast.).
 Zdaniem monetarystów, na dłuższą metę wielkość bezrobocia oscyluje wokół pewnej stałej wartości stopy bezrobocia.
 Tę wartość stopy bezrobocia nazwali "naturalną", choć nie ma ona nic wspólnego z naturą i rządzącymi nią prawami.
-Oznacza to, że polityka dezinflacyjna faktycznie powoduje wzrost bezrobocia, jednak jego rozmiary i trwałość zależą między innymi od zakresu dostosowań instytucjonalnych i od tego, jak szybko ludzie będą obniżać swoje oczekiwania dotyczące przyszłych stóp inflacji.
-Krytycznym czynnikiem jest tutaj jak ludzie zmieniają swoje plany w skutek na zmiany polityki pieniężnej.
+Oznacza to, że polityka mająca na celu obniżenie inflacji faktycznie powoduje wzrost bezrobocia. Jednak jego rozmiary i trwałość zależą między innymi od zakresu dostosowań instytucjonalnych i od tego, jak szybko ludzie będą obniżać swoje oczekiwania dotyczące przyszłych stóp inflacji.
+Krytycznym czynnikiem w tej teorii jest to jak ludzie zmieniają swoje plany w skutek na zmiany polityki pieniężnej. Zakłada się, że jeśli spadek oczekiwań inflacyjnych będzie duży przy niewielkim wzroście stóp procentowych to wzrost bezrobocia będzie niewielki.
 To z kolei implikuje, że podstawową rolą w określaniu spadku produkcji i wzrostu bezrobocia odgrywają wiarygodność oraz reputacja władz pieniężnych (J. Socha i Wojciechowski, 2004).
 **W ten sposób polityka monetarna staje się odpowiedzialna za kontrolowanie stopy bezrobocia.** Bezrobocie w długim okresie wynika natomiast głównie z przyczyn strukturalnych, ewentualnie może mieć związek z tym jak często ludzie zmieniają pracę lub jaka jest faza cyklu koniunkturalnego.
 Założenie o strukturalnym charakterze bezrobocia oznacza przyjęcie, iż barierą dla zwiększenia zatrudnienia jest strona podażowa a nie zbyt niski całkowity popyt.
@@ -292,7 +292,7 @@ Oczekiwane korzyści:
 Przestrzeń na wdrożenie powyższych rozwiązań wygląda w Polsce następująco.
 Od 2004 roku stopa bezrobocia rejestrowanego[^04-gwarancja_zatrudnienia-9] w Polsce spadała (rys. \@ref(fig:rys43)) i na koniec 2020 r.
 wyniosła 5,2%.
-Jednak z punktu widzenia potencjalnego wdrożenia programu gwarancji zatrudnienia najważniejsze są cztery daty: rok 2008 -- odwrócenie trendu spadkowego spowodowane Globalnym Kryzysem Finansowym, lata 2012-2013 -- maksimum wzrostu bezrobocia oraz najnowszy 2020 r., w którym odnotowano niewielki wzrost a następnie spadek mimo pandemii COVID19.
+Jednak z punktu widzenia potencjalnego wdrożenia programu gwarancji zatrudnienia najważniejsze są cztery daty: rok 2008 -- odwrócenie trendu spadkowego spowodowane Globalnym Kryzysem Finansowym, lata 2012-2013 -- maksimum wzrostu bezrobocia oraz najnowszy 2023 r., w którym odnotowano stabilizację bezrobocia na poziomie nieco ponad 5%.
 
 [^04-gwarancja_zatrudnienia-9]: Do rozważań przyjęto dane na temat bezrobocia rejestrowanego gdyż po pierwsze, jest ona wyższa niż ta rejestrowana metodą BAEL przez co szacunki są bardziej konserwatywne, a po drugie lepiej oddaje ona potencjalne zainteresowanie programem ze strony osób zatrudnionych na czarno lub w złych warunkach pracy.
 
@@ -303,7 +303,7 @@ library(plotly)
 library(dplyr)
 
 bezrobocie_plt = read.csv2("rysunki\\wykres_4_3.csv") %>% 
-     mutate(year = ifelse(is.na(val), paste0(year," '22"),year))
+     mutate(year = ifelse(is.na(val), paste0(year," '23"),year))
 lev <- bezrobocie_plt$year
 bezrobocie_plt$year <- factor(bezrobocie_plt$year, levels = lev)
 
@@ -390,7 +390,7 @@ krak <- powiaty_mapa_liczba %>% filter(stringr::str_detect(name, "Kraków"))
 
 Waha się od `r as.character(xmax$val)`% (`r as.character(tolower(xmax$name))`) do poniżej 2% w największych miastach takich jak Poznań i Warszawa (odpowiednio `r as.character(pozn$val)`%, `r as.character(wawa$val)`%).
 
-(ref:rys44) Stopa bezrobocia rejestrowanego w powiatach w Polsce w czerwcu 2022 <br> Źródło: opracowanie własne na podstawie danych z Banku Danych Lokalnych GUS
+(ref:rys44) Stopa bezrobocia rejestrowanego w powiatach w Polsce w marcu 2023 <br> Źródło: opracowanie własne na podstawie danych z Banku Danych Lokalnych GUS
 
 ```{r rys44, echo=FALSE, fig.align='center', fig.cap='(ref:rys44)', out.width='75%'}
 knitr::include_graphics("rysunki\\mapa_st_bezrobocia.svg")
@@ -399,7 +399,7 @@ knitr::include_graphics("rysunki\\mapa_st_bezrobocia.svg")
 Z punktu widzenia wdrażania programu gwarancji zatrudnienia i jego skutków, ważna jest również informacja o nominalnej liczbie osób bezrobotnych.
 Dane takie przedstawia rysunek \@ref(fig:rys45).
 
-(ref:rys45) Liczba zarejestrowanych bezrobotnych w powiatach w Polsce w czerwcu 2022 <br> Źródło: opracowanie własne na podstawie danych z Banku Danych Lokalnych GUS
+(ref:rys45) Liczba zarejestrowanych bezrobotnych w powiatach w Polsce w marcu 2023 <br> Źródło: opracowanie własne na podstawie danych z Banku Danych Lokalnych GUS
 
 ```{r rys45, echo=FALSE, fig.align='center', fig.cap='(ref:rys45)', out.width='75%'}
 knitr::include_graphics("rysunki\\mapa_l_bezrobotnych.svg")
@@ -414,7 +414,7 @@ Oznacza to, że przy właściwej koordynacji działań Powiatowych Urzędów Pra
 
 Jeśli jednak priorytetem jest zapewnienie pracy lokalnie, to problemem może być kreacja wystarczającej liczby społecznie użytecznych stanowisk.
 
-(ref:rys46) Rozkład powiatów wg liczby zarejestrowanych bezrobotnych w październiku 2021 r. <br> \* 50% i 75% oznaczają odpowiednio medianę i 3 kwartyl. <br> Jeden punkt przedstawia jeden powiat. <br> Źródło: opracowanie własne na podstawie danych z Banku Danych Lokalnych GUS
+(ref:rys46) Rozkład powiatów wg liczby zarejestrowanych bezrobotnych w marcu 2023 r. <br> \* 50% i 75% oznaczają odpowiednio medianę i 3 kwartyl. <br> Jeden punkt przedstawia jeden powiat. <br> Źródło: opracowanie własne na podstawie danych z Banku Danych Lokalnych GUS
 
 ```{r rys46, echo=FALSE, fig.align='left', fig.cap='(ref:rys46)', out.width='100%'}
 beeswarm <- function(x){     
@@ -451,7 +451,7 @@ Okazuje się, że w przypadku 75% powiatów w dzisiejszych warunkach należałob
 Rysunki \@ref(fig:rys46) i \@ref(fig:rys47) pokazują również nieliniowy związek między liczbą bezrobotnych a populacją osób w wieku produkcyjnym.
 Różnice w stopie bezrobocia wynikają przede wszystkim z różnicy w liczbie mieszkańców w powiecie a nie z różnic w liczbie bezrobotnych.
 
-(ref:rys47) Rozkład powiatów wg stopy bezrobocia rejestrowanego w październiku 2021 r. <br> \* 50% i 75% oznaczają odpowiednio medianę i 3 kwartyl. <br> Jeden punkt przedstawia jeden powiat. <br> Źródło: opracowanie własne na podstawie danych z Banku Danych Lokalnych GUS
+(ref:rys47) Rozkład powiatów wg stopy bezrobocia rejestrowanego w marcu 2023 r. <br> \* 50% i 75% oznaczają odpowiednio medianę i 3 kwartyl. <br> Jeden punkt przedstawia jeden powiat. <br> Źródło: opracowanie własne na podstawie danych z Banku Danych Lokalnych GUS
 
 ```{r rys47, echo=FALSE, fig.align='left', fig.cap='(ref:rys47)', out.width='100%'}
 
@@ -494,8 +494,8 @@ Przy obecnej skali i trendach bezrobocia rejestrowanego wdrożenie programu gwar
 Oczywiście wielką niewiadomą obecnie jest zdolność tych organizacji do efektywnego zarządzania tak nietypowymi pracownikami.
 Zdecydowanie największym zagrożeniem jest jednak pokusa zastępowania miejsc pracy w sektorze publicznym osobami zatrudnianymi za stawki minimalne w ramach programu gwarancji zatrudnienia.
 
-Można z grubsza szacować, że przy stosunkowo niewielkiej skali programu (mniej niż milion osób obecnie bezrobotnych, które otrzymałyby wynagrodzenie minimalne wynoszące w 2021 r. 2800 zł brutto (2061,67 zł netto) roczny koszt programu wyniósłby ok. 1,878 mld zł x 12 = 22,534 mld zł.
-Jeśli pomniejszymy tę kwotę o wartość realnie płaconego podatku VAT (16%) to otrzymamy kwotę 18,93 mld zł rocznie czyli ok. 0,81% PKB.
+Można z grubsza szacować, że przy stosunkowo niewielkiej skali programu (mniej niż 900 tys. osób obecnie bezrobotnych, które otrzymałyby wynagrodzenie minimalne wynoszące w 2023 r. 3490 zł brutto (3158,74 zł netto) roczny koszt programu wyniósłby ok. 2,675 mld zł x 12 = 32,102 mld zł.
+Jeśli pomniejszymy tę kwotę o wartość realnie płaconego podatku VAT (16%) to otrzymamy kwotę 26,97 mld zł rocznie czyli ok. 0,87% PKB.
 Trzeba również pamiętać, że stanowiska pracy utworzone w ramach programu gwarancji zatrudnienia mogą być dofinansowane ze środków Unii Europejskiej.
 Dokładniejsze szacunki obejmujące analizę wpływu na całą strukturę płac w gospodarce wychodzą jednak poza obszar niniejszej pracy.
 

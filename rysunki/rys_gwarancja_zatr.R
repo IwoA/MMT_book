@@ -13,7 +13,7 @@ bezrobocie_m <- get_data_by_variable(as.character(c(461680:461691)), year = 2020
 bezrobocie_m <- bezrobocie_m[,3:15]
 colnames(bezrobocie_m)[2:13] <- miesiace$n1
 bezrobocie_ml <- bezrobocie_m %>% tidyr::pivot_longer(cols = 2:13, names_to = "miesiac", values_to = "proc") %>% #values_to = "val", żeby ggplot działał
-     filter(year==2022) %>% select(-year) %>% rename(year = miesiac)
+     filter(year==2023) %>% select(-year) %>% rename(year = miesiac)
 bezrobocie_plt <- bind_rows(bezrobocie, bezrobocie_ml)
 lev <- bezrobocie_plt$year
 bezrobocie_plt$year <- factor(bezrobocie_plt$year, levels = lev)
