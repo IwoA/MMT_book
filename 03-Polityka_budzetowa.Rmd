@@ -137,7 +137,7 @@ plot_ly(dane1, x = ~Rok) %>%
      add_trace(y = ~`Saldo transferów z UE`, name = 'Saldo transferów z UE (% PKB)',type = 'scatter', mode = 'lines+markers') %>% 
      add_trace(y = ~CPI, name = 'Inflacja CPI',type = 'scatter', mode = 'lines+markers') %>% 
      layout(legend = list(x = 0.1, y = 0.1),
-            yaxis = list(tickformat = '.2%', title = "", range = c(-0.01,0.06), zeroline = FALSE),
+            yaxis = list(tickformat = '.2%', title = "", range = c(-0.01,0.16), zeroline = FALSE),
             yaxis = list(title = ""),
             xaxis = list(title = "", showgrid = F),
             annotations = list(an1, an2),
